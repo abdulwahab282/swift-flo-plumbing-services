@@ -26,8 +26,8 @@ const values = [
     text: "Plumbing service is handled as professional work, with attention on the job you requested.",
   },
   {
-    title: "Local service in Smyrna",
-    text: "Swift Flo Plumbing Services is set up for customers in Smyrna, Tennessee. Local service means the area is specific and easy to understand.",
+    title: "Regional Middle Tennessee Focus",
+    text: "Swift Flo Plumbing Services is dedicated to customers across 12 Middle Tennessee communities, providing prompt local dispatch and transparent service.",
   },
   {
     title: "Customer satisfaction",

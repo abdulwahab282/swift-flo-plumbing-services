@@ -1,3 +1,4 @@
+import { serviceAreas } from "@/data/service-areas";
 import { site, weekDays } from "@/data/site";
 
 export function LocalBusinessJsonLd() {
@@ -5,16 +6,16 @@ export function LocalBusinessJsonLd() {
     "@context": "https://schema.org",
     "@type": "Plumber",
     name: site.name,
-    description: `${site.name} provides ${site.service.toLowerCase()} in ${site.locationFull}.`,
+    description: `${site.name} provides professional plumbing services across Nashville and 12 Middle Tennessee communities.`,
     url: site.url,
-    areaServed: {
+    areaServed: serviceAreas.map((area) => ({
       "@type": "City",
-      name: site.city,
+      name: area.city,
       containedInPlace: {
         "@type": "State",
-        name: site.stateName,
+        name: area.stateName,
       },
-    },
+    })),
     address: {
       "@type": "PostalAddress",
       addressLocality: site.city,
