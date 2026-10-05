@@ -19,8 +19,9 @@ function ServicesIntro() {
         Plumbing services, ready when you are.
       </h2>
       <p className="mt-5 max-w-xl text-base leading-relaxed text-muted sm:text-lg">
-        {site.name} provides {site.service.toLowerCase()} for customers in{" "}
-        {site.locationFull}. Tell us about the job when you request a visit.
+        From drain cleaning and camera inspections to water heater service and
+        bathroom remodeling, {site.name} provides professional plumbing for
+        customers throughout {site.locationFull}.
       </p>
     </>
   );

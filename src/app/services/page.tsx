@@ -21,7 +21,7 @@ export default function ServicesPage() {
       <PageHero
         eyebrow="Services"
         title="Professional plumbing services across Middle Tennessee."
-        description={`${site.name} offers ${site.service.toLowerCase()} for customers throughout ${site.locationFull}. Describe the work you need and request a visit during business hours.`}
+        description={`${site.name} offers drain cleaning, camera inspections, water filtration, water heater service, bathroom remodeling plumbing, and water and sewer excavation repairs throughout ${site.locationFull}.`}
         image={images.faucet}
         breadcrumb={[{ href: "/", label: "Home" }, { label: "Services" }]}
       />

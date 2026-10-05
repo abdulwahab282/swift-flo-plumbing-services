@@ -10,24 +10,7 @@ import { Icon } from "@/components/Icons";
 import { MapEmbed } from "@/components/MapEmbed";
 import { PageHero } from "@/components/PageHero";
 import { ServiceAreaCards } from "@/components/ServiceAreaCards";
-
-const serviceHighlights = [
-  {
-    title: "Residential plumbing",
-    text: "Reliable plumbing support for homes, from repairs to planned fixture work.",
-    icon: "droplet" as const,
-  },
-  {
-    title: "Clear communication",
-    text: "Straightforward updates from the first request through scheduling and completion.",
-    icon: "users" as const,
-  },
-  {
-    title: "Quality workmanship",
-    text: "Professional attention on the plumbing job you requested, done with care.",
-    icon: "wrench" as const,
-  },
-];
+import { ServiceList } from "@/components/ServiceCard";
 
 export function ServiceAreaDetail({
   area,
@@ -40,7 +23,6 @@ export function ServiceAreaDetail({
   const aboutImage = images[area.about.image];
   const overviewImage = images[area.overview.image];
   const ctaImage = images[area.cta.image];
-  const service = services[0];
 
   return (
     <>
@@ -176,64 +158,14 @@ export function ServiceAreaDetail({
               {area.services.description}
             </p>
           </div>
-
-          <article className="mx-auto mt-12 max-w-4xl overflow-hidden rounded-[2rem] border border-sand bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-            <div className="grid gap-0 md:grid-cols-[1fr_1.1fr]">
-              <div className="flex flex-col justify-center bg-gradient-to-br from-tide-deep to-navy p-8 text-white sm:p-10">
-                <span className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-white/15">
-                  <Icon name={service.icon} className="h-7 w-7" />
-                </span>
-                <h3 className="mt-5 font-display text-3xl sm:text-4xl">
-                  {service.name}
-                </h3>
-                <p className="mt-4 text-base leading-relaxed text-white/80">
-                  Dependable plumbing solutions for {area.city} homes and
-                  businesses — with quality workmanship and clear customer
-                  communication.
-                </p>
-                <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                  <ButtonLink href={`/services/${service.slug}`} variant="light">
-                    Learn More
-                  </ButtonLink>
-                  <ButtonLink href="/contact" variant="ghost">
-                    Contact Us
-                  </ButtonLink>
-                </div>
-              </div>
-              <div className="p-7 sm:p-10">
-                <p className="text-xs font-semibold uppercase tracking-[0.18em] text-tide-deep">
-                  What you can expect in {area.city}
-                </p>
-                <ul className="mt-5 space-y-4">
-                  {serviceHighlights.map((item) => (
-                    <li
-                      key={item.title}
-                      className="flex gap-4 rounded-[1.25rem] border border-sand bg-cream/70 p-4 transition duration-300 hover:border-tide/30 hover:bg-white"
-                    >
-                      <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-foam text-tide-deep">
-                        <Icon name={item.icon} />
-                      </span>
-                      <span>
-                        <span className="block font-display text-xl text-navy">
-                          {item.title}
-                        </span>
-                        <span className="mt-1 block text-sm leading-relaxed text-muted">
-                          {item.text}
-                        </span>
-                      </span>
-                    </li>
-                  ))}
-                </ul>
-                <p className="mt-6 text-sm font-semibold text-navy">
-                  {site.hours.days}
-                  <span className="mx-2 text-copper" aria-hidden="true">
-                    ·
-                  </span>
-                  {site.hours.time}
-                </p>
-              </div>
-            </div>
-          </article>
+          <div className="mt-12">
+            <ServiceList services={services} />
+          </div>
+          <div className="mt-10 flex justify-center">
+            <ButtonLink href="/services" variant="secondary" withArrow>
+              View All Services
+            </ButtonLink>
+          </div>
         </Container>
       </section>
 

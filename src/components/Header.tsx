@@ -5,6 +5,7 @@ import { useEffect, useId, useRef, useState } from "react";
 import { usePathname } from "next/navigation";
 import { navLinks } from "@/data/navigation";
 import { serviceAreas } from "@/data/service-areas";
+import { services } from "@/data/services";
 import { site } from "@/data/site";
 import { cn } from "@/lib/cn";
 import { ButtonLink } from "@/components/Button";
@@ -16,15 +17,9 @@ function isActive(pathname: string, href: string) {
   return pathname === href || pathname.startsWith(`${href}/`);
 }
 
-function ServiceAreasDesktopNav({
-  pathname,
-}: {
-  pathname: string;
-}) {
+function useDropdownState(pathname: string) {
   const [open, setOpen] = useState(false);
   const wrapRef = useRef<HTMLDivElement>(null);
-  const menuId = useId();
-  const active = isActive(pathname, "/service-areas");
 
   useEffect(() => {
     setOpen(false);
@@ -50,6 +45,107 @@ function ServiceAreasDesktopNav({
       document.removeEventListener("keydown", onKeyDown);
     };
   }, [open]);
+
+  return { open, setOpen, wrapRef };
+}
+
+function ServicesDesktopNav({ pathname }: { pathname: string }) {
+  const { open, setOpen, wrapRef } = useDropdownState(pathname);
+  const menuId = useId();
+  const active = isActive(pathname, "/services");
+
+  return (
+    <div
+      ref={wrapRef}
+      className="relative"
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
+    >
+      <button
+        type="button"
+        aria-expanded={open}
+        aria-haspopup="menu"
+        aria-controls={menuId}
+        onClick={() => setOpen((current) => !current)}
+        className={cn(
+          "inline-flex items-center gap-1.5 rounded-full px-3 py-2 text-sm font-medium transition",
+          active || open
+            ? "bg-foam text-tide-deep"
+            : "text-ink/80 hover:bg-paper hover:text-navy",
+        )}
+      >
+        Services
+        <Icon
+          name="chevron"
+          className={cn(
+            "h-3.5 w-3.5 transition duration-300",
+            open && "rotate-180",
+          )}
+        />
+      </button>
+
+      <div
+        id={menuId}
+        role="menu"
+        aria-label="Plumbing services"
+        hidden={!open}
+        className={cn(
+          "absolute left-1/2 top-full z-50 w-[24rem] -translate-x-1/2 pt-3",
+          open ? "pointer-events-auto" : "pointer-events-none",
+        )}
+      >
+        <div className="overflow-hidden rounded-[1.5rem] border border-sand bg-white p-3 shadow-xl shadow-navy/10">
+          <div className="mb-2 flex items-center justify-between gap-3 px-2 pt-1">
+            <p className="text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-tide-deep">
+              Our services
+            </p>
+            <Link
+              href="/services"
+              role="menuitem"
+              onClick={() => setOpen(false)}
+              className="text-xs font-semibold text-copper-deep underline decoration-copper/50 underline-offset-2 transition hover:text-tide-deep"
+            >
+              View all
+            </Link>
+          </div>
+          <ul className="grid gap-1">
+            {services.map((service) => {
+              const href = `/services/${service.slug}`;
+              const serviceActive = pathname === href;
+
+              return (
+                <li key={service.slug}>
+                  <Link
+                    href={href}
+                    role="menuitem"
+                    onClick={() => setOpen(false)}
+                    aria-current={serviceActive ? "page" : undefined}
+                    className={cn(
+                      "flex items-center gap-3 rounded-xl px-3 py-2.5 text-sm font-medium transition",
+                      serviceActive
+                        ? "bg-foam text-tide-deep"
+                        : "text-navy hover:bg-paper hover:text-tide-deep",
+                    )}
+                  >
+                    <span className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-foam text-tide-deep">
+                      <Icon name={service.icon} className="h-4 w-4" />
+                    </span>
+                    <span className="leading-snug">{service.name}</span>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ServiceAreasDesktopNav({ pathname }: { pathname: string }) {
+  const { open, setOpen, wrapRef } = useDropdownState(pathname);
+  const menuId = useId();
+  const active = isActive(pathname, "/service-areas");
 
   return (
     <div
@@ -132,6 +228,99 @@ function ServiceAreasDesktopNav({
             })}
           </ul>
         </div>
+      </div>
+    </div>
+  );
+}
+
+function ServicesMobileNav({
+  pathname,
+  onNavigate,
+}: {
+  pathname: string;
+  onNavigate: () => void;
+}) {
+  const [open, setOpen] = useState(() => isActive(pathname, "/services"));
+  const active = isActive(pathname, "/services");
+  const menuId = useId();
+
+  useEffect(() => {
+    setOpen(isActive(pathname, "/services"));
+  }, [pathname]);
+
+  return (
+    <div className="rounded-2xl">
+      <div
+        className={cn(
+          "flex items-center rounded-2xl",
+          active ? "bg-foam text-tide-deep" : "text-navy",
+        )}
+      >
+        <Link
+          href="/services"
+          onClick={onNavigate}
+          aria-current={pathname === "/services" ? "page" : undefined}
+          className="min-w-0 flex-1 px-4 py-4 font-display text-3xl"
+        >
+          Services
+        </Link>
+        <button
+          type="button"
+          aria-expanded={open}
+          aria-controls={menuId}
+          onClick={() => setOpen((current) => !current)}
+          className="mr-2 inline-flex h-11 w-11 items-center justify-center rounded-full border border-sand/80 bg-white/70 text-navy"
+        >
+          <span className="sr-only">
+            {open ? "Hide services" : "Show services"}
+          </span>
+          <Icon
+            name="chevron"
+            className={cn(
+              "h-5 w-5 transition duration-300",
+              open && "rotate-180",
+            )}
+          />
+        </button>
+      </div>
+
+      <div id={menuId} hidden={!open} className="px-2 pb-3 pt-1">
+        <ul className="grid gap-1 rounded-[1.25rem] border border-sand bg-white p-2">
+          {services.map((service) => {
+            const href = `/services/${service.slug}`;
+            const serviceActive = pathname === href;
+
+            return (
+              <li key={service.slug}>
+                <Link
+                  href={href}
+                  onClick={onNavigate}
+                  aria-current={serviceActive ? "page" : undefined}
+                  className={cn(
+                    "flex items-center gap-3 rounded-xl px-3 py-3 text-base font-medium transition",
+                    serviceActive
+                      ? "bg-foam text-tide-deep"
+                      : "text-navy hover:bg-paper",
+                  )}
+                >
+                  <span className="inline-flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-foam text-tide-deep">
+                    <Icon name={service.icon} className="h-4 w-4" />
+                  </span>
+                  <span className="leading-snug">{service.name}</span>
+                </Link>
+              </li>
+            );
+          })}
+          <li>
+            <Link
+              href="/services"
+              onClick={onNavigate}
+              className="mt-1 flex items-center justify-center rounded-xl px-3 py-3 text-sm font-semibold text-tide-deep underline decoration-copper/60 underline-offset-4"
+            >
+              View all services
+            </Link>
+          </li>
+        </ul>
       </div>
     </div>
   );
@@ -268,6 +457,10 @@ export function Header() {
 
         <nav aria-label="Primary" className="hidden items-center gap-1 lg:flex">
           {navLinks.map((link) => {
+            if (link.href === "/services") {
+              return <ServicesDesktopNav key={link.href} pathname={pathname} />;
+            }
+
             if (link.href === "/service-areas") {
               return (
                 <ServiceAreasDesktopNav key={link.href} pathname={pathname} />
@@ -340,6 +533,16 @@ export function Header() {
       >
         <nav aria-label="Mobile" className="flex flex-col gap-1 px-5 py-6">
           {navLinks.map((link) => {
+            if (link.href === "/services") {
+              return (
+                <ServicesMobileNav
+                  key={link.href}
+                  pathname={pathname}
+                  onNavigate={closeMenu}
+                />
+              );
+            }
+
             if (link.href === "/service-areas") {
               return (
                 <ServiceAreasMobileNav

@@ -6,6 +6,7 @@ import { Container } from "@/components/Container";
 import { Icon } from "@/components/Icons";
 import { SectionHeading } from "@/components/SectionHeading";
 import { ServiceAreaCards } from "@/components/ServiceAreaCards";
+import { ServiceList } from "@/components/ServiceCard";
 import { formatServiceAreaList, serviceAreas } from "@/data/service-areas";
 import { images } from "@/data/images";
 import { services } from "@/data/services";
@@ -145,9 +146,6 @@ const faqs = [
 ];
 
 export function ServiceAreasPageContent() {
-  const service = services[0];
-  const serviceImage = images[service.image];
-
   return (
     <>
       {/* Hero */}
@@ -274,39 +272,14 @@ export function ServiceAreasPageContent() {
             text="We provide reliable and professional plumbing services for customers throughout Nashville and surrounding Middle Tennessee communities. Our team is committed to delivering dependable solutions, quality workmanship, and professional customer service."
             align="center"
           />
-          <article className="mx-auto mt-12 max-w-4xl overflow-hidden rounded-[2rem] border border-sand bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-            <div className="grid md:grid-cols-2">
-              <div className="relative min-h-64 md:min-h-full">
-                <Image
-                  src={serviceImage.src}
-                  alt={serviceImage.alt}
-                  fill
-                  sizes="(min-width: 768px) 40vw, 100vw"
-                  className="object-cover"
-                />
-              </div>
-              <div className="flex flex-col justify-center p-7 sm:p-10">
-                <span className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-foam text-tide-deep">
-                  <Icon name={service.icon} />
-                </span>
-                <h3 className="mt-5 font-display text-3xl text-navy sm:text-4xl">
-                  {service.name}
-                </h3>
-                <p className="mt-4 leading-relaxed text-muted">
-                  Dependable plumbing solutions for homes and businesses across
-                  our Middle Tennessee service area — with quality workmanship
-                  and clear customer communication.
-                </p>
-                <ButtonLink
-                  href={`/services/${service.slug}`}
-                  className="mt-8 w-fit"
-                  withArrow
-                >
-                  Learn More
-                </ButtonLink>
-              </div>
-            </div>
-          </article>
+          <div className="mt-12">
+            <ServiceList services={services} />
+          </div>
+          <div className="mt-10 flex justify-center">
+            <ButtonLink href="/services" withArrow>
+              Explore All Services
+            </ButtonLink>
+          </div>
         </Container>
       </section>
 

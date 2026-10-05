@@ -275,7 +275,7 @@ function buildServiceArea(seed: AreaSeed, areaIndex: number): ServiceArea {
     },
     services: {
       title: `Professional Plumbing Services in ${seed.city}`,
-      description: `We provide reliable plumbing services for homeowners and businesses in ${seed.city}, Tennessee. From everyday repairs to planned plumbing work, our team focuses on dependable solutions, quality workmanship, and clear communication throughout the process.`,
+      description: `From drain cleaning and camera inspections to water heater repairs, bathroom remodeling plumbing, water filtration, and water and sewer excavation work, we provide reliable plumbing services for homeowners and businesses in ${seed.city}, Tennessee.`,
     },
     overview: {
       title: `Professional plumbing service across ${seed.city}`,
