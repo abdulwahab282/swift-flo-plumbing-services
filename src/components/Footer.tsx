@@ -15,7 +15,7 @@ export function Footer() {
         <div>
           <Logo className="h-20 w-20 object-contain sm:h-24 sm:w-24" />
           <p className="mt-5 max-w-xs text-sm leading-relaxed text-white/70">
-            {site.service} for customers in {site.locationFull}. Open{" "}
+            {site.service} for customers throughout {site.locationFull}. Open{" "}
             {site.hours.days}, {site.hours.time}.
           </p>
           <ButtonLink href="/contact#request-service" variant="light" className="mt-6">
@@ -42,14 +42,14 @@ export function Footer() {
 
         <div>
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-copper">
-            Areas We Serve
+            Service Areas
           </p>
-          <ul className="mt-4 grid grid-cols-2 gap-x-3 gap-y-1.5 text-xs text-white/80">
+          <ul className="mt-4 grid grid-cols-2 gap-x-3 gap-y-2 text-sm text-white/80">
             {serviceAreas.map((area) => (
               <li key={area.slug}>
                 <Link
                   href={`/service-areas/${area.slug}`}
-                  className="transition hover:text-white hover:underline"
+                  className="transition hover:text-white"
                 >
                   {area.city}
                 </Link>
@@ -58,9 +58,9 @@ export function Footer() {
           </ul>
           <Link
             href="/service-areas"
-            className="mt-4 inline-block text-xs font-semibold text-copper hover:text-white"
+            className="mt-4 inline-block text-sm font-semibold text-copper transition hover:text-white"
           >
-            View all 12 service locations →
+            View all areas
           </Link>
         </div>
 

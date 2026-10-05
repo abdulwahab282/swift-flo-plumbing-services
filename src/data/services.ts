@@ -3,10 +3,7 @@ export type ServiceIcon =
   | "wrench"
   | "pipe"
   | "flame"
-  | "alert"
-  | "shield"
-  | "clock"
-  | "pin";
+  | "alert";
 
 export type Service = {
   slug: string;
@@ -15,109 +12,30 @@ export type Service = {
   description: string;
   details: string[];
   icon: ServiceIcon;
-  image: "faucet" | "work" | "fittings" | "bathroom" | "hero" | "waterHeater" | "toiletRepair" | "kitchenFaucet";
+  image: "faucet" | "work" | "fittings" | "bathroom" | "hero";
 };
 
 /**
- * Professional Plumbing Services offered by Swift Flo Plumbing Services.
- * Serving Nashville and Middle Tennessee communities.
+ * Confirmed services only.
+ * Add a new object when Swift Flo confirms another service.
+ * Do not list a service here until it is actually offered.
  */
 export const services: Service[] = [
   {
-    slug: "drain-cleaning",
-    name: "Drain Cleaning & Unclogging",
+    slug: "plumbing-services",
+    name: "Plumbing Services",
     summary:
-      "Fast, thorough clearing of stubborn kitchen, bathroom, and sewer line blockages using professional equipment.",
+      "Professional plumbing service for homeowners and businesses throughout Nashville and Middle Tennessee.",
     description:
-      "Swift Flo Plumbing Services provides expert drain cleaning for residential and commercial customers across Middle Tennessee. We eliminate stubborn build-up, grease, tree roots, and obstructions to restore optimal water flow and prevent costly backups.",
+      "Swift Flo Plumbing Services provides reliable plumbing services for customers throughout Nashville and surrounding Middle Tennessee communities. Request a visit during published business hours and describe the plumbing work you need.",
     details: [
-      "Thorough diagnostics to pinpoint the exact location and cause of drain clogs.",
-      "Safe, heavy-duty mechanical snaking and clearing methods.",
-      "Mainline sewer cleaning and localized branch drain unclogging.",
-      "Preventive tips and guidance to keep your plumbing flowing freely.",
+      "Tell us about the plumbing service you need.",
+      "Share a phone number and email so the request can be followed up.",
+      "Schedule the visit within Monday through Sunday, 8:00 AM to 8:00 PM.",
+      "Service is arranged for customers across our confirmed Middle Tennessee service areas.",
     ],
     icon: "droplet",
-    image: "kitchenFaucet",
-  },
-  {
-    slug: "water-heater-services",
-    name: "Water Heater Repair & Installation",
-    summary:
-      "Reliable repair and installation for standard tank and tankless water heaters throughout Middle Tennessee.",
-    description:
-      "Restore your hot water quickly with Swift Flo's professional water heater services. We diagnose heating elements, thermostats, valves, and sediment issues, and install energy-efficient tank and tankless models suited to your household size and budget.",
-    details: [
-      "Rapid diagnostics for lack of hot water, leaks, strange noises, and pilot issues.",
-      "Replacement and new installation of premium tank and tankless water heaters.",
-      "Safety relief valve inspection and expansion tank maintenance.",
-      "Full compliance with Tennessee plumbing codes and manufacturer warranties.",
-    ],
-    icon: "flame",
-    image: "waterHeater",
-  },
-  {
-    slug: "pipe-leak-repair",
-    name: "Pipe Repair & Leak Detection",
-    summary:
-      "Precision detection and lasting repairs for leaking, corroded, or burst pipes in residential and commercial buildings.",
-    description:
-      "A hidden pipe leak can cause extensive structural and cosmetic damage if left untreated. Swift Flo Plumbing Services utilizes non-invasive diagnostic techniques to locate leaks quickly and provide clean, durable repairs in copper, PEX, and PVC piping.",
-    details: [
-      "Pinpoint leak detection behind walls, under floorboards, and underground.",
-      "Targeted pipe section repair and whole-home repiping solutions.",
-      "High-pressure fitting replacements and burst pipe emergency repairs.",
-      "Water pressure testing to ensure long-term system integrity.",
-    ],
-    icon: "pipe",
-    image: "fittings",
-  },
-  {
-    slug: "fixture-faucet-installation",
-    name: "Fixture & Faucet Installation",
-    summary:
-      "Flawless installation and repair of sink faucets, shower valves, bathtubs, and modern kitchen/bath hardware.",
-    description:
-      "Upgrade your home's aesthetics and efficiency with professional fixture installation from Swift Flo Plumbing Services. We expertly install and repair high-grade kitchen faucets, bathroom sinks, showerheads, shut-off valves, and laundry connections.",
-    details: [
-      "Leak-free mounting and secure supply-line connections.",
-      "Repair of dripping, sputtering, or low-pressure faucets and cartridges.",
-      "Installation of customer-supplied fixtures or contractor-grade replacements.",
-      "Shut-off valve upgrades and water supply line replacements.",
-    ],
-    icon: "wrench",
     image: "faucet",
-  },
-  {
-    slug: "toilet-repair-replacement",
-    name: "Toilet Repair & Replacement",
-    summary:
-      "Complete troubleshooting and replacement for running, leaking, rocking, or clogged toilet systems.",
-    description:
-      "From broken flappers and fill valves to cracked porcelain and faulty wax rings, a malfunctioning toilet is a major inconvenience. Swift Flo provides prompt toilet repair and installs water-saving, high-efficiency replacement models.",
-    details: [
-      "Elimination of persistent toilet running, phantom flushing, and weak flushes.",
-      "Wax ring replacement and flange repairs to prevent floor rot and leaks.",
-      "Installation of modern dual-flush and comfort-height toilets.",
-      "Heavy blockage extraction and line verification.",
-    ],
-    icon: "alert",
-    image: "toiletRepair",
-  },
-  {
-    slug: "bathroom-plumbing",
-    name: "Bathroom & Remodel Plumbing",
-    summary:
-      "Comprehensive rough-in, line relocation, and finish plumbing for bathroom and kitchen renovations.",
-    description:
-      "Planning a bathroom or kitchen renovation in Middle Tennessee? Swift Flo Plumbing Services provides seamless remodel plumbing, from rerouting water lines and drain stacks to installing luxurious showers, tubs, and double vanities.",
-    details: [
-      "Rough-in plumbing layout conforming strictly to Tennessee building codes.",
-      "Water supply and waste pipe rerouting for custom floor plans.",
-      "Walk-in shower, tub-to-shower conversion, and freestanding tub plumbing.",
-      "Comprehensive pressure testing and aesthetic trim installations.",
-    ],
-    icon: "wrench",
-    image: "bathroom",
   },
 ];
 

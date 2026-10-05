@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const alt =
-  "Swift Flo Plumbing Services — plumbing services in Smyrna, Tennessee";
+  "Swift Flo Plumbing Services — plumbing services in Middle Tennessee";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -29,7 +29,7 @@ export default function OpenGraphImage() {
             color: "#c17a45",
           }}
         >
-          Smyrna, Tennessee
+          Nashville & Middle Tennessee
         </div>
         <div style={{ display: "flex", flexDirection: "column" }}>
           <div style={{ fontSize: 68, lineHeight: 1.05, display: "flex" }}>

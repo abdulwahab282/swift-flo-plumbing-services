@@ -6,7 +6,7 @@ export function LocalBusinessJsonLd() {
     "@context": "https://schema.org",
     "@type": "Plumber",
     name: site.name,
-    description: `${site.name} provides professional plumbing services across Nashville and 12 Middle Tennessee communities.`,
+    description: `${site.name} provides ${site.service.toLowerCase()} throughout ${site.locationFull}.`,
     url: site.url,
     areaServed: serviceAreas.map((area) => ({
       "@type": "City",

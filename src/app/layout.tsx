@@ -21,11 +21,10 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: "Plumbing Services in Smyrna, TN | Swift Flo Plumbing Services",
+    default: `Plumbing Services in ${site.region} | ${site.name}`,
     template: "%s | Swift Flo Plumbing Services",
   },
-  description:
-    "Swift Flo Plumbing Services provides plumbing services in Smyrna, Tennessee. Open Monday through Sunday, 8:00 AM to 8:00 PM.",
+  description: `${site.name} provides professional plumbing services throughout ${site.locationFull}. Open ${site.hours.days}, ${site.hours.time}.`,
   applicationName: site.name,
   icons: {
     icon: [

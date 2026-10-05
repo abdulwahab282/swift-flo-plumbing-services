@@ -16,7 +16,7 @@ export function HomeTestimonials() {
           <SectionHeading
             eyebrow="Testimonials"
             title="What Our Customers Say"
-            text="A place for feedback from people who have used Swift Flo Plumbing Services in Smyrna."
+            text="A place for feedback from people who have used Swift Flo Plumbing Services throughout Middle Tennessee."
           />
         </div>
         <div data-reveal className="mt-8">

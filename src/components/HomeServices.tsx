@@ -1,65 +1,100 @@
-import Link from "next/link";
-import { services } from "@/data/services";
+import Image from "next/image";
+import { images } from "@/data/images";
+import { services, type Service } from "@/data/services";
+import { site } from "@/data/site";
 import { ButtonLink } from "@/components/Button";
 import { Container } from "@/components/Container";
-import { SectionHeading } from "@/components/SectionHeading";
 import { ServiceList } from "@/components/ServiceCard";
 
-export function HomeServices() {
+function ServicesIntro() {
   return (
-    <section
-      id="services"
-      className="bg-foam/60 py-16 sm:py-24"
-      aria-labelledby="home-services-heading"
-    >
-      <Container>
-        <div
-          data-reveal
-          className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between"
-        >
-          <div className="max-w-2xl">
-            <SectionHeading
-              eyebrow="Our Services"
-              title="Professional Plumbing Services"
-              text="We provide reliable and professional plumbing services for customers throughout Nashville and surrounding Middle Tennessee communities. Our team is committed to delivering dependable solutions, quality workmanship, and professional customer service."
-            />
-            <p className="mt-3 text-sm text-muted">
-              Explore our range of professional services designed to meet the
-              needs of homeowners and businesses throughout our service area.
-            </p>
-          </div>
+    <>
+      <p className="text-xs font-semibold uppercase tracking-[0.22em] text-tide-deep">
+        Services
+      </p>
+      <h2
+        id="home-services-heading"
+        className="mt-3 max-w-xl font-display text-4xl leading-[1.08] text-navy sm:text-5xl"
+      >
+        Plumbing services, ready when you are.
+      </h2>
+      <p className="mt-5 max-w-xl text-base leading-relaxed text-muted sm:text-lg">
+        {site.name} provides {site.service.toLowerCase()} for customers in{" "}
+        {site.locationFull}. Tell us about the job when you request a visit.
+      </p>
+    </>
+  );
+}
 
-          <div className="flex shrink-0 gap-3">
-            <ButtonLink href="/contact" withArrow>
-              Request Plumbing Quote
-            </ButtonLink>
-          </div>
-        </div>
+function SingleService({ service }: { service: Service }) {
+  const image = images[service.image];
 
-        <div data-reveal className="mt-12">
-          <ServiceList services={services} />
-        </div>
-
-        <div
-          data-reveal
-          className="mt-12 flex flex-col items-center justify-between gap-4 rounded-2xl border border-sand bg-white p-6 sm:flex-row sm:px-8"
-        >
-          <div className="text-center sm:text-left">
-            <h4 className="font-display text-lg text-navy">
-              Need a custom plumbing repair or fixture installation?
-            </h4>
-            <p className="text-sm text-muted">
-              Our licensed team handles specialized residential and commercial jobs across all 12 service locations.
-            </p>
-          </div>
-          <Link
-            href="/contact"
-            className="shrink-0 font-semibold text-tide-deep underline decoration-copper underline-offset-4 hover:text-copper"
+  return (
+    <Container className="grid items-stretch gap-10 py-12 md:grid-cols-2 md:py-16 lg:gap-14 lg:py-20">
+      <div data-reveal className="flex min-w-0 flex-col justify-center">
+        <ServicesIntro />
+        <h3 className="mt-8 font-display text-3xl text-navy">{service.name}</h3>
+        <p className="mt-3 text-base leading-relaxed text-muted sm:text-lg">
+          {service.summary}
+        </p>
+        <p className="mt-6 border-t border-sand pt-6 text-sm font-semibold leading-snug text-navy">
+          {site.locationLabel}
+          <span className="mx-2 text-copper" aria-hidden="true">
+            ·
+          </span>
+          {site.hours.days}
+          <span className="mx-2 text-copper" aria-hidden="true">
+            ·
+          </span>
+          {site.hours.time}
+        </p>
+        <div className="mt-8 flex flex-col items-stretch gap-3 lg:flex-row lg:items-center">
+          <ButtonLink
+            href={`/services/${service.slug}`}
+            className="w-full lg:w-auto"
           >
-            Describe your plumbing project →
-          </Link>
+            Learn More
+          </ButtonLink>
+          <ButtonLink
+            href="/contact#request-service"
+            variant="secondary"
+            className="w-full lg:w-auto"
+          >
+            Request Service
+          </ButtonLink>
         </div>
-      </Container>
+      </div>
+
+      <div data-reveal className="relative h-full min-w-0 md:min-h-[32rem]">
+        <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem] shadow-2xl shadow-navy/10 sm:aspect-[5/4] md:absolute md:inset-0 md:aspect-auto">
+          <Image
+            src={image.src}
+            alt={image.alt}
+            fill
+            sizes="(min-width: 768px) 50vw, 100vw"
+            className="object-cover object-center"
+          />
+        </div>
+      </div>
+    </Container>
+  );
+}
+
+export function HomeServices() {
+  const single = services.length === 1 ? services[0] : undefined;
+
+  return (
+    <section className="bg-foam" aria-labelledby="home-services-heading">
+      {single ? (
+        <SingleService service={single} />
+      ) : (
+        <Container className="py-12 md:py-16 lg:py-20">
+          <ServicesIntro />
+          <div className="mt-12">
+            <ServiceList services={services} />
+          </div>
+        </Container>
+      )}
     </section>
   );
 }

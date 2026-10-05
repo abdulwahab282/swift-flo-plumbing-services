@@ -11,8 +11,7 @@ import { createMetadata } from "@/lib/metadata";
 
 export const metadata = createMetadata({
   title: "About",
-  description:
-    "Learn about Swift Flo Plumbing Services, a plumbing company serving customers in Smyrna, Tennessee with a professional, reliable approach.",
+  description: `Learn about ${site.name}, a plumbing company serving customers throughout ${site.locationFull} with a professional, reliable approach.`,
   path: "/about",
 });
 
@@ -26,8 +25,8 @@ const values = [
     text: "Plumbing service is handled as professional work, with attention on the job you requested.",
   },
   {
-    title: "Regional Middle Tennessee Focus",
-    text: "Swift Flo Plumbing Services is dedicated to customers across 12 Middle Tennessee communities, providing prompt local dispatch and transparent service.",
+    title: "Local Middle Tennessee coverage",
+    text: "Swift Flo Plumbing Services serves customers throughout Nashville and surrounding Middle Tennessee communities with clear, dependable local plumbing service.",
   },
   {
     title: "Customer satisfaction",
@@ -83,8 +82,8 @@ export default function AboutPage() {
               </p>
               <p>
                 That offer is {site.service.toLowerCase()}. Hours are{" "}
-                {site.hours.days}, {site.hours.time}. If you live in {site.city},
-                you can{" "}
+                {site.hours.days}, {site.hours.time}. If you are in{" "}
+                {site.region}, you can{" "}
                 <Link
                   href="/contact#request-service"
                   className="font-semibold text-tide-deep underline decoration-copper/60 underline-offset-4"

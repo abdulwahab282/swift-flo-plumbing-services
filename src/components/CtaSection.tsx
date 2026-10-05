@@ -5,9 +5,9 @@ import { ButtonLink, CallNowLink } from "@/components/Button";
 import { Container } from "@/components/Container";
 
 export function CtaSection({
-  title = "Need plumbing service in Smyrna, TN?",
-  description = "Request plumbing service from Swift Flo Plumbing Services. The company serves Smyrna, Tennessee, Monday through Sunday, 8:00 AM to 8:00 PM.",
-  primaryLabel = "Request Service",
+  title = "Need plumbing service in Middle Tennessee?",
+  description = "Request plumbing service from Swift Flo Plumbing Services. The company serves Nashville and surrounding Middle Tennessee communities, Monday through Sunday, 8:00 AM to 8:00 PM.",
+  primaryLabel = "Get a Free Quote",
   showCall = true,
 }: {
   title?: string;

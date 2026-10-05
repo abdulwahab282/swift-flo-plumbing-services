@@ -1,6 +1,6 @@
 import type { ServiceIcon } from "@/data/services";
 
-export type IconName =
+type IconName =
   | ServiceIcon
   | "clock"
   | "pin"
@@ -8,15 +8,7 @@ export type IconName =
   | "users"
   | "arrow"
   | "phone"
-  | "chevron"
-  | "check"
-  | "sparkles"
-  | "calendar"
-  | "messageSquare"
-  | "search"
-  | "building"
-  | "award"
-  | "shieldCheck";
+  | "chevron";
 
 const paths: Record<IconName, string> = {
   droplet:
@@ -37,21 +29,6 @@ const paths: Record<IconName, string> = {
   phone:
     "M8 4h2l1.2 3-1.6 1a12 12 0 0 0 6.4 6.4l1-1.6L20 14v2a2 2 0 0 1-2.2 2A16 16 0 0 1 6 8.2 2 2 0 0 1 8 4z",
   chevron: "M6 9l6 6 6-6",
-  check: "M5 13l4 4L19 7",
-  sparkles:
-    "M12 3l1.9 4.8L19 9.7l-3.9 3.8.9 5.4-4-2.5-4 2.5.9-5.4L5 9.7l5.1-1.9L12 3z",
-  calendar:
-    "M8 2v4M16 2v4M3 10h18M5 4h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2z",
-  messageSquare:
-    "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z",
-  search:
-    "M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16zM21 21l-4.35-4.35",
-  building:
-    "M3 21h18M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16M9 9h2M9 13h2M9 17h2M13 9h2M13 13h2M13 17h2",
-  award:
-    "M12 15a7 7 0 1 0 0-14 7 7 0 0 0 0 14zm-3.8 3.5L12 21l3.8-2.5L15 13.5a6.9 6.9 0 0 1-6 0l-.8 5z",
-  shieldCheck:
-    "M12 3 5 6v6c0 4.2 2.8 7.2 7 9 4.2-1.8 7-4.8 7-9V6l-7-3zm-2.5 9 2 2 4.5-4.5",
 };
 
 export function Icon({

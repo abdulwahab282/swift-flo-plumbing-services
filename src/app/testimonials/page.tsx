@@ -8,8 +8,7 @@ import { createMetadata } from "@/lib/metadata";
 
 export const metadata = createMetadata({
   title: "Customer Testimonials",
-  description:
-    "Customer feedback for Swift Flo Plumbing Services in Smyrna, Tennessee. Real testimonials will be published as customers share them.",
+  description: `Customer feedback for ${site.name} throughout ${site.locationFull}. Real testimonials will be published as customers share them.`,
   path: "/testimonials",
 });
 
@@ -29,7 +28,7 @@ export default function TestimonialsPage() {
           <TestimonialsGrid testimonials={reviews} />
         </Container>
       </PageSection>
-      <CtaSection title="Need Plumbing Service in Smyrna, TN?" />
+      <CtaSection title="Need Plumbing Service in Middle Tennessee?" />
     </>
   );
 }

@@ -11,7 +11,7 @@ export default function NotFound() {
         <h1 className="mt-3 font-display text-5xl text-navy">Page not found</h1>
         <p className="mt-4 text-lg leading-relaxed text-muted">
           That page is not part of the Swift Flo Plumbing Services site. Head
-          home or request plumbing service in Smyrna, Tennessee.
+          home or request plumbing service in Middle Tennessee.
         </p>
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
           <Link

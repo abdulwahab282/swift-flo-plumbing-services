@@ -1,144 +1,92 @@
 import Link from "next/link";
 import { site } from "@/data/site";
-import { Icon, type IconName } from "@/components/Icons";
+import { Icon } from "@/components/Icons";
 import { Container } from "@/components/Container";
 import { SectionHeading } from "@/components/SectionHeading";
 
-type Benefit = {
-  title: string;
-  tagline: string;
-  text: string;
-  icon: IconName;
-  featured?: boolean;
-};
-
-const benefits: Benefit[] = [
+const benefits = [
   {
-    title: "Wide Service Coverage",
-    tagline: "Serving Nashville & Surrounding Communities",
-    text: "From Nashville to Brentwood, Franklin, Murfreesboro, and beyond, our regional coverage ensures dependable plumbing service is always accessible.",
-    icon: "pin",
+    title: "Local Middle Tennessee Coverage",
+    text: "Professional plumbing service for customers across Nashville and surrounding Middle Tennessee communities.",
+    icon: "pin" as const,
     featured: true,
   },
   {
-    title: "Local Expertise",
-    tagline: "Serving Communities Throughout Middle Tennessee",
-    text: "Familiar with Middle Tennessee building styles, municipal water pressures, and local codes to deliver accurate, lasting repairs.",
-    icon: "building",
+    title: "Reliable Plumbing Service",
+    text: "A clear way to request plumbing work, with the service and schedule published up front.",
+    icon: "shield" as const,
   },
   {
-    title: "Professional Service",
-    tagline: "Focused on Quality and Customer Satisfaction",
-    text: "Every service visit is treated as a master plumbing project with pristine workmanship and top-grade materials.",
-    icon: "wrench",
+    title: "Fast Response",
+    text: `Reach the company during open hours, ${site.hours.days}, ${site.hours.time}.`,
+    icon: "clock" as const,
   },
   {
-    title: "Reliable Communication",
-    tagline: "Clear Communication from Initial Inquiry to Completion",
-    text: "No guesswork or unexpected surprise fees. We discuss options, clarify costs, and keep you informed at every stage.",
-    icon: "messageSquare",
+    title: "Professional Workmanship",
+    text: "Each visit is approached as professional plumbing work, focused on the service you requested.",
+    icon: "wrench" as const,
   },
   {
-    title: "Customer Focused",
-    tagline: "Every Project Approached with Attention to Needs",
-    text: "We listen carefully to your concerns, respect your property, and tailor our plumbing recommendations to your household budget.",
-    icon: "users",
-  },
-  {
-    title: "Dependable Experience",
-    tagline: "A Simple, Convenient & Professional Process",
-    text: `Convenient 7-day hours (${site.hours.days}, ${site.hours.time}) with easy booking designed around your schedule.`,
-    icon: "shieldCheck",
+    title: "Customer-Focused Service",
+    text: "Your request starts with your name, a way to reach you, and a description of the plumbing you need.",
+    icon: "users" as const,
   },
 ];
 
 export function WhyChooseUs() {
-  const featured = benefits.find((b) => b.featured);
-  const rest = benefits.filter((b) => !b.featured);
+  const featured = benefits.find((benefit) => benefit.featured);
+  const rest = benefits.filter((benefit) => !benefit.featured);
 
   return (
-    <section className="bg-paper py-16 sm:py-24" aria-labelledby="why-choose-heading">
+    <section className="bg-cream py-20 sm:py-28">
       <Container>
-        <div data-reveal className="mx-auto max-w-3xl text-center">
+        <div data-reveal>
           <SectionHeading
-            align="center"
-            eyebrow="The Swift Flo Difference"
-            title="Why Customers Choose Us"
-            text="We combine professional service, dependable communication, and local coverage to provide a straightforward experience for customers throughout Middle Tennessee."
+            eyebrow="Why choose us"
+            title="A clear, local plumbing company."
+            text={`Swift Flo Plumbing Services keeps the offer simple: ${site.service.toLowerCase()} for customers throughout ${site.locationFull}.`}
           />
         </div>
-
-        <div data-reveal-group className="mt-14 grid gap-5 lg:grid-cols-3">
-          {featured && (
+        <div data-reveal-group className="mt-12 grid gap-4 lg:grid-cols-3">
+          {featured ? (
             <article
               data-reveal-item
-              className="relative flex min-h-[22rem] flex-col justify-between overflow-hidden rounded-[2rem] bg-gradient-to-br from-tide-deep via-tide-deep to-navy p-8 text-white shadow-xl lg:row-span-2"
+              className="relative flex min-h-80 flex-col justify-between overflow-hidden rounded-[1.75rem] bg-gradient-to-br from-tide-deep via-tide-deep to-navy p-7 text-white lg:row-span-2"
             >
               <div
                 aria-hidden="true"
-                className="pointer-events-none absolute -right-12 -top-12 h-56 w-56 rounded-full bg-white/10"
+                className="pointer-events-none absolute -right-10 -top-10 h-48 w-48 rounded-full bg-white/10"
               />
               <div
                 aria-hidden="true"
-                className="pointer-events-none absolute -bottom-14 -left-10 h-64 w-64 rounded-full bg-navy/40"
+                className="pointer-events-none absolute -bottom-14 -left-10 h-56 w-56 rounded-full bg-navy/30"
               />
-
-              <div className="relative">
-                <span className="inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-white/15 text-white shadow-inner">
-                  <Icon name={featured.icon} className="h-7 w-7" />
-                </span>
-                <p className="mt-6 text-xs font-semibold uppercase tracking-widest text-copper">
-                  {featured.tagline}
-                </p>
-                <h3 className="mt-2 font-display text-3xl sm:text-4xl">
-                  {featured.title}
-                </h3>
-                <p className="mt-4 text-base leading-relaxed text-white/85">
-                  {featured.text}
-                </p>
-              </div>
-
-              <div className="relative mt-8 border-t border-white/20 pt-6">
-                <p className="text-xs uppercase tracking-wider text-white/70">
-                  Ready to book service?
-                </p>
+              <span className="relative inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-white/15">
+                <Icon name={featured.icon} className="h-7 w-7" />
+              </span>
+              <div className="relative mt-6">
+                <h3 className="font-display text-3xl">{featured.title}</h3>
+                <p className="mt-3 text-white/85">{featured.text}</p>
                 <Link
-                  href="/contact"
-                  className="mt-2 inline-flex items-center gap-2 rounded-full bg-copper px-6 py-2.5 text-xs font-bold text-white shadow transition hover:bg-copper-deep"
+                  href="/service-areas"
+                  className="mt-5 inline-block text-sm font-semibold text-white underline decoration-copper underline-offset-4"
                 >
-                  Request a Free Quote
-                  <span>→</span>
+                  See the service areas
                 </Link>
               </div>
             </article>
-          )}
-
+          ) : null}
           {rest.map((benefit) => (
             <article
               key={benefit.title}
               data-reveal-item
-              className="group flex flex-col justify-between rounded-[1.75rem] border border-sand bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-tide/50 hover:shadow-lg"
+              className="rounded-[1.75rem] border border-sand bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
             >
-              <div>
-                <div className="flex items-center justify-between">
-                  <span className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-foam text-tide-deep transition duration-300 group-hover:bg-tide-deep group-hover:text-white">
-                    <Icon name={benefit.icon} className="h-5 w-5" />
-                  </span>
-                  <span className="text-[11px] font-semibold text-copper-deep">
-                    Verified Standard
-                  </span>
-                </div>
-
-                <h3 className="mt-4 font-display text-2xl text-navy">
-                  {benefit.title}
-                </h3>
-                <p className="mt-1 text-xs font-semibold text-tide-deep">
-                  {benefit.tagline}
-                </p>
-                <p className="mt-3 text-sm leading-relaxed text-muted">
-                  {benefit.text}
-                </p>
-              </div>
+              <span className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-foam text-tide-deep">
+                <Icon name={benefit.icon} />
+              </span>
+              <h3 className="mt-4 font-display text-2xl text-navy">{benefit.title}</h3>
+              <p className="mt-2 leading-relaxed text-muted">{benefit.text}</p>
             </article>
           ))}
         </div>

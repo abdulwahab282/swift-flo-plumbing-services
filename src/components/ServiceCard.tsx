@@ -1,64 +1,75 @@
 import Image from "next/image";
-import Link from "next/link";
 import type { Service } from "@/data/services";
 import { images } from "@/data/images";
+import { ButtonLink } from "@/components/Button";
 import { Icon } from "@/components/Icons";
 
-export function ServiceCard({ service }: { service: Service }) {
+export function ServiceCard({
+  service,
+  featured = false,
+}: {
+  service: Service;
+  featured?: boolean;
+}) {
   const image = images[service.image];
 
+  if (featured) {
+    return (
+      <article className="overflow-hidden rounded-[2rem] border border-sand bg-white shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl">
+        <div className="grid lg:grid-cols-2">
+          <div className="relative min-h-72">
+            <Image
+              src={image.src}
+              alt={image.alt}
+              fill
+              sizes="(min-width: 1024px) 40vw, 100vw"
+              className="object-cover"
+            />
+          </div>
+          <div className="flex flex-col justify-center p-8 sm:p-10">
+            <span className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-foam text-tide-deep">
+              <Icon name={service.icon} />
+            </span>
+            <h3 className="mt-5 font-display text-4xl text-navy">{service.name}</h3>
+            <p className="mt-4 text-lg leading-relaxed text-muted">{service.summary}</p>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <ButtonLink href={`/services/${service.slug}`}>Learn More</ButtonLink>
+              <ButtonLink href="/contact#request-service" variant="secondary">
+                Request Service
+              </ButtonLink>
+            </div>
+          </div>
+        </div>
+      </article>
+    );
+  }
+
   return (
-    <article className="group flex flex-col overflow-hidden rounded-[2rem] border border-sand bg-white shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-tide/50 hover:shadow-xl hover:shadow-navy/5">
-      <div className="relative aspect-[16/10] w-full overflow-hidden bg-sand/30">
-        <Image
-          src={image.src}
-          alt={image.alt}
-          fill
-          sizes="(min-width: 1280px) 33vw, (min-width: 768px) 50vw, 100vw"
-          className="object-cover object-center transition duration-500 ease-out group-hover:scale-105"
-        />
-        <div
-          aria-hidden="true"
-          className="absolute inset-0 bg-gradient-to-t from-navy-deep/60 via-transparent to-transparent opacity-60 transition duration-300 group-hover:opacity-40"
-        />
-        <span className="absolute bottom-4 left-4 inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-white/95 text-tide-deep shadow-md backdrop-blur-sm transition duration-300 group-hover:bg-tide-deep group-hover:text-white">
-          <Icon name={service.icon} className="h-5 w-5" />
-        </span>
-      </div>
-
-      <div className="flex flex-1 flex-col justify-between p-6 sm:p-7">
-        <div>
-          <h3 className="font-display text-2xl text-navy transition duration-200 group-hover:text-tide-deep">
-            {service.name}
-          </h3>
-          <p className="mt-3 text-sm leading-relaxed text-muted">
-            {service.summary}
-          </p>
-        </div>
-
-        <div className="mt-6 flex items-center justify-between border-t border-sand/60 pt-5">
-          <Link
-            href={`/services/${service.slug}`}
-            className="inline-flex items-center gap-1.5 text-sm font-semibold text-tide-deep transition hover:text-copper"
-          >
-            Learn More
-            <span className="transition duration-200 group-hover:translate-x-1">→</span>
-          </Link>
-          <Link
-            href="/contact"
-            className="rounded-full bg-paper px-3.5 py-1.5 text-xs font-semibold text-navy transition hover:bg-sand"
-          >
-            Book Visit
-          </Link>
-        </div>
+    <article className="group flex h-full flex-col rounded-[1.75rem] border border-sand bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-tide/40 hover:shadow-xl">
+      <span className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-foam text-tide-deep transition group-hover:bg-tide-deep group-hover:text-white">
+        <Icon name={service.icon} />
+      </span>
+      <h3 className="mt-5 font-display text-3xl text-navy">{service.name}</h3>
+      <p className="mt-3 flex-1 leading-relaxed text-muted">{service.summary}</p>
+      <div className="mt-6 flex flex-col gap-3">
+        <ButtonLink href={`/services/${service.slug}`}>Learn More</ButtonLink>
+        <ButtonLink href="/contact#request-service" variant="secondary">
+          Request Service
+        </ButtonLink>
       </div>
     </article>
   );
 }
 
 export function ServiceList({ services }: { services: Service[] }) {
+  const onlyService = services.length === 1 ? services[0] : undefined;
+
+  if (onlyService) {
+    return <ServiceCard service={onlyService} featured />;
+  }
+
   return (
-    <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+    <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
       {services.map((service) => (
         <ServiceCard key={service.slug} service={service} />
       ))}

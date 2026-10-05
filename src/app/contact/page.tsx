@@ -2,15 +2,14 @@ import { ContactForm } from "@/components/ContactForm";
 import { Container } from "@/components/Container";
 import { MapEmbed } from "@/components/MapEmbed";
 import { PageHero, PageSection } from "@/components/PageHero";
-import { serviceAreas } from "@/data/service-areas";
+import { getServiceArea } from "@/data/service-areas";
 import { phoneHref, site } from "@/data/site";
 import { images } from "@/data/images";
 import { createMetadata } from "@/lib/metadata";
 
 export const metadata = createMetadata({
   title: "Contact",
-  description:
-    "Contact Swift Flo Plumbing Services in Smyrna, TN to request plumbing service. Open Monday through Sunday, 8:00 AM to 8:00 PM.",
+  description: `Contact ${site.name} in ${site.locationLabel} to request plumbing service. Open ${site.hours.days}, ${site.hours.time}.`,
   path: "/contact",
 });
 
@@ -23,7 +22,11 @@ const details = [
 ];
 
 export default function ContactPage() {
-  const area = serviceAreas[0];
+  const area = getServiceArea("nashville-tn") ?? getServiceArea("smyrna-tn");
+
+  if (!area) {
+    throw new Error("No service area available for contact map");
+  }
 
   return (
     <>
@@ -80,10 +83,14 @@ export default function ContactPage() {
       </PageSection>
       <section className="bg-paper pb-20 sm:pb-28">
         <Container>
-          <h2 className="font-display text-4xl text-navy">Smyrna, Tennessee</h2>
+          <h2 className="font-display text-4xl text-navy">
+            Serving {site.locationFull}
+          </h2>
           <p className="mt-3 max-w-2xl leading-relaxed text-muted">
-            {site.name} serves customers in {site.locationFull}. The map shows
-            the city because a street address has not been published.
+            {site.name} provides professional plumbing services throughout
+            Nashville and surrounding Middle Tennessee communities. The map shows{" "}
+            {area.city} as a reference point because a street address has not been
+            published.
           </p>
           <div className="mt-8">
             <MapEmbed area={area} />

@@ -37,26 +37,170 @@ export const images = {
   },
   serviceOverview: {
     src: "/images/service-overview.jpg",
-    alt: "Swift Flo professional plumbing service van and technician in Middle Tennessee",
+    alt: "Professional plumber inspecting residential plumbing fixtures",
   },
   ctaTrust: {
     src: "/images/cta-trust.jpg",
-    alt: "Professional plumber completing a quality installation and shaking hands with satisfied customer",
+    alt: "Trusted plumber providing professional plumbing service in a home",
   },
   galleryCopper: {
     src: "/images/gallery-copper.jpg",
-    alt: "Professional plumber soldering copper pipes and installing high-pressure brass valves",
+    alt: "Copper plumbing pipes and professional fitting work",
   },
   galleryTankless: {
     src: "/images/gallery-tankless.jpg",
-    alt: "Clean wall-mounted tankless water heater installation with certified ventilation",
+    alt: "Tankless water heater installation and plumbing connections",
   },
   galleryCamera: {
     src: "/images/gallery-camera.jpg",
-    alt: "Digital sewer line camera diagnostic equipment locating pipe blockages",
+    alt: "Plumbing inspection camera used for drain diagnostics",
   },
   galleryKitchen: {
     src: "/images/gallery-kitchen.jpg",
-    alt: "Under-sink reverse osmosis water filtration system and designer brass faucet installation",
+    alt: "Kitchen sink plumbing and faucet service",
+  },
+  aboutBrentwood: {
+    src: "/images/about-brentwood.jpg",
+    alt: "Plumber installing a chrome bathroom faucet in Brentwood",
+  },
+  aboutFranklin: {
+    src: "/images/about-franklin.jpg",
+    alt: "Plumber connecting copper water pipes in Franklin",
+  },
+  aboutGallatin: {
+    src: "/images/about-gallatin.jpg",
+    alt: "Plumber inspecting a tankless water heater in Gallatin",
+  },
+  aboutHendersonville: {
+    src: "/images/about-hendersonville.jpg",
+    alt: "Plumber adjusting a modern shower fixture in Hendersonville",
+  },
+  aboutLaVergne: {
+    src: "/images/about-la-vergne.jpg",
+    alt: "Plumber installing a kitchen faucet in La Vergne",
+  },
+  aboutLebanon: {
+    src: "/images/about-lebanon.jpg",
+    alt: "Plumber using drain inspection equipment in Lebanon",
+  },
+  aboutMtJuliet: {
+    src: "/images/about-mt-juliet.jpg",
+    alt: "Professional plumbing tools and copper fittings for Mt. Juliet service",
+  },
+  aboutMurfreesboro: {
+    src: "/images/about-murfreesboro.jpg",
+    alt: "Plumber servicing a tankless water heater in Murfreesboro",
+  },
+  aboutNashville: {
+    src: "/images/about-nashville.jpg",
+    alt: "Professional plumber ready for residential service in Nashville",
+  },
+  aboutSmyrna: {
+    src: "/images/about-smyrna.jpg",
+    alt: "Plumber sealing a drain connection under a vanity in Smyrna",
+  },
+  aboutSpringHill: {
+    src: "/images/about-spring-hill.jpg",
+    alt: "Plumber installing a freestanding tub faucet in Spring Hill",
+  },
+  aboutThompsonsStation: {
+    src: "/images/about-thompsons-station.jpg",
+    alt: "Chrome bathtub faucet and shower wand plumbing detail in Thompson's Station",
+  },
+  ctaBrentwood: {
+    src: "/images/cta-brentwood.jpg",
+    alt: "Plumber checking a kitchen faucet during a Brentwood service visit",
+  },
+  ctaFranklin: {
+    src: "/images/cta-franklin.jpg",
+    alt: "Plumber adjusting bathroom fixtures for a Franklin customer",
+  },
+  ctaGallatin: {
+    src: "/images/cta-gallatin.jpg",
+    alt: "Plumber tightening a water heater valve in Gallatin",
+  },
+  ctaHendersonville: {
+    src: "/images/cta-hendersonville.jpg",
+    alt: "Plumber installing a shower system in Hendersonville",
+  },
+  ctaLaVergne: {
+    src: "/images/cta-la-vergne.jpg",
+    alt: "Plumber testing a kitchen faucet in La Vergne",
+  },
+  ctaLebanon: {
+    src: "/images/cta-lebanon.jpg",
+    alt: "Plumber reviewing a service plan in Lebanon",
+  },
+  ctaMtJuliet: {
+    src: "/images/cta-mt-juliet.jpg",
+    alt: "Professional plumbing tools ready for Mt. Juliet service calls",
+  },
+  ctaMurfreesboro: {
+    src: "/images/cta-murfreesboro.jpg",
+    alt: "Plumber installing bathroom fixtures in Murfreesboro",
+  },
+  ctaNashville: {
+    src: "/images/cta-nashville.jpg",
+    alt: "Professional plumber ready to help Nashville customers",
+  },
+  ctaSmyrna: {
+    src: "/images/cta-smyrna.jpg",
+    alt: "Plumber replacing a drain trap for a Smyrna home",
+  },
+  ctaSpringHill: {
+    src: "/images/cta-spring-hill.jpg",
+    alt: "Plumber adjusting a freestanding tub faucet in Spring Hill",
+  },
+  ctaThompsonsStation: {
+    src: "/images/cta-thompsons-station.jpg",
+    alt: "Modern shower plumbing detail for Thompson's Station service",
+  },
+  overviewBrentwood: {
+    src: "/images/overview-brentwood.jpg",
+    alt: "Plumber inspecting water heater connections in Brentwood",
+  },
+  overviewFranklin: {
+    src: "/images/overview-franklin.jpg",
+    alt: "Plumber aligning copper pipe fittings in Franklin",
+  },
+  overviewGallatin: {
+    src: "/images/overview-gallatin.jpg",
+    alt: "Plumber checking residential piping in Gallatin",
+  },
+  overviewHendersonville: {
+    src: "/images/overview-hendersonville.jpg",
+    alt: "Plumber fine-tuning a shower valve in Hendersonville",
+  },
+  overviewLaVergne: {
+    src: "/images/overview-la-vergne.jpg",
+    alt: "Plumber installing kitchen sink supply lines in La Vergne",
+  },
+  overviewLebanon: {
+    src: "/images/overview-lebanon.jpg",
+    alt: "Plumber reviewing drain camera diagnostics in Lebanon",
+  },
+  overviewMtJuliet: {
+    src: "/images/overview-mt-juliet.jpg",
+    alt: "Organized plumbing fittings and tools for Mt. Juliet service",
+  },
+  overviewMurfreesboro: {
+    src: "/images/overview-murfreesboro.jpg",
+    alt: "Plumber securing tankless water heater connections in Murfreesboro",
+  },
+  overviewNashville: {
+    src: "/images/overview-nashville.jpg",
+    alt: "Professional plumber with finished bathroom fixtures in Nashville",
+  },
+  overviewSmyrna: {
+    src: "/images/overview-smyrna.jpg",
+    alt: "Plumber sealing pipe joints under a sink in Smyrna",
+  },
+  overviewSpringHill: {
+    src: "/images/overview-spring-hill.jpg",
+    alt: "Plumber adjusting a freestanding tub filler in Spring Hill",
+  },
+  overviewThompsonsStation: {
+    src: "/images/overview-thompsons-station.jpg",
+    alt: "Chrome shower system detail for Thompson's Station plumbing service",
   },
 } as const;

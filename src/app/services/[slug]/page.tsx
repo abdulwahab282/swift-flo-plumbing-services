@@ -103,8 +103,8 @@ export default async function ServiceDetailPage({
             </article>
             <div className="relative min-h-56 overflow-hidden rounded-[1.75rem] sm:col-span-2">
               <Image
-                src={image.src}
-                alt={image.alt}
+                src={images.fittings.src}
+                alt={images.fittings.alt}
                 fill
                 sizes="(min-width: 1024px) 40vw, 100vw"
                 className="object-cover"
