@@ -43,6 +43,20 @@ export type ServiceAreaOverviewImageKey =
   | "overviewSpringHill"
   | "overviewThompsonsStation";
 
+export type ServiceAreaHeroImageKey =
+  | "heroBrentwood"
+  | "heroFranklin"
+  | "heroGallatin"
+  | "heroHendersonville"
+  | "heroLaVergne"
+  | "heroLebanon"
+  | "heroMtJuliet"
+  | "heroMurfreesboro"
+  | "heroNashville"
+  | "heroSmyrna"
+  | "heroSpringHill"
+  | "heroThompsonsStation";
+
 export type ServiceArea = {
   slug: string;
   city: string;
@@ -51,6 +65,7 @@ export type ServiceArea = {
   label: string;
   summary: string;
   introduction: string;
+  heroImage: ServiceAreaHeroImageKey;
   about: {
     title: string;
     description: string;
@@ -100,6 +115,7 @@ type AreaSeed = {
   lat: number;
   lon: number;
   bbox: string;
+  heroImage: ServiceAreaHeroImageKey;
   aboutImage: ServiceAreaAboutImageKey;
   overviewImage: ServiceAreaOverviewImageKey;
   ctaImage: ServiceAreaCtaImageKey;
@@ -112,6 +128,7 @@ const areaSeeds: AreaSeed[] = [
     lat: 36.0331,
     lon: -86.7828,
     bbox: "-86.87,35.99,-86.70,36.08",
+    heroImage: "heroBrentwood",
     aboutImage: "aboutBrentwood",
     overviewImage: "overviewBrentwood",
     ctaImage: "ctaBrentwood",
@@ -122,6 +139,7 @@ const areaSeeds: AreaSeed[] = [
     lat: 35.9251,
     lon: -86.8689,
     bbox: "-86.96,35.88,-86.78,35.97",
+    heroImage: "heroFranklin",
     aboutImage: "aboutFranklin",
     overviewImage: "overviewFranklin",
     ctaImage: "ctaFranklin",
@@ -132,6 +150,7 @@ const areaSeeds: AreaSeed[] = [
     lat: 36.3884,
     lon: -86.4467,
     bbox: "-86.53,36.34,-86.36,36.44",
+    heroImage: "heroGallatin",
     aboutImage: "aboutGallatin",
     overviewImage: "overviewGallatin",
     ctaImage: "ctaGallatin",
@@ -142,6 +161,7 @@ const areaSeeds: AreaSeed[] = [
     lat: 36.3048,
     lon: -86.62,
     bbox: "-86.70,36.26,-86.54,36.35",
+    heroImage: "heroHendersonville",
     aboutImage: "aboutHendersonville",
     overviewImage: "overviewHendersonville",
     ctaImage: "ctaHendersonville",
@@ -152,6 +172,7 @@ const areaSeeds: AreaSeed[] = [
     lat: 36.0156,
     lon: -86.5819,
     bbox: "-86.66,35.97,-86.50,36.06",
+    heroImage: "heroLaVergne",
     aboutImage: "aboutLaVergne",
     overviewImage: "overviewLaVergne",
     ctaImage: "ctaLaVergne",
@@ -162,6 +183,7 @@ const areaSeeds: AreaSeed[] = [
     lat: 36.2081,
     lon: -86.2911,
     bbox: "-86.38,36.16,-86.20,36.26",
+    heroImage: "heroLebanon",
     aboutImage: "aboutLebanon",
     overviewImage: "overviewLebanon",
     ctaImage: "ctaLebanon",
@@ -172,6 +194,7 @@ const areaSeeds: AreaSeed[] = [
     lat: 36.2001,
     lon: -86.5186,
     bbox: "-86.60,36.15,-86.44,36.25",
+    heroImage: "heroMtJuliet",
     aboutImage: "aboutMtJuliet",
     overviewImage: "overviewMtJuliet",
     ctaImage: "ctaMtJuliet",
@@ -182,6 +205,7 @@ const areaSeeds: AreaSeed[] = [
     lat: 35.8456,
     lon: -86.3903,
     bbox: "-86.48,35.79,-86.30,35.90",
+    heroImage: "heroMurfreesboro",
     aboutImage: "aboutMurfreesboro",
     overviewImage: "overviewMurfreesboro",
     ctaImage: "ctaMurfreesboro",
@@ -192,6 +216,7 @@ const areaSeeds: AreaSeed[] = [
     lat: 36.1627,
     lon: -86.7816,
     bbox: "-86.92,36.08,-86.64,36.25",
+    heroImage: "heroNashville",
     aboutImage: "aboutNashville",
     overviewImage: "overviewNashville",
     ctaImage: "ctaNashville",
@@ -202,6 +227,7 @@ const areaSeeds: AreaSeed[] = [
     lat: 35.9828,
     lon: -86.5186,
     bbox: "-86.60,35.94,-86.44,36.03",
+    heroImage: "heroSmyrna",
     aboutImage: "aboutSmyrna",
     overviewImage: "overviewSmyrna",
     ctaImage: "ctaSmyrna",
@@ -212,6 +238,7 @@ const areaSeeds: AreaSeed[] = [
     lat: 35.7512,
     lon: -86.93,
     bbox: "-87.02,35.70,-86.84,35.80",
+    heroImage: "heroSpringHill",
     aboutImage: "aboutSpringHill",
     overviewImage: "overviewSpringHill",
     ctaImage: "ctaSpringHill",
@@ -222,6 +249,7 @@ const areaSeeds: AreaSeed[] = [
     lat: 35.802,
     lon: -86.9064,
     bbox: "-86.99,35.76,-86.82,35.85",
+    heroImage: "heroThompsonsStation",
     aboutImage: "aboutThompsonsStation",
     overviewImage: "overviewThompsonsStation",
     ctaImage: "ctaThompsonsStation",
@@ -239,6 +267,7 @@ function buildServiceArea(seed: AreaSeed, areaIndex: number): ServiceArea {
     label,
     summary: `Professional plumbing service for homeowners and businesses in ${seed.city}, Tennessee.`,
     introduction: `Swift Flo Plumbing Services provides reliable plumbing services for customers in ${seed.city}, Tennessee. Residents and local businesses can request service through the contact form during published hours, Monday through Sunday, 8:00 AM to 8:00 PM.`,
+    heroImage: seed.heroImage,
     about: {
       title: `Professional plumbing for ${seed.city} homes and businesses.`,
       description: `${siteName()} is proud to serve ${seed.city} with dependable plumbing service focused on clear communication, quality workmanship, and a straightforward experience. Whether you need help with a repair, fixture work, or a planned plumbing project, our team is ready to support customers throughout ${seed.city}, Tennessee.`,

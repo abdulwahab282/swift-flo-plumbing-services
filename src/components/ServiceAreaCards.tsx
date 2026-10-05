@@ -5,15 +5,21 @@ import { Icon } from "@/components/Icons";
 export function ServiceAreaCards({
   linked = true,
   className = "",
+  excludeSlug,
 }: {
   linked?: boolean;
   className?: string;
+  excludeSlug?: string;
 }) {
+  const areas = excludeSlug
+    ? serviceAreas.filter((area) => area.slug !== excludeSlug)
+    : serviceAreas;
+
   return (
     <ul
       className={`grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ${className}`}
     >
-      {serviceAreas.map((area) => {
+      {areas.map((area) => {
         const content = (
           <>
             <span className="inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl bg-foam text-tide-deep transition duration-300 group-hover:bg-tide-deep group-hover:text-white">

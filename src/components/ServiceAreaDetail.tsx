@@ -8,7 +8,7 @@ import { ButtonLink } from "@/components/Button";
 import { Container } from "@/components/Container";
 import { Icon } from "@/components/Icons";
 import { MapEmbed } from "@/components/MapEmbed";
-import { PageHero, PageSection } from "@/components/PageHero";
+import { PageHero } from "@/components/PageHero";
 import { ServiceAreaCards } from "@/components/ServiceAreaCards";
 
 const serviceHighlights = [
@@ -36,6 +36,7 @@ export function ServiceAreaDetail({
   area: ServiceArea;
   breadcrumb?: { href?: string; label: string }[];
 }) {
+  const heroImage = images[area.heroImage];
   const aboutImage = images[area.about.image];
   const overviewImage = images[area.overview.image];
   const ctaImage = images[area.cta.image];
@@ -43,11 +44,12 @@ export function ServiceAreaDetail({
 
   return (
     <>
+      {/* 1. Hero */}
       <PageHero
         eyebrow={`${area.city}, ${area.state}`}
         title={`Professional plumbing services in ${area.city}.`}
         description={area.introduction}
-        image={images.galleryKitchen}
+        image={heroImage}
         breadcrumb={
           breadcrumb ?? [
             { href: "/", label: "Home" },
@@ -55,31 +57,65 @@ export function ServiceAreaDetail({
             { label: area.label },
           ]
         }
+        actions={
+          <>
+            <ButtonLink href="/contact" variant="light" withArrow>
+              Get a Free Quote
+            </ButtonLink>
+            <ButtonLink href="/services" variant="ghost">
+              View Our Services
+            </ButtonLink>
+          </>
+        }
       />
 
-      <PageSection>
-        <Container className="grid gap-5 md:grid-cols-3">
-          {area.whyLocal.map((reason) => (
-            <article
-              key={reason.title}
-              className="rounded-[1.75rem] border border-sand bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
+      {/* 2. Highlights */}
+      <section
+        className="bg-paper py-20 sm:py-28"
+        aria-labelledby="area-highlights-heading"
+      >
+        <Container>
+          <div className="mx-auto max-w-3xl text-center">
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-tide-deep">
+              Why local matters
+            </p>
+            <h2
+              id="area-highlights-heading"
+              className="mt-3 font-display text-4xl leading-[1.08] text-navy sm:text-5xl"
             >
-              <span className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-foam text-tide-deep">
-                <Icon name="pin" />
-              </span>
-              <h2 className="mt-4 font-display text-3xl text-navy">
-                {reason.title}
-              </h2>
-              <p className="mt-3 leading-relaxed text-muted">{reason.text}</p>
-            </article>
-          ))}
+              Plumbing coverage you can count on in {area.city}.
+            </h2>
+            <p className="mt-4 text-lg leading-relaxed text-muted">
+              Clear local availability, dependable service, and convenient
+              scheduling for customers throughout {area.label}.
+            </p>
+          </div>
+          <div className="mt-12 grid gap-5 md:grid-cols-3">
+            {area.whyLocal.map((reason) => (
+              <article
+                key={reason.title}
+                className="rounded-[1.75rem] border border-sand bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg sm:p-7"
+              >
+                <span className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-foam text-tide-deep">
+                  <Icon name="pin" />
+                </span>
+                <h3 className="mt-4 font-display text-2xl text-navy sm:text-3xl">
+                  {reason.title}
+                </h3>
+                <p className="mt-3 leading-relaxed text-muted">{reason.text}</p>
+              </article>
+            ))}
+          </div>
         </Container>
-      </PageSection>
+      </section>
 
-      {/* About */}
-      <section className="bg-cream py-20 sm:py-28" aria-labelledby="area-about-heading">
+      {/* 3. About */}
+      <section
+        className="bg-cream py-20 sm:py-28"
+        aria-labelledby="area-about-heading"
+      >
         <Container className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem] shadow-2xl shadow-navy/10 sm:aspect-[5/4] lg:order-1">
+          <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem] shadow-2xl shadow-navy/10 sm:aspect-[5/4]">
             <Image
               src={aboutImage.src}
               alt={aboutImage.alt}
@@ -88,7 +124,7 @@ export function ServiceAreaDetail({
               className="object-cover object-center"
             />
           </div>
-          <div className="lg:order-2">
+          <div>
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-tide-deep">
               About
             </p>
@@ -120,7 +156,7 @@ export function ServiceAreaDetail({
         </Container>
       </section>
 
-      {/* Our Services */}
+      {/* 4. Our Services */}
       <section
         className="bg-foam py-20 sm:py-28"
         aria-labelledby="area-services-heading"
@@ -156,10 +192,7 @@ export function ServiceAreaDetail({
                   communication.
                 </p>
                 <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-                  <ButtonLink
-                    href={`/services/${service.slug}`}
-                    variant="light"
-                  >
+                  <ButtonLink href={`/services/${service.slug}`} variant="light">
                     Learn More
                   </ButtonLink>
                   <ButtonLink href="/contact" variant="ghost">
@@ -204,7 +237,7 @@ export function ServiceAreaDetail({
         </Container>
       </section>
 
-      {/* Service Overview */}
+      {/* 5. Service Overview */}
       <section
         className="bg-cream py-20 sm:py-28"
         aria-labelledby="area-overview-heading"
@@ -257,7 +290,7 @@ export function ServiceAreaDetail({
         </Container>
       </section>
 
-      {/* Service Details */}
+      {/* 6. Service Details */}
       <section
         className="bg-foam py-20 sm:py-28"
         aria-labelledby="area-details-heading"
@@ -291,7 +324,7 @@ export function ServiceAreaDetail({
         </Container>
       </section>
 
-      {/* Why Choose Us */}
+      {/* 7. Why Choose Us */}
       <section
         className="bg-cream py-20 sm:py-28"
         aria-labelledby="area-why-heading"
@@ -330,54 +363,7 @@ export function ServiceAreaDetail({
         </Container>
       </section>
 
-      <section className="bg-paper py-20 sm:py-28">
-        <Container className="grid items-start gap-10 lg:grid-cols-2">
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-tide-deep">
-              Plumbing service
-            </p>
-            <h2 className="mt-3 font-display text-4xl text-navy sm:text-5xl">
-              {site.service} for {area.label}
-            </h2>
-            <ul className="mt-6 space-y-3">
-              {area.serviceNotes.map((note) => (
-                <li
-                  key={note}
-                  className="rounded-2xl border border-sand bg-white px-4 py-3 text-ink"
-                >
-                  {note}
-                </li>
-              ))}
-            </ul>
-            <ButtonLink href="/contact#request-service" className="mt-8" withArrow>
-              Get a Free Quote
-            </ButtonLink>
-          </div>
-          <MapEmbed area={area} />
-        </Container>
-      </section>
-
-      <section className="bg-cream py-20 sm:py-28">
-        <Container>
-          <div className="mx-auto max-w-2xl text-center">
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-tide-deep">
-              Also serving
-            </p>
-            <h2 className="mt-3 font-display text-4xl text-navy sm:text-5xl">
-              More Middle Tennessee communities
-            </h2>
-            <p className="mt-4 text-lg leading-relaxed text-muted">
-              {area.city} is part of our wider plumbing coverage across Nashville
-              and surrounding communities.
-            </p>
-          </div>
-          <div className="mt-10">
-            <ServiceAreaCards />
-          </div>
-        </Container>
-      </section>
-
-      {/* FAQs */}
+      {/* 8. FAQs */}
       <section
         className="bg-paper py-20 sm:py-28"
         aria-labelledby="area-faq-heading"
@@ -419,7 +405,81 @@ export function ServiceAreaDetail({
         </Container>
       </section>
 
-      {/* Unique CTA */}
+      {/* 9. Local coverage + map */}
+      <section
+        className="bg-cream py-20 sm:py-28"
+        aria-labelledby="area-coverage-heading"
+      >
+        <Container className="grid items-start gap-10 lg:grid-cols-2">
+          <div>
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-tide-deep">
+              Local coverage
+            </p>
+            <h2
+              id="area-coverage-heading"
+              className="mt-3 font-display text-4xl text-navy sm:text-5xl"
+            >
+              Serving {area.label}
+            </h2>
+            <p className="mt-4 text-base leading-relaxed text-muted sm:text-lg">
+              {site.name} arranges professional plumbing visits for customers in{" "}
+              {area.city}. Use the map for city-level reference — a street
+              address has not been published.
+            </p>
+            <ul className="mt-6 space-y-3">
+              {area.serviceNotes.map((note) => (
+                <li
+                  key={note}
+                  className="rounded-2xl border border-sand bg-white px-4 py-3 text-ink"
+                >
+                  {note}
+                </li>
+              ))}
+            </ul>
+            <ButtonLink href="/contact#request-service" className="mt-8" withArrow>
+              Get a Free Quote
+            </ButtonLink>
+          </div>
+          <MapEmbed area={area} />
+        </Container>
+      </section>
+
+      {/* 10. Also serving */}
+      <section
+        className="bg-foam py-20 sm:py-28"
+        aria-labelledby="area-also-serving-heading"
+      >
+        <Container>
+          <div className="mx-auto max-w-2xl text-center">
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-tide-deep">
+              Also serving
+            </p>
+            <h2
+              id="area-also-serving-heading"
+              className="mt-3 font-display text-4xl text-navy sm:text-5xl"
+            >
+              More Middle Tennessee communities
+            </h2>
+            <p className="mt-4 text-lg leading-relaxed text-muted">
+              {area.city} is part of our wider plumbing coverage across Nashville
+              and surrounding communities.
+            </p>
+          </div>
+          <div className="mt-10">
+            <ServiceAreaCards excludeSlug={area.slug} />
+          </div>
+          <div className="mt-8 flex justify-center">
+            <Link
+              href="/service-areas"
+              className="font-semibold text-tide-deep underline decoration-copper underline-offset-4"
+            >
+              View all service areas
+            </Link>
+          </div>
+        </Container>
+      </section>
+
+      {/* 11. CTA */}
       <section
         className="relative isolate overflow-hidden bg-navy"
         aria-labelledby="area-cta-heading"

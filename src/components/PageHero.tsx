@@ -9,12 +9,14 @@ export function PageHero({
   description,
   image,
   breadcrumb,
+  actions,
 }: {
   eyebrow: string;
   title: string;
   description: string;
   image?: { src: string; alt: string };
   breadcrumb?: { href?: string; label: string }[];
+  actions?: ReactNode;
 }) {
   return (
     <section className="relative overflow-hidden bg-navy text-white">
@@ -40,6 +42,11 @@ export function PageHero({
           <p className="mt-5 max-w-xl text-lg leading-relaxed text-white/75">
             {description}
           </p>
+          {actions ? (
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+              {actions}
+            </div>
+          ) : null}
         </div>
         {image ? (
           <div className="relative aspect-[4/3] overflow-hidden rounded-[1.75rem] shadow-2xl shadow-black/30">

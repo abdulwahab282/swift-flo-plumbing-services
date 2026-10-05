@@ -203,4 +203,52 @@ export const images = {
     src: "/images/overview-thompsons-station.jpg",
     alt: "Chrome shower system detail for Thompson's Station plumbing service",
   },
+  heroBrentwood: {
+    src: "/images/hero-brentwood.jpg",
+    alt: "Plumber servicing a bathroom vanity in Brentwood",
+  },
+  heroFranklin: {
+    src: "/images/hero-franklin.jpg",
+    alt: "Plumber connecting copper pipes in Franklin",
+  },
+  heroGallatin: {
+    src: "/images/hero-gallatin.jpg",
+    alt: "Plumber inspecting a water heater in Gallatin",
+  },
+  heroHendersonville: {
+    src: "/images/hero-hendersonville.jpg",
+    alt: "Plumber adjusting a shower fixture in Hendersonville",
+  },
+  heroLaVergne: {
+    src: "/images/hero-la-vergne.jpg",
+    alt: "Plumber installing a kitchen faucet in La Vergne",
+  },
+  heroLebanon: {
+    src: "/images/hero-lebanon.jpg",
+    alt: "Plumber using drain inspection equipment in Lebanon",
+  },
+  heroMtJuliet: {
+    src: "/images/hero-mt-juliet.jpg",
+    alt: "Professional plumbing tools prepared for Mt. Juliet service",
+  },
+  heroMurfreesboro: {
+    src: "/images/hero-murfreesboro.jpg",
+    alt: "Plumber servicing a tankless water heater in Murfreesboro",
+  },
+  heroNashville: {
+    src: "/images/hero-nashville.jpg",
+    alt: "Professional plumber ready for Nashville residential service",
+  },
+  heroSmyrna: {
+    src: "/images/hero-smyrna.jpg",
+    alt: "Plumber sealing pipe joints under a vanity in Smyrna",
+  },
+  heroSpringHill: {
+    src: "/images/hero-spring-hill.jpg",
+    alt: "Plumber adjusting a freestanding tub filler in Spring Hill",
+  },
+  heroThompsonsStation: {
+    src: "/images/hero-thompsons-station.jpg",
+    alt: "Chrome shower plumbing detail for Thompson's Station",
+  },
 } as const;
