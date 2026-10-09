@@ -29,6 +29,13 @@ export async function generateMetadata({
     title: `${service.name} in ${site.locationLabel}`,
     description: service.summary,
     path: `/services/${service.slug}`,
+    keywords: [
+      `${service.name} Nashville`,
+      `${service.name} Middle Tennessee`,
+      `plumber ${service.name.toLowerCase()}`,
+      "Swift Flo Plumbing Services",
+      "professional plumber Nashville",
+    ],
   });
 }
 

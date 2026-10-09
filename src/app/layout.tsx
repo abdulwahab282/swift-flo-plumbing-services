@@ -25,6 +25,17 @@ export const metadata: Metadata = {
     template: "%s | Swift Flo Plumbing Services",
   },
   description: `${site.name} provides professional plumbing services throughout ${site.locationFull}. Open ${site.hours.days}, ${site.hours.time}.`,
+  keywords: [
+    "plumber Middle Tennessee",
+    "plumbing services Nashville",
+    "Swift Flo Plumbing",
+    "drain cleaning Nashville",
+    "water heater repair Middle Tennessee",
+    "camera inspections plumbing",
+    "bathroom remodeling plumber",
+    "water filtration installation",
+    "sewer repair Middle Tennessee",
+  ],
   applicationName: site.name,
   icons: {
     icon: [

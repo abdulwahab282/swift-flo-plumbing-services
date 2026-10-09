@@ -24,18 +24,25 @@ export function HomeAbout() {
               id="home-about-heading"
               className="mt-3 font-display text-4xl leading-[1.08] text-navy sm:text-5xl"
             >
-              Built around one clear service.
+              Swift Flo Plumbing Services Best Choice Residential or Commercial Buildings Plumbing Services Contractor or Company.
             </h2>
             <div className="mt-5 space-y-4 text-base leading-relaxed text-muted sm:text-lg">
               <p>
-                {site.name} is a plumbing company for customers throughout{" "}
-                {site.locationFull}. People can request professional plumbing
-                service from a local company that is plain about what it offers
-                and when it is open.
+                When property emergencies strike, finding a reliable partner is
+                essential. As the premier Swift Flo Plumbing Services best
+                choice residential or commercial buildings plumbing services
+                contractor or company, we take pride in delivering top-tier
+                solutions tailored to your unique needs.
               </p>
               <p>
-                The offer is {site.service.toLowerCase()}. Hours are{" "}
-                {site.hours.days}, {site.hours.time}.
+                Whether you manage a bustling commercial facility or own a
+                family home, our skilled specialists handle everything from
+                complex water pipe leak repairs to seamless kitchen and bathroom
+                line replacements. We combine years of local expertise with
+                cutting-edge tools to ensure fast, durable results. Trust our
+                dedicated professionals to protect your property, restore
+                functionality, and provide absolute peace of mind every single
+                day.
               </p>
             </div>
             <Link

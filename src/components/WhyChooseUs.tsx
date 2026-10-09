@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { site } from "@/data/site";
 import { Icon } from "@/components/Icons";
 import { Container } from "@/components/Container";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -7,28 +6,28 @@ import { SectionHeading } from "@/components/SectionHeading";
 const benefits = [
   {
     title: "Local Middle Tennessee Coverage",
-    text: "Professional plumbing service for customers across Nashville and surrounding Middle Tennessee communities.",
+    text: "We proudly serve homes and businesses across Smyrna and the surrounding Middle Tennessee region with prompt, dependable local plumbing expertise.",
     icon: "pin" as const,
     featured: true,
   },
   {
     title: "Reliable Plumbing Service",
-    text: "A clear way to request plumbing work, with the service and schedule published up front.",
+    text: "Depend on our experienced team for consistent, high-quality solutions that protect your property and ensure long-lasting plumbing performance every single day.",
     icon: "shield" as const,
   },
   {
-    title: "Fast Response",
-    text: `Reach the company during open hours, ${site.hours.days}, ${site.hours.time}.`,
-    icon: "clock" as const,
-  },
-  {
     title: "Professional Workmanship",
-    text: "Each visit is approached as professional plumbing work, focused on the service you requested.",
+    text: "Our certified specialists deliver meticulous attention to detail on every repair, installation, and upgrade to guarantee exceptional industry standards.",
     icon: "wrench" as const,
   },
   {
+    title: "Fast Response",
+    text: "When plumbing emergencies strike, our rapid dispatch team arrives quickly to minimize damage and restore your peace of mind fast.",
+    icon: "clock" as const,
+  },
+  {
     title: "Customer-Focused Service",
-    text: "Your request starts with your name, a way to reach you, and a description of the plumbing you need.",
+    text: "Your satisfaction is our priority, delivering honest communication, transparent pricing, and personalized care tailored to your unique household needs.",
     icon: "users" as const,
   },
 ];
@@ -43,8 +42,7 @@ export function WhyChooseUs() {
         <div data-reveal>
           <SectionHeading
             eyebrow="Why choose us"
-            title="A clear, local plumbing company."
-            text={`Swift Flo Plumbing Services keeps the offer simple: ${site.service.toLowerCase()} for customers throughout ${site.locationFull}.`}
+            title="Why Choose Swift Flo Plumbing Services Contractor Smyrna, TN?"
           />
         </div>
         <div data-reveal-group className="mt-12 grid gap-4 lg:grid-cols-3">

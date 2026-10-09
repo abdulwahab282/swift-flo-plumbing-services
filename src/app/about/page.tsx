@@ -13,24 +13,32 @@ export const metadata = createMetadata({
   title: "About",
   description: `Learn about ${site.name}, a plumbing company serving customers throughout ${site.locationFull} with a professional, reliable approach.`,
   path: "/about",
+  keywords: [
+    "about Swift Flo Plumbing",
+    "plumbing company Middle Tennessee",
+    "trusted plumber Nashville",
+    "local plumbing company",
+    "professional plumbers Nashville",
+    "reliable plumbing service Tennessee",
+  ],
 });
 
 const values = [
   {
-    title: "Commitment to quality service",
-    text: "The work starts with a clear request and a published schedule, so customers know how to reach the company and when service is available.",
+    title: "Commitment to Quality Service",
+    text: "We deliver exceptional standards on every project, utilizing premium materials and precise techniques to guarantee long-lasting plumbing performance.",
   },
   {
-    title: "A professional, reliable approach",
-    text: "Plumbing service is handled as professional work, with attention on the job you requested.",
+    title: "A Professional, Reliable Approach",
+    text: "Depend on our experienced technicians for transparent communication, punctual arrivals, and dependable solutions tailored to your unique property needs.",
   },
   {
-    title: "Local Middle Tennessee coverage",
-    text: "Swift Flo Plumbing Services serves customers throughout Nashville and surrounding Middle Tennessee communities with clear, dependable local plumbing service.",
+    title: "Local Smyrna, TN Coverage",
+    text: "Proudly serving homes and businesses throughout Smyrna and nearby communities with fast dispatch times and community-focused expertise.",
   },
   {
-    title: "Customer satisfaction",
-    text: "Satisfaction starts with a straightforward conversation: who you are, how to reach you, and what plumbing service you need.",
+    title: "Customer Satisfaction",
+    text: "Your peace of mind drives everything we do, ensuring friendly care, honest pricing, and results that exceed your expectations.",
   },
 ];
 
@@ -47,9 +55,9 @@ export default function AboutPage() {
   return (
     <>
       <PageHero
-        eyebrow="About"
-        title="Plumbing service with a local focus."
-        description={`${site.name} serves customers in ${site.locationFull}. The company offers ${site.service.toLowerCase()} during published hours, with a straightforward way to request a visit.`}
+        eyebrow="About Us"
+        title="Hire a Trusted or Premium Residential or Commercial Buildings Plumbing Services Contractor  Swift Flo Plumbing Services"
+        description="Partner with Swift Flo Plumbing Services today for elite property protection, expert leak management, and guaranteed customer satisfaction."
         image={images.work}
         breadcrumb={[{ href: "/", label: "Home" }, { label: "About" }]}
       />
@@ -69,28 +77,25 @@ export default function AboutPage() {
             <p className="text-xs font-semibold uppercase tracking-[0.22em] text-tide-deep">
               Company introduction
             </p>
-            <h2 className="mt-3 font-display text-4xl text-navy sm:text-5xl">
-              Built around one clear service.
+            <h2 className="mt-3 font-display text-2xl leading-snug text-navy sm:text-3xl">
+              Why Choose Swift Flo Plumbing Services for Your All Kinds Plumbing
+              Service Needs?
             </h2>
-            <div className="mt-5 space-y-4 text-lg leading-relaxed text-muted">
+            <div className="mt-5 space-y-4 text-base leading-relaxed text-muted sm:text-lg">
               <p>
-                {site.name} is a plumbing company for customers in{" "}
-                {site.locationFull}. The business is organized around a simple
-                idea: people should be able to request professional plumbing
-                service from a local company that is plain about what it offers
-                and when it is open.
+                Choosing the right contractor makes all the difference when
+                plumbing emergencies or upgrades arise. At Swift Flo Plumbing
+                Services, we combine years of hands-on expertise with unmatched
+                dedication to keep your home or business running seamlessly.
               </p>
               <p>
-                That offer is {site.service.toLowerCase()}. Hours are{" "}
-                {site.hours.days}, {site.hours.time}. If you are in{" "}
-                {site.region}, you can{" "}
-                <Link
-                  href="/contact#request-service"
-                  className="font-semibold text-tide-deep underline decoration-copper/60 underline-offset-4"
-                >
-                  request service
-                </Link>{" "}
-                and describe the plumbing work you need.
+                As your trusted local specialists in Smyrna, TN, we prioritize
+                transparent communication, swift response times, and meticulous
+                workmanship on every job—big or small. From complex sewer
+                excavations to routine maintenance, our fully licensed team
+                delivers durable, high-quality solutions designed to protect
+                your property and give you total peace of mind. Experience
+                exceptional customer care and reliable results today.
               </p>
             </div>
           </div>

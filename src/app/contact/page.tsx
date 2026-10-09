@@ -11,6 +11,14 @@ export const metadata = createMetadata({
   title: "Contact",
   description: `Contact ${site.name} in ${site.locationLabel} to request plumbing service. Open ${site.hours.days}, ${site.hours.time}.`,
   path: "/contact",
+  keywords: [
+    "contact Swift Flo Plumbing",
+    "request plumber Nashville",
+    "plumbing quote Middle Tennessee",
+    "schedule plumbing service",
+    "plumber phone number Nashville",
+    "emergency plumbing contact",
+  ],
 });
 
 const details = [
@@ -32,8 +40,8 @@ export default function ContactPage() {
     <>
       <PageHero
         eyebrow="Contact"
-        title="Request plumbing service."
-        description={`Send a request to ${site.name}. The company provides ${site.service.toLowerCase()} in ${site.locationFull}, ${site.hours.days}, ${site.hours.time}.`}
+        title="Request Plumbing Service."
+        description="Contact Swift Flo Plumbing Services today for reliable residential and commercial plumbing solutions in Smyrna, TN. Reach out by phone or online to schedule your service or request emergency assistance."
         image={images.fittings}
         breadcrumb={[{ href: "/", label: "Home" }, { label: "Contact" }]}
       />

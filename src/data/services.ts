@@ -38,7 +38,7 @@ export const services: Service[] = [
     slug: "drain-cleaning",
     name: "Drain Cleaning",
     summary:
-      "Professional drain cleaning to clear clogs and restore proper flow in sinks, showers, tubs, and main lines.",
+      "Swiftly eliminate stubborn clogs and restore proper wastewater flow with our thorough, professional residential and commercial drain clearing techniques.",
     description:
       "Swift Flo Plumbing Services provides professional drain cleaning for homeowners and businesses throughout Nashville and Middle Tennessee. Whether you are dealing with slow drains, recurring clogs, or a blocked main line, our team can help restore reliable drainage.",
     details: [
@@ -54,7 +54,7 @@ export const services: Service[] = [
     slug: "camera-inspections",
     name: "Camera Inspections",
     summary:
-      "Video camera inspections that help locate drain and sewer line issues with clear, accurate diagnostics.",
+      "Diagnose hidden pipeline cracks, root intrusions, and stubborn blockages accurately using advanced high-definition sewer video camera technology.",
     description:
       "Swift Flo Plumbing Services offers camera inspections to identify blockages, pipe damage, and other underground plumbing concerns. A camera inspection gives customers a clearer understanding of the issue before repair recommendations are made.",
     details: [
@@ -70,7 +70,7 @@ export const services: Service[] = [
     slug: "water-filtration-system-installation",
     name: "Water Filtration System Installation",
     summary:
-      "Professional installation of water filtration systems for cleaner, better-tasting water throughout the home.",
+      "Upgrade your daily water quality by installing cutting-edge whole-home filtration systems designed to remove impurities and sediment effectively.",
     description:
       "Swift Flo Plumbing Services installs water filtration systems for customers who want improved water quality at home. From whole-home setups to point-of-use systems, we help match the installation to your plumbing needs.",
     details: [
@@ -86,7 +86,7 @@ export const services: Service[] = [
     slug: "water-heater-repairs-replacement",
     name: "Water Heater Repairs & Replacement",
     summary:
-      "Dependable water heater repair and replacement service for homes and businesses that need reliable hot water.",
+      "Ensure endless hot water supply for your household through expert diagnostic repairs or seamless new unit installations.",
     description:
       "Swift Flo Plumbing Services provides water heater repairs and replacements throughout Middle Tennessee. If your water heater is leaking, not heating properly, or ready for an upgrade, our team can help restore dependable hot water.",
     details: [
@@ -102,7 +102,7 @@ export const services: Service[] = [
     slug: "bathroom-remodeling",
     name: "Bathroom Remodeling",
     summary:
-      "Plumbing support for bathroom remodeling projects, including fixtures, connections, and professional installations.",
+      "Bring your renovation vision to life with precise plumbing layout updates, fixture installations, and modern luxury upgrades.",
     description:
       "Swift Flo Plumbing Services supports bathroom remodeling with professional plumbing installations and fixture work. From updating vanities and showers to broader remodel plumbing needs, we help create a finished bathroom that works well day to day.",
     details: [
@@ -118,7 +118,7 @@ export const services: Service[] = [
     slug: "water-sewer-excavation-repairs-replacements",
     name: "Water & Sewer Excavation Repairs & Replacements",
     summary:
-      "Excavation-related water and sewer line repairs and replacements for damaged or aging underground plumbing.",
+      "Tackle severe underground line failures safely using heavy-duty excavation methods and durable, long-lasting replacement materials.",
     description:
       "Swift Flo Plumbing Services handles water and sewer excavation repairs and replacements when underground lines need professional attention. From damaged service lines to necessary replacements, we provide clear communication and dependable plumbing work.",
     details: [

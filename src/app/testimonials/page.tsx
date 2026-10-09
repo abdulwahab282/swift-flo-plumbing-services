@@ -10,6 +10,12 @@ export const metadata = createMetadata({
   title: "Customer Testimonials",
   description: `Customer feedback for ${site.name} throughout ${site.locationFull}. Real testimonials will be published as customers share them.`,
   path: "/testimonials",
+  keywords: [
+    "Swift Flo Plumbing reviews",
+    "plumber testimonials Nashville",
+    "customer reviews Middle Tennessee plumber",
+    "trusted plumbing company reviews",
+  ],
 });
 
 export default function TestimonialsPage() {

@@ -1,35 +1,37 @@
-import { formatServiceAreaList } from "@/data/service-areas";
-import { site } from "@/data/site";
 import { Container } from "@/components/Container";
 import { Icon } from "@/components/Icons";
 import { SectionHeading } from "@/components/SectionHeading";
 
 const faqs = [
   {
-    question: "What areas does Swift Flo Plumbing Services serve?",
-    answer: `${site.name} serves customers throughout ${site.locationFull}, including ${formatServiceAreaList(6)}.`,
-  },
-  {
-    question: "What plumbing services do you offer?",
-    answer: `${site.name} provides ${site.service.toLowerCase()} for homeowners and businesses throughout ${site.locationFull}. Describe the plumbing work you need when you request a visit.`,
-  },
-  {
-    question: "What are your business hours?",
-    answer: `The published hours are ${site.hours.days}, ${site.hours.time}. Visits are arranged inside these hours.`,
-  },
-  {
-    question: "How do I request plumbing service?",
+    question: "What areas does Swift Flo Plumbing Services cover?",
     answer:
-      "Fill out the request form and include your name, a way to reach you, your city, and a description of the plumbing work. Swift Flo Plumbing Services follows up from there.",
+      "We proudly provide dependable residential and commercial plumbing solutions across Smyrna, TN, and the surrounding Middle Tennessee region with prompt, local dispatch teams.",
   },
   {
-    question: "How much will plumbing service cost?",
+    question: "Do you offer emergency plumbing repairs?",
     answer:
-      "Pricing is not published on this site. Costs are discussed once you describe the job you need done. Contact us to request a free quote.",
+      "Yes, our experienced local specialists are available to handle urgent water pipe leaks, severe clogs, and unexpected plumbing failures to protect your property quickly.",
   },
   {
-    question: "Do you serve both homes and businesses?",
-    answer: `Yes. ${site.name} provides professional plumbing services for residential and commercial customers across our Middle Tennessee service areas.`,
+    question: "Are your plumbing technicians licensed and insured?",
+    answer:
+      "Absolutely. Every professional on our team is fully licensed and insured, ensuring safe, top-tier workmanship for every home and office building project.",
+  },
+  {
+    question: "What services are included for commercial properties?",
+    answer:
+      "We handle heavy-duty commercial plumbing needs, including large-scale water and sewer excavation repairs, camera inspections, fixture maintenance, and comprehensive system replacements.",
+  },
+  {
+    question: "How do I schedule a service appointment?",
+    answer:
+      "Booking is easy. You can contact our friendly customer service team directly by phone or through our website to schedule a convenient appointment time.",
+  },
+  {
+    question: "Do you provide water filtration system installations?",
+    answer:
+      "Yes, we install advanced water filtration systems to ensure your entire home enjoys clean, great-tasting, and safe water straight from every tap.",
   },
 ];
 
@@ -38,11 +40,7 @@ export function HomeFaq() {
     <section className="bg-cream py-12 sm:py-16 lg:py-20">
       <Container className="grid gap-10 lg:grid-cols-[minmax(0,20rem)_1fr] lg:gap-16">
         <div data-reveal>
-          <SectionHeading
-            eyebrow="FAQ"
-            title="Frequently asked questions."
-            text={`Straightforward answers about requesting plumbing service throughout ${site.locationFull}.`}
-          />
+          <SectionHeading eyebrow="FAQ" title="FAQs" />
         </div>
         <div data-reveal-group className="flex flex-col gap-3">
           {faqs.map((faq, index) => (

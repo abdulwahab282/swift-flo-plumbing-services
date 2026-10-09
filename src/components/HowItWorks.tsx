@@ -1,4 +1,3 @@
-import { site } from "@/data/site";
 import { cn } from "@/lib/cn";
 import { Container } from "@/components/Container";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -7,17 +6,17 @@ const steps = [
   {
     number: "01",
     title: "Contact Us",
-    text: "Send a service request with your name, phone, email, and a description of the plumbing work.",
+    text: "Reach out to our friendly team today for fast assistance with all your plumbing emergencies and needs.",
   },
   {
     number: "02",
     title: "Schedule Your Service",
-    text: `Choose a time inside the published hours: ${site.hours.days}, ${site.hours.time}.`,
+    text: "Book a convenient appointment with our expert local technicians to keep your property running smoothly.",
   },
   {
     number: "03",
     title: "Get Professional Plumbing Service",
-    text: `Receive plumbing service in ${site.locationFull}, focused on the job you described.`,
+    text: "Experience top-tier workmanship and reliable solutions from the trusted specialists at Swift Flo Plumbing Services.",
   },
 ];
 

@@ -14,14 +14,14 @@ function ServicesIntro() {
       </p>
       <h2
         id="home-services-heading"
-        className="mt-3 max-w-xl font-display text-4xl leading-[1.08] text-navy sm:text-5xl"
+        className="mt-3 max-w-3xl font-display text-3xl leading-[1.12] text-navy sm:text-4xl"
       >
-        Plumbing services, ready when you are.
+        Residential or Commercial Buildings Refrigerator or Plumbing Services
+        Company Swift Flo Plumbing Services
       </h2>
-      <p className="mt-5 max-w-xl text-base leading-relaxed text-muted sm:text-lg">
-        From drain cleaning and camera inspections to water heater service and
-        bathroom remodeling, {site.name} provides professional plumbing for
-        customers throughout {site.locationFull}.
+      <p className="mt-5 max-w-3xl text-base leading-relaxed text-muted sm:text-lg">
+        Residential or Commercial Buildings Refrigerator or Plumbing Services
+        Company - Swift Flo Plumbing Services
       </p>
     </>
   );

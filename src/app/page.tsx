@@ -18,6 +18,18 @@ export const metadata: Metadata = {
   },
   description:
     "Swift Flo Plumbing Services provides professional plumbing services for customers throughout Nashville and Middle Tennessee. Request service Monday through Sunday, 8:00 AM to 8:00 PM.",
+  keywords: [
+    "plumber Nashville",
+    "plumbing services Middle Tennessee",
+    "local plumber Nashville",
+    "drain cleaning Nashville",
+    "water heater repair Nashville",
+    "camera inspections Middle Tennessee",
+    "bathroom remodeling plumber",
+    "water filtration system installation",
+    "water and sewer excavation repair",
+    "Swift Flo Plumbing Services",
+  ],
   alternates: { canonical: "/" },
 };
 

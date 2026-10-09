@@ -61,28 +61,41 @@ function ServicesDesktopNav({ pathname }: { pathname: string }) {
       onMouseEnter={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
     >
-      <button
-        type="button"
-        aria-expanded={open}
-        aria-haspopup="menu"
-        aria-controls={menuId}
-        onClick={() => setOpen((current) => !current)}
+      <div
         className={cn(
-          "inline-flex items-center gap-1.5 rounded-full px-3 py-2 text-sm font-medium transition",
+          "inline-flex items-center rounded-full transition",
           active || open
             ? "bg-foam text-tide-deep"
             : "text-ink/80 hover:bg-paper hover:text-navy",
         )}
       >
-        Services
-        <Icon
-          name="chevron"
-          className={cn(
-            "h-3.5 w-3.5 transition duration-300",
-            open && "rotate-180",
-          )}
-        />
-      </button>
+        <Link
+          href="/services"
+          aria-current={pathname === "/services" ? "page" : undefined}
+          className="rounded-full px-3 py-2 text-sm font-medium"
+        >
+          Services
+        </Link>
+        <button
+          type="button"
+          aria-expanded={open}
+          aria-haspopup="menu"
+          aria-controls={menuId}
+          onClick={() => setOpen((current) => !current)}
+          className="mr-1 inline-flex h-8 w-8 items-center justify-center rounded-full"
+        >
+          <span className="sr-only">
+            {open ? "Hide services menu" : "Show services menu"}
+          </span>
+          <Icon
+            name="chevron"
+            className={cn(
+              "h-3.5 w-3.5 transition duration-300",
+              open && "rotate-180",
+            )}
+          />
+        </button>
+      </div>
 
       <div
         id={menuId}
@@ -154,28 +167,41 @@ function ServiceAreasDesktopNav({ pathname }: { pathname: string }) {
       onMouseEnter={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
     >
-      <button
-        type="button"
-        aria-expanded={open}
-        aria-haspopup="menu"
-        aria-controls={menuId}
-        onClick={() => setOpen((current) => !current)}
+      <div
         className={cn(
-          "inline-flex items-center gap-1.5 rounded-full px-3 py-2 text-sm font-medium transition",
+          "inline-flex items-center rounded-full transition",
           active || open
             ? "bg-foam text-tide-deep"
             : "text-ink/80 hover:bg-paper hover:text-navy",
         )}
       >
-        Service Areas
-        <Icon
-          name="chevron"
-          className={cn(
-            "h-3.5 w-3.5 transition duration-300",
-            open && "rotate-180",
-          )}
-        />
-      </button>
+        <Link
+          href="/service-areas"
+          aria-current={pathname === "/service-areas" ? "page" : undefined}
+          className="rounded-full px-3 py-2 text-sm font-medium"
+        >
+          Service Areas
+        </Link>
+        <button
+          type="button"
+          aria-expanded={open}
+          aria-haspopup="menu"
+          aria-controls={menuId}
+          onClick={() => setOpen((current) => !current)}
+          className="mr-1 inline-flex h-8 w-8 items-center justify-center rounded-full"
+        >
+          <span className="sr-only">
+            {open ? "Hide service areas menu" : "Show service areas menu"}
+          </span>
+          <Icon
+            name="chevron"
+            className={cn(
+              "h-3.5 w-3.5 transition duration-300",
+              open && "rotate-180",
+            )}
+          />
+        </button>
+      </div>
 
       <div
         id={menuId}

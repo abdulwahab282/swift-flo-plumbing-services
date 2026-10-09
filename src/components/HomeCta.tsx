@@ -27,12 +27,13 @@ export function HomeCta() {
             {site.locationLabel}
           </p>
           <h2 className="mt-3 font-display text-4xl leading-[1.08] text-white sm:text-5xl">
-            Ready for plumbing service in {site.region}?
+            Hire Now a Plumbing Services Contractor in Smyrna, TN!
           </h2>
           <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-white/75 sm:text-lg">
-            Contact {site.name} to request professional plumbing service
-            throughout Nashville and surrounding communities. Tell us about the
-            job you need when you submit the form.
+            Don&apos;t let plumbing issues disrupt your day. Hire now a plumbing
+            services contractor in Smyrna, TN, or get ready for booking a
+            professional plumbing contractor in Smyrna, TN, to restore your
+            property fast.
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <ButtonLink

@@ -25,19 +25,18 @@ export function Hero() {
             data-hero-item
             className="mt-4 font-display text-[clamp(1.9rem,8.4cqi,3.35rem)] leading-[1.05] text-navy"
           >
-            <span className="block">Professional</span>
-            <span className="block">plumbing for</span>
-            <span className="block italic text-tide-deep">
-              {site.region}
-            </span>
+            Your Trusted & Professional Residential or Commercial #1 Plumbing
+            Contractor
           </h1>
           <p
             data-hero-item
             className="mt-5 text-base leading-relaxed text-muted sm:text-lg"
           >
-            Dependable plumbing service for customers throughout{" "}
-            {site.locationFull}. Request a visit during business hours and tell
-            us about the work you need.
+            Looking for a local and trusted residential or commercial buildings
+            plumbing services contractor in Smyrna, TN? Swift Flo Plumbing
+            Services delivers expert water pipe leak repairs and kitchen or
+            bathroom line solutions. Contact our best plumbing services
+            specialists today!
           </p>
           <div
             data-hero-item

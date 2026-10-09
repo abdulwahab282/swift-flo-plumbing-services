@@ -25,6 +25,14 @@ export async function generateMetadata({
     title: `Plumbing in ${area.label}`,
     description: area.summary,
     path: onlyArea ? "/service-areas" : `/service-areas/${area.slug}`,
+    keywords: [
+      `plumber ${area.city}`,
+      `plumbing services ${area.city} TN`,
+      `${area.city} drain cleaning`,
+      `${area.city} water heater repair`,
+      `local plumber ${area.city}`,
+      "Swift Flo Plumbing Services",
+    ],
   });
 }
 

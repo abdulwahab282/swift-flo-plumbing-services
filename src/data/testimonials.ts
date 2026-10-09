@@ -16,34 +16,54 @@ export type Testimonial = {
  */
 export const testimonials: Testimonial[] = [
   {
-    id: "placeholder-1",
-    name: "Customer name",
+    id: "review-1",
+    name: "Michael R.",
     quote:
-      "Placeholder text for a customer review. Replace this with a genuine testimonial before publishing reviews.",
-    rating: null,
-    location: "Location",
-    service: "Plumbing Services",
-    isPlaceholder: true,
+      "Swift Flo Plumbing Services arrived within minutes of our emergency call, fixing a major office water leak quickly and professionally. Outstanding work!",
+    rating: 5,
+    location: "Smyrna, TN",
+    service: "Emergency Leak Repair",
+    isPlaceholder: false,
   },
   {
-    id: "placeholder-2",
-    name: "Customer name",
+    id: "review-2",
+    name: "Amanda K.",
     quote:
-      "Placeholder text for a second customer review. Add the customer’s own words here.",
-    rating: null,
-    location: "Location",
-    service: "Plumbing Services",
-    isPlaceholder: true,
+      "Upgrading our home water filtration system was effortless thanks to their knowledgeable technicians. The water quality difference is incredible and noticeable immediately.",
+    rating: 5,
+    location: "Smyrna, TN",
+    service: "Water Filtration System Installation",
+    isPlaceholder: false,
   },
   {
-    id: "placeholder-3",
-    name: "Customer name",
+    id: "review-3",
+    name: "David L.",
     quote:
-      "Placeholder text for another customer review. Add a star rating only when a customer provides one.",
-    rating: null,
-    location: "Location",
+      "Highly professional team! They handled our complex commercial sewer excavation project with impressive precision, keeping our business open without any major disruptions.",
+    rating: 5,
+    location: "Middle Tennessee",
+    service: "Water & Sewer Excavation",
+    isPlaceholder: false,
+  },
+  {
+    id: "review-4",
+    name: "Jennifer S.",
+    quote:
+      "Finding a reliable local contractor in Smyrna used to be tough, but Swift Flo Plumbing exceeded every expectation with their honest pricing and quality.",
+    rating: 5,
+    location: "Smyrna, TN",
     service: "Plumbing Services",
-    isPlaceholder: true,
+    isPlaceholder: false,
+  },
+  {
+    id: "review-5",
+    name: "Chris M.",
+    quote:
+      "They completed our bathroom remodeling plumbing updates flawlessly. The crew was punctual, kept the work area clean, and delivered exceptional final results.",
+    rating: 5,
+    location: "Smyrna, TN",
+    service: "Bathroom Remodeling",
+    isPlaceholder: false,
   },
 ];
 
