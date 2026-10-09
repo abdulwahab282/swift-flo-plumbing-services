@@ -1,8 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
 import { Breadcrumb } from "@/components/Breadcrumb";
 import { ButtonLink, CallNowLink } from "@/components/Button";
 import { Container } from "@/components/Container";
+import { HomeAbout } from "@/components/HomeAbout";
+import { HomeCta } from "@/components/HomeCta";
 import { HowItWorks } from "@/components/HowItWorks";
 import { Icon } from "@/components/Icons";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -167,97 +168,11 @@ export function ServicesPageContent() {
         </Container>
       </section>
 
-      <section className="bg-cream py-20 sm:py-28">
-        <Container className="grid items-center gap-10 lg:grid-cols-2 lg:gap-14">
-          <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem] shadow-2xl shadow-navy/10 sm:aspect-[5/4]">
-            <Image
-              src={images.galleryCopper.src}
-              alt={images.galleryCopper.alt}
-              fill
-              sizes="(min-width: 1024px) 46vw, 100vw"
-              className="object-cover"
-            />
-          </div>
-          <div>
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-tide-deep">
-              Why choose Swift Flo
-            </p>
-            <h2 className="mt-3 font-display text-4xl text-navy sm:text-5xl">
-              Clear service options. Local response.
-            </h2>
-            <div className="mt-5 space-y-4 text-base leading-relaxed text-muted sm:text-lg">
-              <p>
-                Every service is built around real plumbing work — not vague
-                promises. Review what we offer, request a visit during published
-                hours, and describe the job that needs attention.
-              </p>
-              <p>
-                Looking for coverage near you? Explore our{" "}
-                <Link
-                  href="/service-areas"
-                  className="font-semibold text-tide-deep underline decoration-copper/60 underline-offset-4"
-                >
-                  Middle Tennessee service areas
-                </Link>{" "}
-                or{" "}
-                <Link
-                  href="/contact#request-service"
-                  className="font-semibold text-tide-deep underline decoration-copper/60 underline-offset-4"
-                >
-                  contact the team
-                </Link>{" "}
-                to get started.
-              </p>
-            </div>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-              <ButtonLink href="/contact#request-service" withArrow>
-                Get a Free Quote
-              </ButtonLink>
-              <ButtonLink href="/about" variant="secondary">
-                About the Company
-              </ButtonLink>
-            </div>
-          </div>
-        </Container>
-      </section>
+      <HomeAbout />
 
       <HowItWorks tone="light" />
 
-      <section className="relative isolate overflow-hidden bg-navy">
-        <Image
-          src={images.fittings.src}
-          alt={images.fittings.alt}
-          fill
-          sizes="100vw"
-          className="object-cover opacity-35"
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-navy via-navy/90 to-navy/70" />
-        <Container className="relative py-20 sm:py-24 lg:py-28">
-          <div className="mx-auto max-w-2xl text-center">
-            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-copper">
-              {site.locationLabel}
-            </p>
-            <h2 className="mt-3 font-display text-4xl leading-[1.08] text-white sm:text-5xl">
-              Ready to request plumbing service?
-            </h2>
-            <p className="mx-auto mt-5 max-w-xl text-base leading-relaxed text-white/75 sm:text-lg">
-              Tell us about the work you need. {site.name} serves customers
-              throughout {site.locationFull}, {site.hours.days},{" "}
-              {site.hours.time}.
-            </p>
-            <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-              <ButtonLink
-                href="/contact#request-service"
-                variant="light"
-                withArrow
-              >
-                Request Plumbing Service
-              </ButtonLink>
-              <CallNowLink variant="ghost" />
-            </div>
-          </div>
-        </Container>
-      </section>
+      <HomeCta />
     </>
   );
 }
