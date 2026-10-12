@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/spring-hill-tn/camera-inspections */
 const content: CityServicePageContent = {
   "metaTitle": "Camera Inspections in Spring Hill, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving Spring Hill, TN. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving Spring Hill, TN — Spring Hill subdivisions spanning Maury and Williamson County growth areas. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Spring Hill Camera Inspections from Swift Flo",
-  "heroDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Swift Flo Plumbing Services provides camera inspections for homeowners and businesses throughout Spring Hill, TN. Call 629-238-8322 or request service online.",
+  "heroDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Swift Flo Plumbing Services provides camera inspections for homeowners and businesses throughout Spring Hill subdivisions spanning Maury and Williamson County growth areas. Call 629-238-8322 or request service online.",
   "highlights": [
     {
       "title": "Homes and businesses",
-      "text": "Residential and commercial camera inspections requests are accepted in Spring Hill."
+      "text": "Residential and commercial camera inspections requests are accepted across Spring Hill subdivisions spanning Maury and Williamson County growth areas."
     },
     {
       "title": "Prepared visits",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Camera Inspections for Spring Hill homes and businesses",
-  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers in Spring Hill can request camera inspections online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers across Spring Hill subdivisions spanning Maury and Williamson County growth areas can request camera inspections online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Spring Hill, TN with a straightforward way to request camera inspections. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Camera Inspections",
   "servicesDescription": "While this page focuses on camera inspections in Spring Hill, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request camera inspections in Spring Hill",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule camera inspections in Spring Hill, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Camera Inspections overview in Spring Hill",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers in Spring Hill, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers across Spring Hill subdivisions spanning Maury and Williamson County growth areas.",
   "overviewPoints": [
     "Professional camera inspections for Spring Hill customers",
-    "Residential and commercial support",
+    "Coverage across Spring Hill subdivisions spanning Maury and Williamson County growth areas",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Inspect drain and sewer lines with video camera equipment.",
     "Help pinpoint the location and nature of plumbing issues."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for camera inspections in Spring Hill",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for camera inspections throughout Spring Hill, TN.",
+  "whyDescription": "Local coverage across Spring Hill subdivisions spanning Maury and Williamson County growth areas, professional plumbing service, and a clear request process for camera inspections.",
   "whyReasons": [
     {
       "title": "Spring Hill availability",
-      "text": "Camera Inspections is available for customers throughout Spring Hill, TN.",
+      "text": "Camera Inspections is available for customers throughout Spring Hill subdivisions spanning Maury and Williamson County growth areas.",
       "icon": "pin"
     },
     {
@@ -101,19 +101,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Spring Hill?",
-      "answer": "Yes. In addition to camera inspections, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Spring Hill, TN."
+      "answer": "Yes. In addition to camera inspections, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Spring Hill, TN."
     },
     {
       "question": "Why choose Swift Flo for camera inspections in Spring Hill?",
-      "answer": "Spring Hill is part of our confirmed coverage. Customers receive professional camera inspections, clear communication, and a straightforward request process."
+      "answer": "Spring Hill is part of our confirmed coverage spanning Spring Hill subdivisions spanning Maury and Williamson County growth areas. Customers receive professional camera inspections, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need camera inspections in Spring Hill?",
-      "answer": "Common reasons include hidden pipe conditions. If you are seeing related symptoms at a Spring Hill property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include hidden pipe conditions. If you are seeing related symptoms at a Spring Hill property near Spring Hill subdivisions spanning Maury and Williamson County growth areas, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is camera inspections available for commercial properties in Spring Hill?",
-      "answer": "Yes. Homes and businesses in Spring Hill can request camera inspections during published business hours."
+      "answer": "Yes. Homes and businesses across Spring Hill subdivisions spanning Maury and Williamson County growth areas can request camera inspections during published business hours."
     },
     {
       "question": "How do Spring Hill customers prepare for camera inspections?",
@@ -133,7 +133,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide camera inspections in Spring Hill?",
-      "answer": "Yes. Swift Flo Plumbing Services provides camera inspections for customers in Spring Hill, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides camera inspections for customers in Spring Hill, TN, including Spring Hill subdivisions spanning Maury and Williamson County growth areas. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does camera inspections include for Spring Hill customers?",

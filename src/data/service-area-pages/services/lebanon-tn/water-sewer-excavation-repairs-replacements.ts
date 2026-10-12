@@ -3,9 +3,9 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/lebanon-tn/water-sewer-excavation-repairs-replacements */
 const content: CityServicePageContent = {
   "metaTitle": "Water & Sewer Excavation Repairs & Replacements in Lebanon, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Excavation repairs address underground water and sewer line damage that needs professional plumbing work. Serving Lebanon, TN. Request water and sewer excavation repairs and replacements Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Excavation repairs address underground water and sewer line damage that needs professional plumbing work. Serving Lebanon, TN — Wilson County neighborhoods and commercial properties around Lebanon’s city core. Request water and sewer excavation repairs and replacements Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Professional water and sewer excavation repairs and replacements for Lebanon",
-  "heroDescription": "Excavation repairs address underground water and sewer line damage that needs professional plumbing work. Swift Flo Plumbing Services provides water and sewer excavation repairs and replacements for homeowners and businesses throughout Lebanon, TN. Call 629-238-8322 or request service online.",
+  "heroDescription": "Excavation repairs address underground water and sewer line damage that needs professional plumbing work. Swift Flo Plumbing Services provides water and sewer excavation repairs and replacements for homeowners and businesses throughout Wilson County neighborhoods and commercial properties around Lebanon’s city core. Call 629-238-8322 or request service online.",
   "highlights": [
     {
       "title": "Local requests",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Water & Sewer Excavation Repairs & Replacements for Lebanon homes and businesses",
-  "aboutDescription": "Excavation repairs address underground water and sewer line damage that needs professional plumbing work. Customers in Lebanon can request water and sewer excavation repairs and replacements online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Excavation repairs address underground water and sewer line damage that needs professional plumbing work. Customers across Wilson County neighborhoods and commercial properties around Lebanon’s city core can request water and sewer excavation repairs and replacements online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Lebanon, TN with a straightforward way to request water and sewer excavation repairs and replacements. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Water & Sewer Excavation Repairs & Replacements",
   "servicesDescription": "While this page focuses on water and sewer excavation repairs and replacements in Lebanon, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request water and sewer excavation repairs and replacements in Lebanon",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule water and sewer excavation repairs and replacements in Lebanon, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Water & Sewer Excavation Repairs & Replacements overview in Lebanon",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water and sewer excavation repairs and replacements clear and local for customers in Lebanon, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water and sewer excavation repairs and replacements clear and local for customers across Wilson County neighborhoods and commercial properties around Lebanon’s city core.",
   "overviewPoints": [
     "Professional water and sewer excavation repairs and replacements for Lebanon customers",
-    "Residential and commercial support",
+    "Coverage across Wilson County neighborhoods and commercial properties around Lebanon’s city core",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Repair or replace damaged water and sewer lines.",
     "Support excavation-related plumbing work when required."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for water and sewer excavation repairs and replacements in Lebanon",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for water and sewer excavation repairs and replacements throughout Lebanon, TN.",
+  "whyDescription": "Local coverage across Wilson County neighborhoods and commercial properties around Lebanon’s city core, professional plumbing service, and a clear request process for water and sewer excavation repairs and replacements.",
   "whyReasons": [
     {
       "title": "Lebanon availability",
-      "text": "Water & Sewer Excavation Repairs & Replacements is available for customers throughout Lebanon, TN.",
+      "text": "Water & Sewer Excavation Repairs & Replacements is available for customers throughout Wilson County neighborhoods and commercial properties around Lebanon’s city core.",
       "icon": "pin"
     },
     {
@@ -105,7 +105,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide water and sewer excavation repairs and replacements in Lebanon?",
-      "answer": "Yes. Swift Flo Plumbing Services provides water and sewer excavation repairs and replacements for customers in Lebanon, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides water and sewer excavation repairs and replacements for customers in Lebanon, TN, including Wilson County neighborhoods and commercial properties around Lebanon’s city core. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does water and sewer excavation repairs and replacements include for Lebanon customers?",
@@ -129,15 +129,15 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Lebanon?",
-      "answer": "Yes. In addition to water and sewer excavation repairs and replacements, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Lebanon, TN."
+      "answer": "Yes. In addition to water and sewer excavation repairs and replacements, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Lebanon, TN."
     },
     {
       "question": "Why choose Swift Flo for water and sewer excavation repairs and replacements in Lebanon?",
-      "answer": "Lebanon is part of our confirmed coverage. Customers receive professional water and sewer excavation repairs and replacements, clear communication, and a straightforward request process."
+      "answer": "Lebanon is part of our confirmed coverage spanning Wilson County neighborhoods and commercial properties around Lebanon’s city core. Customers receive professional water and sewer excavation repairs and replacements, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need water and sewer excavation repairs and replacements in Lebanon?",
-      "answer": "Common reasons include underground line repairs. If you are seeing related symptoms at a Lebanon property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include underground line repairs. If you are seeing related symptoms at a Lebanon property near Wilson County neighborhoods and commercial properties around Lebanon’s city core, describe them when you request service so we can prepare for the visit."
     }
   ],
   "heroImage": {

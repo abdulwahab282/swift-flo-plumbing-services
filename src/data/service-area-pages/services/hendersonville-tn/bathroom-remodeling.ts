@@ -3,7 +3,7 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/hendersonville-tn/bathroom-remodeling */
 const content: CityServicePageContent = {
   "metaTitle": "Bathroom Remodeling in Hendersonville, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving Hendersonville, TN. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving Hendersonville, TN — lakeside neighborhoods and commercial stretches along the Hendersonville corridor. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Professional bathroom remodeling plumbing for Hendersonville",
   "heroDescription": "Hendersonville customers can request bathroom remodeling plumbing with a clear description of the issue. Swift Flo Plumbing Services follows up with next steps for service in Hendersonville, TN.",
   "highlights": [
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Bathroom Remodeling for Hendersonville homes and businesses",
-  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers in Hendersonville can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers across lakeside neighborhoods and commercial stretches along the Hendersonville corridor can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Hendersonville, TN with a straightforward way to request bathroom remodeling plumbing. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Bathroom Remodeling",
   "servicesDescription": "While this page focuses on bathroom remodeling plumbing in Hendersonville, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request bathroom remodeling plumbing in Hendersonville",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule bathroom remodeling plumbing in Hendersonville, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Bathroom Remodeling overview in Hendersonville",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers in Hendersonville, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers across lakeside neighborhoods and commercial stretches along the Hendersonville corridor.",
   "overviewPoints": [
     "Professional bathroom remodeling plumbing for Hendersonville customers",
-    "Residential and commercial support",
+    "Coverage across lakeside neighborhoods and commercial stretches along the Hendersonville corridor",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Install and connect bathroom fixtures with care.",
     "Support plumbing needs during bathroom remodel projects."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for bathroom remodeling plumbing in Hendersonville",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for bathroom remodeling plumbing throughout Hendersonville, TN.",
+  "whyDescription": "Local coverage across lakeside neighborhoods and commercial stretches along the Hendersonville corridor, professional plumbing service, and a clear request process for bathroom remodeling plumbing.",
   "whyReasons": [
     {
       "title": "Hendersonville availability",
-      "text": "Bathroom Remodeling is available for customers throughout Hendersonville, TN.",
+      "text": "Bathroom Remodeling is available for customers throughout lakeside neighborhoods and commercial stretches along the Hendersonville corridor.",
       "icon": "pin"
     },
     {
@@ -105,19 +105,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Hendersonville?",
-      "answer": "Yes. In addition to bathroom remodeling plumbing, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Hendersonville, TN."
+      "answer": "Yes. In addition to bathroom remodeling plumbing, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Hendersonville, TN."
     },
     {
       "question": "Why choose Swift Flo for bathroom remodeling plumbing in Hendersonville?",
-      "answer": "Hendersonville is part of our confirmed coverage. Customers receive professional bathroom remodeling plumbing, clear communication, and a straightforward request process."
+      "answer": "Hendersonville is part of our confirmed coverage spanning lakeside neighborhoods and commercial stretches along the Hendersonville corridor. Customers receive professional bathroom remodeling plumbing, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need bathroom remodeling plumbing in Hendersonville?",
-      "answer": "Common reasons include fixture and remodel plumbing. If you are seeing related symptoms at a Hendersonville property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include fixture and remodel plumbing. If you are seeing related symptoms at a Hendersonville property near lakeside neighborhoods and commercial stretches along the Hendersonville corridor, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is bathroom remodeling plumbing available for commercial properties in Hendersonville?",
-      "answer": "Yes. Homes and businesses in Hendersonville can request bathroom remodeling plumbing during published business hours."
+      "answer": "Yes. Homes and businesses across lakeside neighborhoods and commercial stretches along the Hendersonville corridor can request bathroom remodeling plumbing during published business hours."
     },
     {
       "question": "How do Hendersonville customers prepare for bathroom remodeling plumbing?",
@@ -137,7 +137,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide bathroom remodeling plumbing in Hendersonville?",
-      "answer": "Yes. Swift Flo Plumbing Services provides bathroom remodeling plumbing for customers in Hendersonville, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides bathroom remodeling plumbing for customers in Hendersonville, TN, including lakeside neighborhoods and commercial stretches along the Hendersonville corridor. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     }
   ],
   "heroImage": {

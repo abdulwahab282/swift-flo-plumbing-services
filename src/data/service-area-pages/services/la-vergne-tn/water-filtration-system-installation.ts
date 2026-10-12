@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/la-vergne-tn/water-filtration-system-installation */
 const content: CityServicePageContent = {
   "metaTitle": "Water Filtration System Installation in La Vergne, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Serving La Vergne, TN. Request water filtration system installation Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Serving La Vergne, TN — residential communities and light industrial areas between Nashville and Murfreesboro. Request water filtration system installation Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Water Filtration System Installation in La Vergne, TN",
   "heroDescription": "La Vergne customers can request water filtration system installation with a clear description of the issue. Swift Flo Plumbing Services follows up with next steps for service in La Vergne, TN.",
   "highlights": [
     {
       "title": "La Vergne coverage",
-      "text": "Professional water filtration system installation arranged for customers throughout La Vergne, TN."
+      "text": "Professional water filtration system installation arranged for customers throughout residential communities and light industrial areas between Nashville and Murfreesboro."
     },
     {
       "title": "Dependable results",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Water Filtration System Installation for La Vergne homes and businesses",
-  "aboutDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Customers in La Vergne can request water filtration system installation online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Customers across residential communities and light industrial areas between Nashville and Murfreesboro can request water filtration system installation online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves La Vergne, TN with a straightforward way to request water filtration system installation. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Water Filtration System Installation",
   "servicesDescription": "While this page focuses on water filtration system installation in La Vergne, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request water filtration system installation in La Vergne",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule water filtration system installation in La Vergne, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Water Filtration System Installation overview in La Vergne",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water filtration system installation clear and local for customers in La Vergne, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water filtration system installation clear and local for customers across residential communities and light industrial areas between Nashville and Murfreesboro.",
   "overviewPoints": [
     "Professional water filtration system installation for La Vergne customers",
-    "Residential and commercial support",
+    "Coverage across residential communities and light industrial areas between Nashville and Murfreesboro",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Install water filtration systems suited to your property.",
     "Support cleaner water for drinking, cooking, and household use."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for water filtration system installation in La Vergne",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for water filtration system installation throughout La Vergne, TN.",
+  "whyDescription": "Local coverage across residential communities and light industrial areas between Nashville and Murfreesboro, professional plumbing service, and a clear request process for water filtration system installation.",
   "whyReasons": [
     {
       "title": "La Vergne availability",
-      "text": "Water Filtration System Installation is available for customers throughout La Vergne, TN.",
+      "text": "Water Filtration System Installation is available for customers throughout residential communities and light industrial areas between Nashville and Murfreesboro.",
       "icon": "pin"
     },
     {
@@ -109,19 +109,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in La Vergne?",
-      "answer": "Yes. In addition to water filtration system installation, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in La Vergne, TN."
+      "answer": "Yes. In addition to water filtration system installation, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in La Vergne, TN."
     },
     {
       "question": "Why choose Swift Flo for water filtration system installation in La Vergne?",
-      "answer": "La Vergne is part of our confirmed coverage. Customers receive professional water filtration system installation, clear communication, and a straightforward request process."
+      "answer": "La Vergne is part of our confirmed coverage spanning residential communities and light industrial areas between Nashville and Murfreesboro. Customers receive professional water filtration system installation, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need water filtration system installation in La Vergne?",
-      "answer": "Common reasons include cleaner household water. If you are seeing related symptoms at a La Vergne property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include cleaner household water. If you are seeing related symptoms at a La Vergne property near residential communities and light industrial areas between Nashville and Murfreesboro, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is water filtration system installation available for commercial properties in La Vergne?",
-      "answer": "Yes. Homes and businesses in La Vergne can request water filtration system installation during published business hours."
+      "answer": "Yes. Homes and businesses across residential communities and light industrial areas between Nashville and Murfreesboro can request water filtration system installation during published business hours."
     },
     {
       "question": "How do La Vergne customers prepare for water filtration system installation?",

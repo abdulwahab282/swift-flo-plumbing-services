@@ -3,14 +3,14 @@ import type { CityPageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/gallatin-tn */
 const content: CityPageContent = {
   metaTitle: "Plumbing Services in Gallatin, TN | Swift Flo Plumbing Services",
-  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in Gallatin, TN. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in Gallatin, TN. Serving homes and businesses around Gallatin’s town center and nearby Sumner County roads. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   heroTitle: "Professional plumbing services in Gallatin.",
-  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for property owners who want a straightforward way to request plumbing service in Gallatin, Tennessee. Request help with drain backups, inspection needs, filtration installs, or bathroom fixture work through the contact form or by calling 629-238-8322.",
+  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for property owners who want a straightforward way to request plumbing service across homes and businesses around Gallatin’s town center and nearby Sumner County roads. Request help with drain backups, inspection needs, filtration installs, or bathroom fixture work through the contact form or by calling 629-238-8322.",
   summary: "Professional plumbing service for homeowners and businesses in Gallatin, TN.",
   whyLocal: [
   {
     "title": "Serving Gallatin",
-    "text": "Gallatin is a confirmed service area for Swift Flo Plumbing Services, giving local customers a direct way to request professional plumbing work."
+    "text": "Gallatin is a confirmed service area for Swift Flo Plumbing Services, covering homes and businesses around Gallatin’s town center and nearby Sumner County roads."
   },
   {
     "title": "Clear request process",
@@ -23,7 +23,7 @@ const content: CityPageContent = {
 ],
   about: {
     title: "Professional plumbing for Gallatin homes and businesses.",
-    description: "Swift Flo Plumbing Services serves Gallatin with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout Gallatin, TN can request service during published hours.",
+    description: "Swift Flo Plumbing Services serves Gallatin with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout homes and businesses around Gallatin’s town center and nearby Sumner County roads can request service during published hours.",
   },
   services: {
     title: "Plumbing services available in Gallatin",
@@ -31,7 +31,7 @@ const content: CityPageContent = {
   },
   overview: {
     title: "How plumbing service works in Gallatin",
-    description: "From the first request through completion, Gallatin customers receive clear next steps, professional workmanship, and scheduling within published hours.",
+    description: "From the first request through completion, Gallatin customers across homes and businesses around Gallatin’s town center and nearby Sumner County roads receive clear next steps, professional workmanship, and scheduling within published hours.",
   },
   details: {
     title: "What Gallatin customers can expect",
@@ -39,7 +39,7 @@ const content: CityPageContent = {
     points: [
   {
     "title": "Confirmed coverage",
-    "text": "Professional plumbing service is available for customers throughout Gallatin, Tennessee."
+    "text": "Professional plumbing service is available throughout homes and businesses around Gallatin’s town center and nearby Sumner County roads."
   },
   {
     "title": "Careful workmanship",
@@ -69,7 +69,7 @@ const content: CityPageContent = {
     reasons: [
   {
     "title": "Local coverage",
-    "text": "Gallatin is included in our confirmed Middle Tennessee service areas.",
+    "text": "Gallatin is included in our confirmed Middle Tennessee service areas, including homes and businesses around Gallatin’s town center and nearby Sumner County roads.",
     "icon": "pin"
   },
   {
@@ -114,7 +114,7 @@ const content: CityPageContent = {
   },
   {
     "question": "Do you serve both homes and businesses in Gallatin?",
-    "answer": "Yes. Residential and commercial customers in Gallatin can request professional plumbing service."
+    "answer": "Yes. Residential and commercial customers in Gallatin can request professional plumbing service across homes and businesses around Gallatin’s town center and nearby Sumner County roads."
   },
   {
     "question": "Can I get a free quote for plumbing work in Gallatin?",
@@ -134,11 +134,11 @@ const content: CityPageContent = {
   },
   {
     "question": "Why choose Swift Flo Plumbing Services in Gallatin?",
-    "answer": "Gallatin is a confirmed service area. Customers get professional plumbing work, clear communication, and a straightforward request process from inquiry through completion."
+    "answer": "Gallatin is a confirmed service area covering homes and businesses around Gallatin’s town center and nearby Sumner County roads. Customers get professional plumbing work, clear communication, and a straightforward request process."
   },
   {
     "question": "Do you handle drain cleaning in Gallatin?",
-    "answer": "Yes. Drain cleaning is available for Gallatin customers along with the rest of our confirmed plumbing services."
+    "answer": "Yes. Drain cleaning is available for Gallatin customers along with the rest of our confirmed plumbing services for this city."
   },
   {
     "question": "Can Gallatin customers request water heater service?",
@@ -146,11 +146,11 @@ const content: CityPageContent = {
   },
   {
     "question": "Do you provide plumbing services in Gallatin?",
-    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in Gallatin, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in Gallatin, TN, including homes and businesses around Gallatin’s town center and nearby Sumner County roads. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
   },
   {
     "question": "Which plumbing services are available in Gallatin?",
-    "answer": "Customers in Gallatin can request drain cleaning, camera inspections, water filtration installation, water heater repairs and replacement, bathroom remodeling plumbing, and water and sewer excavation repairs."
+    "answer": "Customers in Gallatin can request drain cleaning, camera inspections, water filtration system installation, water heater repairs and replacement, bathroom remodeling plumbing, water and sewer excavation repairs and replacements."
   }
 ],
   serviceNotes: [

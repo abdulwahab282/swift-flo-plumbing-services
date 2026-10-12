@@ -9,6 +9,8 @@
     "lint": "eslint",
     "generate:service-area-content": "node scripts/generate-service-area-content.mjs",
     "generate:service-area-pages": "node scripts/generate-service-area-pages.mjs",
+    "generate:service-areas": "npm run generate:service-area-content && npm run generate:service-area-pages",
+    "validate:service-areas": "node scripts/validate-service-area-structure.mjs",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {

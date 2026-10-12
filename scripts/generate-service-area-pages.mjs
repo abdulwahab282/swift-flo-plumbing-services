@@ -5,39 +5,22 @@
  *
  * Content stays in src/data/service-area-pages/**; this script only
  * creates thin route wrappers that connect each URL to that content.
+ * City × service routes follow the coverage map in service-area-config.mjs.
  */
 
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import {
+  cities,
+  getCitiesForService,
+  listCoveredCombos,
+  services,
+} from "./service-area-config.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const appRoot = path.join(root, "src", "app", "service-areas");
-
-const cities = [
-  "brentwood-tn",
-  "franklin-tn",
-  "gallatin-tn",
-  "hendersonville-tn",
-  "la-vergne-tn",
-  "lebanon-tn",
-  "mt-juliet-tn",
-  "murfreesboro-tn",
-  "nashville-tn",
-  "smyrna-tn",
-  "spring-hill-tn",
-  "thompsons-station-tn",
-];
-
-const services = [
-  "drain-cleaning",
-  "camera-inspections",
-  "water-filtration-system-installation",
-  "water-heater-repairs-replacement",
-  "bathroom-remodeling",
-  "water-sewer-excavation-repairs-replacements",
-];
 
 /** @param {string} slug */
 function toPascalCase(slug) {
@@ -212,22 +195,23 @@ let cityServiceCount = 0;
 let hubCount = 0;
 
 for (const city of cities) {
-  writeFile(path.join(appRoot, city, "page.tsx"), cityPageSource(city));
+  writeFile(path.join(appRoot, city.slug, "page.tsx"), cityPageSource(city.slug));
   cityCount += 1;
+}
 
-  for (const service of services) {
-    writeFile(
-      path.join(appRoot, city, service, "page.tsx"),
-      cityServicePageSource(city, service),
-    );
-    cityServiceCount += 1;
-  }
+for (const combo of listCoveredCombos()) {
+  writeFile(
+    path.join(appRoot, combo.areaSlug, combo.serviceSlug, "page.tsx"),
+    cityServicePageSource(combo.areaSlug, combo.serviceSlug),
+  );
+  cityServiceCount += 1;
 }
 
 for (const service of services) {
+  if (getCitiesForService(service.slug).length === 0) continue;
   writeFile(
-    path.join(appRoot, "for", service, "page.tsx"),
-    serviceHubPageSource(service),
+    path.join(appRoot, "for", service.slug, "page.tsx"),
+    serviceHubPageSource(service.slug),
   );
   hubCount += 1;
 }

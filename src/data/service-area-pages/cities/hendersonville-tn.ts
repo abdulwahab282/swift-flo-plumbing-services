@@ -3,14 +3,14 @@ import type { CityPageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/hendersonville-tn */
 const content: CityPageContent = {
   metaTitle: "Plumbing Services in Hendersonville, TN | Swift Flo Plumbing Services",
-  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in Hendersonville, TN. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in Hendersonville, TN. Serving lakeside neighborhoods and commercial stretches along the Hendersonville corridor. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   heroTitle: "Professional plumbing services in Hendersonville.",
-  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for households and workplaces that need plumbing work handled during published hours in Hendersonville, Tennessee. Request help with everyday plumbing repairs and larger projects that need professional attention through the contact form or by calling 629-238-8322.",
+  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for households and workplaces that need plumbing work handled during published hours across lakeside neighborhoods and commercial stretches along the Hendersonville corridor. Request help with everyday plumbing repairs and larger projects that need professional attention through the contact form or by calling 629-238-8322.",
   summary: "Professional plumbing service for homeowners and businesses in Hendersonville, TN.",
   whyLocal: [
   {
     "title": "Serving Hendersonville",
-    "text": "Hendersonville is a confirmed service area for Swift Flo Plumbing Services, giving local customers a direct way to request professional plumbing work."
+    "text": "Hendersonville is a confirmed service area for Swift Flo Plumbing Services, covering lakeside neighborhoods and commercial stretches along the Hendersonville corridor."
   },
   {
     "title": "Straightforward requests",
@@ -23,7 +23,7 @@ const content: CityPageContent = {
 ],
   about: {
     title: "Professional plumbing for Hendersonville homes and businesses.",
-    description: "Swift Flo Plumbing Services serves Hendersonville with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout Hendersonville, TN can request service during published hours.",
+    description: "Swift Flo Plumbing Services serves Hendersonville with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout lakeside neighborhoods and commercial stretches along the Hendersonville corridor can request service during published hours.",
   },
   services: {
     title: "Plumbing services available in Hendersonville",
@@ -31,7 +31,7 @@ const content: CityPageContent = {
   },
   overview: {
     title: "How plumbing service works in Hendersonville",
-    description: "From the first request through completion, Hendersonville customers receive clear next steps, professional workmanship, and scheduling within published hours.",
+    description: "From the first request through completion, Hendersonville customers across lakeside neighborhoods and commercial stretches along the Hendersonville corridor receive clear next steps, professional workmanship, and scheduling within published hours.",
   },
   details: {
     title: "What Hendersonville customers can expect",
@@ -39,7 +39,7 @@ const content: CityPageContent = {
     points: [
   {
     "title": "Confirmed coverage",
-    "text": "Professional plumbing service is available for customers throughout Hendersonville, Tennessee."
+    "text": "Professional plumbing service is available throughout lakeside neighborhoods and commercial stretches along the Hendersonville corridor."
   },
   {
     "title": "Professional process",
@@ -69,7 +69,7 @@ const content: CityPageContent = {
     reasons: [
   {
     "title": "Local coverage",
-    "text": "Hendersonville is included in our confirmed Middle Tennessee service areas.",
+    "text": "Hendersonville is included in our confirmed Middle Tennessee service areas, including lakeside neighborhoods and commercial stretches along the Hendersonville corridor.",
     "icon": "pin"
   },
   {
@@ -110,7 +110,7 @@ const content: CityPageContent = {
   },
   {
     "question": "Do you serve both homes and businesses in Hendersonville?",
-    "answer": "Yes. Residential and commercial customers in Hendersonville can request professional plumbing service."
+    "answer": "Yes. Residential and commercial customers in Hendersonville can request professional plumbing service across lakeside neighborhoods and commercial stretches along the Hendersonville corridor."
   },
   {
     "question": "Can I get a free quote for plumbing work in Hendersonville?",
@@ -130,11 +130,11 @@ const content: CityPageContent = {
   },
   {
     "question": "Why choose Swift Flo Plumbing Services in Hendersonville?",
-    "answer": "Hendersonville is a confirmed service area. Customers get professional plumbing work, clear communication, and a straightforward request process from inquiry through completion."
+    "answer": "Hendersonville is a confirmed service area covering lakeside neighborhoods and commercial stretches along the Hendersonville corridor. Customers get professional plumbing work, clear communication, and a straightforward request process."
   },
   {
     "question": "Do you handle drain cleaning in Hendersonville?",
-    "answer": "Yes. Drain cleaning is available for Hendersonville customers along with the rest of our confirmed plumbing services."
+    "answer": "Yes. Drain cleaning is available for Hendersonville customers along with the rest of our confirmed plumbing services for this city."
   },
   {
     "question": "Can Hendersonville customers request water heater service?",
@@ -142,11 +142,11 @@ const content: CityPageContent = {
   },
   {
     "question": "Do you provide plumbing services in Hendersonville?",
-    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in Hendersonville, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in Hendersonville, TN, including lakeside neighborhoods and commercial stretches along the Hendersonville corridor. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
   },
   {
     "question": "Which plumbing services are available in Hendersonville?",
-    "answer": "Customers in Hendersonville can request drain cleaning, camera inspections, water filtration installation, water heater repairs and replacement, bathroom remodeling plumbing, and water and sewer excavation repairs."
+    "answer": "Customers in Hendersonville can request drain cleaning, camera inspections, water filtration system installation, water heater repairs and replacement, bathroom remodeling plumbing, water and sewer excavation repairs and replacements."
   },
   {
     "question": "How do I request a plumber in Hendersonville?",

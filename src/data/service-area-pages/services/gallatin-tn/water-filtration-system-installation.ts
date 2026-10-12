@@ -3,9 +3,9 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/gallatin-tn/water-filtration-system-installation */
 const content: CityServicePageContent = {
   "metaTitle": "Water Filtration System Installation in Gallatin, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Serving Gallatin, TN. Request water filtration system installation Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Serving Gallatin, TN — homes and businesses around Gallatin’s town center and nearby Sumner County roads. Request water filtration system installation Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Professional water filtration system installation for Gallatin",
-  "heroDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Swift Flo Plumbing Services provides water filtration system installation for homeowners and businesses throughout Gallatin, TN. Call 629-238-8322 or request service online.",
+  "heroDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Swift Flo Plumbing Services provides water filtration system installation for homeowners and businesses throughout homes and businesses around Gallatin’s town center and nearby Sumner County roads. Call 629-238-8322 or request service online.",
   "highlights": [
     {
       "title": "Local requests",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Water Filtration System Installation for Gallatin homes and businesses",
-  "aboutDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Customers in Gallatin can request water filtration system installation online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Customers across homes and businesses around Gallatin’s town center and nearby Sumner County roads can request water filtration system installation online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Gallatin, TN with a straightforward way to request water filtration system installation. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Water Filtration System Installation",
   "servicesDescription": "While this page focuses on water filtration system installation in Gallatin, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request water filtration system installation in Gallatin",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule water filtration system installation in Gallatin, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Water Filtration System Installation overview in Gallatin",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water filtration system installation clear and local for customers in Gallatin, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water filtration system installation clear and local for customers across homes and businesses around Gallatin’s town center and nearby Sumner County roads.",
   "overviewPoints": [
     "Professional water filtration system installation for Gallatin customers",
-    "Residential and commercial support",
+    "Coverage across homes and businesses around Gallatin’s town center and nearby Sumner County roads",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Install water filtration systems suited to your property.",
     "Support cleaner water for drinking, cooking, and household use."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for water filtration system installation in Gallatin",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for water filtration system installation throughout Gallatin, TN.",
+  "whyDescription": "Local coverage across homes and businesses around Gallatin’s town center and nearby Sumner County roads, professional plumbing service, and a clear request process for water filtration system installation.",
   "whyReasons": [
     {
       "title": "Gallatin availability",
-      "text": "Water Filtration System Installation is available for customers throughout Gallatin, TN.",
+      "text": "Water Filtration System Installation is available for customers throughout homes and businesses around Gallatin’s town center and nearby Sumner County roads.",
       "icon": "pin"
     },
     {
@@ -109,7 +109,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide water filtration system installation in Gallatin?",
-      "answer": "Yes. Swift Flo Plumbing Services provides water filtration system installation for customers in Gallatin, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides water filtration system installation for customers in Gallatin, TN, including homes and businesses around Gallatin’s town center and nearby Sumner County roads. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does water filtration system installation include for Gallatin customers?",
@@ -133,11 +133,11 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Gallatin?",
-      "answer": "Yes. In addition to water filtration system installation, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Gallatin, TN."
+      "answer": "Yes. In addition to water filtration system installation, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Gallatin, TN."
     },
     {
       "question": "Why choose Swift Flo for water filtration system installation in Gallatin?",
-      "answer": "Gallatin is part of our confirmed coverage. Customers receive professional water filtration system installation, clear communication, and a straightforward request process."
+      "answer": "Gallatin is part of our confirmed coverage spanning homes and businesses around Gallatin’s town center and nearby Sumner County roads. Customers receive professional water filtration system installation, clear communication, and a straightforward request process."
     }
   ],
   "heroImage": {

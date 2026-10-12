@@ -3,9 +3,9 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/lebanon-tn/water-filtration-system-installation */
 const content: CityServicePageContent = {
   "metaTitle": "Water Filtration System Installation in Lebanon, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Serving Lebanon, TN. Request water filtration system installation Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Serving Lebanon, TN — Wilson County neighborhoods and commercial properties around Lebanon’s city core. Request water filtration system installation Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Professional water filtration system installation for Lebanon",
-  "heroDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Swift Flo Plumbing Services provides water filtration system installation for homeowners and businesses throughout Lebanon, TN. Call 629-238-8322 or request service online.",
+  "heroDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Swift Flo Plumbing Services provides water filtration system installation for homeowners and businesses throughout Wilson County neighborhoods and commercial properties around Lebanon’s city core. Call 629-238-8322 or request service online.",
   "highlights": [
     {
       "title": "Local requests",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Water Filtration System Installation for Lebanon homes and businesses",
-  "aboutDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Customers in Lebanon can request water filtration system installation online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Customers across Wilson County neighborhoods and commercial properties around Lebanon’s city core can request water filtration system installation online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Lebanon, TN with a straightforward way to request water filtration system installation. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Water Filtration System Installation",
   "servicesDescription": "While this page focuses on water filtration system installation in Lebanon, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request water filtration system installation in Lebanon",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule water filtration system installation in Lebanon, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Water Filtration System Installation overview in Lebanon",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water filtration system installation clear and local for customers in Lebanon, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water filtration system installation clear and local for customers across Wilson County neighborhoods and commercial properties around Lebanon’s city core.",
   "overviewPoints": [
     "Professional water filtration system installation for Lebanon customers",
-    "Residential and commercial support",
+    "Coverage across Wilson County neighborhoods and commercial properties around Lebanon’s city core",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Install water filtration systems suited to your property.",
     "Support cleaner water for drinking, cooking, and household use."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for water filtration system installation in Lebanon",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for water filtration system installation throughout Lebanon, TN.",
+  "whyDescription": "Local coverage across Wilson County neighborhoods and commercial properties around Lebanon’s city core, professional plumbing service, and a clear request process for water filtration system installation.",
   "whyReasons": [
     {
       "title": "Lebanon availability",
-      "text": "Water Filtration System Installation is available for customers throughout Lebanon, TN.",
+      "text": "Water Filtration System Installation is available for customers throughout Wilson County neighborhoods and commercial properties around Lebanon’s city core.",
       "icon": "pin"
     },
     {
@@ -97,19 +97,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Lebanon?",
-      "answer": "Yes. In addition to water filtration system installation, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Lebanon, TN."
+      "answer": "Yes. In addition to water filtration system installation, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Lebanon, TN."
     },
     {
       "question": "Why choose Swift Flo for water filtration system installation in Lebanon?",
-      "answer": "Lebanon is part of our confirmed coverage. Customers receive professional water filtration system installation, clear communication, and a straightforward request process."
+      "answer": "Lebanon is part of our confirmed coverage spanning Wilson County neighborhoods and commercial properties around Lebanon’s city core. Customers receive professional water filtration system installation, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need water filtration system installation in Lebanon?",
-      "answer": "Common reasons include cleaner household water. If you are seeing related symptoms at a Lebanon property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include cleaner household water. If you are seeing related symptoms at a Lebanon property near Wilson County neighborhoods and commercial properties around Lebanon’s city core, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is water filtration system installation available for commercial properties in Lebanon?",
-      "answer": "Yes. Homes and businesses in Lebanon can request water filtration system installation during published business hours."
+      "answer": "Yes. Homes and businesses across Wilson County neighborhoods and commercial properties around Lebanon’s city core can request water filtration system installation during published business hours."
     },
     {
       "question": "How do Lebanon customers prepare for water filtration system installation?",
@@ -129,7 +129,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide water filtration system installation in Lebanon?",
-      "answer": "Yes. Swift Flo Plumbing Services provides water filtration system installation for customers in Lebanon, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides water filtration system installation for customers in Lebanon, TN, including Wilson County neighborhoods and commercial properties around Lebanon’s city core. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does water filtration system installation include for Lebanon customers?",

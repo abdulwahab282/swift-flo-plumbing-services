@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/lebanon-tn/camera-inspections */
 const content: CityServicePageContent = {
   "metaTitle": "Camera Inspections in Lebanon, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving Lebanon, TN. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving Lebanon, TN — Wilson County neighborhoods and commercial properties around Lebanon’s city core. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Camera Inspections in Lebanon, TN",
-  "heroDescription": "Need help with hidden pipe conditions in Lebanon? Swift Flo Plumbing Services handles video inspection of drain and sewer lines to locate blockages and damage during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
+  "heroDescription": "Need help with hidden pipe conditions in Lebanon? Swift Flo Plumbing Services handles video inspection of drain and sewer lines to locate blockages and damage across Wilson County neighborhoods and commercial properties around Lebanon’s city core during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
   "highlights": [
     {
       "title": "Lebanon coverage",
-      "text": "Professional camera inspections arranged for customers throughout Lebanon, TN."
+      "text": "Professional camera inspections arranged for customers throughout Wilson County neighborhoods and commercial properties around Lebanon’s city core."
     },
     {
       "title": "Dependable results",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Camera Inspections for Lebanon homes and businesses",
-  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers in Lebanon can request camera inspections online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers across Wilson County neighborhoods and commercial properties around Lebanon’s city core can request camera inspections online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Lebanon, TN with a straightforward way to request camera inspections. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Camera Inspections",
   "servicesDescription": "While this page focuses on camera inspections in Lebanon, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request camera inspections in Lebanon",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule camera inspections in Lebanon, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Camera Inspections overview in Lebanon",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers in Lebanon, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers across Wilson County neighborhoods and commercial properties around Lebanon’s city core.",
   "overviewPoints": [
     "Professional camera inspections for Lebanon customers",
-    "Residential and commercial support",
+    "Coverage across Wilson County neighborhoods and commercial properties around Lebanon’s city core",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Inspect drain and sewer lines with video camera equipment.",
     "Help pinpoint the location and nature of plumbing issues."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for camera inspections in Lebanon",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for camera inspections throughout Lebanon, TN.",
+  "whyDescription": "Local coverage across Wilson County neighborhoods and commercial properties around Lebanon’s city core, professional plumbing service, and a clear request process for camera inspections.",
   "whyReasons": [
     {
       "title": "Lebanon availability",
-      "text": "Camera Inspections is available for customers throughout Lebanon, TN.",
+      "text": "Camera Inspections is available for customers throughout Wilson County neighborhoods and commercial properties around Lebanon’s city core.",
       "icon": "pin"
     },
     {
@@ -105,19 +105,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Lebanon?",
-      "answer": "Yes. In addition to camera inspections, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Lebanon, TN."
+      "answer": "Yes. In addition to camera inspections, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Lebanon, TN."
     },
     {
       "question": "Why choose Swift Flo for camera inspections in Lebanon?",
-      "answer": "Lebanon is part of our confirmed coverage. Customers receive professional camera inspections, clear communication, and a straightforward request process."
+      "answer": "Lebanon is part of our confirmed coverage spanning Wilson County neighborhoods and commercial properties around Lebanon’s city core. Customers receive professional camera inspections, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need camera inspections in Lebanon?",
-      "answer": "Common reasons include hidden pipe conditions. If you are seeing related symptoms at a Lebanon property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include hidden pipe conditions. If you are seeing related symptoms at a Lebanon property near Wilson County neighborhoods and commercial properties around Lebanon’s city core, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is camera inspections available for commercial properties in Lebanon?",
-      "answer": "Yes. Homes and businesses in Lebanon can request camera inspections during published business hours."
+      "answer": "Yes. Homes and businesses across Wilson County neighborhoods and commercial properties around Lebanon’s city core can request camera inspections during published business hours."
     },
     {
       "question": "How do Lebanon customers prepare for camera inspections?",
@@ -137,7 +137,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide camera inspections in Lebanon?",
-      "answer": "Yes. Swift Flo Plumbing Services provides camera inspections for customers in Lebanon, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides camera inspections for customers in Lebanon, TN, including Wilson County neighborhoods and commercial properties around Lebanon’s city core. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     }
   ],
   "heroImage": {

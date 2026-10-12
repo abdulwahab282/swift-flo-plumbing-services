@@ -3,7 +3,7 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/brentwood-tn/camera-inspections */
 const content: CityServicePageContent = {
   "metaTitle": "Camera Inspections in Brentwood, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving Brentwood, TN. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving Brentwood, TN — residential streets and commercial corridors near Cool Springs and Maryland Farms. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Professional camera inspections for Brentwood",
   "heroDescription": "Brentwood customers can request camera inspections with a clear description of the issue. Swift Flo Plumbing Services follows up with next steps for service in Brentwood, TN.",
   "highlights": [
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Camera Inspections for Brentwood homes and businesses",
-  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers in Brentwood can request camera inspections online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers across residential streets and commercial corridors near Cool Springs and Maryland Farms can request camera inspections online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Brentwood, TN with a straightforward way to request camera inspections. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Camera Inspections",
   "servicesDescription": "While this page focuses on camera inspections in Brentwood, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request camera inspections in Brentwood",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule camera inspections in Brentwood, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Camera Inspections overview in Brentwood",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers in Brentwood, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers across residential streets and commercial corridors near Cool Springs and Maryland Farms.",
   "overviewPoints": [
     "Professional camera inspections for Brentwood customers",
-    "Residential and commercial support",
+    "Coverage across residential streets and commercial corridors near Cool Springs and Maryland Farms",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Inspect drain and sewer lines with video camera equipment.",
     "Help pinpoint the location and nature of plumbing issues."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for camera inspections in Brentwood",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for camera inspections throughout Brentwood, TN.",
+  "whyDescription": "Local coverage across residential streets and commercial corridors near Cool Springs and Maryland Farms, professional plumbing service, and a clear request process for camera inspections.",
   "whyReasons": [
     {
       "title": "Brentwood availability",
-      "text": "Camera Inspections is available for customers throughout Brentwood, TN.",
+      "text": "Camera Inspections is available for customers throughout residential streets and commercial corridors near Cool Springs and Maryland Farms.",
       "icon": "pin"
     },
     {
@@ -109,19 +109,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Brentwood?",
-      "answer": "Yes. In addition to camera inspections, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Brentwood, TN."
+      "answer": "Yes. In addition to camera inspections, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Brentwood, TN."
     },
     {
       "question": "Why choose Swift Flo for camera inspections in Brentwood?",
-      "answer": "Brentwood is part of our confirmed coverage. Customers receive professional camera inspections, clear communication, and a straightforward request process."
+      "answer": "Brentwood is part of our confirmed coverage spanning residential streets and commercial corridors near Cool Springs and Maryland Farms. Customers receive professional camera inspections, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need camera inspections in Brentwood?",
-      "answer": "Common reasons include hidden pipe conditions. If you are seeing related symptoms at a Brentwood property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include hidden pipe conditions. If you are seeing related symptoms at a Brentwood property near residential streets and commercial corridors near Cool Springs and Maryland Farms, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is camera inspections available for commercial properties in Brentwood?",
-      "answer": "Yes. Homes and businesses in Brentwood can request camera inspections during published business hours."
+      "answer": "Yes. Homes and businesses across residential streets and commercial corridors near Cool Springs and Maryland Farms can request camera inspections during published business hours."
     },
     {
       "question": "How do Brentwood customers prepare for camera inspections?",

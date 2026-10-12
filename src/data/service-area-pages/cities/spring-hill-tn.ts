@@ -3,14 +3,14 @@ import type { CityPageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/spring-hill-tn */
 const content: CityPageContent = {
   metaTitle: "Plumbing Services in Spring Hill, TN | Swift Flo Plumbing Services",
-  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in Spring Hill, TN. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in Spring Hill, TN. Serving Spring Hill subdivisions spanning Maury and Williamson County growth areas. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   heroTitle: "Professional plumbing services in Spring Hill.",
-  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for homes and businesses that need reliable plumbing support throughout the week in Spring Hill, Tennessee. Request help with plumbing repairs and installations scheduled around a typical work week through the contact form or by calling 629-238-8322.",
+  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for homes and businesses that need reliable plumbing support throughout the week across Spring Hill subdivisions spanning Maury and Williamson County growth areas. Request help with plumbing repairs and installations scheduled around a typical work week through the contact form or by calling 629-238-8322.",
   summary: "Professional plumbing service for homeowners and businesses in Spring Hill, TN.",
   whyLocal: [
   {
     "title": "Serving Spring Hill",
-    "text": "Spring Hill is a confirmed service area for Swift Flo Plumbing Services, giving local customers a direct way to request professional plumbing work."
+    "text": "Spring Hill is a confirmed service area for Swift Flo Plumbing Services, covering Spring Hill subdivisions spanning Maury and Williamson County growth areas."
   },
   {
     "title": "Easy service requests",
@@ -23,7 +23,7 @@ const content: CityPageContent = {
 ],
   about: {
     title: "Professional plumbing for Spring Hill homes and businesses.",
-    description: "Swift Flo Plumbing Services serves Spring Hill with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout Spring Hill, TN can request service during published hours.",
+    description: "Swift Flo Plumbing Services serves Spring Hill with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout Spring Hill subdivisions spanning Maury and Williamson County growth areas can request service during published hours.",
   },
   services: {
     title: "Plumbing services available in Spring Hill",
@@ -31,7 +31,7 @@ const content: CityPageContent = {
   },
   overview: {
     title: "How plumbing service works in Spring Hill",
-    description: "From the first request through completion, Spring Hill customers receive clear next steps, professional workmanship, and scheduling within published hours.",
+    description: "From the first request through completion, Spring Hill customers across Spring Hill subdivisions spanning Maury and Williamson County growth areas receive clear next steps, professional workmanship, and scheduling within published hours.",
   },
   details: {
     title: "What Spring Hill customers can expect",
@@ -39,7 +39,7 @@ const content: CityPageContent = {
     points: [
   {
     "title": "Confirmed coverage",
-    "text": "Professional plumbing service is available for customers throughout Spring Hill, Tennessee."
+    "text": "Professional plumbing service is available throughout Spring Hill subdivisions spanning Maury and Williamson County growth areas."
   },
   {
     "title": "Quality-focused visits",
@@ -69,7 +69,7 @@ const content: CityPageContent = {
     reasons: [
   {
     "title": "Local coverage",
-    "text": "Spring Hill is included in our confirmed Middle Tennessee service areas.",
+    "text": "Spring Hill is included in our confirmed Middle Tennessee service areas, including Spring Hill subdivisions spanning Maury and Williamson County growth areas.",
     "icon": "pin"
   },
   {
@@ -106,7 +106,7 @@ const content: CityPageContent = {
   faqs: [
   {
     "question": "Do you handle drain cleaning in Spring Hill?",
-    "answer": "Yes. Drain cleaning is available for Spring Hill customers along with the rest of our confirmed plumbing services."
+    "answer": "Yes. Drain cleaning is available for Spring Hill customers along with the rest of our confirmed plumbing services for this city."
   },
   {
     "question": "Can Spring Hill customers request water heater service?",
@@ -114,11 +114,11 @@ const content: CityPageContent = {
   },
   {
     "question": "Do you provide plumbing services in Spring Hill?",
-    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in Spring Hill, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in Spring Hill, TN, including Spring Hill subdivisions spanning Maury and Williamson County growth areas. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
   },
   {
     "question": "Which plumbing services are available in Spring Hill?",
-    "answer": "Customers in Spring Hill can request drain cleaning, camera inspections, water filtration installation, water heater repairs and replacement, bathroom remodeling plumbing, and water and sewer excavation repairs."
+    "answer": "Customers in Spring Hill can request drain cleaning, camera inspections, water filtration system installation, water heater repairs and replacement, bathroom remodeling plumbing, water and sewer excavation repairs and replacements."
   },
   {
     "question": "How do I request a plumber in Spring Hill?",
@@ -130,7 +130,7 @@ const content: CityPageContent = {
   },
   {
     "question": "Do you serve both homes and businesses in Spring Hill?",
-    "answer": "Yes. Residential and commercial customers in Spring Hill can request professional plumbing service."
+    "answer": "Yes. Residential and commercial customers in Spring Hill can request professional plumbing service across Spring Hill subdivisions spanning Maury and Williamson County growth areas."
   },
   {
     "question": "Can I get a free quote for plumbing work in Spring Hill?",
@@ -150,7 +150,7 @@ const content: CityPageContent = {
   },
   {
     "question": "Why choose Swift Flo Plumbing Services in Spring Hill?",
-    "answer": "Spring Hill is a confirmed service area. Customers get professional plumbing work, clear communication, and a straightforward request process from inquiry through completion."
+    "answer": "Spring Hill is a confirmed service area covering Spring Hill subdivisions spanning Maury and Williamson County growth areas. Customers get professional plumbing work, clear communication, and a straightforward request process."
   }
 ],
   serviceNotes: [

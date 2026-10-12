@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/la-vergne-tn/bathroom-remodeling */
 const content: CityServicePageContent = {
   "metaTitle": "Bathroom Remodeling in La Vergne, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving La Vergne, TN. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving La Vergne, TN — residential communities and light industrial areas between Nashville and Murfreesboro. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "La Vergne Bathroom Remodeling from Swift Flo",
-  "heroDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Swift Flo Plumbing Services provides bathroom remodeling plumbing for homeowners and businesses throughout La Vergne, TN. Call 629-238-8322 or request service online.",
+  "heroDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Swift Flo Plumbing Services provides bathroom remodeling plumbing for homeowners and businesses throughout residential communities and light industrial areas between Nashville and Murfreesboro. Call 629-238-8322 or request service online.",
   "highlights": [
     {
       "title": "Homes and businesses",
-      "text": "Residential and commercial bathroom remodeling plumbing requests are accepted in La Vergne."
+      "text": "Residential and commercial bathroom remodeling plumbing requests are accepted across residential communities and light industrial areas between Nashville and Murfreesboro."
     },
     {
       "title": "Prepared visits",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Bathroom Remodeling for La Vergne homes and businesses",
-  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers in La Vergne can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers across residential communities and light industrial areas between Nashville and Murfreesboro can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves La Vergne, TN with a straightforward way to request bathroom remodeling plumbing. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Bathroom Remodeling",
   "servicesDescription": "While this page focuses on bathroom remodeling plumbing in La Vergne, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request bathroom remodeling plumbing in La Vergne",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule bathroom remodeling plumbing in La Vergne, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Bathroom Remodeling overview in La Vergne",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers in La Vergne, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers across residential communities and light industrial areas between Nashville and Murfreesboro.",
   "overviewPoints": [
     "Professional bathroom remodeling plumbing for La Vergne customers",
-    "Residential and commercial support",
+    "Coverage across residential communities and light industrial areas between Nashville and Murfreesboro",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Install and connect bathroom fixtures with care.",
     "Support plumbing needs during bathroom remodel projects."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for bathroom remodeling plumbing in La Vergne",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for bathroom remodeling plumbing throughout La Vergne, TN.",
+  "whyDescription": "Local coverage across residential communities and light industrial areas between Nashville and Murfreesboro, professional plumbing service, and a clear request process for bathroom remodeling plumbing.",
   "whyReasons": [
     {
       "title": "La Vergne availability",
-      "text": "Bathroom Remodeling is available for customers throughout La Vergne, TN.",
+      "text": "Bathroom Remodeling is available for customers throughout residential communities and light industrial areas between Nashville and Murfreesboro.",
       "icon": "pin"
     },
     {
@@ -93,19 +93,19 @@ const content: CityServicePageContent = {
   "faqs": [
     {
       "question": "Are related plumbing services available in La Vergne?",
-      "answer": "Yes. In addition to bathroom remodeling plumbing, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in La Vergne, TN."
+      "answer": "Yes. In addition to bathroom remodeling plumbing, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in La Vergne, TN."
     },
     {
       "question": "Why choose Swift Flo for bathroom remodeling plumbing in La Vergne?",
-      "answer": "La Vergne is part of our confirmed coverage. Customers receive professional bathroom remodeling plumbing, clear communication, and a straightforward request process."
+      "answer": "La Vergne is part of our confirmed coverage spanning residential communities and light industrial areas between Nashville and Murfreesboro. Customers receive professional bathroom remodeling plumbing, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need bathroom remodeling plumbing in La Vergne?",
-      "answer": "Common reasons include fixture and remodel plumbing. If you are seeing related symptoms at a La Vergne property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include fixture and remodel plumbing. If you are seeing related symptoms at a La Vergne property near residential communities and light industrial areas between Nashville and Murfreesboro, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is bathroom remodeling plumbing available for commercial properties in La Vergne?",
-      "answer": "Yes. Homes and businesses in La Vergne can request bathroom remodeling plumbing during published business hours."
+      "answer": "Yes. Homes and businesses across residential communities and light industrial areas between Nashville and Murfreesboro can request bathroom remodeling plumbing during published business hours."
     },
     {
       "question": "How do La Vergne customers prepare for bathroom remodeling plumbing?",
@@ -125,7 +125,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide bathroom remodeling plumbing in La Vergne?",
-      "answer": "Yes. Swift Flo Plumbing Services provides bathroom remodeling plumbing for customers in La Vergne, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides bathroom remodeling plumbing for customers in La Vergne, TN, including residential communities and light industrial areas between Nashville and Murfreesboro. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does bathroom remodeling plumbing include for La Vergne customers?",

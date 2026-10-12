@@ -3,14 +3,14 @@ import type { CityPageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/la-vergne-tn */
 const content: CityPageContent = {
   metaTitle: "Plumbing Services in La Vergne, TN | Swift Flo Plumbing Services",
-  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in La Vergne, TN. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in La Vergne, TN. Serving residential communities and light industrial areas between Nashville and Murfreesboro. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   heroTitle: "Professional plumbing services in La Vergne.",
-  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for customers who prefer clear communication from the first request through completion in La Vergne, Tennessee. Request help with fixture issues, drainage problems, and underground line concerns through the contact form or by calling 629-238-8322.",
+  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for customers who prefer clear communication from the first request through completion across residential communities and light industrial areas between Nashville and Murfreesboro. Request help with fixture issues, drainage problems, and underground line concerns through the contact form or by calling 629-238-8322.",
   summary: "Professional plumbing service for homeowners and businesses in La Vergne, TN.",
   whyLocal: [
   {
     "title": "Serving La Vergne",
-    "text": "La Vergne is a confirmed service area for Swift Flo Plumbing Services, giving local customers a direct way to request professional plumbing work."
+    "text": "La Vergne is a confirmed service area for Swift Flo Plumbing Services, covering residential communities and light industrial areas between Nashville and Murfreesboro."
   },
   {
     "title": "Easy service requests",
@@ -23,7 +23,7 @@ const content: CityPageContent = {
 ],
   about: {
     title: "Professional plumbing for La Vergne homes and businesses.",
-    description: "Swift Flo Plumbing Services serves La Vergne with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout La Vergne, TN can request service during published hours.",
+    description: "Swift Flo Plumbing Services serves La Vergne with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout residential communities and light industrial areas between Nashville and Murfreesboro can request service during published hours.",
   },
   services: {
     title: "Plumbing services available in La Vergne",
@@ -31,7 +31,7 @@ const content: CityPageContent = {
   },
   overview: {
     title: "How plumbing service works in La Vergne",
-    description: "From the first request through completion, La Vergne customers receive clear next steps, professional workmanship, and scheduling within published hours.",
+    description: "From the first request through completion, La Vergne customers across residential communities and light industrial areas between Nashville and Murfreesboro receive clear next steps, professional workmanship, and scheduling within published hours.",
   },
   details: {
     title: "What La Vergne customers can expect",
@@ -39,7 +39,7 @@ const content: CityPageContent = {
     points: [
   {
     "title": "Confirmed coverage",
-    "text": "Professional plumbing service is available for customers throughout La Vergne, Tennessee."
+    "text": "Professional plumbing service is available throughout residential communities and light industrial areas between Nashville and Murfreesboro."
   },
   {
     "title": "Quality-focused visits",
@@ -69,7 +69,7 @@ const content: CityPageContent = {
     reasons: [
   {
     "title": "Local coverage",
-    "text": "La Vergne is included in our confirmed Middle Tennessee service areas.",
+    "text": "La Vergne is included in our confirmed Middle Tennessee service areas, including residential communities and light industrial areas between Nashville and Murfreesboro.",
     "icon": "pin"
   },
   {
@@ -106,7 +106,7 @@ const content: CityPageContent = {
   faqs: [
   {
     "question": "Do you serve both homes and businesses in La Vergne?",
-    "answer": "Yes. Residential and commercial customers in La Vergne can request professional plumbing service."
+    "answer": "Yes. Residential and commercial customers in La Vergne can request professional plumbing service across residential communities and light industrial areas between Nashville and Murfreesboro."
   },
   {
     "question": "Can I get a free quote for plumbing work in La Vergne?",
@@ -126,11 +126,11 @@ const content: CityPageContent = {
   },
   {
     "question": "Why choose Swift Flo Plumbing Services in La Vergne?",
-    "answer": "La Vergne is a confirmed service area. Customers get professional plumbing work, clear communication, and a straightforward request process from inquiry through completion."
+    "answer": "La Vergne is a confirmed service area covering residential communities and light industrial areas between Nashville and Murfreesboro. Customers get professional plumbing work, clear communication, and a straightforward request process."
   },
   {
     "question": "Do you handle drain cleaning in La Vergne?",
-    "answer": "Yes. Drain cleaning is available for La Vergne customers along with the rest of our confirmed plumbing services."
+    "answer": "Yes. Drain cleaning is available for La Vergne customers along with the rest of our confirmed plumbing services for this city."
   },
   {
     "question": "Can La Vergne customers request water heater service?",
@@ -138,11 +138,11 @@ const content: CityPageContent = {
   },
   {
     "question": "Do you provide plumbing services in La Vergne?",
-    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in La Vergne, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in La Vergne, TN, including residential communities and light industrial areas between Nashville and Murfreesboro. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
   },
   {
     "question": "Which plumbing services are available in La Vergne?",
-    "answer": "Customers in La Vergne can request drain cleaning, camera inspections, water filtration installation, water heater repairs and replacement, bathroom remodeling plumbing, and water and sewer excavation repairs."
+    "answer": "Customers in La Vergne can request drain cleaning, camera inspections, water filtration system installation, water heater repairs and replacement, bathroom remodeling plumbing, water and sewer excavation repairs and replacements."
   },
   {
     "question": "How do I request a plumber in La Vergne?",

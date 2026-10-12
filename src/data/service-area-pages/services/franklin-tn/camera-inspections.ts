@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/franklin-tn/camera-inspections */
 const content: CityServicePageContent = {
   "metaTitle": "Camera Inspections in Franklin, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving Franklin, TN. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving Franklin, TN — historic downtown Franklin plus growing neighborhoods across Williamson County. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Franklin Camera Inspections from Swift Flo",
-  "heroDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Swift Flo Plumbing Services provides camera inspections for homeowners and businesses throughout Franklin, TN. Call 629-238-8322 or request service online.",
+  "heroDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Swift Flo Plumbing Services provides camera inspections for homeowners and businesses throughout historic downtown Franklin plus growing neighborhoods across Williamson County. Call 629-238-8322 or request service online.",
   "highlights": [
     {
       "title": "Homes and businesses",
-      "text": "Residential and commercial camera inspections requests are accepted in Franklin."
+      "text": "Residential and commercial camera inspections requests are accepted across historic downtown Franklin plus growing neighborhoods across Williamson County."
     },
     {
       "title": "Prepared visits",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Camera Inspections for Franklin homes and businesses",
-  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers in Franklin can request camera inspections online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers across historic downtown Franklin plus growing neighborhoods across Williamson County can request camera inspections online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Franklin, TN with a straightforward way to request camera inspections. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Camera Inspections",
   "servicesDescription": "While this page focuses on camera inspections in Franklin, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request camera inspections in Franklin",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule camera inspections in Franklin, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Camera Inspections overview in Franklin",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers in Franklin, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers across historic downtown Franklin plus growing neighborhoods across Williamson County.",
   "overviewPoints": [
     "Professional camera inspections for Franklin customers",
-    "Residential and commercial support",
+    "Coverage across historic downtown Franklin plus growing neighborhoods across Williamson County",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Inspect drain and sewer lines with video camera equipment.",
     "Help pinpoint the location and nature of plumbing issues."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for camera inspections in Franklin",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for camera inspections throughout Franklin, TN.",
+  "whyDescription": "Local coverage across historic downtown Franklin plus growing neighborhoods across Williamson County, professional plumbing service, and a clear request process for camera inspections.",
   "whyReasons": [
     {
       "title": "Franklin availability",
-      "text": "Camera Inspections is available for customers throughout Franklin, TN.",
+      "text": "Camera Inspections is available for customers throughout historic downtown Franklin plus growing neighborhoods across Williamson County.",
       "icon": "pin"
     },
     {
@@ -97,19 +97,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Franklin?",
-      "answer": "Yes. In addition to camera inspections, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Franklin, TN."
+      "answer": "Yes. In addition to camera inspections, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Franklin, TN."
     },
     {
       "question": "Why choose Swift Flo for camera inspections in Franklin?",
-      "answer": "Franklin is part of our confirmed coverage. Customers receive professional camera inspections, clear communication, and a straightforward request process."
+      "answer": "Franklin is part of our confirmed coverage spanning historic downtown Franklin plus growing neighborhoods across Williamson County. Customers receive professional camera inspections, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need camera inspections in Franklin?",
-      "answer": "Common reasons include hidden pipe conditions. If you are seeing related symptoms at a Franklin property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include hidden pipe conditions. If you are seeing related symptoms at a Franklin property near historic downtown Franklin plus growing neighborhoods across Williamson County, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is camera inspections available for commercial properties in Franklin?",
-      "answer": "Yes. Homes and businesses in Franklin can request camera inspections during published business hours."
+      "answer": "Yes. Homes and businesses across historic downtown Franklin plus growing neighborhoods across Williamson County can request camera inspections during published business hours."
     },
     {
       "question": "How do Franklin customers prepare for camera inspections?",
@@ -129,7 +129,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide camera inspections in Franklin?",
-      "answer": "Yes. Swift Flo Plumbing Services provides camera inspections for customers in Franklin, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides camera inspections for customers in Franklin, TN, including historic downtown Franklin plus growing neighborhoods across Williamson County. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does camera inspections include for Franklin customers?",

@@ -32,7 +32,7 @@ const content: ServiceHubPageContent = {
   },
   servicesSection: {
     title: "Related plumbing services",
-    description: "While this hub focuses on bathroom remodeling plumbing, Swift Flo Plumbing Services also provides drain cleaning, camera inspections, water filtration installation, water heater service, bathroom remodeling plumbing, and water and sewer excavation repairs across Middle Tennessee.",
+    description: "While this hub focuses on bathroom remodeling plumbing, Swift Flo Plumbing Services also provides additional confirmed plumbing services across Middle Tennessee.",
   },
   cta: {
     title: "Request bathroom remodeling plumbing",
@@ -85,7 +85,7 @@ const content: ServiceHubPageContent = {
   faqs: [
   {
     "question": "Where is bathroom remodeling plumbing available?",
-    "answer": "Swift Flo Plumbing Services provides bathroom remodeling plumbing across 12 confirmed communities in Nashville and Middle Tennessee, including Franklin, Gallatin, Hendersonville, La Vergne, Lebanon."
+    "answer": "Swift Flo Plumbing Services provides bathroom remodeling plumbing across 12 confirmed communities in Nashville and Middle Tennessee, including La Vergne, Lebanon, Mt. Juliet, Murfreesboro, Nashville."
   },
   {
     "question": "How do I find bathroom remodeling plumbing near me?",

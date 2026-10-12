@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/nashville-tn/drain-cleaning */
 const content: CityServicePageContent = {
   "metaTitle": "Drain Cleaning in Nashville, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Serving Nashville, TN. Request drain cleaning Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Serving Nashville, TN — Nashville neighborhoods and commercial districts across Davidson County service requests. Request drain cleaning Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Nashville Drain Cleaning from Swift Flo",
   "heroDescription": "Nashville customers can request drain cleaning with a clear description of the issue. Swift Flo Plumbing Services follows up with next steps for service in Nashville, TN.",
   "highlights": [
     {
       "title": "Homes and businesses",
-      "text": "Residential and commercial drain cleaning requests are accepted in Nashville."
+      "text": "Residential and commercial drain cleaning requests are accepted across Nashville neighborhoods and commercial districts across Davidson County service requests."
     },
     {
       "title": "Prepared visits",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Drain Cleaning for Nashville homes and businesses",
-  "aboutDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Customers in Nashville can request drain cleaning online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Customers across Nashville neighborhoods and commercial districts across Davidson County service requests can request drain cleaning online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Nashville, TN with a straightforward way to request drain cleaning. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Drain Cleaning",
   "servicesDescription": "While this page focuses on drain cleaning in Nashville, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request drain cleaning in Nashville",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule drain cleaning in Nashville, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Drain Cleaning overview in Nashville",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps drain cleaning clear and local for customers in Nashville, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps drain cleaning clear and local for customers across Nashville neighborhoods and commercial districts across Davidson County service requests.",
   "overviewPoints": [
     "Professional drain cleaning for Nashville customers",
-    "Residential and commercial support",
+    "Coverage across Nashville neighborhoods and commercial districts across Davidson County service requests",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Clear clogged sinks, showers, tubs, and floor drains.",
     "Address slow-draining fixtures before they become larger problems."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for drain cleaning in Nashville",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for drain cleaning throughout Nashville, TN.",
+  "whyDescription": "Local coverage across Nashville neighborhoods and commercial districts across Davidson County service requests, professional plumbing service, and a clear request process for drain cleaning.",
   "whyReasons": [
     {
       "title": "Nashville availability",
-      "text": "Drain Cleaning is available for customers throughout Nashville, TN.",
+      "text": "Drain Cleaning is available for customers throughout Nashville neighborhoods and commercial districts across Davidson County service requests.",
       "icon": "pin"
     },
     {
@@ -109,7 +109,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide drain cleaning in Nashville?",
-      "answer": "Yes. Swift Flo Plumbing Services provides drain cleaning for customers in Nashville, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides drain cleaning for customers in Nashville, TN, including Nashville neighborhoods and commercial districts across Davidson County service requests. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does drain cleaning include for Nashville customers?",
@@ -133,11 +133,11 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Nashville?",
-      "answer": "Yes. In addition to drain cleaning, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Nashville, TN."
+      "answer": "Yes. In addition to drain cleaning, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Nashville, TN."
     },
     {
       "question": "Why choose Swift Flo for drain cleaning in Nashville?",
-      "answer": "Nashville is part of our confirmed coverage. Customers receive professional drain cleaning, clear communication, and a straightforward request process."
+      "answer": "Nashville is part of our confirmed coverage spanning Nashville neighborhoods and commercial districts across Davidson County service requests. Customers receive professional drain cleaning, clear communication, and a straightforward request process."
     }
   ],
   "heroImage": {

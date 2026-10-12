@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/hendersonville-tn/drain-cleaning */
 const content: CityServicePageContent = {
   "metaTitle": "Drain Cleaning in Hendersonville, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Serving Hendersonville, TN. Request drain cleaning Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Serving Hendersonville, TN — lakeside neighborhoods and commercial stretches along the Hendersonville corridor. Request drain cleaning Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Drain Cleaning in Hendersonville, TN",
-  "heroDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Swift Flo Plumbing Services provides drain cleaning for homeowners and businesses throughout Hendersonville, TN. Call 629-238-8322 or request service online.",
+  "heroDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Swift Flo Plumbing Services provides drain cleaning for homeowners and businesses throughout lakeside neighborhoods and commercial stretches along the Hendersonville corridor. Call 629-238-8322 or request service online.",
   "highlights": [
     {
       "title": "Hendersonville coverage",
-      "text": "Professional drain cleaning arranged for customers throughout Hendersonville, TN."
+      "text": "Professional drain cleaning arranged for customers throughout lakeside neighborhoods and commercial stretches along the Hendersonville corridor."
     },
     {
       "title": "Dependable results",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Drain Cleaning for Hendersonville homes and businesses",
-  "aboutDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Customers in Hendersonville can request drain cleaning online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Customers across lakeside neighborhoods and commercial stretches along the Hendersonville corridor can request drain cleaning online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Hendersonville, TN with a straightforward way to request drain cleaning. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Drain Cleaning",
   "servicesDescription": "While this page focuses on drain cleaning in Hendersonville, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request drain cleaning in Hendersonville",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule drain cleaning in Hendersonville, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Drain Cleaning overview in Hendersonville",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps drain cleaning clear and local for customers in Hendersonville, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps drain cleaning clear and local for customers across lakeside neighborhoods and commercial stretches along the Hendersonville corridor.",
   "overviewPoints": [
     "Professional drain cleaning for Hendersonville customers",
-    "Residential and commercial support",
+    "Coverage across lakeside neighborhoods and commercial stretches along the Hendersonville corridor",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Clear clogged sinks, showers, tubs, and floor drains.",
     "Address slow-draining fixtures before they become larger problems."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for drain cleaning in Hendersonville",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for drain cleaning throughout Hendersonville, TN.",
+  "whyDescription": "Local coverage across lakeside neighborhoods and commercial stretches along the Hendersonville corridor, professional plumbing service, and a clear request process for drain cleaning.",
   "whyReasons": [
     {
       "title": "Hendersonville availability",
-      "text": "Drain Cleaning is available for customers throughout Hendersonville, TN.",
+      "text": "Drain Cleaning is available for customers throughout lakeside neighborhoods and commercial stretches along the Hendersonville corridor.",
       "icon": "pin"
     },
     {
@@ -93,7 +93,7 @@ const content: CityServicePageContent = {
   "faqs": [
     {
       "question": "Is drain cleaning available for commercial properties in Hendersonville?",
-      "answer": "Yes. Homes and businesses in Hendersonville can request drain cleaning during published business hours."
+      "answer": "Yes. Homes and businesses across lakeside neighborhoods and commercial stretches along the Hendersonville corridor can request drain cleaning during published business hours."
     },
     {
       "question": "How do Hendersonville customers prepare for drain cleaning?",
@@ -113,7 +113,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide drain cleaning in Hendersonville?",
-      "answer": "Yes. Swift Flo Plumbing Services provides drain cleaning for customers in Hendersonville, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides drain cleaning for customers in Hendersonville, TN, including lakeside neighborhoods and commercial stretches along the Hendersonville corridor. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does drain cleaning include for Hendersonville customers?",
@@ -137,7 +137,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Hendersonville?",
-      "answer": "Yes. In addition to drain cleaning, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Hendersonville, TN."
+      "answer": "Yes. In addition to drain cleaning, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Hendersonville, TN."
     }
   ],
   "heroImage": {

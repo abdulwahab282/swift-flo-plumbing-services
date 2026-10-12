@@ -3,14 +3,14 @@ import type { CityPageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/mt-juliet-tn */
 const content: CityPageContent = {
   metaTitle: "Plumbing Services in Mt. Juliet, TN | Swift Flo Plumbing Services",
-  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in Mt. Juliet, TN. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in Mt. Juliet, TN. Serving growing Mt. Juliet subdivisions and Providence-area commercial addresses. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   heroTitle: "Professional plumbing services in Mt. Juliet.",
-  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for property managers and homeowners coordinating planned or urgent plumbing work in Mt. Juliet, Tennessee. Request help with residential repairs and commercial plumbing requests that need clear follow-up through the contact form or by calling 629-238-8322.",
+  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for property managers and homeowners coordinating planned or urgent plumbing work across growing Mt. Juliet subdivisions and Providence-area commercial addresses. Request help with residential repairs and commercial plumbing requests that need clear follow-up through the contact form or by calling 629-238-8322.",
   summary: "Professional plumbing service for homeowners and businesses in Mt. Juliet, TN.",
   whyLocal: [
   {
     "title": "Serving Mt. Juliet",
-    "text": "Mt. Juliet is a confirmed service area for Swift Flo Plumbing Services, giving local customers a direct way to request professional plumbing work."
+    "text": "Mt. Juliet is a confirmed service area for Swift Flo Plumbing Services, covering growing Mt. Juliet subdivisions and Providence-area commercial addresses."
   },
   {
     "title": "Straightforward requests",
@@ -23,7 +23,7 @@ const content: CityPageContent = {
 ],
   about: {
     title: "Professional plumbing for Mt. Juliet homes and businesses.",
-    description: "Swift Flo Plumbing Services serves Mt. Juliet with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout Mt. Juliet, TN can request service during published hours.",
+    description: "Swift Flo Plumbing Services serves Mt. Juliet with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout growing Mt. Juliet subdivisions and Providence-area commercial addresses can request service during published hours.",
   },
   services: {
     title: "Plumbing services available in Mt. Juliet",
@@ -31,7 +31,7 @@ const content: CityPageContent = {
   },
   overview: {
     title: "How plumbing service works in Mt. Juliet",
-    description: "From the first request through completion, Mt. Juliet customers receive clear next steps, professional workmanship, and scheduling within published hours.",
+    description: "From the first request through completion, Mt. Juliet customers across growing Mt. Juliet subdivisions and Providence-area commercial addresses receive clear next steps, professional workmanship, and scheduling within published hours.",
   },
   details: {
     title: "What Mt. Juliet customers can expect",
@@ -39,7 +39,7 @@ const content: CityPageContent = {
     points: [
   {
     "title": "Confirmed coverage",
-    "text": "Professional plumbing service is available for customers throughout Mt. Juliet, Tennessee."
+    "text": "Professional plumbing service is available throughout growing Mt. Juliet subdivisions and Providence-area commercial addresses."
   },
   {
     "title": "Professional process",
@@ -69,7 +69,7 @@ const content: CityPageContent = {
     reasons: [
   {
     "title": "Local coverage",
-    "text": "Mt. Juliet is included in our confirmed Middle Tennessee service areas.",
+    "text": "Mt. Juliet is included in our confirmed Middle Tennessee service areas, including growing Mt. Juliet subdivisions and Providence-area commercial addresses.",
     "icon": "pin"
   },
   {
@@ -118,11 +118,11 @@ const content: CityPageContent = {
   },
   {
     "question": "Why choose Swift Flo Plumbing Services in Mt. Juliet?",
-    "answer": "Mt. Juliet is a confirmed service area. Customers get professional plumbing work, clear communication, and a straightforward request process from inquiry through completion."
+    "answer": "Mt. Juliet is a confirmed service area covering growing Mt. Juliet subdivisions and Providence-area commercial addresses. Customers get professional plumbing work, clear communication, and a straightforward request process."
   },
   {
     "question": "Do you handle drain cleaning in Mt. Juliet?",
-    "answer": "Yes. Drain cleaning is available for Mt. Juliet customers along with the rest of our confirmed plumbing services."
+    "answer": "Yes. Drain cleaning is available for Mt. Juliet customers along with the rest of our confirmed plumbing services for this city."
   },
   {
     "question": "Can Mt. Juliet customers request water heater service?",
@@ -130,11 +130,11 @@ const content: CityPageContent = {
   },
   {
     "question": "Do you provide plumbing services in Mt. Juliet?",
-    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in Mt. Juliet, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in Mt. Juliet, TN, including growing Mt. Juliet subdivisions and Providence-area commercial addresses. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
   },
   {
     "question": "Which plumbing services are available in Mt. Juliet?",
-    "answer": "Customers in Mt. Juliet can request drain cleaning, camera inspections, water filtration installation, water heater repairs and replacement, bathroom remodeling plumbing, and water and sewer excavation repairs."
+    "answer": "Customers in Mt. Juliet can request drain cleaning, camera inspections, water filtration system installation, water heater repairs and replacement, bathroom remodeling plumbing, water and sewer excavation repairs and replacements."
   },
   {
     "question": "How do I request a plumber in Mt. Juliet?",
@@ -146,7 +146,7 @@ const content: CityPageContent = {
   },
   {
     "question": "Do you serve both homes and businesses in Mt. Juliet?",
-    "answer": "Yes. Residential and commercial customers in Mt. Juliet can request professional plumbing service."
+    "answer": "Yes. Residential and commercial customers in Mt. Juliet can request professional plumbing service across growing Mt. Juliet subdivisions and Providence-area commercial addresses."
   },
   {
     "question": "Can I get a free quote for plumbing work in Mt. Juliet?",

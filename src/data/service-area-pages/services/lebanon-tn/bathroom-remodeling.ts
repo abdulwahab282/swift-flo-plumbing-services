@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/lebanon-tn/bathroom-remodeling */
 const content: CityServicePageContent = {
   "metaTitle": "Bathroom Remodeling in Lebanon, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving Lebanon, TN. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving Lebanon, TN — Wilson County neighborhoods and commercial properties around Lebanon’s city core. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Bathroom Remodeling in Lebanon, TN",
-  "heroDescription": "Need help with fixture and remodel plumbing in Lebanon? Swift Flo Plumbing Services handles fixture installation and plumbing updates during bathroom remodel projects during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
+  "heroDescription": "Need help with fixture and remodel plumbing in Lebanon? Swift Flo Plumbing Services handles fixture installation and plumbing updates during bathroom remodel projects across Wilson County neighborhoods and commercial properties around Lebanon’s city core during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
   "highlights": [
     {
       "title": "Lebanon coverage",
-      "text": "Professional bathroom remodeling plumbing arranged for customers throughout Lebanon, TN."
+      "text": "Professional bathroom remodeling plumbing arranged for customers throughout Wilson County neighborhoods and commercial properties around Lebanon’s city core."
     },
     {
       "title": "Dependable results",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Bathroom Remodeling for Lebanon homes and businesses",
-  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers in Lebanon can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers across Wilson County neighborhoods and commercial properties around Lebanon’s city core can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Lebanon, TN with a straightforward way to request bathroom remodeling plumbing. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Bathroom Remodeling",
   "servicesDescription": "While this page focuses on bathroom remodeling plumbing in Lebanon, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request bathroom remodeling plumbing in Lebanon",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule bathroom remodeling plumbing in Lebanon, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Bathroom Remodeling overview in Lebanon",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers in Lebanon, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers across Wilson County neighborhoods and commercial properties around Lebanon’s city core.",
   "overviewPoints": [
     "Professional bathroom remodeling plumbing for Lebanon customers",
-    "Residential and commercial support",
+    "Coverage across Wilson County neighborhoods and commercial properties around Lebanon’s city core",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Install and connect bathroom fixtures with care.",
     "Support plumbing needs during bathroom remodel projects."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for bathroom remodeling plumbing in Lebanon",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for bathroom remodeling plumbing throughout Lebanon, TN.",
+  "whyDescription": "Local coverage across Wilson County neighborhoods and commercial properties around Lebanon’s city core, professional plumbing service, and a clear request process for bathroom remodeling plumbing.",
   "whyReasons": [
     {
       "title": "Lebanon availability",
-      "text": "Bathroom Remodeling is available for customers throughout Lebanon, TN.",
+      "text": "Bathroom Remodeling is available for customers throughout Wilson County neighborhoods and commercial properties around Lebanon’s city core.",
       "icon": "pin"
     },
     {
@@ -93,7 +93,7 @@ const content: CityServicePageContent = {
   "faqs": [
     {
       "question": "Is bathroom remodeling plumbing available for commercial properties in Lebanon?",
-      "answer": "Yes. Homes and businesses in Lebanon can request bathroom remodeling plumbing during published business hours."
+      "answer": "Yes. Homes and businesses across Wilson County neighborhoods and commercial properties around Lebanon’s city core can request bathroom remodeling plumbing during published business hours."
     },
     {
       "question": "How do Lebanon customers prepare for bathroom remodeling plumbing?",
@@ -113,7 +113,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide bathroom remodeling plumbing in Lebanon?",
-      "answer": "Yes. Swift Flo Plumbing Services provides bathroom remodeling plumbing for customers in Lebanon, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides bathroom remodeling plumbing for customers in Lebanon, TN, including Wilson County neighborhoods and commercial properties around Lebanon’s city core. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does bathroom remodeling plumbing include for Lebanon customers?",
@@ -137,7 +137,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Lebanon?",
-      "answer": "Yes. In addition to bathroom remodeling plumbing, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Lebanon, TN."
+      "answer": "Yes. In addition to bathroom remodeling plumbing, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Lebanon, TN."
     }
   ],
   "heroImage": {

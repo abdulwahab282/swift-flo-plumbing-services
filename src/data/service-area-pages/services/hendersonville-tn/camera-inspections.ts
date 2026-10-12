@@ -3,7 +3,7 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/hendersonville-tn/camera-inspections */
 const content: CityServicePageContent = {
   "metaTitle": "Camera Inspections in Hendersonville, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving Hendersonville, TN. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving Hendersonville, TN — lakeside neighborhoods and commercial stretches along the Hendersonville corridor. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Professional camera inspections for Hendersonville",
   "heroDescription": "Hendersonville customers can request camera inspections with a clear description of the issue. Swift Flo Plumbing Services follows up with next steps for service in Hendersonville, TN.",
   "highlights": [
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Camera Inspections for Hendersonville homes and businesses",
-  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers in Hendersonville can request camera inspections online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers across lakeside neighborhoods and commercial stretches along the Hendersonville corridor can request camera inspections online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Hendersonville, TN with a straightforward way to request camera inspections. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Camera Inspections",
   "servicesDescription": "While this page focuses on camera inspections in Hendersonville, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request camera inspections in Hendersonville",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule camera inspections in Hendersonville, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Camera Inspections overview in Hendersonville",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers in Hendersonville, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers across lakeside neighborhoods and commercial stretches along the Hendersonville corridor.",
   "overviewPoints": [
     "Professional camera inspections for Hendersonville customers",
-    "Residential and commercial support",
+    "Coverage across lakeside neighborhoods and commercial stretches along the Hendersonville corridor",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Inspect drain and sewer lines with video camera equipment.",
     "Help pinpoint the location and nature of plumbing issues."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for camera inspections in Hendersonville",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for camera inspections throughout Hendersonville, TN.",
+  "whyDescription": "Local coverage across lakeside neighborhoods and commercial stretches along the Hendersonville corridor, professional plumbing service, and a clear request process for camera inspections.",
   "whyReasons": [
     {
       "title": "Hendersonville availability",
-      "text": "Camera Inspections is available for customers throughout Hendersonville, TN.",
+      "text": "Camera Inspections is available for customers throughout lakeside neighborhoods and commercial stretches along the Hendersonville corridor.",
       "icon": "pin"
     },
     {
@@ -105,7 +105,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide camera inspections in Hendersonville?",
-      "answer": "Yes. Swift Flo Plumbing Services provides camera inspections for customers in Hendersonville, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides camera inspections for customers in Hendersonville, TN, including lakeside neighborhoods and commercial stretches along the Hendersonville corridor. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does camera inspections include for Hendersonville customers?",
@@ -129,15 +129,15 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Hendersonville?",
-      "answer": "Yes. In addition to camera inspections, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Hendersonville, TN."
+      "answer": "Yes. In addition to camera inspections, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Hendersonville, TN."
     },
     {
       "question": "Why choose Swift Flo for camera inspections in Hendersonville?",
-      "answer": "Hendersonville is part of our confirmed coverage. Customers receive professional camera inspections, clear communication, and a straightforward request process."
+      "answer": "Hendersonville is part of our confirmed coverage spanning lakeside neighborhoods and commercial stretches along the Hendersonville corridor. Customers receive professional camera inspections, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need camera inspections in Hendersonville?",
-      "answer": "Common reasons include hidden pipe conditions. If you are seeing related symptoms at a Hendersonville property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include hidden pipe conditions. If you are seeing related symptoms at a Hendersonville property near lakeside neighborhoods and commercial stretches along the Hendersonville corridor, describe them when you request service so we can prepare for the visit."
     }
   ],
   "heroImage": {

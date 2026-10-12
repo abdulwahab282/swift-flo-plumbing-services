@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/la-vergne-tn/camera-inspections */
 const content: CityServicePageContent = {
   "metaTitle": "Camera Inspections in La Vergne, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving La Vergne, TN. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving La Vergne, TN — residential communities and light industrial areas between Nashville and Murfreesboro. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "La Vergne Camera Inspections from Swift Flo",
-  "heroDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Swift Flo Plumbing Services provides camera inspections for homeowners and businesses throughout La Vergne, TN. Call 629-238-8322 or request service online.",
+  "heroDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Swift Flo Plumbing Services provides camera inspections for homeowners and businesses throughout residential communities and light industrial areas between Nashville and Murfreesboro. Call 629-238-8322 or request service online.",
   "highlights": [
     {
       "title": "Homes and businesses",
-      "text": "Residential and commercial camera inspections requests are accepted in La Vergne."
+      "text": "Residential and commercial camera inspections requests are accepted across residential communities and light industrial areas between Nashville and Murfreesboro."
     },
     {
       "title": "Prepared visits",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Camera Inspections for La Vergne homes and businesses",
-  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers in La Vergne can request camera inspections online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers across residential communities and light industrial areas between Nashville and Murfreesboro can request camera inspections online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves La Vergne, TN with a straightforward way to request camera inspections. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Camera Inspections",
   "servicesDescription": "While this page focuses on camera inspections in La Vergne, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request camera inspections in La Vergne",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule camera inspections in La Vergne, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Camera Inspections overview in La Vergne",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers in La Vergne, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers across residential communities and light industrial areas between Nashville and Murfreesboro.",
   "overviewPoints": [
     "Professional camera inspections for La Vergne customers",
-    "Residential and commercial support",
+    "Coverage across residential communities and light industrial areas between Nashville and Murfreesboro",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Inspect drain and sewer lines with video camera equipment.",
     "Help pinpoint the location and nature of plumbing issues."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for camera inspections in La Vergne",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for camera inspections throughout La Vergne, TN.",
+  "whyDescription": "Local coverage across residential communities and light industrial areas between Nashville and Murfreesboro, professional plumbing service, and a clear request process for camera inspections.",
   "whyReasons": [
     {
       "title": "La Vergne availability",
-      "text": "Camera Inspections is available for customers throughout La Vergne, TN.",
+      "text": "Camera Inspections is available for customers throughout residential communities and light industrial areas between Nashville and Murfreesboro.",
       "icon": "pin"
     },
     {
@@ -93,7 +93,7 @@ const content: CityServicePageContent = {
   "faqs": [
     {
       "question": "Do you provide camera inspections in La Vergne?",
-      "answer": "Yes. Swift Flo Plumbing Services provides camera inspections for customers in La Vergne, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides camera inspections for customers in La Vergne, TN, including residential communities and light industrial areas between Nashville and Murfreesboro. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does camera inspections include for La Vergne customers?",
@@ -117,19 +117,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in La Vergne?",
-      "answer": "Yes. In addition to camera inspections, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in La Vergne, TN."
+      "answer": "Yes. In addition to camera inspections, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in La Vergne, TN."
     },
     {
       "question": "Why choose Swift Flo for camera inspections in La Vergne?",
-      "answer": "La Vergne is part of our confirmed coverage. Customers receive professional camera inspections, clear communication, and a straightforward request process."
+      "answer": "La Vergne is part of our confirmed coverage spanning residential communities and light industrial areas between Nashville and Murfreesboro. Customers receive professional camera inspections, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need camera inspections in La Vergne?",
-      "answer": "Common reasons include hidden pipe conditions. If you are seeing related symptoms at a La Vergne property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include hidden pipe conditions. If you are seeing related symptoms at a La Vergne property near residential communities and light industrial areas between Nashville and Murfreesboro, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is camera inspections available for commercial properties in La Vergne?",
-      "answer": "Yes. Homes and businesses in La Vergne can request camera inspections during published business hours."
+      "answer": "Yes. Homes and businesses across residential communities and light industrial areas between Nashville and Murfreesboro can request camera inspections during published business hours."
     },
     {
       "question": "How do La Vergne customers prepare for camera inspections?",

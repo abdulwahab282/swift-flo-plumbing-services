@@ -3,14 +3,14 @@ import type { CityPageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/smyrna-tn */
 const content: CityPageContent = {
   metaTitle: "Plumbing Services in Smyrna, TN | Swift Flo Plumbing Services",
-  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in Smyrna, TN. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in Smyrna, TN. Serving Smyrna neighborhoods and commercial properties along the Nissan Drive corridor. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   heroTitle: "Professional plumbing services in Smyrna.",
-  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for local customers who want a direct request process and confirmed area coverage in Smyrna, Tennessee. Request help with service calls that require confirmed coverage and a simple request process through the contact form or by calling 629-238-8322.",
+  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for local customers who want a direct request process and confirmed area coverage across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor. Request help with service calls that require confirmed coverage and a simple request process through the contact form or by calling 629-238-8322.",
   summary: "Professional plumbing service for homeowners and businesses in Smyrna, TN.",
   whyLocal: [
   {
     "title": "Serving Smyrna",
-    "text": "Smyrna is a confirmed service area for Swift Flo Plumbing Services, giving local customers a direct way to request professional plumbing work."
+    "text": "Smyrna is a confirmed service area for Swift Flo Plumbing Services, covering Smyrna neighborhoods and commercial properties along the Nissan Drive corridor."
   },
   {
     "title": "Straightforward requests",
@@ -23,7 +23,7 @@ const content: CityPageContent = {
 ],
   about: {
     title: "Professional plumbing for Smyrna homes and businesses.",
-    description: "Swift Flo Plumbing Services serves Smyrna with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout Smyrna, TN can request service during published hours.",
+    description: "Swift Flo Plumbing Services serves Smyrna with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout Smyrna neighborhoods and commercial properties along the Nissan Drive corridor can request service during published hours.",
   },
   services: {
     title: "Plumbing services available in Smyrna",
@@ -31,7 +31,7 @@ const content: CityPageContent = {
   },
   overview: {
     title: "How plumbing service works in Smyrna",
-    description: "From the first request through completion, Smyrna customers receive clear next steps, professional workmanship, and scheduling within published hours.",
+    description: "From the first request through completion, Smyrna customers across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor receive clear next steps, professional workmanship, and scheduling within published hours.",
   },
   details: {
     title: "What Smyrna customers can expect",
@@ -39,7 +39,7 @@ const content: CityPageContent = {
     points: [
   {
     "title": "Confirmed coverage",
-    "text": "Professional plumbing service is available for customers throughout Smyrna, Tennessee."
+    "text": "Professional plumbing service is available throughout Smyrna neighborhoods and commercial properties along the Nissan Drive corridor."
   },
   {
     "title": "Professional process",
@@ -69,7 +69,7 @@ const content: CityPageContent = {
     reasons: [
   {
     "title": "Local coverage",
-    "text": "Smyrna is included in our confirmed Middle Tennessee service areas.",
+    "text": "Smyrna is included in our confirmed Middle Tennessee service areas, including Smyrna neighborhoods and commercial properties along the Nissan Drive corridor.",
     "icon": "pin"
   },
   {
@@ -106,11 +106,11 @@ const content: CityPageContent = {
   faqs: [
   {
     "question": "Why choose Swift Flo Plumbing Services in Smyrna?",
-    "answer": "Smyrna is a confirmed service area. Customers get professional plumbing work, clear communication, and a straightforward request process from inquiry through completion."
+    "answer": "Smyrna is a confirmed service area covering Smyrna neighborhoods and commercial properties along the Nissan Drive corridor. Customers get professional plumbing work, clear communication, and a straightforward request process."
   },
   {
     "question": "Do you handle drain cleaning in Smyrna?",
-    "answer": "Yes. Drain cleaning is available for Smyrna customers along with the rest of our confirmed plumbing services."
+    "answer": "Yes. Drain cleaning is available for Smyrna customers along with the rest of our confirmed plumbing services for this city."
   },
   {
     "question": "Can Smyrna customers request water heater service?",
@@ -118,11 +118,11 @@ const content: CityPageContent = {
   },
   {
     "question": "Do you provide plumbing services in Smyrna?",
-    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in Smyrna, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in Smyrna, TN, including Smyrna neighborhoods and commercial properties along the Nissan Drive corridor. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
   },
   {
     "question": "Which plumbing services are available in Smyrna?",
-    "answer": "Customers in Smyrna can request drain cleaning, camera inspections, water filtration installation, water heater repairs and replacement, bathroom remodeling plumbing, and water and sewer excavation repairs."
+    "answer": "Customers in Smyrna can request drain cleaning, camera inspections, water filtration system installation, water heater repairs and replacement, bathroom remodeling plumbing, water and sewer excavation repairs and replacements."
   },
   {
     "question": "How do I request a plumber in Smyrna?",
@@ -134,7 +134,7 @@ const content: CityPageContent = {
   },
   {
     "question": "Do you serve both homes and businesses in Smyrna?",
-    "answer": "Yes. Residential and commercial customers in Smyrna can request professional plumbing service."
+    "answer": "Yes. Residential and commercial customers in Smyrna can request professional plumbing service across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor."
   },
   {
     "question": "Can I get a free quote for plumbing work in Smyrna?",

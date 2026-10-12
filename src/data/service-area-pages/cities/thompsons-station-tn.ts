@@ -3,14 +3,14 @@ import type { CityPageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/thompsons-station-tn */
 const content: CityPageContent = {
   metaTitle: "Plumbing Services in Thompson's Station, TN | Swift Flo Plumbing Services",
-  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in Thompson's Station, TN. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in Thompson's Station, TN. Serving Thompson’s Station neighborhoods and surrounding Williamson County properties. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   heroTitle: "Professional plumbing services in Thompson's Station.",
-  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for customers who want professional plumbing arranged with clear next steps in Thompson's Station, Tennessee. Request help with both routine maintenance concerns and more involved plumbing projects through the contact form or by calling 629-238-8322.",
+  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for customers who want professional plumbing arranged with clear next steps across Thompson’s Station neighborhoods and surrounding Williamson County properties. Request help with both routine maintenance concerns and more involved plumbing projects through the contact form or by calling 629-238-8322.",
   summary: "Professional plumbing service for homeowners and businesses in Thompson's Station, TN.",
   whyLocal: [
   {
     "title": "Serving Thompson's Station",
-    "text": "Thompson's Station is a confirmed service area for Swift Flo Plumbing Services, giving local customers a direct way to request professional plumbing work."
+    "text": "Thompson's Station is a confirmed service area for Swift Flo Plumbing Services, covering Thompson’s Station neighborhoods and surrounding Williamson County properties."
   },
   {
     "title": "Clear request process",
@@ -23,7 +23,7 @@ const content: CityPageContent = {
 ],
   about: {
     title: "Professional plumbing for Thompson's Station homes and businesses.",
-    description: "Swift Flo Plumbing Services serves Thompson's Station with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout Thompson's Station, TN can request service during published hours.",
+    description: "Swift Flo Plumbing Services serves Thompson's Station with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout Thompson’s Station neighborhoods and surrounding Williamson County properties can request service during published hours.",
   },
   services: {
     title: "Plumbing services available in Thompson's Station",
@@ -31,7 +31,7 @@ const content: CityPageContent = {
   },
   overview: {
     title: "How plumbing service works in Thompson's Station",
-    description: "From the first request through completion, Thompson's Station customers receive clear next steps, professional workmanship, and scheduling within published hours.",
+    description: "From the first request through completion, Thompson's Station customers across Thompson’s Station neighborhoods and surrounding Williamson County properties receive clear next steps, professional workmanship, and scheduling within published hours.",
   },
   details: {
     title: "What Thompson's Station customers can expect",
@@ -39,7 +39,7 @@ const content: CityPageContent = {
     points: [
   {
     "title": "Confirmed coverage",
-    "text": "Professional plumbing service is available for customers throughout Thompson's Station, Tennessee."
+    "text": "Professional plumbing service is available throughout Thompson’s Station neighborhoods and surrounding Williamson County properties."
   },
   {
     "title": "Careful workmanship",
@@ -69,7 +69,7 @@ const content: CityPageContent = {
     reasons: [
   {
     "title": "Local coverage",
-    "text": "Thompson's Station is included in our confirmed Middle Tennessee service areas.",
+    "text": "Thompson's Station is included in our confirmed Middle Tennessee service areas, including Thompson’s Station neighborhoods and surrounding Williamson County properties.",
     "icon": "pin"
   },
   {
@@ -110,11 +110,11 @@ const content: CityPageContent = {
   },
   {
     "question": "Do you provide plumbing services in Thompson's Station?",
-    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in Thompson's Station, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in Thompson's Station, TN, including Thompson’s Station neighborhoods and surrounding Williamson County properties. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
   },
   {
     "question": "Which plumbing services are available in Thompson's Station?",
-    "answer": "Customers in Thompson's Station can request drain cleaning, camera inspections, water filtration installation, water heater repairs and replacement, bathroom remodeling plumbing, and water and sewer excavation repairs."
+    "answer": "Customers in Thompson's Station can request drain cleaning, camera inspections, water filtration system installation, water heater repairs and replacement, bathroom remodeling plumbing, water and sewer excavation repairs and replacements."
   },
   {
     "question": "How do I request a plumber in Thompson's Station?",
@@ -126,7 +126,7 @@ const content: CityPageContent = {
   },
   {
     "question": "Do you serve both homes and businesses in Thompson's Station?",
-    "answer": "Yes. Residential and commercial customers in Thompson's Station can request professional plumbing service."
+    "answer": "Yes. Residential and commercial customers in Thompson's Station can request professional plumbing service across Thompson’s Station neighborhoods and surrounding Williamson County properties."
   },
   {
     "question": "Can I get a free quote for plumbing work in Thompson's Station?",
@@ -146,11 +146,11 @@ const content: CityPageContent = {
   },
   {
     "question": "Why choose Swift Flo Plumbing Services in Thompson's Station?",
-    "answer": "Thompson's Station is a confirmed service area. Customers get professional plumbing work, clear communication, and a straightforward request process from inquiry through completion."
+    "answer": "Thompson's Station is a confirmed service area covering Thompson’s Station neighborhoods and surrounding Williamson County properties. Customers get professional plumbing work, clear communication, and a straightforward request process."
   },
   {
     "question": "Do you handle drain cleaning in Thompson's Station?",
-    "answer": "Yes. Drain cleaning is available for Thompson's Station customers along with the rest of our confirmed plumbing services."
+    "answer": "Yes. Drain cleaning is available for Thompson's Station customers along with the rest of our confirmed plumbing services for this city."
   }
 ],
   serviceNotes: [

@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/murfreesboro-tn/bathroom-remodeling */
 const content: CityServicePageContent = {
   "metaTitle": "Bathroom Remodeling in Murfreesboro, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving Murfreesboro, TN. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving Murfreesboro, TN — Rutherford County homes, campus-area rentals, and commercial properties citywide. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Murfreesboro Bathroom Remodeling from Swift Flo",
-  "heroDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Swift Flo Plumbing Services provides bathroom remodeling plumbing for homeowners and businesses throughout Murfreesboro, TN. Call 629-238-8322 or request service online.",
+  "heroDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Swift Flo Plumbing Services provides bathroom remodeling plumbing for homeowners and businesses throughout Rutherford County homes, campus-area rentals, and commercial properties citywide. Call 629-238-8322 or request service online.",
   "highlights": [
     {
       "title": "Homes and businesses",
-      "text": "Residential and commercial bathroom remodeling plumbing requests are accepted in Murfreesboro."
+      "text": "Residential and commercial bathroom remodeling plumbing requests are accepted across Rutherford County homes, campus-area rentals, and commercial properties citywide."
     },
     {
       "title": "Prepared visits",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Bathroom Remodeling for Murfreesboro homes and businesses",
-  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers in Murfreesboro can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers across Rutherford County homes, campus-area rentals, and commercial properties citywide can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Murfreesboro, TN with a straightforward way to request bathroom remodeling plumbing. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Bathroom Remodeling",
   "servicesDescription": "While this page focuses on bathroom remodeling plumbing in Murfreesboro, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request bathroom remodeling plumbing in Murfreesboro",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule bathroom remodeling plumbing in Murfreesboro, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Bathroom Remodeling overview in Murfreesboro",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers in Murfreesboro, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers across Rutherford County homes, campus-area rentals, and commercial properties citywide.",
   "overviewPoints": [
     "Professional bathroom remodeling plumbing for Murfreesboro customers",
-    "Residential and commercial support",
+    "Coverage across Rutherford County homes, campus-area rentals, and commercial properties citywide",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Install and connect bathroom fixtures with care.",
     "Support plumbing needs during bathroom remodel projects."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for bathroom remodeling plumbing in Murfreesboro",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for bathroom remodeling plumbing throughout Murfreesboro, TN.",
+  "whyDescription": "Local coverage across Rutherford County homes, campus-area rentals, and commercial properties citywide, professional plumbing service, and a clear request process for bathroom remodeling plumbing.",
   "whyReasons": [
     {
       "title": "Murfreesboro availability",
-      "text": "Bathroom Remodeling is available for customers throughout Murfreesboro, TN.",
+      "text": "Bathroom Remodeling is available for customers throughout Rutherford County homes, campus-area rentals, and commercial properties citywide.",
       "icon": "pin"
     },
     {
@@ -113,19 +113,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Murfreesboro?",
-      "answer": "Yes. In addition to bathroom remodeling plumbing, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Murfreesboro, TN."
+      "answer": "Yes. In addition to bathroom remodeling plumbing, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Murfreesboro, TN."
     },
     {
       "question": "Why choose Swift Flo for bathroom remodeling plumbing in Murfreesboro?",
-      "answer": "Murfreesboro is part of our confirmed coverage. Customers receive professional bathroom remodeling plumbing, clear communication, and a straightforward request process."
+      "answer": "Murfreesboro is part of our confirmed coverage spanning Rutherford County homes, campus-area rentals, and commercial properties citywide. Customers receive professional bathroom remodeling plumbing, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need bathroom remodeling plumbing in Murfreesboro?",
-      "answer": "Common reasons include fixture and remodel plumbing. If you are seeing related symptoms at a Murfreesboro property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include fixture and remodel plumbing. If you are seeing related symptoms at a Murfreesboro property near Rutherford County homes, campus-area rentals, and commercial properties citywide, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is bathroom remodeling plumbing available for commercial properties in Murfreesboro?",
-      "answer": "Yes. Homes and businesses in Murfreesboro can request bathroom remodeling plumbing during published business hours."
+      "answer": "Yes. Homes and businesses across Rutherford County homes, campus-area rentals, and commercial properties citywide can request bathroom remodeling plumbing during published business hours."
     },
     {
       "question": "How do Murfreesboro customers prepare for bathroom remodeling plumbing?",

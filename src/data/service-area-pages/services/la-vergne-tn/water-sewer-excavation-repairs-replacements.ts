@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/la-vergne-tn/water-sewer-excavation-repairs-replacements */
 const content: CityServicePageContent = {
   "metaTitle": "Water & Sewer Excavation Repairs & Replacements in La Vergne, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Excavation repairs address underground water and sewer line damage that needs professional plumbing work. Serving La Vergne, TN. Request water and sewer excavation repairs and replacements Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Excavation repairs address underground water and sewer line damage that needs professional plumbing work. Serving La Vergne, TN — residential communities and light industrial areas between Nashville and Murfreesboro. Request water and sewer excavation repairs and replacements Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Water & Sewer Excavation Repairs & Replacements in La Vergne, TN",
   "heroDescription": "La Vergne customers can request water and sewer excavation repairs and replacements with a clear description of the issue. Swift Flo Plumbing Services follows up with next steps for service in La Vergne, TN.",
   "highlights": [
     {
       "title": "La Vergne coverage",
-      "text": "Professional water and sewer excavation repairs and replacements arranged for customers throughout La Vergne, TN."
+      "text": "Professional water and sewer excavation repairs and replacements arranged for customers throughout residential communities and light industrial areas between Nashville and Murfreesboro."
     },
     {
       "title": "Dependable results",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Water & Sewer Excavation Repairs & Replacements for La Vergne homes and businesses",
-  "aboutDescription": "Excavation repairs address underground water and sewer line damage that needs professional plumbing work. Customers in La Vergne can request water and sewer excavation repairs and replacements online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Excavation repairs address underground water and sewer line damage that needs professional plumbing work. Customers across residential communities and light industrial areas between Nashville and Murfreesboro can request water and sewer excavation repairs and replacements online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves La Vergne, TN with a straightforward way to request water and sewer excavation repairs and replacements. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Water & Sewer Excavation Repairs & Replacements",
   "servicesDescription": "While this page focuses on water and sewer excavation repairs and replacements in La Vergne, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request water and sewer excavation repairs and replacements in La Vergne",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule water and sewer excavation repairs and replacements in La Vergne, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Water & Sewer Excavation Repairs & Replacements overview in La Vergne",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water and sewer excavation repairs and replacements clear and local for customers in La Vergne, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water and sewer excavation repairs and replacements clear and local for customers across residential communities and light industrial areas between Nashville and Murfreesboro.",
   "overviewPoints": [
     "Professional water and sewer excavation repairs and replacements for La Vergne customers",
-    "Residential and commercial support",
+    "Coverage across residential communities and light industrial areas between Nashville and Murfreesboro",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Repair or replace damaged water and sewer lines.",
     "Support excavation-related plumbing work when required."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for water and sewer excavation repairs and replacements in La Vergne",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for water and sewer excavation repairs and replacements throughout La Vergne, TN.",
+  "whyDescription": "Local coverage across residential communities and light industrial areas between Nashville and Murfreesboro, professional plumbing service, and a clear request process for water and sewer excavation repairs and replacements.",
   "whyReasons": [
     {
       "title": "La Vergne availability",
-      "text": "Water & Sewer Excavation Repairs & Replacements is available for customers throughout La Vergne, TN.",
+      "text": "Water & Sewer Excavation Repairs & Replacements is available for customers throughout residential communities and light industrial areas between Nashville and Murfreesboro.",
       "icon": "pin"
     },
     {
@@ -93,11 +93,11 @@ const content: CityServicePageContent = {
   "faqs": [
     {
       "question": "What signs suggest I need water and sewer excavation repairs and replacements in La Vergne?",
-      "answer": "Common reasons include underground line repairs. If you are seeing related symptoms at a La Vergne property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include underground line repairs. If you are seeing related symptoms at a La Vergne property near residential communities and light industrial areas between Nashville and Murfreesboro, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is water and sewer excavation repairs and replacements available for commercial properties in La Vergne?",
-      "answer": "Yes. Homes and businesses in La Vergne can request water and sewer excavation repairs and replacements during published business hours."
+      "answer": "Yes. Homes and businesses across residential communities and light industrial areas between Nashville and Murfreesboro can request water and sewer excavation repairs and replacements during published business hours."
     },
     {
       "question": "How do La Vergne customers prepare for water and sewer excavation repairs and replacements?",
@@ -117,7 +117,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide water and sewer excavation repairs and replacements in La Vergne?",
-      "answer": "Yes. Swift Flo Plumbing Services provides water and sewer excavation repairs and replacements for customers in La Vergne, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides water and sewer excavation repairs and replacements for customers in La Vergne, TN, including residential communities and light industrial areas between Nashville and Murfreesboro. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does water and sewer excavation repairs and replacements include for La Vergne customers?",

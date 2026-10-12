@@ -3,9 +3,9 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/murfreesboro-tn/water-heater-repairs-replacement */
 const content: CityServicePageContent = {
   "metaTitle": "Water Heater Repairs & Replacement in Murfreesboro, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Serving Murfreesboro, TN. Request water heater repairs and replacement Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Serving Murfreesboro, TN — Rutherford County homes, campus-area rentals, and commercial properties citywide. Request water heater repairs and replacement Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Professional water heater repairs and replacement for Murfreesboro",
-  "heroDescription": "Need help with dependable hot water in Murfreesboro? Swift Flo Plumbing Services handles diagnosing, repairing, or replacing tank and tankless water heaters during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
+  "heroDescription": "Need help with dependable hot water in Murfreesboro? Swift Flo Plumbing Services handles diagnosing, repairing, or replacing tank and tankless water heaters across Rutherford County homes, campus-area rentals, and commercial properties citywide during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
   "highlights": [
     {
       "title": "Local requests",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Water Heater Repairs & Replacement for Murfreesboro homes and businesses",
-  "aboutDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Customers in Murfreesboro can request water heater repairs and replacement online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Customers across Rutherford County homes, campus-area rentals, and commercial properties citywide can request water heater repairs and replacement online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Murfreesboro, TN with a straightforward way to request water heater repairs and replacement. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Water Heater Repairs & Replacement",
   "servicesDescription": "While this page focuses on water heater repairs and replacement in Murfreesboro, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request water heater repairs and replacement in Murfreesboro",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule water heater repairs and replacement in Murfreesboro, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Water Heater Repairs & Replacement overview in Murfreesboro",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water heater repairs and replacement clear and local for customers in Murfreesboro, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water heater repairs and replacement clear and local for customers across Rutherford County homes, campus-area rentals, and commercial properties citywide.",
   "overviewPoints": [
     "Professional water heater repairs and replacement for Murfreesboro customers",
-    "Residential and commercial support",
+    "Coverage across Rutherford County homes, campus-area rentals, and commercial properties citywide",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Diagnose and repair common water heater problems.",
     "Replace aging or failing water heaters when needed."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for water heater repairs and replacement in Murfreesboro",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for water heater repairs and replacement throughout Murfreesboro, TN.",
+  "whyDescription": "Local coverage across Rutherford County homes, campus-area rentals, and commercial properties citywide, professional plumbing service, and a clear request process for water heater repairs and replacement.",
   "whyReasons": [
     {
       "title": "Murfreesboro availability",
-      "text": "Water Heater Repairs & Replacement is available for customers throughout Murfreesboro, TN.",
+      "text": "Water Heater Repairs & Replacement is available for customers throughout Rutherford County homes, campus-area rentals, and commercial properties citywide.",
       "icon": "pin"
     },
     {
@@ -97,7 +97,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide water heater repairs and replacement in Murfreesboro?",
-      "answer": "Yes. Swift Flo Plumbing Services provides water heater repairs and replacement for customers in Murfreesboro, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides water heater repairs and replacement for customers in Murfreesboro, TN, including Rutherford County homes, campus-area rentals, and commercial properties citywide. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does water heater repairs and replacement include for Murfreesboro customers?",
@@ -121,19 +121,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Murfreesboro?",
-      "answer": "Yes. In addition to water heater repairs and replacement, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Murfreesboro, TN."
+      "answer": "Yes. In addition to water heater repairs and replacement, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Murfreesboro, TN."
     },
     {
       "question": "Why choose Swift Flo for water heater repairs and replacement in Murfreesboro?",
-      "answer": "Murfreesboro is part of our confirmed coverage. Customers receive professional water heater repairs and replacement, clear communication, and a straightforward request process."
+      "answer": "Murfreesboro is part of our confirmed coverage spanning Rutherford County homes, campus-area rentals, and commercial properties citywide. Customers receive professional water heater repairs and replacement, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need water heater repairs and replacement in Murfreesboro?",
-      "answer": "Common reasons include dependable hot water. If you are seeing related symptoms at a Murfreesboro property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include dependable hot water. If you are seeing related symptoms at a Murfreesboro property near Rutherford County homes, campus-area rentals, and commercial properties citywide, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is water heater repairs and replacement available for commercial properties in Murfreesboro?",
-      "answer": "Yes. Homes and businesses in Murfreesboro can request water heater repairs and replacement during published business hours."
+      "answer": "Yes. Homes and businesses across Rutherford County homes, campus-area rentals, and commercial properties citywide can request water heater repairs and replacement during published business hours."
     },
     {
       "question": "How do Murfreesboro customers prepare for water heater repairs and replacement?",

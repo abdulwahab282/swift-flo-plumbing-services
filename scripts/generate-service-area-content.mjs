@@ -1,138 +1,26 @@
 /**
  * Generates dedicated TypeScript content files for every service-area route.
  * Run: node scripts/generate-service-area-content.mjs
+ *
+ * Also rewrites src/data/service-area-pages/coverage.ts from service-area-config.mjs.
  */
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import {
+  BRAND,
+  HOURS,
+  PHONE,
+  cities,
+  coverageByServiceSlug,
+  getCitiesForService,
+  listCoveredCombos,
+  services,
+} from "./service-area-config.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
 const base = path.join(root, "src", "data", "service-area-pages");
-
-const HOURS = "Monday – Sunday, 8:00 AM – 8:00 PM";
-const PHONE = "629-238-8322";
-const BRAND = "Swift Flo Plumbing Services";
-
-const cities = [
-  { slug: "brentwood-tn", city: "Brentwood", label: "Brentwood, TN", pascal: "Brentwood" },
-  { slug: "franklin-tn", city: "Franklin", label: "Franklin, TN", pascal: "Franklin" },
-  { slug: "gallatin-tn", city: "Gallatin", label: "Gallatin, TN", pascal: "Gallatin" },
-  { slug: "hendersonville-tn", city: "Hendersonville", label: "Hendersonville, TN", pascal: "Hendersonville" },
-  { slug: "la-vergne-tn", city: "La Vergne", label: "La Vergne, TN", pascal: "LaVergne" },
-  { slug: "lebanon-tn", city: "Lebanon", label: "Lebanon, TN", pascal: "Lebanon" },
-  { slug: "mt-juliet-tn", city: "Mt. Juliet", label: "Mt. Juliet, TN", pascal: "MtJuliet" },
-  { slug: "murfreesboro-tn", city: "Murfreesboro", label: "Murfreesboro, TN", pascal: "Murfreesboro" },
-  { slug: "nashville-tn", city: "Nashville", label: "Nashville, TN", pascal: "Nashville" },
-  { slug: "smyrna-tn", city: "Smyrna", label: "Smyrna, TN", pascal: "Smyrna" },
-  { slug: "spring-hill-tn", city: "Spring Hill", label: "Spring Hill, TN", pascal: "SpringHill" },
-  { slug: "thompsons-station-tn", city: "Thompson's Station", label: "Thompson's Station, TN", pascal: "ThompsonsStation" },
-];
-
-const services = [
-  {
-    slug: "drain-cleaning",
-    name: "Drain Cleaning",
-    lower: "drain cleaning",
-    focus: "clogged and slow drains",
-    work: "clearing sinks, showers, tubs, floor drains, and main-line backups",
-    summary:
-      "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining.",
-    details: [
-      "Clear clogged sinks, showers, tubs, and floor drains.",
-      "Address slow-draining fixtures before they become larger problems.",
-      "Support for residential and commercial drain concerns.",
-      "Request service during Monday through Sunday, 8:00 AM to 8:00 PM.",
-    ],
-    imageSrc: "/images/work.jpg",
-    imageAltBase: "Plumber clearing a drain connection",
-  },
-  {
-    slug: "camera-inspections",
-    name: "Camera Inspections",
-    lower: "camera inspections",
-    focus: "hidden pipe conditions",
-    work: "video inspection of drain and sewer lines to locate blockages and damage",
-    summary:
-      "Camera inspections help diagnose underground plumbing issues before repair work begins.",
-    details: [
-      "Inspect drain and sewer lines with video camera equipment.",
-      "Help pinpoint the location and nature of plumbing issues.",
-      "Support informed decisions about repairs or replacements.",
-      "Available across our confirmed Middle Tennessee service areas.",
-    ],
-    imageSrc: "/images/gallery-camera.jpg",
-    imageAltBase: "Plumbing inspection camera for drain diagnostics",
-  },
-  {
-    slug: "water-filtration-system-installation",
-    name: "Water Filtration System Installation",
-    lower: "water filtration system installation",
-    focus: "cleaner household water",
-    work: "installing filtration systems matched to the property plumbing layout",
-    summary:
-      "Water filtration installation helps improve water quality for drinking, cooking, and daily use.",
-    details: [
-      "Install water filtration systems suited to your property.",
-      "Support cleaner water for drinking, cooking, and household use.",
-      "Professional plumbing connections and clean workmanship.",
-      "Request a quote and describe the filtration setup you need.",
-    ],
-    imageSrc: "/images/kitchen-faucet.jpg",
-    imageAltBase: "Kitchen faucet and water filtration plumbing",
-  },
-  {
-    slug: "water-heater-repairs-replacement",
-    name: "Water Heater Repairs & Replacement",
-    lower: "water heater repairs and replacement",
-    focus: "dependable hot water",
-    work: "diagnosing, repairing, or replacing tank and tankless water heaters",
-    summary:
-      "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement.",
-    details: [
-      "Diagnose and repair common water heater problems.",
-      "Replace aging or failing water heaters when needed.",
-      "Support for tank and tankless water heater concerns.",
-      "Schedule service within published business hours.",
-    ],
-    imageSrc: "/images/water-heater.jpg",
-    imageAltBase: "Plumber servicing water heater connections",
-  },
-  {
-    slug: "bathroom-remodeling",
-    name: "Bathroom Remodeling",
-    lower: "bathroom remodeling plumbing",
-    focus: "fixture and remodel plumbing",
-    work: "fixture installation and plumbing updates during bathroom remodel projects",
-    summary:
-      "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom.",
-    details: [
-      "Install and connect bathroom fixtures with care.",
-      "Support plumbing needs during bathroom remodel projects.",
-      "Help update sinks, toilets, showers, and related connections.",
-      "Discuss your remodel plans when you request a quote.",
-    ],
-    imageSrc: "/images/bathroom.jpg",
-    imageAltBase: "Bathroom vanity and plumbing fixtures",
-  },
-  {
-    slug: "water-sewer-excavation-repairs-replacements",
-    name: "Water & Sewer Excavation Repairs & Replacements",
-    lower: "water and sewer excavation repairs and replacements",
-    focus: "underground line repairs",
-    work: "repairing or replacing damaged water and sewer service lines",
-    summary:
-      "Excavation repairs address underground water and sewer line damage that needs professional plumbing work.",
-    details: [
-      "Repair or replace damaged water and sewer lines.",
-      "Support excavation-related plumbing work when required.",
-      "Address leaks, breaks, and aging underground lines.",
-      "Request service with a description of the issue you are seeing.",
-    ],
-    imageSrc: "/images/fittings.jpg",
-    imageAltBase: "Pipe fittings used for underground plumbing repairs",
-  },
-];
 
 const cityAngles = [
   "homes and local businesses that need clear scheduling and professional follow-up",
@@ -164,24 +52,24 @@ const cityNeedLines = [
   "both routine maintenance concerns and more involved plumbing projects",
 ];
 
-function esc(str) {
-  return String(str).replace(/\\/g, "\\\\").replace(/`/g, "\\`").replace(/\$/g, "\\$");
-}
-
 function pick(arr, i) {
   return arr[i % arr.length];
 }
 
 function cityFaqSet(city, index) {
   const name = city.city;
+  const coveredServices = services.filter((service) =>
+    (coverageByServiceSlug[service.slug] ?? []).includes(city.slug),
+  );
+  const serviceNames = coveredServices.map((s) => s.lower).join(", ");
   const baseFaqs = [
     {
       q: `Do you provide plumbing services in ${name}?`,
-      a: `Yes. ${BRAND} provides professional plumbing services for customers in ${city.label}. Request a visit during published hours (${HOURS}).`,
+      a: `Yes. ${BRAND} provides professional plumbing services for customers in ${city.label}, including ${city.community}. Request a visit during published hours (${HOURS}).`,
     },
     {
       q: `Which plumbing services are available in ${name}?`,
-      a: `Customers in ${name} can request drain cleaning, camera inspections, water filtration installation, water heater repairs and replacement, bathroom remodeling plumbing, and water and sewer excavation repairs.`,
+      a: `Customers in ${name} can request ${serviceNames}.`,
     },
     {
       q: `How do I request a plumber in ${name}?`,
@@ -193,7 +81,7 @@ function cityFaqSet(city, index) {
     },
     {
       q: `Do you serve both homes and businesses in ${name}?`,
-      a: `Yes. Residential and commercial customers in ${name} can request professional plumbing service.`,
+      a: `Yes. Residential and commercial customers in ${name} can request professional plumbing service across ${city.community}.`,
     },
     {
       q: `Can I get a free quote for plumbing work in ${name}?`,
@@ -213,33 +101,39 @@ function cityFaqSet(city, index) {
     },
     {
       q: `Why choose ${BRAND} in ${name}?`,
-      a: `${name} is a confirmed service area. Customers get professional plumbing work, clear communication, and a straightforward request process from inquiry through completion.`,
+      a: `${name} is a confirmed service area covering ${city.community}. Customers get professional plumbing work, clear communication, and a straightforward request process.`,
     },
     {
       q: `Do you handle drain cleaning in ${name}?`,
-      a: `Yes. Drain cleaning is available for ${name} customers along with the rest of our confirmed plumbing services.`,
+      a: coveredServices.some((s) => s.slug === "drain-cleaning")
+        ? `Yes. Drain cleaning is available for ${name} customers along with the rest of our confirmed plumbing services for this city.`
+        : `Contact ${BRAND} to confirm which plumbing services are currently offered in ${name}.`,
     },
     {
       q: `Can ${name} customers request water heater service?`,
-      a: `Yes. Water heater repairs and replacement are available for customers throughout ${city.label}.`,
+      a: coveredServices.some((s) => s.slug === "water-heater-repairs-replacement")
+        ? `Yes. Water heater repairs and replacement are available for customers throughout ${city.label}.`
+        : `Contact ${BRAND} to confirm water heater availability in ${name}.`,
     },
   ];
-  // Rotate starting point so FAQ order differs by city
-  const rotated = [...baseFaqs.slice(index % baseFaqs.length), ...baseFaqs.slice(0, index % baseFaqs.length)];
+  const rotated = [
+    ...baseFaqs.slice(index % baseFaqs.length),
+    ...baseFaqs.slice(0, index % baseFaqs.length),
+  ];
   return rotated.slice(0, 12);
 }
 
 function serviceFaqs(service, city, cityIndex, serviceIndex) {
-  const { city: name, label } = city;
+  const { city: name, label, community } = city;
   const s = service;
   const extras = [
     {
       q: `What signs suggest I need ${s.lower} in ${name}?`,
-      a: `Common reasons include ${s.focus}. If you are seeing related symptoms at a ${name} property, describe them when you request service so we can prepare for the visit.`,
+      a: `Common reasons include ${s.focus}. If you are seeing related symptoms at a ${name} property near ${community}, describe them when you request service so we can prepare for the visit.`,
     },
     {
       q: `Is ${s.lower} available for commercial properties in ${name}?`,
-      a: `Yes. Homes and businesses in ${name} can request ${s.lower} during published business hours.`,
+      a: `Yes. Homes and businesses across ${community} can request ${s.lower} during published business hours.`,
     },
     {
       q: `How do ${name} customers prepare for ${s.lower}?`,
@@ -261,7 +155,7 @@ function serviceFaqs(service, city, cityIndex, serviceIndex) {
   const core = [
     {
       q: `Do you provide ${s.lower} in ${name}?`,
-      a: `Yes. ${BRAND} provides ${s.lower} for customers in ${label}. Request a visit during published hours (${HOURS}).`,
+      a: `Yes. ${BRAND} provides ${s.lower} for customers in ${label}, including ${community}. Request a visit during published hours (${HOURS}).`,
     },
     {
       q: `What does ${s.lower} include for ${name} customers?`,
@@ -285,11 +179,11 @@ function serviceFaqs(service, city, cityIndex, serviceIndex) {
     },
     {
       q: `Are related plumbing services available in ${name}?`,
-      a: `Yes. In addition to ${s.lower}, ${BRAND} provides a full range of confirmed plumbing services for customers in ${label}.`,
+      a: `Yes. In addition to ${s.lower}, ${BRAND} provides other confirmed plumbing services for customers in ${label}.`,
     },
     {
       q: `Why choose Swift Flo for ${s.lower} in ${name}?`,
-      a: `${name} is part of our confirmed coverage. Customers receive professional ${s.lower}, clear communication, and a straightforward request process.`,
+      a: `${name} is part of our confirmed coverage spanning ${community}. Customers receive professional ${s.lower}, clear communication, and a straightforward request process.`,
     },
   ];
   const all = [...core, ...extras];
@@ -333,7 +227,7 @@ function generateCityPage(city, index) {
   const whyLocal = [
     {
       title: `Serving ${city.city}`,
-      text: `${city.city} is a confirmed service area for ${BRAND}, giving local customers a direct way to request professional plumbing work.`,
+      text: `${city.city} is a confirmed service area for ${BRAND}, covering ${city.community}.`,
     },
     {
       title: pick(
@@ -350,7 +244,7 @@ function generateCityPage(city, index) {
   const points = [
     {
       title: "Confirmed coverage",
-      text: `Professional plumbing service is available for customers throughout ${city.city}, Tennessee.`,
+      text: `Professional plumbing service is available throughout ${city.community}.`,
     },
     {
       title: pick(["Professional process", "Quality-focused visits", "Careful workmanship"], index),
@@ -374,12 +268,36 @@ function generateCityPage(city, index) {
     },
   ];
   const reasons = [
-    { title: "Local coverage", text: `${city.city} is included in our confirmed Middle Tennessee service areas.`, icon: "pin" },
-    { title: "Professional plumbing", text: "Work focuses on the repair, installation, or project you request.", icon: "wrench" },
-    { title: "Clear communication", text: "Straightforward updates from the first inquiry through completion.", icon: "users" },
-    { title: "Dependable process", text: "A consistent approach designed to make plumbing service easier to arrange.", icon: "shield" },
-    { title: "Customer-first requests", text: "Your request starts with contact details and a clear description of the job.", icon: "droplet" },
-    { title: "Convenient hours", text: `Open ${HOURS}.`, icon: "clock" },
+    {
+      title: "Local coverage",
+      text: `${city.city} is included in our confirmed Middle Tennessee service areas, including ${city.community}.`,
+      icon: "pin",
+    },
+    {
+      title: "Professional plumbing",
+      text: "Work focuses on the repair, installation, or project you request.",
+      icon: "wrench",
+    },
+    {
+      title: "Clear communication",
+      text: "Straightforward updates from the first inquiry through completion.",
+      icon: "users",
+    },
+    {
+      title: "Dependable process",
+      text: "A consistent approach designed to make plumbing service easier to arrange.",
+      icon: "shield",
+    },
+    {
+      title: "Customer-first requests",
+      text: "Your request starts with contact details and a clear description of the job.",
+      icon: "droplet",
+    },
+    {
+      title: "Convenient hours",
+      text: `Open ${HOURS}.`,
+      icon: "clock",
+    },
   ];
 
   return `import type { CityPageContent } from "@/data/service-area-pages/types";
@@ -387,14 +305,14 @@ function generateCityPage(city, index) {
 /** Dedicated content for /service-areas/${city.slug} */
 const content: CityPageContent = {
   metaTitle: "Plumbing Services in ${city.city}, TN | ${BRAND}",
-  metaDescription: "${BRAND} provides professional plumbing for homes and businesses in ${city.label}. Request service ${HOURS}. Call ${PHONE}.",
+  metaDescription: "${BRAND} provides professional plumbing for homes and businesses in ${city.label}. Serving ${city.community}. Request service ${HOURS}. Call ${PHONE}.",
   heroTitle: "Professional plumbing services in ${city.city}.",
-  introduction: "${BRAND} provides reliable plumbing services for ${angle} in ${city.city}, Tennessee. Request help with ${needs} through the contact form or by calling ${PHONE}.",
+  introduction: "${BRAND} provides reliable plumbing services for ${angle} across ${city.community}. Request help with ${needs} through the contact form or by calling ${PHONE}.",
   summary: "Professional plumbing service for homeowners and businesses in ${city.label}.",
   whyLocal: ${JSON.stringify(whyLocal, null, 2)},
   about: {
     title: "Professional plumbing for ${city.city} homes and businesses.",
-    description: "${BRAND} serves ${city.city} with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout ${city.label} can request service during published hours.",
+    description: "${BRAND} serves ${city.city} with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout ${city.community} can request service during published hours.",
   },
   services: {
     title: "Plumbing services available in ${city.city}",
@@ -402,7 +320,7 @@ const content: CityPageContent = {
   },
   overview: {
     title: "How plumbing service works in ${city.city}",
-    description: "From the first request through completion, ${city.city} customers receive clear next steps, professional workmanship, and scheduling within published hours.",
+    description: "From the first request through completion, ${city.city} customers across ${city.community} receive clear next steps, professional workmanship, and scheduling within published hours.",
   },
   details: {
     title: "What ${city.city} customers can expect",
@@ -436,15 +354,20 @@ export default content;
 }
 
 function generateHubPage(service, serviceIndex) {
-  const cityList = cities.map((c) => c.city).join(", ");
-  const sample = cities
-    .slice(serviceIndex % 3, serviceIndex % 3 + 5)
-    .map((c) => c.city)
-    .join(", ");
+  const covered = getCitiesForService(service.slug);
+  const cityList = covered.map((c) => c.city).join(", ");
+  const sample = covered
+    .slice(serviceIndex % Math.max(covered.length, 1), (serviceIndex % Math.max(covered.length, 1)) + 5)
+    .map((c) => c.city);
+  const sampleText =
+    sample.length > 0
+      ? sample.join(", ")
+      : "our confirmed Middle Tennessee communities";
+
   const faqs = [
     {
       question: `Where is ${service.lower} available?`,
-      answer: `${BRAND} provides ${service.lower} across ${cities.length} confirmed communities in Nashville and Middle Tennessee, including ${sample}.`,
+      answer: `${BRAND} provides ${service.lower} across ${covered.length} confirmed communities in Nashville and Middle Tennessee, including ${sampleText}.`,
     },
     {
       question: `How do I find ${service.lower} near me?`,
@@ -476,11 +399,16 @@ function generateHubPage(service, serviceIndex) {
     },
     {
       question: `Is ${service.lower} available in Nashville?`,
-      answer: `Yes. Nashville is a confirmed service area. Open the Nashville city page for ${service.lower} or request service directly.`,
+      answer: covered.some((c) => c.slug === "nashville-tn")
+        ? `Yes. Nashville is a confirmed service area. Open the Nashville city page for ${service.lower} or request service directly.`
+        : `Check the city list on this page to see where ${service.lower} is currently offered.`,
     },
     {
       question: `Which cities are listed for ${service.lower}?`,
-      answer: `${service.name} pages are available for ${cityList}.`,
+      answer:
+        cityList.length > 0
+          ? `${service.name} pages are available for ${cityList}.`
+          : `${service.name} coverage cities are listed on this page as they are confirmed.`,
     },
     {
       question: "Why choose Swift Flo for this service?",
@@ -494,14 +422,34 @@ function generateHubPage(service, serviceIndex) {
 
   const highlightSets = [
     [
-      { title: "Confirmed city pages", text: `Open a dedicated ${service.lower} page for each supported Middle Tennessee city.`, icon: "pin" },
+      {
+        title: "Confirmed city pages",
+        text: `Open a dedicated ${service.lower} page for each supported Middle Tennessee city.`,
+        icon: "pin",
+      },
       { title: "Professional focus", text: service.summary, icon: "wrench" },
-      { title: "Published hours", text: `Request ${service.lower} during ${HOURS}.`, icon: "clock" },
+      {
+        title: "Published hours",
+        text: `Request ${service.lower} during ${HOURS}.`,
+        icon: "clock",
+      },
     ],
     [
-      { title: "Local coverage map", text: `Choose from ${cities.length} confirmed cities where ${service.lower} is offered.`, icon: "pin" },
-      { title: "Clear diagnostics-to-repair path", text: `Describe ${service.focus} so follow-up stays accurate.`, icon: "shield" },
-      { title: "Direct contact options", text: `Call ${PHONE} or use the contact form to request service.`, icon: "users" },
+      {
+        title: "Local coverage map",
+        text: `Choose from ${covered.length} confirmed cities where ${service.lower} is offered.`,
+        icon: "pin",
+      },
+      {
+        title: "Clear diagnostics-to-repair path",
+        text: `Describe ${service.focus} so follow-up stays accurate.`,
+        icon: "shield",
+      },
+      {
+        title: "Direct contact options",
+        text: `Call ${PHONE} or use the contact form to request service.`,
+        icon: "users",
+      },
     ],
   ];
 
@@ -523,7 +471,7 @@ const content: ServiceHubPageContent = {
   },
   servicesSection: {
     title: "Related plumbing services",
-    description: "While this hub focuses on ${service.lower}, ${BRAND} also provides drain cleaning, camera inspections, water filtration installation, water heater service, bathroom remodeling plumbing, and water and sewer excavation repairs across Middle Tennessee.",
+    description: "While this hub focuses on ${service.lower}, ${BRAND} also provides additional confirmed plumbing services across Middle Tennessee.",
   },
   cta: {
     title: "Request ${service.lower}",
@@ -544,7 +492,9 @@ const content: ServiceHubPageContent = {
     description: "Common reasons customers request ${service.lower} and how requests are handled.",
     points: ${JSON.stringify(
       service.details.map((text, i) => ({
-        title: ["Service focus", "How the work helps", "Property types", "Scheduling"][i] || `Detail ${i + 1}`,
+        title:
+          ["Service focus", "How the work helps", "Property types", "Scheduling"][i] ||
+          `Detail ${i + 1}`,
         text,
       })),
       null,
@@ -578,92 +528,135 @@ function generateCityServicePage(city, service, cityIndex, serviceIndex) {
     `${city.city} ${service.name} from Swift Flo`,
   ];
   const heroDescVariants = [
-    `${service.summary} ${BRAND} provides ${service.lower} for homeowners and businesses throughout ${city.label}. Call ${PHONE} or request service online.`,
-    `Need help with ${service.focus} in ${city.city}? ${BRAND} handles ${service.work} during published hours (${HOURS}).`,
+    `${service.summary} ${BRAND} provides ${service.lower} for homeowners and businesses throughout ${city.community}. Call ${PHONE} or request service online.`,
+    `Need help with ${service.focus} in ${city.city}? ${BRAND} handles ${service.work} across ${city.community} during published hours (${HOURS}).`,
     `${city.city} customers can request ${service.lower} with a clear description of the issue. ${BRAND} follows up with next steps for service in ${city.label}.`,
   ];
   const highlightSets = [
     [
-      { title: `${city.city} coverage`, text: `Professional ${service.lower} arranged for customers throughout ${city.label}.` },
-      { title: "Dependable results", text: "Clear communication and quality workmanship focused on the job you requested." },
+      {
+        title: `${city.city} coverage`,
+        text: `Professional ${service.lower} arranged for customers throughout ${city.community}.`,
+      },
+      {
+        title: "Dependable results",
+        text: "Clear communication and quality workmanship focused on the job you requested.",
+      },
       { title: "Convenient hours", text: `Open ${HOURS}.` },
     ],
     [
-      { title: "Local requests", text: `${city.city} is a confirmed service area for ${service.lower}.` },
-      { title: pick(["Focused service", "Targeted help", "Clear scope"], serviceIndex), text: `Work centers on ${service.focus} at your ${city.city} property.` },
-      { title: "Direct contact", text: `Call ${PHONE} or use the contact form to request a visit.` },
+      {
+        title: "Local requests",
+        text: `${city.city} is a confirmed service area for ${service.lower}.`,
+      },
+      {
+        title: pick(["Focused service", "Targeted help", "Clear scope"], serviceIndex),
+        text: `Work centers on ${service.focus} at your ${city.city} property.`,
+      },
+      {
+        title: "Direct contact",
+        text: `Call ${PHONE} or use the contact form to request a visit.`,
+      },
     ],
     [
-      { title: "Homes and businesses", text: `Residential and commercial ${service.lower} requests are accepted in ${city.city}.` },
-      { title: "Prepared visits", text: `Share symptoms and timing so ${city.city} follow-up stays accurate.` },
-      { title: "Related services", text: `Additional plumbing services are available for ${city.city} customers when needed.` },
+      {
+        title: "Homes and businesses",
+        text: `Residential and commercial ${service.lower} requests are accepted across ${city.community}.`,
+      },
+      {
+        title: "Prepared visits",
+        text: `Share symptoms and timing so ${city.city} follow-up stays accurate.`,
+      },
+      {
+        title: "Related services",
+        text: `Additional plumbing services are available for ${city.city} customers when needed.`,
+      },
     ],
   ];
   const overviewPoints = [
     `Professional ${service.lower} for ${city.city} customers`,
-    "Residential and commercial support",
+    `Coverage across ${city.community}`,
     `Published hours: ${HOURS}`,
     ...service.details.slice(0, 2),
   ];
   const detailTitles = [
-    [`${city.city} service focus`, "How the work helps", "Property types served", "Scheduling window"],
+    [
+      `${city.city} service focus`,
+      "How the work helps",
+      "Property types served",
+      "Scheduling window",
+    ],
     ["What we address", "Why it matters", "Where we serve", "When you can request"],
     ["Local priority", "Practical outcome", "Coverage type", "Hours of service"],
   ];
   const whyReasons = [
-    { title: `${city.city} availability`, text: `${service.name} is available for customers throughout ${city.label}.`, icon: "pin" },
+    {
+      title: `${city.city} availability`,
+      text: `${service.name} is available for customers throughout ${city.community}.`,
+      icon: "pin",
+    },
     { title: "Skilled technicians", text: service.summary, icon: "wrench" },
-    { title: "Clear communication", text: "Straightforward updates from inquiry through completion.", icon: "users" },
-    { title: "Reliable workmanship", text: "Professional plumbing work focused on lasting results.", icon: "shield" },
-    { title: "Customer-first care", text: "Your request starts with contact details and a clear description of the job.", icon: "droplet" },
+    {
+      title: "Clear communication",
+      text: "Straightforward updates from inquiry through completion.",
+      icon: "users",
+    },
+    {
+      title: "Reliable workmanship",
+      text: "Professional plumbing work focused on lasting results.",
+      icon: "shield",
+    },
+    {
+      title: "Customer-first care",
+      text: "Your request starts with contact details and a clear description of the job.",
+      icon: "droplet",
+    },
     { title: "Convenient hours", text: `Open ${HOURS}.`, icon: "clock" },
   ];
 
-  const heroSrc = cityImage(city, "hero");
-  const aboutSrc = cityImage(city, "about");
-  const overviewSrc = service.imageSrc;
-  const ctaSrc = cityImage(city, "cta");
-
   const content = {
     metaTitle: `${service.name} in ${city.city}, TN | ${BRAND}`,
-    metaDescription: `${service.summary} Serving ${city.label}. Request ${service.lower} ${HOURS}. Call ${PHONE}.`,
+    metaDescription: `${service.summary} Serving ${city.label} — ${city.community}. Request ${service.lower} ${HOURS}. Call ${PHONE}.`,
     heroTitle: pick(heroVariants, cityIndex + serviceIndex),
     heroDescription: pick(heroDescVariants, cityIndex + serviceIndex * 2),
     highlights: pick(highlightSets, cityIndex + serviceIndex),
     aboutTitle: `${service.name} for ${city.city} homes and businesses`,
-    aboutDescription: `${service.summary} Customers in ${city.city} can request ${service.lower} online or by phone and describe the plumbing work that needs attention.`,
+    aboutDescription: `${service.summary} Customers across ${city.community} can request ${service.lower} online or by phone and describe the plumbing work that needs attention.`,
     aboutSecondary: `Open ${HOURS}. ${BRAND} serves ${city.label} with a straightforward way to request ${service.lower}. Call ${PHONE}.`,
     servicesTitle: `Plumbing services related to ${service.name}`,
     servicesDescription: `While this page focuses on ${service.lower} in ${city.city}, ${BRAND} also provides a full range of professional plumbing services across Nashville and Middle Tennessee.`,
     ctaTitle: `Request ${service.lower} in ${city.city}`,
     ctaDescription: `Contact ${BRAND} to schedule ${service.lower} in ${city.label}. Share your details and the work you need — we follow up from there.`,
     overviewTitle: `${service.name} overview in ${city.city}`,
-    overviewDescription: `From the first request through completion, ${BRAND} keeps ${service.lower} clear and local for customers in ${city.city}, Tennessee.`,
+    overviewDescription: `From the first request through completion, ${BRAND} keeps ${service.lower} clear and local for customers across ${city.community}.`,
     overviewPoints,
     detailsTitle: `${service.name} details for ${city.city}`,
     detailsDescription: `What to expect when you request ${service.lower} from ${BRAND} in ${city.label}.`,
     detailPoints: service.details.map((text, i) => ({
       title: pick(detailTitles, serviceIndex)[i] || `Detail ${i + 1}`,
-      text: i === 0 ? `${text} Available for customers requesting service in ${city.city}.` : text,
+      text:
+        i === 0
+          ? `${text} Available for customers requesting service in ${city.city}.`
+          : text,
     })),
     whyTitle: `Why choose Swift Flo for ${service.lower} in ${city.city}`,
-    whyDescription: `Local coverage, professional plumbing service, and a clear request process for ${service.lower} throughout ${city.label}.`,
+    whyDescription: `Local coverage across ${city.community}, professional plumbing service, and a clear request process for ${service.lower}.`,
     whyReasons,
     faqs: faqs.map((f) => ({ question: f.q, answer: f.a })),
     heroImage: {
-      src: heroSrc,
+      src: cityImage(city, "hero"),
       alt: `${service.imageAltBase} in ${city.city}, Tennessee`,
     },
     aboutImage: {
-      src: aboutSrc,
+      src: cityImage(city, "about"),
       alt: `${service.name} workmanship for ${city.city} customers`,
     },
     overviewImage: {
-      src: overviewSrc,
+      src: service.imageSrc,
       alt: `${service.imageAltBase} for ${city.city} service overview`,
     },
     ctaImage: {
-      src: ctaSrc,
+      src: cityImage(city, "cta"),
       alt: `Request ${service.lower} in ${city.city}`,
     },
   };
@@ -677,11 +670,78 @@ export default content;
 `;
 }
 
+function writeCoverageFile() {
+  const entries = services
+    .map((service) => {
+      const slugs = coverageByServiceSlug[service.slug] ?? [];
+      const list = slugs.map((slug) => `    "${slug}",`).join("\n");
+      return `  "${service.slug}": [\n${list}\n  ],`;
+    })
+    .join("\n");
+
+  writeFile(
+    path.join(base, "coverage.ts"),
+    `import { serviceAreas } from "@/data/service-areas";
+import { services } from "@/data/services";
+
+/**
+ * Explicit coverage matrix: which services are offered in which cities.
+ *
+ * Each service lists the city slugs where it is available. The finder and
+ * dedicated route pages only expose combinations listed here.
+ *
+ * Source of truth for generation scripts: scripts/service-area-config.mjs
+ * To limit a service later, edit that config (or this file) and regenerate.
+ */
+export const serviceCoverageByServiceSlug: Record<string, readonly string[]> = {
+${entries}
+};
+
+// Guard: every catalog service must have an explicit coverage entry.
+for (const service of services) {
+  if (!(service.slug in serviceCoverageByServiceSlug)) {
+    throw new Error(
+      \`Missing coverage entry for service "\${service.slug}" in coverage.ts\`,
+    );
+  }
+}
+
+// Guard: every listed city slug must exist in serviceAreas.
+const knownAreaSlugs = new Set(serviceAreas.map((area) => area.slug));
+for (const [serviceSlug, areaSlugs] of Object.entries(serviceCoverageByServiceSlug)) {
+  for (const areaSlug of areaSlugs) {
+    if (!knownAreaSlugs.has(areaSlug)) {
+      throw new Error(
+        \`Unknown area slug "\${areaSlug}" listed under service "\${serviceSlug}"\`,
+      );
+    }
+  }
+}
+
+export function getAreaSlugsForService(serviceSlug: string): string[] {
+  return [...(serviceCoverageByServiceSlug[serviceSlug] ?? [])];
+}
+
+export function isServiceOfferedInArea(areaSlug: string, serviceSlug: string) {
+  return getAreaSlugsForService(serviceSlug).includes(areaSlug);
+}
+
+export function getServiceSlugsForArea(areaSlug: string): string[] {
+  return services
+    .filter((service) => isServiceOfferedInArea(areaSlug, service.slug))
+    .map((service) => service.slug);
+}
+`,
+  );
+}
+
 // --- Generate files ---
 const cityImports = [];
 const hubImports = [];
 const serviceImports = [];
 const serviceEntries = [];
+
+writeCoverageFile();
 
 for (const [ci, city] of cities.entries()) {
   const file = path.join(base, "cities", `${city.slug}.ts`);
@@ -690,22 +750,36 @@ for (const [ci, city] of cities.entries()) {
 }
 
 for (const [si, service] of services.entries()) {
+  if (getCitiesForService(service.slug).length === 0) continue;
   const file = path.join(base, "hubs", `${service.slug}.ts`);
   writeFile(file, generateHubPage(service, si));
   const hubIdent = service.slug.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
   hubImports.push(`import ${hubIdent} from "./${service.slug}";`);
 }
 
-for (const [ci, city] of cities.entries()) {
-  for (const [si, service] of services.entries()) {
-    const file = path.join(base, "services", city.slug, `${service.slug}.ts`);
-    writeFile(file, generateCityServicePage(city, service, ci, si));
-    const ident = `${city.pascal}_${service.slug.replace(/-([a-z])/g, (_, c) => c.toUpperCase())}`;
-    serviceImports.push(
-      `import ${ident} from "./${city.slug}/${service.slug}";`,
-    );
-    serviceEntries.push(`  "${city.slug}::${service.slug}": ${ident},`);
-  }
+const cityIndexBySlug = Object.fromEntries(cities.map((c, i) => [c.slug, i]));
+const serviceIndexBySlug = Object.fromEntries(services.map((s, i) => [s.slug, i]));
+
+for (const combo of listCoveredCombos()) {
+  const ci = cityIndexBySlug[combo.areaSlug];
+  const si = serviceIndexBySlug[combo.serviceSlug];
+  const file = path.join(
+    base,
+    "services",
+    combo.areaSlug,
+    `${combo.serviceSlug}.ts`,
+  );
+  writeFile(
+    file,
+    generateCityServicePage(combo.city, combo.service, ci, si),
+  );
+  const ident = `${combo.city.pascal}_${combo.service.slug.replace(/-([a-z])/g, (_, c) => c.toUpperCase())}`;
+  serviceImports.push(
+    `import ${ident} from "./${combo.areaSlug}/${combo.serviceSlug}";`,
+  );
+  serviceEntries.push(
+    `  "${combo.areaSlug}::${combo.serviceSlug}": ${ident},`,
+  );
 }
 
 writeFile(
@@ -727,13 +801,17 @@ export function hasCityPageContent(areaSlug: string) {
 `,
 );
 
+const hubServices = services.filter(
+  (service) => getCitiesForService(service.slug).length > 0,
+);
+
 writeFile(
   path.join(base, "hubs", "index.ts"),
   `import type { ServiceHubPageContent } from "@/data/service-area-pages/types";
 ${hubImports.join("\n")}
 
 export const serviceHubContentBySlug: Record<string, ServiceHubPageContent> = {
-${services
+${hubServices
   .map((s) => {
     const ident = s.slug.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
     return `  "${s.slug}": ${ident},`;
@@ -777,6 +855,7 @@ export function hasCityServicePageContent(areaSlug: string, serviceSlug: string)
 `,
 );
 
+const combos = listCoveredCombos();
 console.log(
-  `Generated ${cities.length} city pages, ${services.length} hubs, ${cities.length * services.length} city×service pages.`,
+  `Generated ${cities.length} city pages, ${hubServices.length} hubs, ${combos.length} city×service pages, plus coverage.ts.`,
 );

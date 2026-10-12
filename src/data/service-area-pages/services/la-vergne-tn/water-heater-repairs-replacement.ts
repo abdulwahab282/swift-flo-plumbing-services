@@ -3,9 +3,9 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/la-vergne-tn/water-heater-repairs-replacement */
 const content: CityServicePageContent = {
   "metaTitle": "Water Heater Repairs & Replacement in La Vergne, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Serving La Vergne, TN. Request water heater repairs and replacement Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Serving La Vergne, TN — residential communities and light industrial areas between Nashville and Murfreesboro. Request water heater repairs and replacement Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Professional water heater repairs and replacement for La Vergne",
-  "heroDescription": "Need help with dependable hot water in La Vergne? Swift Flo Plumbing Services handles diagnosing, repairing, or replacing tank and tankless water heaters during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
+  "heroDescription": "Need help with dependable hot water in La Vergne? Swift Flo Plumbing Services handles diagnosing, repairing, or replacing tank and tankless water heaters across residential communities and light industrial areas between Nashville and Murfreesboro during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
   "highlights": [
     {
       "title": "Local requests",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Water Heater Repairs & Replacement for La Vergne homes and businesses",
-  "aboutDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Customers in La Vergne can request water heater repairs and replacement online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Customers across residential communities and light industrial areas between Nashville and Murfreesboro can request water heater repairs and replacement online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves La Vergne, TN with a straightforward way to request water heater repairs and replacement. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Water Heater Repairs & Replacement",
   "servicesDescription": "While this page focuses on water heater repairs and replacement in La Vergne, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request water heater repairs and replacement in La Vergne",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule water heater repairs and replacement in La Vergne, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Water Heater Repairs & Replacement overview in La Vergne",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water heater repairs and replacement clear and local for customers in La Vergne, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water heater repairs and replacement clear and local for customers across residential communities and light industrial areas between Nashville and Murfreesboro.",
   "overviewPoints": [
     "Professional water heater repairs and replacement for La Vergne customers",
-    "Residential and commercial support",
+    "Coverage across residential communities and light industrial areas between Nashville and Murfreesboro",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Diagnose and repair common water heater problems.",
     "Replace aging or failing water heaters when needed."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for water heater repairs and replacement in La Vergne",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for water heater repairs and replacement throughout La Vergne, TN.",
+  "whyDescription": "Local coverage across residential communities and light industrial areas between Nashville and Murfreesboro, professional plumbing service, and a clear request process for water heater repairs and replacement.",
   "whyReasons": [
     {
       "title": "La Vergne availability",
-      "text": "Water Heater Repairs & Replacement is available for customers throughout La Vergne, TN.",
+      "text": "Water Heater Repairs & Replacement is available for customers throughout residential communities and light industrial areas between Nashville and Murfreesboro.",
       "icon": "pin"
     },
     {
@@ -101,19 +101,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in La Vergne?",
-      "answer": "Yes. In addition to water heater repairs and replacement, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in La Vergne, TN."
+      "answer": "Yes. In addition to water heater repairs and replacement, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in La Vergne, TN."
     },
     {
       "question": "Why choose Swift Flo for water heater repairs and replacement in La Vergne?",
-      "answer": "La Vergne is part of our confirmed coverage. Customers receive professional water heater repairs and replacement, clear communication, and a straightforward request process."
+      "answer": "La Vergne is part of our confirmed coverage spanning residential communities and light industrial areas between Nashville and Murfreesboro. Customers receive professional water heater repairs and replacement, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need water heater repairs and replacement in La Vergne?",
-      "answer": "Common reasons include dependable hot water. If you are seeing related symptoms at a La Vergne property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include dependable hot water. If you are seeing related symptoms at a La Vergne property near residential communities and light industrial areas between Nashville and Murfreesboro, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is water heater repairs and replacement available for commercial properties in La Vergne?",
-      "answer": "Yes. Homes and businesses in La Vergne can request water heater repairs and replacement during published business hours."
+      "answer": "Yes. Homes and businesses across residential communities and light industrial areas between Nashville and Murfreesboro can request water heater repairs and replacement during published business hours."
     },
     {
       "question": "How do La Vergne customers prepare for water heater repairs and replacement?",
@@ -133,7 +133,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide water heater repairs and replacement in La Vergne?",
-      "answer": "Yes. Swift Flo Plumbing Services provides water heater repairs and replacement for customers in La Vergne, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides water heater repairs and replacement for customers in La Vergne, TN, including residential communities and light industrial areas between Nashville and Murfreesboro. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does water heater repairs and replacement include for La Vergne customers?",

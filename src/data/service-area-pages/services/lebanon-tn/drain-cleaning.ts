@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/lebanon-tn/drain-cleaning */
 const content: CityServicePageContent = {
   "metaTitle": "Drain Cleaning in Lebanon, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Serving Lebanon, TN. Request drain cleaning Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Serving Lebanon, TN — Wilson County neighborhoods and commercial properties around Lebanon’s city core. Request drain cleaning Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Lebanon Drain Cleaning from Swift Flo",
   "heroDescription": "Lebanon customers can request drain cleaning with a clear description of the issue. Swift Flo Plumbing Services follows up with next steps for service in Lebanon, TN.",
   "highlights": [
     {
       "title": "Homes and businesses",
-      "text": "Residential and commercial drain cleaning requests are accepted in Lebanon."
+      "text": "Residential and commercial drain cleaning requests are accepted across Wilson County neighborhoods and commercial properties around Lebanon’s city core."
     },
     {
       "title": "Prepared visits",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Drain Cleaning for Lebanon homes and businesses",
-  "aboutDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Customers in Lebanon can request drain cleaning online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Customers across Wilson County neighborhoods and commercial properties around Lebanon’s city core can request drain cleaning online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Lebanon, TN with a straightforward way to request drain cleaning. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Drain Cleaning",
   "servicesDescription": "While this page focuses on drain cleaning in Lebanon, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request drain cleaning in Lebanon",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule drain cleaning in Lebanon, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Drain Cleaning overview in Lebanon",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps drain cleaning clear and local for customers in Lebanon, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps drain cleaning clear and local for customers across Wilson County neighborhoods and commercial properties around Lebanon’s city core.",
   "overviewPoints": [
     "Professional drain cleaning for Lebanon customers",
-    "Residential and commercial support",
+    "Coverage across Wilson County neighborhoods and commercial properties around Lebanon’s city core",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Clear clogged sinks, showers, tubs, and floor drains.",
     "Address slow-draining fixtures before they become larger problems."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for drain cleaning in Lebanon",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for drain cleaning throughout Lebanon, TN.",
+  "whyDescription": "Local coverage across Wilson County neighborhoods and commercial properties around Lebanon’s city core, professional plumbing service, and a clear request process for drain cleaning.",
   "whyReasons": [
     {
       "title": "Lebanon availability",
-      "text": "Drain Cleaning is available for customers throughout Lebanon, TN.",
+      "text": "Drain Cleaning is available for customers throughout Wilson County neighborhoods and commercial properties around Lebanon’s city core.",
       "icon": "pin"
     },
     {
@@ -113,19 +113,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Lebanon?",
-      "answer": "Yes. In addition to drain cleaning, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Lebanon, TN."
+      "answer": "Yes. In addition to drain cleaning, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Lebanon, TN."
     },
     {
       "question": "Why choose Swift Flo for drain cleaning in Lebanon?",
-      "answer": "Lebanon is part of our confirmed coverage. Customers receive professional drain cleaning, clear communication, and a straightforward request process."
+      "answer": "Lebanon is part of our confirmed coverage spanning Wilson County neighborhoods and commercial properties around Lebanon’s city core. Customers receive professional drain cleaning, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need drain cleaning in Lebanon?",
-      "answer": "Common reasons include clogged and slow drains. If you are seeing related symptoms at a Lebanon property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include clogged and slow drains. If you are seeing related symptoms at a Lebanon property near Wilson County neighborhoods and commercial properties around Lebanon’s city core, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is drain cleaning available for commercial properties in Lebanon?",
-      "answer": "Yes. Homes and businesses in Lebanon can request drain cleaning during published business hours."
+      "answer": "Yes. Homes and businesses across Wilson County neighborhoods and commercial properties around Lebanon’s city core can request drain cleaning during published business hours."
     },
     {
       "question": "How do Lebanon customers prepare for drain cleaning?",

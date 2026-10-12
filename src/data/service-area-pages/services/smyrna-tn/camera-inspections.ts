@@ -3,7 +3,7 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/smyrna-tn/camera-inspections */
 const content: CityServicePageContent = {
   "metaTitle": "Camera Inspections in Smyrna, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving Smyrna, TN. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving Smyrna, TN — Smyrna neighborhoods and commercial properties along the Nissan Drive corridor. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Professional camera inspections for Smyrna",
   "heroDescription": "Smyrna customers can request camera inspections with a clear description of the issue. Swift Flo Plumbing Services follows up with next steps for service in Smyrna, TN.",
   "highlights": [
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Camera Inspections for Smyrna homes and businesses",
-  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers in Smyrna can request camera inspections online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor can request camera inspections online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Smyrna, TN with a straightforward way to request camera inspections. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Camera Inspections",
   "servicesDescription": "While this page focuses on camera inspections in Smyrna, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request camera inspections in Smyrna",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule camera inspections in Smyrna, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Camera Inspections overview in Smyrna",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers in Smyrna, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor.",
   "overviewPoints": [
     "Professional camera inspections for Smyrna customers",
-    "Residential and commercial support",
+    "Coverage across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Inspect drain and sewer lines with video camera equipment.",
     "Help pinpoint the location and nature of plumbing issues."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for camera inspections in Smyrna",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for camera inspections throughout Smyrna, TN.",
+  "whyDescription": "Local coverage across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor, professional plumbing service, and a clear request process for camera inspections.",
   "whyReasons": [
     {
       "title": "Smyrna availability",
-      "text": "Camera Inspections is available for customers throughout Smyrna, TN.",
+      "text": "Camera Inspections is available for customers throughout Smyrna neighborhoods and commercial properties along the Nissan Drive corridor.",
       "icon": "pin"
     },
     {
@@ -113,19 +113,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Smyrna?",
-      "answer": "Yes. In addition to camera inspections, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Smyrna, TN."
+      "answer": "Yes. In addition to camera inspections, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Smyrna, TN."
     },
     {
       "question": "Why choose Swift Flo for camera inspections in Smyrna?",
-      "answer": "Smyrna is part of our confirmed coverage. Customers receive professional camera inspections, clear communication, and a straightforward request process."
+      "answer": "Smyrna is part of our confirmed coverage spanning Smyrna neighborhoods and commercial properties along the Nissan Drive corridor. Customers receive professional camera inspections, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need camera inspections in Smyrna?",
-      "answer": "Common reasons include hidden pipe conditions. If you are seeing related symptoms at a Smyrna property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include hidden pipe conditions. If you are seeing related symptoms at a Smyrna property near Smyrna neighborhoods and commercial properties along the Nissan Drive corridor, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is camera inspections available for commercial properties in Smyrna?",
-      "answer": "Yes. Homes and businesses in Smyrna can request camera inspections during published business hours."
+      "answer": "Yes. Homes and businesses across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor can request camera inspections during published business hours."
     },
     {
       "question": "How do Smyrna customers prepare for camera inspections?",

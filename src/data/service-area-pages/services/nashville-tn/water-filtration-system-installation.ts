@@ -3,9 +3,9 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/nashville-tn/water-filtration-system-installation */
 const content: CityServicePageContent = {
   "metaTitle": "Water Filtration System Installation in Nashville, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Serving Nashville, TN. Request water filtration system installation Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Serving Nashville, TN — Nashville neighborhoods and commercial districts across Davidson County service requests. Request water filtration system installation Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Professional water filtration system installation for Nashville",
-  "heroDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Swift Flo Plumbing Services provides water filtration system installation for homeowners and businesses throughout Nashville, TN. Call 629-238-8322 or request service online.",
+  "heroDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Swift Flo Plumbing Services provides water filtration system installation for homeowners and businesses throughout Nashville neighborhoods and commercial districts across Davidson County service requests. Call 629-238-8322 or request service online.",
   "highlights": [
     {
       "title": "Local requests",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Water Filtration System Installation for Nashville homes and businesses",
-  "aboutDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Customers in Nashville can request water filtration system installation online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Customers across Nashville neighborhoods and commercial districts across Davidson County service requests can request water filtration system installation online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Nashville, TN with a straightforward way to request water filtration system installation. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Water Filtration System Installation",
   "servicesDescription": "While this page focuses on water filtration system installation in Nashville, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request water filtration system installation in Nashville",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule water filtration system installation in Nashville, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Water Filtration System Installation overview in Nashville",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water filtration system installation clear and local for customers in Nashville, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water filtration system installation clear and local for customers across Nashville neighborhoods and commercial districts across Davidson County service requests.",
   "overviewPoints": [
     "Professional water filtration system installation for Nashville customers",
-    "Residential and commercial support",
+    "Coverage across Nashville neighborhoods and commercial districts across Davidson County service requests",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Install water filtration systems suited to your property.",
     "Support cleaner water for drinking, cooking, and household use."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for water filtration system installation in Nashville",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for water filtration system installation throughout Nashville, TN.",
+  "whyDescription": "Local coverage across Nashville neighborhoods and commercial districts across Davidson County service requests, professional plumbing service, and a clear request process for water filtration system installation.",
   "whyReasons": [
     {
       "title": "Nashville availability",
-      "text": "Water Filtration System Installation is available for customers throughout Nashville, TN.",
+      "text": "Water Filtration System Installation is available for customers throughout Nashville neighborhoods and commercial districts across Davidson County service requests.",
       "icon": "pin"
     },
     {
@@ -93,7 +93,7 @@ const content: CityServicePageContent = {
   "faqs": [
     {
       "question": "Do you provide water filtration system installation in Nashville?",
-      "answer": "Yes. Swift Flo Plumbing Services provides water filtration system installation for customers in Nashville, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides water filtration system installation for customers in Nashville, TN, including Nashville neighborhoods and commercial districts across Davidson County service requests. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does water filtration system installation include for Nashville customers?",
@@ -117,19 +117,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Nashville?",
-      "answer": "Yes. In addition to water filtration system installation, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Nashville, TN."
+      "answer": "Yes. In addition to water filtration system installation, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Nashville, TN."
     },
     {
       "question": "Why choose Swift Flo for water filtration system installation in Nashville?",
-      "answer": "Nashville is part of our confirmed coverage. Customers receive professional water filtration system installation, clear communication, and a straightforward request process."
+      "answer": "Nashville is part of our confirmed coverage spanning Nashville neighborhoods and commercial districts across Davidson County service requests. Customers receive professional water filtration system installation, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need water filtration system installation in Nashville?",
-      "answer": "Common reasons include cleaner household water. If you are seeing related symptoms at a Nashville property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include cleaner household water. If you are seeing related symptoms at a Nashville property near Nashville neighborhoods and commercial districts across Davidson County service requests, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is water filtration system installation available for commercial properties in Nashville?",
-      "answer": "Yes. Homes and businesses in Nashville can request water filtration system installation during published business hours."
+      "answer": "Yes. Homes and businesses across Nashville neighborhoods and commercial districts across Davidson County service requests can request water filtration system installation during published business hours."
     },
     {
       "question": "How do Nashville customers prepare for water filtration system installation?",

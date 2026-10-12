@@ -3,9 +3,9 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/spring-hill-tn/drain-cleaning */
 const content: CityServicePageContent = {
   "metaTitle": "Drain Cleaning in Spring Hill, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Serving Spring Hill, TN. Request drain cleaning Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Serving Spring Hill, TN — Spring Hill subdivisions spanning Maury and Williamson County growth areas. Request drain cleaning Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Professional drain cleaning for Spring Hill",
-  "heroDescription": "Need help with clogged and slow drains in Spring Hill? Swift Flo Plumbing Services handles clearing sinks, showers, tubs, floor drains, and main-line backups during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
+  "heroDescription": "Need help with clogged and slow drains in Spring Hill? Swift Flo Plumbing Services handles clearing sinks, showers, tubs, floor drains, and main-line backups across Spring Hill subdivisions spanning Maury and Williamson County growth areas during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
   "highlights": [
     {
       "title": "Local requests",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Drain Cleaning for Spring Hill homes and businesses",
-  "aboutDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Customers in Spring Hill can request drain cleaning online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Customers across Spring Hill subdivisions spanning Maury and Williamson County growth areas can request drain cleaning online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Spring Hill, TN with a straightforward way to request drain cleaning. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Drain Cleaning",
   "servicesDescription": "While this page focuses on drain cleaning in Spring Hill, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request drain cleaning in Spring Hill",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule drain cleaning in Spring Hill, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Drain Cleaning overview in Spring Hill",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps drain cleaning clear and local for customers in Spring Hill, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps drain cleaning clear and local for customers across Spring Hill subdivisions spanning Maury and Williamson County growth areas.",
   "overviewPoints": [
     "Professional drain cleaning for Spring Hill customers",
-    "Residential and commercial support",
+    "Coverage across Spring Hill subdivisions spanning Maury and Williamson County growth areas",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Clear clogged sinks, showers, tubs, and floor drains.",
     "Address slow-draining fixtures before they become larger problems."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for drain cleaning in Spring Hill",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for drain cleaning throughout Spring Hill, TN.",
+  "whyDescription": "Local coverage across Spring Hill subdivisions spanning Maury and Williamson County growth areas, professional plumbing service, and a clear request process for drain cleaning.",
   "whyReasons": [
     {
       "title": "Spring Hill availability",
-      "text": "Drain Cleaning is available for customers throughout Spring Hill, TN.",
+      "text": "Drain Cleaning is available for customers throughout Spring Hill subdivisions spanning Maury and Williamson County growth areas.",
       "icon": "pin"
     },
     {
@@ -109,19 +109,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Spring Hill?",
-      "answer": "Yes. In addition to drain cleaning, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Spring Hill, TN."
+      "answer": "Yes. In addition to drain cleaning, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Spring Hill, TN."
     },
     {
       "question": "Why choose Swift Flo for drain cleaning in Spring Hill?",
-      "answer": "Spring Hill is part of our confirmed coverage. Customers receive professional drain cleaning, clear communication, and a straightforward request process."
+      "answer": "Spring Hill is part of our confirmed coverage spanning Spring Hill subdivisions spanning Maury and Williamson County growth areas. Customers receive professional drain cleaning, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need drain cleaning in Spring Hill?",
-      "answer": "Common reasons include clogged and slow drains. If you are seeing related symptoms at a Spring Hill property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include clogged and slow drains. If you are seeing related symptoms at a Spring Hill property near Spring Hill subdivisions spanning Maury and Williamson County growth areas, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is drain cleaning available for commercial properties in Spring Hill?",
-      "answer": "Yes. Homes and businesses in Spring Hill can request drain cleaning during published business hours."
+      "answer": "Yes. Homes and businesses across Spring Hill subdivisions spanning Maury and Williamson County growth areas can request drain cleaning during published business hours."
     },
     {
       "question": "How do Spring Hill customers prepare for drain cleaning?",

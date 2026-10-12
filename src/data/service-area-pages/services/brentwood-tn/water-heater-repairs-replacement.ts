@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/brentwood-tn/water-heater-repairs-replacement */
 const content: CityServicePageContent = {
   "metaTitle": "Water Heater Repairs & Replacement in Brentwood, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Serving Brentwood, TN. Request water heater repairs and replacement Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Serving Brentwood, TN — residential streets and commercial corridors near Cool Springs and Maryland Farms. Request water heater repairs and replacement Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Water Heater Repairs & Replacement in Brentwood, TN",
-  "heroDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Swift Flo Plumbing Services provides water heater repairs and replacement for homeowners and businesses throughout Brentwood, TN. Call 629-238-8322 or request service online.",
+  "heroDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Swift Flo Plumbing Services provides water heater repairs and replacement for homeowners and businesses throughout residential streets and commercial corridors near Cool Springs and Maryland Farms. Call 629-238-8322 or request service online.",
   "highlights": [
     {
       "title": "Brentwood coverage",
-      "text": "Professional water heater repairs and replacement arranged for customers throughout Brentwood, TN."
+      "text": "Professional water heater repairs and replacement arranged for customers throughout residential streets and commercial corridors near Cool Springs and Maryland Farms."
     },
     {
       "title": "Dependable results",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Water Heater Repairs & Replacement for Brentwood homes and businesses",
-  "aboutDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Customers in Brentwood can request water heater repairs and replacement online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Customers across residential streets and commercial corridors near Cool Springs and Maryland Farms can request water heater repairs and replacement online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Brentwood, TN with a straightforward way to request water heater repairs and replacement. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Water Heater Repairs & Replacement",
   "servicesDescription": "While this page focuses on water heater repairs and replacement in Brentwood, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request water heater repairs and replacement in Brentwood",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule water heater repairs and replacement in Brentwood, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Water Heater Repairs & Replacement overview in Brentwood",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water heater repairs and replacement clear and local for customers in Brentwood, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water heater repairs and replacement clear and local for customers across residential streets and commercial corridors near Cool Springs and Maryland Farms.",
   "overviewPoints": [
     "Professional water heater repairs and replacement for Brentwood customers",
-    "Residential and commercial support",
+    "Coverage across residential streets and commercial corridors near Cool Springs and Maryland Farms",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Diagnose and repair common water heater problems.",
     "Replace aging or failing water heaters when needed."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for water heater repairs and replacement in Brentwood",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for water heater repairs and replacement throughout Brentwood, TN.",
+  "whyDescription": "Local coverage across residential streets and commercial corridors near Cool Springs and Maryland Farms, professional plumbing service, and a clear request process for water heater repairs and replacement.",
   "whyReasons": [
     {
       "title": "Brentwood availability",
-      "text": "Water Heater Repairs & Replacement is available for customers throughout Brentwood, TN.",
+      "text": "Water Heater Repairs & Replacement is available for customers throughout residential streets and commercial corridors near Cool Springs and Maryland Farms.",
       "icon": "pin"
     },
     {
@@ -93,19 +93,19 @@ const content: CityServicePageContent = {
   "faqs": [
     {
       "question": "Are related plumbing services available in Brentwood?",
-      "answer": "Yes. In addition to water heater repairs and replacement, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Brentwood, TN."
+      "answer": "Yes. In addition to water heater repairs and replacement, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Brentwood, TN."
     },
     {
       "question": "Why choose Swift Flo for water heater repairs and replacement in Brentwood?",
-      "answer": "Brentwood is part of our confirmed coverage. Customers receive professional water heater repairs and replacement, clear communication, and a straightforward request process."
+      "answer": "Brentwood is part of our confirmed coverage spanning residential streets and commercial corridors near Cool Springs and Maryland Farms. Customers receive professional water heater repairs and replacement, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need water heater repairs and replacement in Brentwood?",
-      "answer": "Common reasons include dependable hot water. If you are seeing related symptoms at a Brentwood property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include dependable hot water. If you are seeing related symptoms at a Brentwood property near residential streets and commercial corridors near Cool Springs and Maryland Farms, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is water heater repairs and replacement available for commercial properties in Brentwood?",
-      "answer": "Yes. Homes and businesses in Brentwood can request water heater repairs and replacement during published business hours."
+      "answer": "Yes. Homes and businesses across residential streets and commercial corridors near Cool Springs and Maryland Farms can request water heater repairs and replacement during published business hours."
     },
     {
       "question": "How do Brentwood customers prepare for water heater repairs and replacement?",
@@ -125,7 +125,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide water heater repairs and replacement in Brentwood?",
-      "answer": "Yes. Swift Flo Plumbing Services provides water heater repairs and replacement for customers in Brentwood, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides water heater repairs and replacement for customers in Brentwood, TN, including residential streets and commercial corridors near Cool Springs and Maryland Farms. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does water heater repairs and replacement include for Brentwood customers?",

@@ -32,7 +32,7 @@ const content: ServiceHubPageContent = {
   },
   servicesSection: {
     title: "Related plumbing services",
-    description: "While this hub focuses on water filtration system installation, Swift Flo Plumbing Services also provides drain cleaning, camera inspections, water filtration installation, water heater service, bathroom remodeling plumbing, and water and sewer excavation repairs across Middle Tennessee.",
+    description: "While this hub focuses on water filtration system installation, Swift Flo Plumbing Services also provides additional confirmed plumbing services across Middle Tennessee.",
   },
   cta: {
     title: "Request water filtration system installation",

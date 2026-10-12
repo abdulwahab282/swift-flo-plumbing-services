@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/spring-hill-tn/bathroom-remodeling */
 const content: CityServicePageContent = {
   "metaTitle": "Bathroom Remodeling in Spring Hill, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving Spring Hill, TN. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving Spring Hill, TN — Spring Hill subdivisions spanning Maury and Williamson County growth areas. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Spring Hill Bathroom Remodeling from Swift Flo",
-  "heroDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Swift Flo Plumbing Services provides bathroom remodeling plumbing for homeowners and businesses throughout Spring Hill, TN. Call 629-238-8322 or request service online.",
+  "heroDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Swift Flo Plumbing Services provides bathroom remodeling plumbing for homeowners and businesses throughout Spring Hill subdivisions spanning Maury and Williamson County growth areas. Call 629-238-8322 or request service online.",
   "highlights": [
     {
       "title": "Homes and businesses",
-      "text": "Residential and commercial bathroom remodeling plumbing requests are accepted in Spring Hill."
+      "text": "Residential and commercial bathroom remodeling plumbing requests are accepted across Spring Hill subdivisions spanning Maury and Williamson County growth areas."
     },
     {
       "title": "Prepared visits",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Bathroom Remodeling for Spring Hill homes and businesses",
-  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers in Spring Hill can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers across Spring Hill subdivisions spanning Maury and Williamson County growth areas can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Spring Hill, TN with a straightforward way to request bathroom remodeling plumbing. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Bathroom Remodeling",
   "servicesDescription": "While this page focuses on bathroom remodeling plumbing in Spring Hill, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request bathroom remodeling plumbing in Spring Hill",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule bathroom remodeling plumbing in Spring Hill, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Bathroom Remodeling overview in Spring Hill",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers in Spring Hill, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers across Spring Hill subdivisions spanning Maury and Williamson County growth areas.",
   "overviewPoints": [
     "Professional bathroom remodeling plumbing for Spring Hill customers",
-    "Residential and commercial support",
+    "Coverage across Spring Hill subdivisions spanning Maury and Williamson County growth areas",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Install and connect bathroom fixtures with care.",
     "Support plumbing needs during bathroom remodel projects."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for bathroom remodeling plumbing in Spring Hill",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for bathroom remodeling plumbing throughout Spring Hill, TN.",
+  "whyDescription": "Local coverage across Spring Hill subdivisions spanning Maury and Williamson County growth areas, professional plumbing service, and a clear request process for bathroom remodeling plumbing.",
   "whyReasons": [
     {
       "title": "Spring Hill availability",
-      "text": "Bathroom Remodeling is available for customers throughout Spring Hill, TN.",
+      "text": "Bathroom Remodeling is available for customers throughout Spring Hill subdivisions spanning Maury and Williamson County growth areas.",
       "icon": "pin"
     },
     {
@@ -109,7 +109,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide bathroom remodeling plumbing in Spring Hill?",
-      "answer": "Yes. Swift Flo Plumbing Services provides bathroom remodeling plumbing for customers in Spring Hill, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides bathroom remodeling plumbing for customers in Spring Hill, TN, including Spring Hill subdivisions spanning Maury and Williamson County growth areas. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does bathroom remodeling plumbing include for Spring Hill customers?",
@@ -133,11 +133,11 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Spring Hill?",
-      "answer": "Yes. In addition to bathroom remodeling plumbing, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Spring Hill, TN."
+      "answer": "Yes. In addition to bathroom remodeling plumbing, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Spring Hill, TN."
     },
     {
       "question": "Why choose Swift Flo for bathroom remodeling plumbing in Spring Hill?",
-      "answer": "Spring Hill is part of our confirmed coverage. Customers receive professional bathroom remodeling plumbing, clear communication, and a straightforward request process."
+      "answer": "Spring Hill is part of our confirmed coverage spanning Spring Hill subdivisions spanning Maury and Williamson County growth areas. Customers receive professional bathroom remodeling plumbing, clear communication, and a straightforward request process."
     }
   ],
   "heroImage": {

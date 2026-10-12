@@ -32,7 +32,7 @@ const content: ServiceHubPageContent = {
   },
   servicesSection: {
     title: "Related plumbing services",
-    description: "While this hub focuses on water and sewer excavation repairs and replacements, Swift Flo Plumbing Services also provides drain cleaning, camera inspections, water filtration installation, water heater service, bathroom remodeling plumbing, and water and sewer excavation repairs across Middle Tennessee.",
+    description: "While this hub focuses on water and sewer excavation repairs and replacements, Swift Flo Plumbing Services also provides additional confirmed plumbing services across Middle Tennessee.",
   },
   cta: {
     title: "Request water and sewer excavation repairs and replacements",
@@ -85,7 +85,7 @@ const content: ServiceHubPageContent = {
   faqs: [
   {
     "question": "Where is water and sewer excavation repairs and replacements available?",
-    "answer": "Swift Flo Plumbing Services provides water and sewer excavation repairs and replacements across 12 confirmed communities in Nashville and Middle Tennessee, including Gallatin, Hendersonville, La Vergne, Lebanon, Mt. Juliet."
+    "answer": "Swift Flo Plumbing Services provides water and sewer excavation repairs and replacements across 12 confirmed communities in Nashville and Middle Tennessee, including Lebanon, Mt. Juliet, Murfreesboro, Nashville, Smyrna."
   },
   {
     "question": "How do I find water and sewer excavation repairs and replacements near me?",

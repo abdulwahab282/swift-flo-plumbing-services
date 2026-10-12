@@ -3,14 +3,14 @@ import type { CityPageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/nashville-tn */
 const content: CityPageContent = {
   metaTitle: "Plumbing Services in Nashville, TN | Swift Flo Plumbing Services",
-  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in Nashville, TN. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in Nashville, TN. Serving Nashville neighborhoods and commercial districts across Davidson County service requests. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   heroTitle: "Professional plumbing services in Nashville.",
-  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for residential and commercial sites that need plumbing handled with clean workmanship in Nashville, Tennessee. Request help with drain, water heater, bathroom, filtration, and underground plumbing needs through the contact form or by calling 629-238-8322.",
+  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for residential and commercial sites that need plumbing handled with clean workmanship across Nashville neighborhoods and commercial districts across Davidson County service requests. Request help with drain, water heater, bathroom, filtration, and underground plumbing needs through the contact form or by calling 629-238-8322.",
   summary: "Professional plumbing service for homeowners and businesses in Nashville, TN.",
   whyLocal: [
   {
     "title": "Serving Nashville",
-    "text": "Nashville is a confirmed service area for Swift Flo Plumbing Services, giving local customers a direct way to request professional plumbing work."
+    "text": "Nashville is a confirmed service area for Swift Flo Plumbing Services, covering Nashville neighborhoods and commercial districts across Davidson County service requests."
   },
   {
     "title": "Clear request process",
@@ -23,7 +23,7 @@ const content: CityPageContent = {
 ],
   about: {
     title: "Professional plumbing for Nashville homes and businesses.",
-    description: "Swift Flo Plumbing Services serves Nashville with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout Nashville, TN can request service during published hours.",
+    description: "Swift Flo Plumbing Services serves Nashville with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout Nashville neighborhoods and commercial districts across Davidson County service requests can request service during published hours.",
   },
   services: {
     title: "Plumbing services available in Nashville",
@@ -31,7 +31,7 @@ const content: CityPageContent = {
   },
   overview: {
     title: "How plumbing service works in Nashville",
-    description: "From the first request through completion, Nashville customers receive clear next steps, professional workmanship, and scheduling within published hours.",
+    description: "From the first request through completion, Nashville customers across Nashville neighborhoods and commercial districts across Davidson County service requests receive clear next steps, professional workmanship, and scheduling within published hours.",
   },
   details: {
     title: "What Nashville customers can expect",
@@ -39,7 +39,7 @@ const content: CityPageContent = {
     points: [
   {
     "title": "Confirmed coverage",
-    "text": "Professional plumbing service is available for customers throughout Nashville, Tennessee."
+    "text": "Professional plumbing service is available throughout Nashville neighborhoods and commercial districts across Davidson County service requests."
   },
   {
     "title": "Careful workmanship",
@@ -69,7 +69,7 @@ const content: CityPageContent = {
     reasons: [
   {
     "title": "Local coverage",
-    "text": "Nashville is included in our confirmed Middle Tennessee service areas.",
+    "text": "Nashville is included in our confirmed Middle Tennessee service areas, including Nashville neighborhoods and commercial districts across Davidson County service requests.",
     "icon": "pin"
   },
   {
@@ -110,11 +110,11 @@ const content: CityPageContent = {
   },
   {
     "question": "Why choose Swift Flo Plumbing Services in Nashville?",
-    "answer": "Nashville is a confirmed service area. Customers get professional plumbing work, clear communication, and a straightforward request process from inquiry through completion."
+    "answer": "Nashville is a confirmed service area covering Nashville neighborhoods and commercial districts across Davidson County service requests. Customers get professional plumbing work, clear communication, and a straightforward request process."
   },
   {
     "question": "Do you handle drain cleaning in Nashville?",
-    "answer": "Yes. Drain cleaning is available for Nashville customers along with the rest of our confirmed plumbing services."
+    "answer": "Yes. Drain cleaning is available for Nashville customers along with the rest of our confirmed plumbing services for this city."
   },
   {
     "question": "Can Nashville customers request water heater service?",
@@ -122,11 +122,11 @@ const content: CityPageContent = {
   },
   {
     "question": "Do you provide plumbing services in Nashville?",
-    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in Nashville, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in Nashville, TN, including Nashville neighborhoods and commercial districts across Davidson County service requests. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
   },
   {
     "question": "Which plumbing services are available in Nashville?",
-    "answer": "Customers in Nashville can request drain cleaning, camera inspections, water filtration installation, water heater repairs and replacement, bathroom remodeling plumbing, and water and sewer excavation repairs."
+    "answer": "Customers in Nashville can request drain cleaning, camera inspections, water filtration system installation, water heater repairs and replacement, bathroom remodeling plumbing, water and sewer excavation repairs and replacements."
   },
   {
     "question": "How do I request a plumber in Nashville?",
@@ -138,7 +138,7 @@ const content: CityPageContent = {
   },
   {
     "question": "Do you serve both homes and businesses in Nashville?",
-    "answer": "Yes. Residential and commercial customers in Nashville can request professional plumbing service."
+    "answer": "Yes. Residential and commercial customers in Nashville can request professional plumbing service across Nashville neighborhoods and commercial districts across Davidson County service requests."
   },
   {
     "question": "Can I get a free quote for plumbing work in Nashville?",

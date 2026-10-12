@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/gallatin-tn/bathroom-remodeling */
 const content: CityServicePageContent = {
   "metaTitle": "Bathroom Remodeling in Gallatin, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving Gallatin, TN. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving Gallatin, TN — homes and businesses around Gallatin’s town center and nearby Sumner County roads. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Bathroom Remodeling in Gallatin, TN",
-  "heroDescription": "Need help with fixture and remodel plumbing in Gallatin? Swift Flo Plumbing Services handles fixture installation and plumbing updates during bathroom remodel projects during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
+  "heroDescription": "Need help with fixture and remodel plumbing in Gallatin? Swift Flo Plumbing Services handles fixture installation and plumbing updates during bathroom remodel projects across homes and businesses around Gallatin’s town center and nearby Sumner County roads during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
   "highlights": [
     {
       "title": "Gallatin coverage",
-      "text": "Professional bathroom remodeling plumbing arranged for customers throughout Gallatin, TN."
+      "text": "Professional bathroom remodeling plumbing arranged for customers throughout homes and businesses around Gallatin’s town center and nearby Sumner County roads."
     },
     {
       "title": "Dependable results",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Bathroom Remodeling for Gallatin homes and businesses",
-  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers in Gallatin can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers across homes and businesses around Gallatin’s town center and nearby Sumner County roads can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Gallatin, TN with a straightforward way to request bathroom remodeling plumbing. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Bathroom Remodeling",
   "servicesDescription": "While this page focuses on bathroom remodeling plumbing in Gallatin, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request bathroom remodeling plumbing in Gallatin",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule bathroom remodeling plumbing in Gallatin, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Bathroom Remodeling overview in Gallatin",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers in Gallatin, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers across homes and businesses around Gallatin’s town center and nearby Sumner County roads.",
   "overviewPoints": [
     "Professional bathroom remodeling plumbing for Gallatin customers",
-    "Residential and commercial support",
+    "Coverage across homes and businesses around Gallatin’s town center and nearby Sumner County roads",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Install and connect bathroom fixtures with care.",
     "Support plumbing needs during bathroom remodel projects."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for bathroom remodeling plumbing in Gallatin",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for bathroom remodeling plumbing throughout Gallatin, TN.",
+  "whyDescription": "Local coverage across homes and businesses around Gallatin’s town center and nearby Sumner County roads, professional plumbing service, and a clear request process for bathroom remodeling plumbing.",
   "whyReasons": [
     {
       "title": "Gallatin availability",
-      "text": "Bathroom Remodeling is available for customers throughout Gallatin, TN.",
+      "text": "Bathroom Remodeling is available for customers throughout homes and businesses around Gallatin’s town center and nearby Sumner County roads.",
       "icon": "pin"
     },
     {
@@ -93,7 +93,7 @@ const content: CityServicePageContent = {
   "faqs": [
     {
       "question": "Do you provide bathroom remodeling plumbing in Gallatin?",
-      "answer": "Yes. Swift Flo Plumbing Services provides bathroom remodeling plumbing for customers in Gallatin, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides bathroom remodeling plumbing for customers in Gallatin, TN, including homes and businesses around Gallatin’s town center and nearby Sumner County roads. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does bathroom remodeling plumbing include for Gallatin customers?",
@@ -117,19 +117,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Gallatin?",
-      "answer": "Yes. In addition to bathroom remodeling plumbing, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Gallatin, TN."
+      "answer": "Yes. In addition to bathroom remodeling plumbing, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Gallatin, TN."
     },
     {
       "question": "Why choose Swift Flo for bathroom remodeling plumbing in Gallatin?",
-      "answer": "Gallatin is part of our confirmed coverage. Customers receive professional bathroom remodeling plumbing, clear communication, and a straightforward request process."
+      "answer": "Gallatin is part of our confirmed coverage spanning homes and businesses around Gallatin’s town center and nearby Sumner County roads. Customers receive professional bathroom remodeling plumbing, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need bathroom remodeling plumbing in Gallatin?",
-      "answer": "Common reasons include fixture and remodel plumbing. If you are seeing related symptoms at a Gallatin property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include fixture and remodel plumbing. If you are seeing related symptoms at a Gallatin property near homes and businesses around Gallatin’s town center and nearby Sumner County roads, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is bathroom remodeling plumbing available for commercial properties in Gallatin?",
-      "answer": "Yes. Homes and businesses in Gallatin can request bathroom remodeling plumbing during published business hours."
+      "answer": "Yes. Homes and businesses across homes and businesses around Gallatin’s town center and nearby Sumner County roads can request bathroom remodeling plumbing during published business hours."
     },
     {
       "question": "How do Gallatin customers prepare for bathroom remodeling plumbing?",

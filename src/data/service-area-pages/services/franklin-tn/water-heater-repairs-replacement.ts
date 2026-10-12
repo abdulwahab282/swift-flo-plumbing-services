@@ -3,9 +3,9 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/franklin-tn/water-heater-repairs-replacement */
 const content: CityServicePageContent = {
   "metaTitle": "Water Heater Repairs & Replacement in Franklin, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Serving Franklin, TN. Request water heater repairs and replacement Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Serving Franklin, TN — historic downtown Franklin plus growing neighborhoods across Williamson County. Request water heater repairs and replacement Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Professional water heater repairs and replacement for Franklin",
-  "heroDescription": "Need help with dependable hot water in Franklin? Swift Flo Plumbing Services handles diagnosing, repairing, or replacing tank and tankless water heaters during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
+  "heroDescription": "Need help with dependable hot water in Franklin? Swift Flo Plumbing Services handles diagnosing, repairing, or replacing tank and tankless water heaters across historic downtown Franklin plus growing neighborhoods across Williamson County during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
   "highlights": [
     {
       "title": "Local requests",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Water Heater Repairs & Replacement for Franklin homes and businesses",
-  "aboutDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Customers in Franklin can request water heater repairs and replacement online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Customers across historic downtown Franklin plus growing neighborhoods across Williamson County can request water heater repairs and replacement online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Franklin, TN with a straightforward way to request water heater repairs and replacement. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Water Heater Repairs & Replacement",
   "servicesDescription": "While this page focuses on water heater repairs and replacement in Franklin, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request water heater repairs and replacement in Franklin",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule water heater repairs and replacement in Franklin, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Water Heater Repairs & Replacement overview in Franklin",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water heater repairs and replacement clear and local for customers in Franklin, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water heater repairs and replacement clear and local for customers across historic downtown Franklin plus growing neighborhoods across Williamson County.",
   "overviewPoints": [
     "Professional water heater repairs and replacement for Franklin customers",
-    "Residential and commercial support",
+    "Coverage across historic downtown Franklin plus growing neighborhoods across Williamson County",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Diagnose and repair common water heater problems.",
     "Replace aging or failing water heaters when needed."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for water heater repairs and replacement in Franklin",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for water heater repairs and replacement throughout Franklin, TN.",
+  "whyDescription": "Local coverage across historic downtown Franklin plus growing neighborhoods across Williamson County, professional plumbing service, and a clear request process for water heater repairs and replacement.",
   "whyReasons": [
     {
       "title": "Franklin availability",
-      "text": "Water Heater Repairs & Replacement is available for customers throughout Franklin, TN.",
+      "text": "Water Heater Repairs & Replacement is available for customers throughout historic downtown Franklin plus growing neighborhoods across Williamson County.",
       "icon": "pin"
     },
     {
@@ -93,7 +93,7 @@ const content: CityServicePageContent = {
   "faqs": [
     {
       "question": "Is water heater repairs and replacement available for commercial properties in Franklin?",
-      "answer": "Yes. Homes and businesses in Franklin can request water heater repairs and replacement during published business hours."
+      "answer": "Yes. Homes and businesses across historic downtown Franklin plus growing neighborhoods across Williamson County can request water heater repairs and replacement during published business hours."
     },
     {
       "question": "How do Franklin customers prepare for water heater repairs and replacement?",
@@ -113,7 +113,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide water heater repairs and replacement in Franklin?",
-      "answer": "Yes. Swift Flo Plumbing Services provides water heater repairs and replacement for customers in Franklin, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides water heater repairs and replacement for customers in Franklin, TN, including historic downtown Franklin plus growing neighborhoods across Williamson County. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does water heater repairs and replacement include for Franklin customers?",
@@ -137,7 +137,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Franklin?",
-      "answer": "Yes. In addition to water heater repairs and replacement, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Franklin, TN."
+      "answer": "Yes. In addition to water heater repairs and replacement, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Franklin, TN."
     }
   ],
   "heroImage": {

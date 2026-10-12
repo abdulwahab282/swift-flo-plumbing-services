@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/nashville-tn/bathroom-remodeling */
 const content: CityServicePageContent = {
   "metaTitle": "Bathroom Remodeling in Nashville, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving Nashville, TN. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving Nashville, TN — Nashville neighborhoods and commercial districts across Davidson County service requests. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Bathroom Remodeling in Nashville, TN",
-  "heroDescription": "Need help with fixture and remodel plumbing in Nashville? Swift Flo Plumbing Services handles fixture installation and plumbing updates during bathroom remodel projects during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
+  "heroDescription": "Need help with fixture and remodel plumbing in Nashville? Swift Flo Plumbing Services handles fixture installation and plumbing updates during bathroom remodel projects across Nashville neighborhoods and commercial districts across Davidson County service requests during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
   "highlights": [
     {
       "title": "Nashville coverage",
-      "text": "Professional bathroom remodeling plumbing arranged for customers throughout Nashville, TN."
+      "text": "Professional bathroom remodeling plumbing arranged for customers throughout Nashville neighborhoods and commercial districts across Davidson County service requests."
     },
     {
       "title": "Dependable results",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Bathroom Remodeling for Nashville homes and businesses",
-  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers in Nashville can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers across Nashville neighborhoods and commercial districts across Davidson County service requests can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Nashville, TN with a straightforward way to request bathroom remodeling plumbing. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Bathroom Remodeling",
   "servicesDescription": "While this page focuses on bathroom remodeling plumbing in Nashville, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request bathroom remodeling plumbing in Nashville",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule bathroom remodeling plumbing in Nashville, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Bathroom Remodeling overview in Nashville",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers in Nashville, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers across Nashville neighborhoods and commercial districts across Davidson County service requests.",
   "overviewPoints": [
     "Professional bathroom remodeling plumbing for Nashville customers",
-    "Residential and commercial support",
+    "Coverage across Nashville neighborhoods and commercial districts across Davidson County service requests",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Install and connect bathroom fixtures with care.",
     "Support plumbing needs during bathroom remodel projects."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for bathroom remodeling plumbing in Nashville",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for bathroom remodeling plumbing throughout Nashville, TN.",
+  "whyDescription": "Local coverage across Nashville neighborhoods and commercial districts across Davidson County service requests, professional plumbing service, and a clear request process for bathroom remodeling plumbing.",
   "whyReasons": [
     {
       "title": "Nashville availability",
-      "text": "Bathroom Remodeling is available for customers throughout Nashville, TN.",
+      "text": "Bathroom Remodeling is available for customers throughout Nashville neighborhoods and commercial districts across Davidson County service requests.",
       "icon": "pin"
     },
     {
@@ -101,19 +101,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Nashville?",
-      "answer": "Yes. In addition to bathroom remodeling plumbing, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Nashville, TN."
+      "answer": "Yes. In addition to bathroom remodeling plumbing, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Nashville, TN."
     },
     {
       "question": "Why choose Swift Flo for bathroom remodeling plumbing in Nashville?",
-      "answer": "Nashville is part of our confirmed coverage. Customers receive professional bathroom remodeling plumbing, clear communication, and a straightforward request process."
+      "answer": "Nashville is part of our confirmed coverage spanning Nashville neighborhoods and commercial districts across Davidson County service requests. Customers receive professional bathroom remodeling plumbing, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need bathroom remodeling plumbing in Nashville?",
-      "answer": "Common reasons include fixture and remodel plumbing. If you are seeing related symptoms at a Nashville property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include fixture and remodel plumbing. If you are seeing related symptoms at a Nashville property near Nashville neighborhoods and commercial districts across Davidson County service requests, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is bathroom remodeling plumbing available for commercial properties in Nashville?",
-      "answer": "Yes. Homes and businesses in Nashville can request bathroom remodeling plumbing during published business hours."
+      "answer": "Yes. Homes and businesses across Nashville neighborhoods and commercial districts across Davidson County service requests can request bathroom remodeling plumbing during published business hours."
     },
     {
       "question": "How do Nashville customers prepare for bathroom remodeling plumbing?",
@@ -133,7 +133,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide bathroom remodeling plumbing in Nashville?",
-      "answer": "Yes. Swift Flo Plumbing Services provides bathroom remodeling plumbing for customers in Nashville, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides bathroom remodeling plumbing for customers in Nashville, TN, including Nashville neighborhoods and commercial districts across Davidson County service requests. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does bathroom remodeling plumbing include for Nashville customers?",

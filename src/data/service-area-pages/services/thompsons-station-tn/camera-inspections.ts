@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/thompsons-station-tn/camera-inspections */
 const content: CityServicePageContent = {
   "metaTitle": "Camera Inspections in Thompson's Station, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving Thompson's Station, TN. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving Thompson's Station, TN — Thompson’s Station neighborhoods and surrounding Williamson County properties. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Camera Inspections in Thompson's Station, TN",
-  "heroDescription": "Need help with hidden pipe conditions in Thompson's Station? Swift Flo Plumbing Services handles video inspection of drain and sewer lines to locate blockages and damage during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
+  "heroDescription": "Need help with hidden pipe conditions in Thompson's Station? Swift Flo Plumbing Services handles video inspection of drain and sewer lines to locate blockages and damage across Thompson’s Station neighborhoods and surrounding Williamson County properties during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
   "highlights": [
     {
       "title": "Thompson's Station coverage",
-      "text": "Professional camera inspections arranged for customers throughout Thompson's Station, TN."
+      "text": "Professional camera inspections arranged for customers throughout Thompson’s Station neighborhoods and surrounding Williamson County properties."
     },
     {
       "title": "Dependable results",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Camera Inspections for Thompson's Station homes and businesses",
-  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers in Thompson's Station can request camera inspections online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers across Thompson’s Station neighborhoods and surrounding Williamson County properties can request camera inspections online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Thompson's Station, TN with a straightforward way to request camera inspections. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Camera Inspections",
   "servicesDescription": "While this page focuses on camera inspections in Thompson's Station, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request camera inspections in Thompson's Station",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule camera inspections in Thompson's Station, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Camera Inspections overview in Thompson's Station",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers in Thompson's Station, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers across Thompson’s Station neighborhoods and surrounding Williamson County properties.",
   "overviewPoints": [
     "Professional camera inspections for Thompson's Station customers",
-    "Residential and commercial support",
+    "Coverage across Thompson’s Station neighborhoods and surrounding Williamson County properties",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Inspect drain and sewer lines with video camera equipment.",
     "Help pinpoint the location and nature of plumbing issues."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for camera inspections in Thompson's Station",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for camera inspections throughout Thompson's Station, TN.",
+  "whyDescription": "Local coverage across Thompson’s Station neighborhoods and surrounding Williamson County properties, professional plumbing service, and a clear request process for camera inspections.",
   "whyReasons": [
     {
       "title": "Thompson's Station availability",
-      "text": "Camera Inspections is available for customers throughout Thompson's Station, TN.",
+      "text": "Camera Inspections is available for customers throughout Thompson’s Station neighborhoods and surrounding Williamson County properties.",
       "icon": "pin"
     },
     {
@@ -93,15 +93,15 @@ const content: CityServicePageContent = {
   "faqs": [
     {
       "question": "Why choose Swift Flo for camera inspections in Thompson's Station?",
-      "answer": "Thompson's Station is part of our confirmed coverage. Customers receive professional camera inspections, clear communication, and a straightforward request process."
+      "answer": "Thompson's Station is part of our confirmed coverage spanning Thompson’s Station neighborhoods and surrounding Williamson County properties. Customers receive professional camera inspections, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need camera inspections in Thompson's Station?",
-      "answer": "Common reasons include hidden pipe conditions. If you are seeing related symptoms at a Thompson's Station property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include hidden pipe conditions. If you are seeing related symptoms at a Thompson's Station property near Thompson’s Station neighborhoods and surrounding Williamson County properties, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is camera inspections available for commercial properties in Thompson's Station?",
-      "answer": "Yes. Homes and businesses in Thompson's Station can request camera inspections during published business hours."
+      "answer": "Yes. Homes and businesses across Thompson’s Station neighborhoods and surrounding Williamson County properties can request camera inspections during published business hours."
     },
     {
       "question": "How do Thompson's Station customers prepare for camera inspections?",
@@ -121,7 +121,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide camera inspections in Thompson's Station?",
-      "answer": "Yes. Swift Flo Plumbing Services provides camera inspections for customers in Thompson's Station, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides camera inspections for customers in Thompson's Station, TN, including Thompson’s Station neighborhoods and surrounding Williamson County properties. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does camera inspections include for Thompson's Station customers?",

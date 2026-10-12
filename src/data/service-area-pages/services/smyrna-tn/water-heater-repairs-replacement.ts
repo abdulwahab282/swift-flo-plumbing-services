@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/smyrna-tn/water-heater-repairs-replacement */
 const content: CityServicePageContent = {
   "metaTitle": "Water Heater Repairs & Replacement in Smyrna, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Serving Smyrna, TN. Request water heater repairs and replacement Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Serving Smyrna, TN — Smyrna neighborhoods and commercial properties along the Nissan Drive corridor. Request water heater repairs and replacement Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Water Heater Repairs & Replacement in Smyrna, TN",
-  "heroDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Swift Flo Plumbing Services provides water heater repairs and replacement for homeowners and businesses throughout Smyrna, TN. Call 629-238-8322 or request service online.",
+  "heroDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Swift Flo Plumbing Services provides water heater repairs and replacement for homeowners and businesses throughout Smyrna neighborhoods and commercial properties along the Nissan Drive corridor. Call 629-238-8322 or request service online.",
   "highlights": [
     {
       "title": "Smyrna coverage",
-      "text": "Professional water heater repairs and replacement arranged for customers throughout Smyrna, TN."
+      "text": "Professional water heater repairs and replacement arranged for customers throughout Smyrna neighborhoods and commercial properties along the Nissan Drive corridor."
     },
     {
       "title": "Dependable results",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Water Heater Repairs & Replacement for Smyrna homes and businesses",
-  "aboutDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Customers in Smyrna can request water heater repairs and replacement online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Customers across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor can request water heater repairs and replacement online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Smyrna, TN with a straightforward way to request water heater repairs and replacement. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Water Heater Repairs & Replacement",
   "servicesDescription": "While this page focuses on water heater repairs and replacement in Smyrna, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request water heater repairs and replacement in Smyrna",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule water heater repairs and replacement in Smyrna, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Water Heater Repairs & Replacement overview in Smyrna",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water heater repairs and replacement clear and local for customers in Smyrna, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water heater repairs and replacement clear and local for customers across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor.",
   "overviewPoints": [
     "Professional water heater repairs and replacement for Smyrna customers",
-    "Residential and commercial support",
+    "Coverage across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Diagnose and repair common water heater problems.",
     "Replace aging or failing water heaters when needed."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for water heater repairs and replacement in Smyrna",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for water heater repairs and replacement throughout Smyrna, TN.",
+  "whyDescription": "Local coverage across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor, professional plumbing service, and a clear request process for water heater repairs and replacement.",
   "whyReasons": [
     {
       "title": "Smyrna availability",
-      "text": "Water Heater Repairs & Replacement is available for customers throughout Smyrna, TN.",
+      "text": "Water Heater Repairs & Replacement is available for customers throughout Smyrna neighborhoods and commercial properties along the Nissan Drive corridor.",
       "icon": "pin"
     },
     {
@@ -97,19 +97,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Smyrna?",
-      "answer": "Yes. In addition to water heater repairs and replacement, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Smyrna, TN."
+      "answer": "Yes. In addition to water heater repairs and replacement, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Smyrna, TN."
     },
     {
       "question": "Why choose Swift Flo for water heater repairs and replacement in Smyrna?",
-      "answer": "Smyrna is part of our confirmed coverage. Customers receive professional water heater repairs and replacement, clear communication, and a straightforward request process."
+      "answer": "Smyrna is part of our confirmed coverage spanning Smyrna neighborhoods and commercial properties along the Nissan Drive corridor. Customers receive professional water heater repairs and replacement, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need water heater repairs and replacement in Smyrna?",
-      "answer": "Common reasons include dependable hot water. If you are seeing related symptoms at a Smyrna property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include dependable hot water. If you are seeing related symptoms at a Smyrna property near Smyrna neighborhoods and commercial properties along the Nissan Drive corridor, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is water heater repairs and replacement available for commercial properties in Smyrna?",
-      "answer": "Yes. Homes and businesses in Smyrna can request water heater repairs and replacement during published business hours."
+      "answer": "Yes. Homes and businesses across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor can request water heater repairs and replacement during published business hours."
     },
     {
       "question": "How do Smyrna customers prepare for water heater repairs and replacement?",
@@ -129,7 +129,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide water heater repairs and replacement in Smyrna?",
-      "answer": "Yes. Swift Flo Plumbing Services provides water heater repairs and replacement for customers in Smyrna, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides water heater repairs and replacement for customers in Smyrna, TN, including Smyrna neighborhoods and commercial properties along the Nissan Drive corridor. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does water heater repairs and replacement include for Smyrna customers?",

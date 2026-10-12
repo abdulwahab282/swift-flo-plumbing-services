@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/mt-juliet-tn/water-heater-repairs-replacement */
 const content: CityServicePageContent = {
   "metaTitle": "Water Heater Repairs & Replacement in Mt. Juliet, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Serving Mt. Juliet, TN. Request water heater repairs and replacement Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Serving Mt. Juliet, TN — growing Mt. Juliet subdivisions and Providence-area commercial addresses. Request water heater repairs and replacement Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Water Heater Repairs & Replacement in Mt. Juliet, TN",
-  "heroDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Swift Flo Plumbing Services provides water heater repairs and replacement for homeowners and businesses throughout Mt. Juliet, TN. Call 629-238-8322 or request service online.",
+  "heroDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Swift Flo Plumbing Services provides water heater repairs and replacement for homeowners and businesses throughout growing Mt. Juliet subdivisions and Providence-area commercial addresses. Call 629-238-8322 or request service online.",
   "highlights": [
     {
       "title": "Mt. Juliet coverage",
-      "text": "Professional water heater repairs and replacement arranged for customers throughout Mt. Juliet, TN."
+      "text": "Professional water heater repairs and replacement arranged for customers throughout growing Mt. Juliet subdivisions and Providence-area commercial addresses."
     },
     {
       "title": "Dependable results",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Water Heater Repairs & Replacement for Mt. Juliet homes and businesses",
-  "aboutDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Customers in Mt. Juliet can request water heater repairs and replacement online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Customers across growing Mt. Juliet subdivisions and Providence-area commercial addresses can request water heater repairs and replacement online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Mt. Juliet, TN with a straightforward way to request water heater repairs and replacement. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Water Heater Repairs & Replacement",
   "servicesDescription": "While this page focuses on water heater repairs and replacement in Mt. Juliet, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request water heater repairs and replacement in Mt. Juliet",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule water heater repairs and replacement in Mt. Juliet, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Water Heater Repairs & Replacement overview in Mt. Juliet",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water heater repairs and replacement clear and local for customers in Mt. Juliet, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water heater repairs and replacement clear and local for customers across growing Mt. Juliet subdivisions and Providence-area commercial addresses.",
   "overviewPoints": [
     "Professional water heater repairs and replacement for Mt. Juliet customers",
-    "Residential and commercial support",
+    "Coverage across growing Mt. Juliet subdivisions and Providence-area commercial addresses",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Diagnose and repair common water heater problems.",
     "Replace aging or failing water heaters when needed."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for water heater repairs and replacement in Mt. Juliet",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for water heater repairs and replacement throughout Mt. Juliet, TN.",
+  "whyDescription": "Local coverage across growing Mt. Juliet subdivisions and Providence-area commercial addresses, professional plumbing service, and a clear request process for water heater repairs and replacement.",
   "whyReasons": [
     {
       "title": "Mt. Juliet availability",
-      "text": "Water Heater Repairs & Replacement is available for customers throughout Mt. Juliet, TN.",
+      "text": "Water Heater Repairs & Replacement is available for customers throughout growing Mt. Juliet subdivisions and Providence-area commercial addresses.",
       "icon": "pin"
     },
     {
@@ -109,7 +109,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide water heater repairs and replacement in Mt. Juliet?",
-      "answer": "Yes. Swift Flo Plumbing Services provides water heater repairs and replacement for customers in Mt. Juliet, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides water heater repairs and replacement for customers in Mt. Juliet, TN, including growing Mt. Juliet subdivisions and Providence-area commercial addresses. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does water heater repairs and replacement include for Mt. Juliet customers?",
@@ -133,11 +133,11 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Mt. Juliet?",
-      "answer": "Yes. In addition to water heater repairs and replacement, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Mt. Juliet, TN."
+      "answer": "Yes. In addition to water heater repairs and replacement, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Mt. Juliet, TN."
     },
     {
       "question": "Why choose Swift Flo for water heater repairs and replacement in Mt. Juliet?",
-      "answer": "Mt. Juliet is part of our confirmed coverage. Customers receive professional water heater repairs and replacement, clear communication, and a straightforward request process."
+      "answer": "Mt. Juliet is part of our confirmed coverage spanning growing Mt. Juliet subdivisions and Providence-area commercial addresses. Customers receive professional water heater repairs and replacement, clear communication, and a straightforward request process."
     }
   ],
   "heroImage": {

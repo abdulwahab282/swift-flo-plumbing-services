@@ -3,14 +3,14 @@ import type { CityPageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/franklin-tn */
 const content: CityPageContent = {
   metaTitle: "Plumbing Services in Franklin, TN | Swift Flo Plumbing Services",
-  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in Franklin, TN. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in Franklin, TN. Serving historic downtown Franklin plus growing neighborhoods across Williamson County. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   heroTitle: "Professional plumbing services in Franklin.",
-  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for residential and commercial customers looking for dependable plumbing support in Franklin, Tennessee. Request help with clogged fixtures, water heater concerns, remodel plumbing, or line repairs through the contact form or by calling 629-238-8322.",
+  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for residential and commercial customers looking for dependable plumbing support across historic downtown Franklin plus growing neighborhoods across Williamson County. Request help with clogged fixtures, water heater concerns, remodel plumbing, or line repairs through the contact form or by calling 629-238-8322.",
   summary: "Professional plumbing service for homeowners and businesses in Franklin, TN.",
   whyLocal: [
   {
     "title": "Serving Franklin",
-    "text": "Franklin is a confirmed service area for Swift Flo Plumbing Services, giving local customers a direct way to request professional plumbing work."
+    "text": "Franklin is a confirmed service area for Swift Flo Plumbing Services, covering historic downtown Franklin plus growing neighborhoods across Williamson County."
   },
   {
     "title": "Easy service requests",
@@ -23,7 +23,7 @@ const content: CityPageContent = {
 ],
   about: {
     title: "Professional plumbing for Franklin homes and businesses.",
-    description: "Swift Flo Plumbing Services serves Franklin with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout Franklin, TN can request service during published hours.",
+    description: "Swift Flo Plumbing Services serves Franklin with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout historic downtown Franklin plus growing neighborhoods across Williamson County can request service during published hours.",
   },
   services: {
     title: "Plumbing services available in Franklin",
@@ -31,7 +31,7 @@ const content: CityPageContent = {
   },
   overview: {
     title: "How plumbing service works in Franklin",
-    description: "From the first request through completion, Franklin customers receive clear next steps, professional workmanship, and scheduling within published hours.",
+    description: "From the first request through completion, Franklin customers across historic downtown Franklin plus growing neighborhoods across Williamson County receive clear next steps, professional workmanship, and scheduling within published hours.",
   },
   details: {
     title: "What Franklin customers can expect",
@@ -39,7 +39,7 @@ const content: CityPageContent = {
     points: [
   {
     "title": "Confirmed coverage",
-    "text": "Professional plumbing service is available for customers throughout Franklin, Tennessee."
+    "text": "Professional plumbing service is available throughout historic downtown Franklin plus growing neighborhoods across Williamson County."
   },
   {
     "title": "Quality-focused visits",
@@ -69,7 +69,7 @@ const content: CityPageContent = {
     reasons: [
   {
     "title": "Local coverage",
-    "text": "Franklin is included in our confirmed Middle Tennessee service areas.",
+    "text": "Franklin is included in our confirmed Middle Tennessee service areas, including historic downtown Franklin plus growing neighborhoods across Williamson County.",
     "icon": "pin"
   },
   {
@@ -106,7 +106,7 @@ const content: CityPageContent = {
   faqs: [
   {
     "question": "Which plumbing services are available in Franklin?",
-    "answer": "Customers in Franklin can request drain cleaning, camera inspections, water filtration installation, water heater repairs and replacement, bathroom remodeling plumbing, and water and sewer excavation repairs."
+    "answer": "Customers in Franklin can request drain cleaning, camera inspections, water filtration system installation, water heater repairs and replacement, bathroom remodeling plumbing, water and sewer excavation repairs and replacements."
   },
   {
     "question": "How do I request a plumber in Franklin?",
@@ -118,7 +118,7 @@ const content: CityPageContent = {
   },
   {
     "question": "Do you serve both homes and businesses in Franklin?",
-    "answer": "Yes. Residential and commercial customers in Franklin can request professional plumbing service."
+    "answer": "Yes. Residential and commercial customers in Franklin can request professional plumbing service across historic downtown Franklin plus growing neighborhoods across Williamson County."
   },
   {
     "question": "Can I get a free quote for plumbing work in Franklin?",
@@ -138,11 +138,11 @@ const content: CityPageContent = {
   },
   {
     "question": "Why choose Swift Flo Plumbing Services in Franklin?",
-    "answer": "Franklin is a confirmed service area. Customers get professional plumbing work, clear communication, and a straightforward request process from inquiry through completion."
+    "answer": "Franklin is a confirmed service area covering historic downtown Franklin plus growing neighborhoods across Williamson County. Customers get professional plumbing work, clear communication, and a straightforward request process."
   },
   {
     "question": "Do you handle drain cleaning in Franklin?",
-    "answer": "Yes. Drain cleaning is available for Franklin customers along with the rest of our confirmed plumbing services."
+    "answer": "Yes. Drain cleaning is available for Franklin customers along with the rest of our confirmed plumbing services for this city."
   },
   {
     "question": "Can Franklin customers request water heater service?",
@@ -150,7 +150,7 @@ const content: CityPageContent = {
   },
   {
     "question": "Do you provide plumbing services in Franklin?",
-    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in Franklin, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in Franklin, TN, including historic downtown Franklin plus growing neighborhoods across Williamson County. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
   }
 ],
   serviceNotes: [

@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/gallatin-tn/camera-inspections */
 const content: CityServicePageContent = {
   "metaTitle": "Camera Inspections in Gallatin, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving Gallatin, TN. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving Gallatin, TN — homes and businesses around Gallatin’s town center and nearby Sumner County roads. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Camera Inspections in Gallatin, TN",
-  "heroDescription": "Need help with hidden pipe conditions in Gallatin? Swift Flo Plumbing Services handles video inspection of drain and sewer lines to locate blockages and damage during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
+  "heroDescription": "Need help with hidden pipe conditions in Gallatin? Swift Flo Plumbing Services handles video inspection of drain and sewer lines to locate blockages and damage across homes and businesses around Gallatin’s town center and nearby Sumner County roads during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
   "highlights": [
     {
       "title": "Gallatin coverage",
-      "text": "Professional camera inspections arranged for customers throughout Gallatin, TN."
+      "text": "Professional camera inspections arranged for customers throughout homes and businesses around Gallatin’s town center and nearby Sumner County roads."
     },
     {
       "title": "Dependable results",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Camera Inspections for Gallatin homes and businesses",
-  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers in Gallatin can request camera inspections online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers across homes and businesses around Gallatin’s town center and nearby Sumner County roads can request camera inspections online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Gallatin, TN with a straightforward way to request camera inspections. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Camera Inspections",
   "servicesDescription": "While this page focuses on camera inspections in Gallatin, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request camera inspections in Gallatin",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule camera inspections in Gallatin, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Camera Inspections overview in Gallatin",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers in Gallatin, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers across homes and businesses around Gallatin’s town center and nearby Sumner County roads.",
   "overviewPoints": [
     "Professional camera inspections for Gallatin customers",
-    "Residential and commercial support",
+    "Coverage across homes and businesses around Gallatin’s town center and nearby Sumner County roads",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Inspect drain and sewer lines with video camera equipment.",
     "Help pinpoint the location and nature of plumbing issues."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for camera inspections in Gallatin",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for camera inspections throughout Gallatin, TN.",
+  "whyDescription": "Local coverage across homes and businesses around Gallatin’s town center and nearby Sumner County roads, professional plumbing service, and a clear request process for camera inspections.",
   "whyReasons": [
     {
       "title": "Gallatin availability",
-      "text": "Camera Inspections is available for customers throughout Gallatin, TN.",
+      "text": "Camera Inspections is available for customers throughout homes and businesses around Gallatin’s town center and nearby Sumner County roads.",
       "icon": "pin"
     },
     {
@@ -93,11 +93,11 @@ const content: CityServicePageContent = {
   "faqs": [
     {
       "question": "What signs suggest I need camera inspections in Gallatin?",
-      "answer": "Common reasons include hidden pipe conditions. If you are seeing related symptoms at a Gallatin property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include hidden pipe conditions. If you are seeing related symptoms at a Gallatin property near homes and businesses around Gallatin’s town center and nearby Sumner County roads, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is camera inspections available for commercial properties in Gallatin?",
-      "answer": "Yes. Homes and businesses in Gallatin can request camera inspections during published business hours."
+      "answer": "Yes. Homes and businesses across homes and businesses around Gallatin’s town center and nearby Sumner County roads can request camera inspections during published business hours."
     },
     {
       "question": "How do Gallatin customers prepare for camera inspections?",
@@ -117,7 +117,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide camera inspections in Gallatin?",
-      "answer": "Yes. Swift Flo Plumbing Services provides camera inspections for customers in Gallatin, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides camera inspections for customers in Gallatin, TN, including homes and businesses around Gallatin’s town center and nearby Sumner County roads. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does camera inspections include for Gallatin customers?",

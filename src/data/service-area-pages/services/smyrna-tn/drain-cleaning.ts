@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/smyrna-tn/drain-cleaning */
 const content: CityServicePageContent = {
   "metaTitle": "Drain Cleaning in Smyrna, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Serving Smyrna, TN. Request drain cleaning Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Serving Smyrna, TN — Smyrna neighborhoods and commercial properties along the Nissan Drive corridor. Request drain cleaning Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Drain Cleaning in Smyrna, TN",
-  "heroDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Swift Flo Plumbing Services provides drain cleaning for homeowners and businesses throughout Smyrna, TN. Call 629-238-8322 or request service online.",
+  "heroDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Swift Flo Plumbing Services provides drain cleaning for homeowners and businesses throughout Smyrna neighborhoods and commercial properties along the Nissan Drive corridor. Call 629-238-8322 or request service online.",
   "highlights": [
     {
       "title": "Smyrna coverage",
-      "text": "Professional drain cleaning arranged for customers throughout Smyrna, TN."
+      "text": "Professional drain cleaning arranged for customers throughout Smyrna neighborhoods and commercial properties along the Nissan Drive corridor."
     },
     {
       "title": "Dependable results",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Drain Cleaning for Smyrna homes and businesses",
-  "aboutDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Customers in Smyrna can request drain cleaning online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Customers across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor can request drain cleaning online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Smyrna, TN with a straightforward way to request drain cleaning. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Drain Cleaning",
   "servicesDescription": "While this page focuses on drain cleaning in Smyrna, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request drain cleaning in Smyrna",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule drain cleaning in Smyrna, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Drain Cleaning overview in Smyrna",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps drain cleaning clear and local for customers in Smyrna, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps drain cleaning clear and local for customers across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor.",
   "overviewPoints": [
     "Professional drain cleaning for Smyrna customers",
-    "Residential and commercial support",
+    "Coverage across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Clear clogged sinks, showers, tubs, and floor drains.",
     "Address slow-draining fixtures before they become larger problems."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for drain cleaning in Smyrna",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for drain cleaning throughout Smyrna, TN.",
+  "whyDescription": "Local coverage across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor, professional plumbing service, and a clear request process for drain cleaning.",
   "whyReasons": [
     {
       "title": "Smyrna availability",
-      "text": "Drain Cleaning is available for customers throughout Smyrna, TN.",
+      "text": "Drain Cleaning is available for customers throughout Smyrna neighborhoods and commercial properties along the Nissan Drive corridor.",
       "icon": "pin"
     },
     {
@@ -97,7 +97,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide drain cleaning in Smyrna?",
-      "answer": "Yes. Swift Flo Plumbing Services provides drain cleaning for customers in Smyrna, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides drain cleaning for customers in Smyrna, TN, including Smyrna neighborhoods and commercial properties along the Nissan Drive corridor. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does drain cleaning include for Smyrna customers?",
@@ -121,19 +121,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Smyrna?",
-      "answer": "Yes. In addition to drain cleaning, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Smyrna, TN."
+      "answer": "Yes. In addition to drain cleaning, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Smyrna, TN."
     },
     {
       "question": "Why choose Swift Flo for drain cleaning in Smyrna?",
-      "answer": "Smyrna is part of our confirmed coverage. Customers receive professional drain cleaning, clear communication, and a straightforward request process."
+      "answer": "Smyrna is part of our confirmed coverage spanning Smyrna neighborhoods and commercial properties along the Nissan Drive corridor. Customers receive professional drain cleaning, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need drain cleaning in Smyrna?",
-      "answer": "Common reasons include clogged and slow drains. If you are seeing related symptoms at a Smyrna property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include clogged and slow drains. If you are seeing related symptoms at a Smyrna property near Smyrna neighborhoods and commercial properties along the Nissan Drive corridor, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is drain cleaning available for commercial properties in Smyrna?",
-      "answer": "Yes. Homes and businesses in Smyrna can request drain cleaning during published business hours."
+      "answer": "Yes. Homes and businesses across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor can request drain cleaning during published business hours."
     },
     {
       "question": "How do Smyrna customers prepare for drain cleaning?",

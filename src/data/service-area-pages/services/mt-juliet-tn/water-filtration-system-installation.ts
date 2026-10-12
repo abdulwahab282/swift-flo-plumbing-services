@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/mt-juliet-tn/water-filtration-system-installation */
 const content: CityServicePageContent = {
   "metaTitle": "Water Filtration System Installation in Mt. Juliet, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Serving Mt. Juliet, TN. Request water filtration system installation Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Serving Mt. Juliet, TN — growing Mt. Juliet subdivisions and Providence-area commercial addresses. Request water filtration system installation Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Mt. Juliet Water Filtration System Installation from Swift Flo",
-  "heroDescription": "Need help with cleaner household water in Mt. Juliet? Swift Flo Plumbing Services handles installing filtration systems matched to the property plumbing layout during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
+  "heroDescription": "Need help with cleaner household water in Mt. Juliet? Swift Flo Plumbing Services handles installing filtration systems matched to the property plumbing layout across growing Mt. Juliet subdivisions and Providence-area commercial addresses during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
   "highlights": [
     {
       "title": "Homes and businesses",
-      "text": "Residential and commercial water filtration system installation requests are accepted in Mt. Juliet."
+      "text": "Residential and commercial water filtration system installation requests are accepted across growing Mt. Juliet subdivisions and Providence-area commercial addresses."
     },
     {
       "title": "Prepared visits",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Water Filtration System Installation for Mt. Juliet homes and businesses",
-  "aboutDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Customers in Mt. Juliet can request water filtration system installation online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Customers across growing Mt. Juliet subdivisions and Providence-area commercial addresses can request water filtration system installation online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Mt. Juliet, TN with a straightforward way to request water filtration system installation. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Water Filtration System Installation",
   "servicesDescription": "While this page focuses on water filtration system installation in Mt. Juliet, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request water filtration system installation in Mt. Juliet",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule water filtration system installation in Mt. Juliet, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Water Filtration System Installation overview in Mt. Juliet",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water filtration system installation clear and local for customers in Mt. Juliet, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water filtration system installation clear and local for customers across growing Mt. Juliet subdivisions and Providence-area commercial addresses.",
   "overviewPoints": [
     "Professional water filtration system installation for Mt. Juliet customers",
-    "Residential and commercial support",
+    "Coverage across growing Mt. Juliet subdivisions and Providence-area commercial addresses",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Install water filtration systems suited to your property.",
     "Support cleaner water for drinking, cooking, and household use."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for water filtration system installation in Mt. Juliet",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for water filtration system installation throughout Mt. Juliet, TN.",
+  "whyDescription": "Local coverage across growing Mt. Juliet subdivisions and Providence-area commercial addresses, professional plumbing service, and a clear request process for water filtration system installation.",
   "whyReasons": [
     {
       "title": "Mt. Juliet availability",
-      "text": "Water Filtration System Installation is available for customers throughout Mt. Juliet, TN.",
+      "text": "Water Filtration System Installation is available for customers throughout growing Mt. Juliet subdivisions and Providence-area commercial addresses.",
       "icon": "pin"
     },
     {
@@ -93,11 +93,11 @@ const content: CityServicePageContent = {
   "faqs": [
     {
       "question": "What signs suggest I need water filtration system installation in Mt. Juliet?",
-      "answer": "Common reasons include cleaner household water. If you are seeing related symptoms at a Mt. Juliet property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include cleaner household water. If you are seeing related symptoms at a Mt. Juliet property near growing Mt. Juliet subdivisions and Providence-area commercial addresses, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is water filtration system installation available for commercial properties in Mt. Juliet?",
-      "answer": "Yes. Homes and businesses in Mt. Juliet can request water filtration system installation during published business hours."
+      "answer": "Yes. Homes and businesses across growing Mt. Juliet subdivisions and Providence-area commercial addresses can request water filtration system installation during published business hours."
     },
     {
       "question": "How do Mt. Juliet customers prepare for water filtration system installation?",
@@ -117,7 +117,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide water filtration system installation in Mt. Juliet?",
-      "answer": "Yes. Swift Flo Plumbing Services provides water filtration system installation for customers in Mt. Juliet, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides water filtration system installation for customers in Mt. Juliet, TN, including growing Mt. Juliet subdivisions and Providence-area commercial addresses. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does water filtration system installation include for Mt. Juliet customers?",

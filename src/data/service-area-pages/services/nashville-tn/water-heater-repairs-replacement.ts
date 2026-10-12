@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/nashville-tn/water-heater-repairs-replacement */
 const content: CityServicePageContent = {
   "metaTitle": "Water Heater Repairs & Replacement in Nashville, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Serving Nashville, TN. Request water heater repairs and replacement Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Serving Nashville, TN — Nashville neighborhoods and commercial districts across Davidson County service requests. Request water heater repairs and replacement Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Nashville Water Heater Repairs & Replacement from Swift Flo",
   "heroDescription": "Nashville customers can request water heater repairs and replacement with a clear description of the issue. Swift Flo Plumbing Services follows up with next steps for service in Nashville, TN.",
   "highlights": [
     {
       "title": "Homes and businesses",
-      "text": "Residential and commercial water heater repairs and replacement requests are accepted in Nashville."
+      "text": "Residential and commercial water heater repairs and replacement requests are accepted across Nashville neighborhoods and commercial districts across Davidson County service requests."
     },
     {
       "title": "Prepared visits",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Water Heater Repairs & Replacement for Nashville homes and businesses",
-  "aboutDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Customers in Nashville can request water heater repairs and replacement online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Water heater service restores reliable hot water when units leak, fail to heat, or need replacement. Customers across Nashville neighborhoods and commercial districts across Davidson County service requests can request water heater repairs and replacement online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Nashville, TN with a straightforward way to request water heater repairs and replacement. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Water Heater Repairs & Replacement",
   "servicesDescription": "While this page focuses on water heater repairs and replacement in Nashville, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request water heater repairs and replacement in Nashville",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule water heater repairs and replacement in Nashville, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Water Heater Repairs & Replacement overview in Nashville",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water heater repairs and replacement clear and local for customers in Nashville, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water heater repairs and replacement clear and local for customers across Nashville neighborhoods and commercial districts across Davidson County service requests.",
   "overviewPoints": [
     "Professional water heater repairs and replacement for Nashville customers",
-    "Residential and commercial support",
+    "Coverage across Nashville neighborhoods and commercial districts across Davidson County service requests",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Diagnose and repair common water heater problems.",
     "Replace aging or failing water heaters when needed."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for water heater repairs and replacement in Nashville",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for water heater repairs and replacement throughout Nashville, TN.",
+  "whyDescription": "Local coverage across Nashville neighborhoods and commercial districts across Davidson County service requests, professional plumbing service, and a clear request process for water heater repairs and replacement.",
   "whyReasons": [
     {
       "title": "Nashville availability",
-      "text": "Water Heater Repairs & Replacement is available for customers throughout Nashville, TN.",
+      "text": "Water Heater Repairs & Replacement is available for customers throughout Nashville neighborhoods and commercial districts across Davidson County service requests.",
       "icon": "pin"
     },
     {
@@ -109,19 +109,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Nashville?",
-      "answer": "Yes. In addition to water heater repairs and replacement, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Nashville, TN."
+      "answer": "Yes. In addition to water heater repairs and replacement, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Nashville, TN."
     },
     {
       "question": "Why choose Swift Flo for water heater repairs and replacement in Nashville?",
-      "answer": "Nashville is part of our confirmed coverage. Customers receive professional water heater repairs and replacement, clear communication, and a straightforward request process."
+      "answer": "Nashville is part of our confirmed coverage spanning Nashville neighborhoods and commercial districts across Davidson County service requests. Customers receive professional water heater repairs and replacement, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need water heater repairs and replacement in Nashville?",
-      "answer": "Common reasons include dependable hot water. If you are seeing related symptoms at a Nashville property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include dependable hot water. If you are seeing related symptoms at a Nashville property near Nashville neighborhoods and commercial districts across Davidson County service requests, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is water heater repairs and replacement available for commercial properties in Nashville?",
-      "answer": "Yes. Homes and businesses in Nashville can request water heater repairs and replacement during published business hours."
+      "answer": "Yes. Homes and businesses across Nashville neighborhoods and commercial districts across Davidson County service requests can request water heater repairs and replacement during published business hours."
     },
     {
       "question": "How do Nashville customers prepare for water heater repairs and replacement?",

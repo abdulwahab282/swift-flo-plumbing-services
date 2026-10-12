@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/mt-juliet-tn/drain-cleaning */
 const content: CityServicePageContent = {
   "metaTitle": "Drain Cleaning in Mt. Juliet, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Serving Mt. Juliet, TN. Request drain cleaning Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Serving Mt. Juliet, TN — growing Mt. Juliet subdivisions and Providence-area commercial addresses. Request drain cleaning Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Drain Cleaning in Mt. Juliet, TN",
-  "heroDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Swift Flo Plumbing Services provides drain cleaning for homeowners and businesses throughout Mt. Juliet, TN. Call 629-238-8322 or request service online.",
+  "heroDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Swift Flo Plumbing Services provides drain cleaning for homeowners and businesses throughout growing Mt. Juliet subdivisions and Providence-area commercial addresses. Call 629-238-8322 or request service online.",
   "highlights": [
     {
       "title": "Mt. Juliet coverage",
-      "text": "Professional drain cleaning arranged for customers throughout Mt. Juliet, TN."
+      "text": "Professional drain cleaning arranged for customers throughout growing Mt. Juliet subdivisions and Providence-area commercial addresses."
     },
     {
       "title": "Dependable results",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Drain Cleaning for Mt. Juliet homes and businesses",
-  "aboutDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Customers in Mt. Juliet can request drain cleaning online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Customers across growing Mt. Juliet subdivisions and Providence-area commercial addresses can request drain cleaning online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Mt. Juliet, TN with a straightforward way to request drain cleaning. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Drain Cleaning",
   "servicesDescription": "While this page focuses on drain cleaning in Mt. Juliet, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request drain cleaning in Mt. Juliet",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule drain cleaning in Mt. Juliet, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Drain Cleaning overview in Mt. Juliet",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps drain cleaning clear and local for customers in Mt. Juliet, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps drain cleaning clear and local for customers across growing Mt. Juliet subdivisions and Providence-area commercial addresses.",
   "overviewPoints": [
     "Professional drain cleaning for Mt. Juliet customers",
-    "Residential and commercial support",
+    "Coverage across growing Mt. Juliet subdivisions and Providence-area commercial addresses",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Clear clogged sinks, showers, tubs, and floor drains.",
     "Address slow-draining fixtures before they become larger problems."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for drain cleaning in Mt. Juliet",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for drain cleaning throughout Mt. Juliet, TN.",
+  "whyDescription": "Local coverage across growing Mt. Juliet subdivisions and Providence-area commercial addresses, professional plumbing service, and a clear request process for drain cleaning.",
   "whyReasons": [
     {
       "title": "Mt. Juliet availability",
-      "text": "Drain Cleaning is available for customers throughout Mt. Juliet, TN.",
+      "text": "Drain Cleaning is available for customers throughout growing Mt. Juliet subdivisions and Providence-area commercial addresses.",
       "icon": "pin"
     },
     {
@@ -101,19 +101,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Mt. Juliet?",
-      "answer": "Yes. In addition to drain cleaning, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Mt. Juliet, TN."
+      "answer": "Yes. In addition to drain cleaning, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Mt. Juliet, TN."
     },
     {
       "question": "Why choose Swift Flo for drain cleaning in Mt. Juliet?",
-      "answer": "Mt. Juliet is part of our confirmed coverage. Customers receive professional drain cleaning, clear communication, and a straightforward request process."
+      "answer": "Mt. Juliet is part of our confirmed coverage spanning growing Mt. Juliet subdivisions and Providence-area commercial addresses. Customers receive professional drain cleaning, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need drain cleaning in Mt. Juliet?",
-      "answer": "Common reasons include clogged and slow drains. If you are seeing related symptoms at a Mt. Juliet property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include clogged and slow drains. If you are seeing related symptoms at a Mt. Juliet property near growing Mt. Juliet subdivisions and Providence-area commercial addresses, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is drain cleaning available for commercial properties in Mt. Juliet?",
-      "answer": "Yes. Homes and businesses in Mt. Juliet can request drain cleaning during published business hours."
+      "answer": "Yes. Homes and businesses across growing Mt. Juliet subdivisions and Providence-area commercial addresses can request drain cleaning during published business hours."
     },
     {
       "question": "How do Mt. Juliet customers prepare for drain cleaning?",
@@ -133,7 +133,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide drain cleaning in Mt. Juliet?",
-      "answer": "Yes. Swift Flo Plumbing Services provides drain cleaning for customers in Mt. Juliet, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides drain cleaning for customers in Mt. Juliet, TN, including growing Mt. Juliet subdivisions and Providence-area commercial addresses. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does drain cleaning include for Mt. Juliet customers?",

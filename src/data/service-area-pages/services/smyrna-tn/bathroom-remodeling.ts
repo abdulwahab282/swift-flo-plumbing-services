@@ -3,7 +3,7 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/smyrna-tn/bathroom-remodeling */
 const content: CityServicePageContent = {
   "metaTitle": "Bathroom Remodeling in Smyrna, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving Smyrna, TN. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving Smyrna, TN — Smyrna neighborhoods and commercial properties along the Nissan Drive corridor. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Professional bathroom remodeling plumbing for Smyrna",
   "heroDescription": "Smyrna customers can request bathroom remodeling plumbing with a clear description of the issue. Swift Flo Plumbing Services follows up with next steps for service in Smyrna, TN.",
   "highlights": [
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Bathroom Remodeling for Smyrna homes and businesses",
-  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers in Smyrna can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Smyrna, TN with a straightforward way to request bathroom remodeling plumbing. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Bathroom Remodeling",
   "servicesDescription": "While this page focuses on bathroom remodeling plumbing in Smyrna, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request bathroom remodeling plumbing in Smyrna",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule bathroom remodeling plumbing in Smyrna, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Bathroom Remodeling overview in Smyrna",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers in Smyrna, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor.",
   "overviewPoints": [
     "Professional bathroom remodeling plumbing for Smyrna customers",
-    "Residential and commercial support",
+    "Coverage across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Install and connect bathroom fixtures with care.",
     "Support plumbing needs during bathroom remodel projects."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for bathroom remodeling plumbing in Smyrna",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for bathroom remodeling plumbing throughout Smyrna, TN.",
+  "whyDescription": "Local coverage across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor, professional plumbing service, and a clear request process for bathroom remodeling plumbing.",
   "whyReasons": [
     {
       "title": "Smyrna availability",
-      "text": "Bathroom Remodeling is available for customers throughout Smyrna, TN.",
+      "text": "Bathroom Remodeling is available for customers throughout Smyrna neighborhoods and commercial properties along the Nissan Drive corridor.",
       "icon": "pin"
     },
     {
@@ -93,15 +93,15 @@ const content: CityServicePageContent = {
   "faqs": [
     {
       "question": "Why choose Swift Flo for bathroom remodeling plumbing in Smyrna?",
-      "answer": "Smyrna is part of our confirmed coverage. Customers receive professional bathroom remodeling plumbing, clear communication, and a straightforward request process."
+      "answer": "Smyrna is part of our confirmed coverage spanning Smyrna neighborhoods and commercial properties along the Nissan Drive corridor. Customers receive professional bathroom remodeling plumbing, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need bathroom remodeling plumbing in Smyrna?",
-      "answer": "Common reasons include fixture and remodel plumbing. If you are seeing related symptoms at a Smyrna property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include fixture and remodel plumbing. If you are seeing related symptoms at a Smyrna property near Smyrna neighborhoods and commercial properties along the Nissan Drive corridor, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is bathroom remodeling plumbing available for commercial properties in Smyrna?",
-      "answer": "Yes. Homes and businesses in Smyrna can request bathroom remodeling plumbing during published business hours."
+      "answer": "Yes. Homes and businesses across Smyrna neighborhoods and commercial properties along the Nissan Drive corridor can request bathroom remodeling plumbing during published business hours."
     },
     {
       "question": "How do Smyrna customers prepare for bathroom remodeling plumbing?",
@@ -121,7 +121,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide bathroom remodeling plumbing in Smyrna?",
-      "answer": "Yes. Swift Flo Plumbing Services provides bathroom remodeling plumbing for customers in Smyrna, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides bathroom remodeling plumbing for customers in Smyrna, TN, including Smyrna neighborhoods and commercial properties along the Nissan Drive corridor. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does bathroom remodeling plumbing include for Smyrna customers?",

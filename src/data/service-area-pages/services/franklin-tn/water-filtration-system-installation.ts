@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/franklin-tn/water-filtration-system-installation */
 const content: CityServicePageContent = {
   "metaTitle": "Water Filtration System Installation in Franklin, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Serving Franklin, TN. Request water filtration system installation Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Serving Franklin, TN — historic downtown Franklin plus growing neighborhoods across Williamson County. Request water filtration system installation Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Water Filtration System Installation in Franklin, TN",
   "heroDescription": "Franklin customers can request water filtration system installation with a clear description of the issue. Swift Flo Plumbing Services follows up with next steps for service in Franklin, TN.",
   "highlights": [
     {
       "title": "Franklin coverage",
-      "text": "Professional water filtration system installation arranged for customers throughout Franklin, TN."
+      "text": "Professional water filtration system installation arranged for customers throughout historic downtown Franklin plus growing neighborhoods across Williamson County."
     },
     {
       "title": "Dependable results",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Water Filtration System Installation for Franklin homes and businesses",
-  "aboutDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Customers in Franklin can request water filtration system installation online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Water filtration installation helps improve water quality for drinking, cooking, and daily use. Customers across historic downtown Franklin plus growing neighborhoods across Williamson County can request water filtration system installation online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Franklin, TN with a straightforward way to request water filtration system installation. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Water Filtration System Installation",
   "servicesDescription": "While this page focuses on water filtration system installation in Franklin, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request water filtration system installation in Franklin",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule water filtration system installation in Franklin, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Water Filtration System Installation overview in Franklin",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water filtration system installation clear and local for customers in Franklin, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water filtration system installation clear and local for customers across historic downtown Franklin plus growing neighborhoods across Williamson County.",
   "overviewPoints": [
     "Professional water filtration system installation for Franklin customers",
-    "Residential and commercial support",
+    "Coverage across historic downtown Franklin plus growing neighborhoods across Williamson County",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Install water filtration systems suited to your property.",
     "Support cleaner water for drinking, cooking, and household use."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for water filtration system installation in Franklin",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for water filtration system installation throughout Franklin, TN.",
+  "whyDescription": "Local coverage across historic downtown Franklin plus growing neighborhoods across Williamson County, professional plumbing service, and a clear request process for water filtration system installation.",
   "whyReasons": [
     {
       "title": "Franklin availability",
-      "text": "Water Filtration System Installation is available for customers throughout Franklin, TN.",
+      "text": "Water Filtration System Installation is available for customers throughout historic downtown Franklin plus growing neighborhoods across Williamson County.",
       "icon": "pin"
     },
     {
@@ -93,15 +93,15 @@ const content: CityServicePageContent = {
   "faqs": [
     {
       "question": "Why choose Swift Flo for water filtration system installation in Franklin?",
-      "answer": "Franklin is part of our confirmed coverage. Customers receive professional water filtration system installation, clear communication, and a straightforward request process."
+      "answer": "Franklin is part of our confirmed coverage spanning historic downtown Franklin plus growing neighborhoods across Williamson County. Customers receive professional water filtration system installation, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need water filtration system installation in Franklin?",
-      "answer": "Common reasons include cleaner household water. If you are seeing related symptoms at a Franklin property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include cleaner household water. If you are seeing related symptoms at a Franklin property near historic downtown Franklin plus growing neighborhoods across Williamson County, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is water filtration system installation available for commercial properties in Franklin?",
-      "answer": "Yes. Homes and businesses in Franklin can request water filtration system installation during published business hours."
+      "answer": "Yes. Homes and businesses across historic downtown Franklin plus growing neighborhoods across Williamson County can request water filtration system installation during published business hours."
     },
     {
       "question": "How do Franklin customers prepare for water filtration system installation?",
@@ -121,7 +121,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide water filtration system installation in Franklin?",
-      "answer": "Yes. Swift Flo Plumbing Services provides water filtration system installation for customers in Franklin, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides water filtration system installation for customers in Franklin, TN, including historic downtown Franklin plus growing neighborhoods across Williamson County. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does water filtration system installation include for Franklin customers?",

@@ -3,7 +3,7 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/brentwood-tn/bathroom-remodeling */
 const content: CityServicePageContent = {
   "metaTitle": "Bathroom Remodeling in Brentwood, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving Brentwood, TN. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving Brentwood, TN — residential streets and commercial corridors near Cool Springs and Maryland Farms. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Professional bathroom remodeling plumbing for Brentwood",
   "heroDescription": "Brentwood customers can request bathroom remodeling plumbing with a clear description of the issue. Swift Flo Plumbing Services follows up with next steps for service in Brentwood, TN.",
   "highlights": [
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Bathroom Remodeling for Brentwood homes and businesses",
-  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers in Brentwood can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers across residential streets and commercial corridors near Cool Springs and Maryland Farms can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Brentwood, TN with a straightforward way to request bathroom remodeling plumbing. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Bathroom Remodeling",
   "servicesDescription": "While this page focuses on bathroom remodeling plumbing in Brentwood, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request bathroom remodeling plumbing in Brentwood",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule bathroom remodeling plumbing in Brentwood, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Bathroom Remodeling overview in Brentwood",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers in Brentwood, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers across residential streets and commercial corridors near Cool Springs and Maryland Farms.",
   "overviewPoints": [
     "Professional bathroom remodeling plumbing for Brentwood customers",
-    "Residential and commercial support",
+    "Coverage across residential streets and commercial corridors near Cool Springs and Maryland Farms",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Install and connect bathroom fixtures with care.",
     "Support plumbing needs during bathroom remodel projects."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for bathroom remodeling plumbing in Brentwood",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for bathroom remodeling plumbing throughout Brentwood, TN.",
+  "whyDescription": "Local coverage across residential streets and commercial corridors near Cool Springs and Maryland Farms, professional plumbing service, and a clear request process for bathroom remodeling plumbing.",
   "whyReasons": [
     {
       "title": "Brentwood availability",
-      "text": "Bathroom Remodeling is available for customers throughout Brentwood, TN.",
+      "text": "Bathroom Remodeling is available for customers throughout residential streets and commercial corridors near Cool Springs and Maryland Farms.",
       "icon": "pin"
     },
     {
@@ -93,11 +93,11 @@ const content: CityServicePageContent = {
   "faqs": [
     {
       "question": "What signs suggest I need bathroom remodeling plumbing in Brentwood?",
-      "answer": "Common reasons include fixture and remodel plumbing. If you are seeing related symptoms at a Brentwood property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include fixture and remodel plumbing. If you are seeing related symptoms at a Brentwood property near residential streets and commercial corridors near Cool Springs and Maryland Farms, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is bathroom remodeling plumbing available for commercial properties in Brentwood?",
-      "answer": "Yes. Homes and businesses in Brentwood can request bathroom remodeling plumbing during published business hours."
+      "answer": "Yes. Homes and businesses across residential streets and commercial corridors near Cool Springs and Maryland Farms can request bathroom remodeling plumbing during published business hours."
     },
     {
       "question": "How do Brentwood customers prepare for bathroom remodeling plumbing?",
@@ -117,7 +117,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide bathroom remodeling plumbing in Brentwood?",
-      "answer": "Yes. Swift Flo Plumbing Services provides bathroom remodeling plumbing for customers in Brentwood, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides bathroom remodeling plumbing for customers in Brentwood, TN, including residential streets and commercial corridors near Cool Springs and Maryland Farms. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does bathroom remodeling plumbing include for Brentwood customers?",

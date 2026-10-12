@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/brentwood-tn/drain-cleaning */
 const content: CityServicePageContent = {
   "metaTitle": "Drain Cleaning in Brentwood, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Serving Brentwood, TN. Request drain cleaning Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Serving Brentwood, TN — residential streets and commercial corridors near Cool Springs and Maryland Farms. Request drain cleaning Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Drain Cleaning in Brentwood, TN",
-  "heroDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Swift Flo Plumbing Services provides drain cleaning for homeowners and businesses throughout Brentwood, TN. Call 629-238-8322 or request service online.",
+  "heroDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Swift Flo Plumbing Services provides drain cleaning for homeowners and businesses throughout residential streets and commercial corridors near Cool Springs and Maryland Farms. Call 629-238-8322 or request service online.",
   "highlights": [
     {
       "title": "Brentwood coverage",
-      "text": "Professional drain cleaning arranged for customers throughout Brentwood, TN."
+      "text": "Professional drain cleaning arranged for customers throughout residential streets and commercial corridors near Cool Springs and Maryland Farms."
     },
     {
       "title": "Dependable results",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Drain Cleaning for Brentwood homes and businesses",
-  "aboutDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Customers in Brentwood can request drain cleaning online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Customers across residential streets and commercial corridors near Cool Springs and Maryland Farms can request drain cleaning online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Brentwood, TN with a straightforward way to request drain cleaning. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Drain Cleaning",
   "servicesDescription": "While this page focuses on drain cleaning in Brentwood, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request drain cleaning in Brentwood",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule drain cleaning in Brentwood, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Drain Cleaning overview in Brentwood",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps drain cleaning clear and local for customers in Brentwood, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps drain cleaning clear and local for customers across residential streets and commercial corridors near Cool Springs and Maryland Farms.",
   "overviewPoints": [
     "Professional drain cleaning for Brentwood customers",
-    "Residential and commercial support",
+    "Coverage across residential streets and commercial corridors near Cool Springs and Maryland Farms",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Clear clogged sinks, showers, tubs, and floor drains.",
     "Address slow-draining fixtures before they become larger problems."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for drain cleaning in Brentwood",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for drain cleaning throughout Brentwood, TN.",
+  "whyDescription": "Local coverage across residential streets and commercial corridors near Cool Springs and Maryland Farms, professional plumbing service, and a clear request process for drain cleaning.",
   "whyReasons": [
     {
       "title": "Brentwood availability",
-      "text": "Drain Cleaning is available for customers throughout Brentwood, TN.",
+      "text": "Drain Cleaning is available for customers throughout residential streets and commercial corridors near Cool Springs and Maryland Farms.",
       "icon": "pin"
     },
     {
@@ -93,7 +93,7 @@ const content: CityServicePageContent = {
   "faqs": [
     {
       "question": "Do you provide drain cleaning in Brentwood?",
-      "answer": "Yes. Swift Flo Plumbing Services provides drain cleaning for customers in Brentwood, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides drain cleaning for customers in Brentwood, TN, including residential streets and commercial corridors near Cool Springs and Maryland Farms. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does drain cleaning include for Brentwood customers?",
@@ -117,19 +117,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Brentwood?",
-      "answer": "Yes. In addition to drain cleaning, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Brentwood, TN."
+      "answer": "Yes. In addition to drain cleaning, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Brentwood, TN."
     },
     {
       "question": "Why choose Swift Flo for drain cleaning in Brentwood?",
-      "answer": "Brentwood is part of our confirmed coverage. Customers receive professional drain cleaning, clear communication, and a straightforward request process."
+      "answer": "Brentwood is part of our confirmed coverage spanning residential streets and commercial corridors near Cool Springs and Maryland Farms. Customers receive professional drain cleaning, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need drain cleaning in Brentwood?",
-      "answer": "Common reasons include clogged and slow drains. If you are seeing related symptoms at a Brentwood property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include clogged and slow drains. If you are seeing related symptoms at a Brentwood property near residential streets and commercial corridors near Cool Springs and Maryland Farms, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is drain cleaning available for commercial properties in Brentwood?",
-      "answer": "Yes. Homes and businesses in Brentwood can request drain cleaning during published business hours."
+      "answer": "Yes. Homes and businesses across residential streets and commercial corridors near Cool Springs and Maryland Farms can request drain cleaning during published business hours."
     },
     {
       "question": "How do Brentwood customers prepare for drain cleaning?",

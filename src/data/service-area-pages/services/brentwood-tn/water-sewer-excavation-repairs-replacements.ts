@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/brentwood-tn/water-sewer-excavation-repairs-replacements */
 const content: CityServicePageContent = {
   "metaTitle": "Water & Sewer Excavation Repairs & Replacements in Brentwood, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Excavation repairs address underground water and sewer line damage that needs professional plumbing work. Serving Brentwood, TN. Request water and sewer excavation repairs and replacements Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Excavation repairs address underground water and sewer line damage that needs professional plumbing work. Serving Brentwood, TN — residential streets and commercial corridors near Cool Springs and Maryland Farms. Request water and sewer excavation repairs and replacements Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Brentwood Water & Sewer Excavation Repairs & Replacements from Swift Flo",
-  "heroDescription": "Need help with underground line repairs in Brentwood? Swift Flo Plumbing Services handles repairing or replacing damaged water and sewer service lines during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
+  "heroDescription": "Need help with underground line repairs in Brentwood? Swift Flo Plumbing Services handles repairing or replacing damaged water and sewer service lines across residential streets and commercial corridors near Cool Springs and Maryland Farms during published hours (Monday – Sunday, 8:00 AM – 8:00 PM).",
   "highlights": [
     {
       "title": "Homes and businesses",
-      "text": "Residential and commercial water and sewer excavation repairs and replacements requests are accepted in Brentwood."
+      "text": "Residential and commercial water and sewer excavation repairs and replacements requests are accepted across residential streets and commercial corridors near Cool Springs and Maryland Farms."
     },
     {
       "title": "Prepared visits",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Water & Sewer Excavation Repairs & Replacements for Brentwood homes and businesses",
-  "aboutDescription": "Excavation repairs address underground water and sewer line damage that needs professional plumbing work. Customers in Brentwood can request water and sewer excavation repairs and replacements online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Excavation repairs address underground water and sewer line damage that needs professional plumbing work. Customers across residential streets and commercial corridors near Cool Springs and Maryland Farms can request water and sewer excavation repairs and replacements online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Brentwood, TN with a straightforward way to request water and sewer excavation repairs and replacements. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Water & Sewer Excavation Repairs & Replacements",
   "servicesDescription": "While this page focuses on water and sewer excavation repairs and replacements in Brentwood, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request water and sewer excavation repairs and replacements in Brentwood",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule water and sewer excavation repairs and replacements in Brentwood, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Water & Sewer Excavation Repairs & Replacements overview in Brentwood",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water and sewer excavation repairs and replacements clear and local for customers in Brentwood, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps water and sewer excavation repairs and replacements clear and local for customers across residential streets and commercial corridors near Cool Springs and Maryland Farms.",
   "overviewPoints": [
     "Professional water and sewer excavation repairs and replacements for Brentwood customers",
-    "Residential and commercial support",
+    "Coverage across residential streets and commercial corridors near Cool Springs and Maryland Farms",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Repair or replace damaged water and sewer lines.",
     "Support excavation-related plumbing work when required."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for water and sewer excavation repairs and replacements in Brentwood",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for water and sewer excavation repairs and replacements throughout Brentwood, TN.",
+  "whyDescription": "Local coverage across residential streets and commercial corridors near Cool Springs and Maryland Farms, professional plumbing service, and a clear request process for water and sewer excavation repairs and replacements.",
   "whyReasons": [
     {
       "title": "Brentwood availability",
-      "text": "Water & Sewer Excavation Repairs & Replacements is available for customers throughout Brentwood, TN.",
+      "text": "Water & Sewer Excavation Repairs & Replacements is available for customers throughout residential streets and commercial corridors near Cool Springs and Maryland Farms.",
       "icon": "pin"
     },
     {
@@ -109,7 +109,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide water and sewer excavation repairs and replacements in Brentwood?",
-      "answer": "Yes. Swift Flo Plumbing Services provides water and sewer excavation repairs and replacements for customers in Brentwood, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides water and sewer excavation repairs and replacements for customers in Brentwood, TN, including residential streets and commercial corridors near Cool Springs and Maryland Farms. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does water and sewer excavation repairs and replacements include for Brentwood customers?",
@@ -133,11 +133,11 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Brentwood?",
-      "answer": "Yes. In addition to water and sewer excavation repairs and replacements, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Brentwood, TN."
+      "answer": "Yes. In addition to water and sewer excavation repairs and replacements, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Brentwood, TN."
     },
     {
       "question": "Why choose Swift Flo for water and sewer excavation repairs and replacements in Brentwood?",
-      "answer": "Brentwood is part of our confirmed coverage. Customers receive professional water and sewer excavation repairs and replacements, clear communication, and a straightforward request process."
+      "answer": "Brentwood is part of our confirmed coverage spanning residential streets and commercial corridors near Cool Springs and Maryland Farms. Customers receive professional water and sewer excavation repairs and replacements, clear communication, and a straightforward request process."
     }
   ],
   "heroImage": {

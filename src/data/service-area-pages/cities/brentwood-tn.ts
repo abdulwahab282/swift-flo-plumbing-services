@@ -3,14 +3,14 @@ import type { CityPageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/brentwood-tn */
 const content: CityPageContent = {
   metaTitle: "Plumbing Services in Brentwood, TN | Swift Flo Plumbing Services",
-  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in Brentwood, TN. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  metaDescription: "Swift Flo Plumbing Services provides professional plumbing for homes and businesses in Brentwood, TN. Serving residential streets and commercial corridors near Cool Springs and Maryland Farms. Request service Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   heroTitle: "Professional plumbing services in Brentwood.",
-  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for homes and local businesses that need clear scheduling and professional follow-up in Brentwood, Tennessee. Request help with slow drains, fixture leaks, hot-water trouble, or planned plumbing updates through the contact form or by calling 629-238-8322.",
+  introduction: "Swift Flo Plumbing Services provides reliable plumbing services for homes and local businesses that need clear scheduling and professional follow-up across residential streets and commercial corridors near Cool Springs and Maryland Farms. Request help with slow drains, fixture leaks, hot-water trouble, or planned plumbing updates through the contact form or by calling 629-238-8322.",
   summary: "Professional plumbing service for homeowners and businesses in Brentwood, TN.",
   whyLocal: [
   {
     "title": "Serving Brentwood",
-    "text": "Brentwood is a confirmed service area for Swift Flo Plumbing Services, giving local customers a direct way to request professional plumbing work."
+    "text": "Brentwood is a confirmed service area for Swift Flo Plumbing Services, covering residential streets and commercial corridors near Cool Springs and Maryland Farms."
   },
   {
     "title": "Straightforward requests",
@@ -23,7 +23,7 @@ const content: CityPageContent = {
 ],
   about: {
     title: "Professional plumbing for Brentwood homes and businesses.",
-    description: "Swift Flo Plumbing Services serves Brentwood with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout Brentwood, TN can request service during published hours.",
+    description: "Swift Flo Plumbing Services serves Brentwood with dependable plumbing focused on clear communication and quality workmanship. Whether you need a repair, fixture work, or a planned plumbing project, customers throughout residential streets and commercial corridors near Cool Springs and Maryland Farms can request service during published hours.",
   },
   services: {
     title: "Plumbing services available in Brentwood",
@@ -31,7 +31,7 @@ const content: CityPageContent = {
   },
   overview: {
     title: "How plumbing service works in Brentwood",
-    description: "From the first request through completion, Brentwood customers receive clear next steps, professional workmanship, and scheduling within published hours.",
+    description: "From the first request through completion, Brentwood customers across residential streets and commercial corridors near Cool Springs and Maryland Farms receive clear next steps, professional workmanship, and scheduling within published hours.",
   },
   details: {
     title: "What Brentwood customers can expect",
@@ -39,7 +39,7 @@ const content: CityPageContent = {
     points: [
   {
     "title": "Confirmed coverage",
-    "text": "Professional plumbing service is available for customers throughout Brentwood, Tennessee."
+    "text": "Professional plumbing service is available throughout residential streets and commercial corridors near Cool Springs and Maryland Farms."
   },
   {
     "title": "Professional process",
@@ -69,7 +69,7 @@ const content: CityPageContent = {
     reasons: [
   {
     "title": "Local coverage",
-    "text": "Brentwood is included in our confirmed Middle Tennessee service areas.",
+    "text": "Brentwood is included in our confirmed Middle Tennessee service areas, including residential streets and commercial corridors near Cool Springs and Maryland Farms.",
     "icon": "pin"
   },
   {
@@ -106,11 +106,11 @@ const content: CityPageContent = {
   faqs: [
   {
     "question": "Do you provide plumbing services in Brentwood?",
-    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in Brentwood, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+    "answer": "Yes. Swift Flo Plumbing Services provides professional plumbing services for customers in Brentwood, TN, including residential streets and commercial corridors near Cool Springs and Maryland Farms. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
   },
   {
     "question": "Which plumbing services are available in Brentwood?",
-    "answer": "Customers in Brentwood can request drain cleaning, camera inspections, water filtration installation, water heater repairs and replacement, bathroom remodeling plumbing, and water and sewer excavation repairs."
+    "answer": "Customers in Brentwood can request drain cleaning, camera inspections, water filtration system installation, water heater repairs and replacement, bathroom remodeling plumbing, water and sewer excavation repairs and replacements."
   },
   {
     "question": "How do I request a plumber in Brentwood?",
@@ -122,7 +122,7 @@ const content: CityPageContent = {
   },
   {
     "question": "Do you serve both homes and businesses in Brentwood?",
-    "answer": "Yes. Residential and commercial customers in Brentwood can request professional plumbing service."
+    "answer": "Yes. Residential and commercial customers in Brentwood can request professional plumbing service across residential streets and commercial corridors near Cool Springs and Maryland Farms."
   },
   {
     "question": "Can I get a free quote for plumbing work in Brentwood?",
@@ -142,11 +142,11 @@ const content: CityPageContent = {
   },
   {
     "question": "Why choose Swift Flo Plumbing Services in Brentwood?",
-    "answer": "Brentwood is a confirmed service area. Customers get professional plumbing work, clear communication, and a straightforward request process from inquiry through completion."
+    "answer": "Brentwood is a confirmed service area covering residential streets and commercial corridors near Cool Springs and Maryland Farms. Customers get professional plumbing work, clear communication, and a straightforward request process."
   },
   {
     "question": "Do you handle drain cleaning in Brentwood?",
-    "answer": "Yes. Drain cleaning is available for Brentwood customers along with the rest of our confirmed plumbing services."
+    "answer": "Yes. Drain cleaning is available for Brentwood customers along with the rest of our confirmed plumbing services for this city."
   },
   {
     "question": "Can Brentwood customers request water heater service?",

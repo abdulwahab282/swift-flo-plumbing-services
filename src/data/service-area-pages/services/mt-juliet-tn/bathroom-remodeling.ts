@@ -3,7 +3,7 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/mt-juliet-tn/bathroom-remodeling */
 const content: CityServicePageContent = {
   "metaTitle": "Bathroom Remodeling in Mt. Juliet, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving Mt. Juliet, TN. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Serving Mt. Juliet, TN — growing Mt. Juliet subdivisions and Providence-area commercial addresses. Request bathroom remodeling plumbing Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Professional bathroom remodeling plumbing for Mt. Juliet",
   "heroDescription": "Mt. Juliet customers can request bathroom remodeling plumbing with a clear description of the issue. Swift Flo Plumbing Services follows up with next steps for service in Mt. Juliet, TN.",
   "highlights": [
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Bathroom Remodeling for Mt. Juliet homes and businesses",
-  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers in Mt. Juliet can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Bathroom remodeling plumbing covers fixture connections and layout updates for a finished bathroom. Customers across growing Mt. Juliet subdivisions and Providence-area commercial addresses can request bathroom remodeling plumbing online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Mt. Juliet, TN with a straightforward way to request bathroom remodeling plumbing. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Bathroom Remodeling",
   "servicesDescription": "While this page focuses on bathroom remodeling plumbing in Mt. Juliet, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request bathroom remodeling plumbing in Mt. Juliet",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule bathroom remodeling plumbing in Mt. Juliet, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Bathroom Remodeling overview in Mt. Juliet",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers in Mt. Juliet, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps bathroom remodeling plumbing clear and local for customers across growing Mt. Juliet subdivisions and Providence-area commercial addresses.",
   "overviewPoints": [
     "Professional bathroom remodeling plumbing for Mt. Juliet customers",
-    "Residential and commercial support",
+    "Coverage across growing Mt. Juliet subdivisions and Providence-area commercial addresses",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Install and connect bathroom fixtures with care.",
     "Support plumbing needs during bathroom remodel projects."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for bathroom remodeling plumbing in Mt. Juliet",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for bathroom remodeling plumbing throughout Mt. Juliet, TN.",
+  "whyDescription": "Local coverage across growing Mt. Juliet subdivisions and Providence-area commercial addresses, professional plumbing service, and a clear request process for bathroom remodeling plumbing.",
   "whyReasons": [
     {
       "title": "Mt. Juliet availability",
-      "text": "Bathroom Remodeling is available for customers throughout Mt. Juliet, TN.",
+      "text": "Bathroom Remodeling is available for customers throughout growing Mt. Juliet subdivisions and Providence-area commercial addresses.",
       "icon": "pin"
     },
     {
@@ -101,7 +101,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide bathroom remodeling plumbing in Mt. Juliet?",
-      "answer": "Yes. Swift Flo Plumbing Services provides bathroom remodeling plumbing for customers in Mt. Juliet, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides bathroom remodeling plumbing for customers in Mt. Juliet, TN, including growing Mt. Juliet subdivisions and Providence-area commercial addresses. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does bathroom remodeling plumbing include for Mt. Juliet customers?",
@@ -125,19 +125,19 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Mt. Juliet?",
-      "answer": "Yes. In addition to bathroom remodeling plumbing, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Mt. Juliet, TN."
+      "answer": "Yes. In addition to bathroom remodeling plumbing, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Mt. Juliet, TN."
     },
     {
       "question": "Why choose Swift Flo for bathroom remodeling plumbing in Mt. Juliet?",
-      "answer": "Mt. Juliet is part of our confirmed coverage. Customers receive professional bathroom remodeling plumbing, clear communication, and a straightforward request process."
+      "answer": "Mt. Juliet is part of our confirmed coverage spanning growing Mt. Juliet subdivisions and Providence-area commercial addresses. Customers receive professional bathroom remodeling plumbing, clear communication, and a straightforward request process."
     },
     {
       "question": "What signs suggest I need bathroom remodeling plumbing in Mt. Juliet?",
-      "answer": "Common reasons include fixture and remodel plumbing. If you are seeing related symptoms at a Mt. Juliet property, describe them when you request service so we can prepare for the visit."
+      "answer": "Common reasons include fixture and remodel plumbing. If you are seeing related symptoms at a Mt. Juliet property near growing Mt. Juliet subdivisions and Providence-area commercial addresses, describe them when you request service so we can prepare for the visit."
     },
     {
       "question": "Is bathroom remodeling plumbing available for commercial properties in Mt. Juliet?",
-      "answer": "Yes. Homes and businesses in Mt. Juliet can request bathroom remodeling plumbing during published business hours."
+      "answer": "Yes. Homes and businesses across growing Mt. Juliet subdivisions and Providence-area commercial addresses can request bathroom remodeling plumbing during published business hours."
     }
   ],
   "heroImage": {

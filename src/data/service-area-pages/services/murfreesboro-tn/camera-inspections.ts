@@ -3,13 +3,13 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
 /** Dedicated content for /service-areas/murfreesboro-tn/camera-inspections */
 const content: CityServicePageContent = {
   "metaTitle": "Camera Inspections in Murfreesboro, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving Murfreesboro, TN. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
+  "metaDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Serving Murfreesboro, TN — Rutherford County homes, campus-area rentals, and commercial properties citywide. Request camera inspections Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
   "heroTitle": "Murfreesboro Camera Inspections from Swift Flo",
-  "heroDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Swift Flo Plumbing Services provides camera inspections for homeowners and businesses throughout Murfreesboro, TN. Call 629-238-8322 or request service online.",
+  "heroDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Swift Flo Plumbing Services provides camera inspections for homeowners and businesses throughout Rutherford County homes, campus-area rentals, and commercial properties citywide. Call 629-238-8322 or request service online.",
   "highlights": [
     {
       "title": "Homes and businesses",
-      "text": "Residential and commercial camera inspections requests are accepted in Murfreesboro."
+      "text": "Residential and commercial camera inspections requests are accepted across Rutherford County homes, campus-area rentals, and commercial properties citywide."
     },
     {
       "title": "Prepared visits",
@@ -21,17 +21,17 @@ const content: CityServicePageContent = {
     }
   ],
   "aboutTitle": "Camera Inspections for Murfreesboro homes and businesses",
-  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers in Murfreesboro can request camera inspections online or by phone and describe the plumbing work that needs attention.",
+  "aboutDescription": "Camera inspections help diagnose underground plumbing issues before repair work begins. Customers across Rutherford County homes, campus-area rentals, and commercial properties citywide can request camera inspections online or by phone and describe the plumbing work that needs attention.",
   "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Murfreesboro, TN with a straightforward way to request camera inspections. Call 629-238-8322.",
   "servicesTitle": "Plumbing services related to Camera Inspections",
   "servicesDescription": "While this page focuses on camera inspections in Murfreesboro, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
   "ctaTitle": "Request camera inspections in Murfreesboro",
   "ctaDescription": "Contact Swift Flo Plumbing Services to schedule camera inspections in Murfreesboro, TN. Share your details and the work you need — we follow up from there.",
   "overviewTitle": "Camera Inspections overview in Murfreesboro",
-  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers in Murfreesboro, Tennessee.",
+  "overviewDescription": "From the first request through completion, Swift Flo Plumbing Services keeps camera inspections clear and local for customers across Rutherford County homes, campus-area rentals, and commercial properties citywide.",
   "overviewPoints": [
     "Professional camera inspections for Murfreesboro customers",
-    "Residential and commercial support",
+    "Coverage across Rutherford County homes, campus-area rentals, and commercial properties citywide",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
     "Inspect drain and sewer lines with video camera equipment.",
     "Help pinpoint the location and nature of plumbing issues."
@@ -57,11 +57,11 @@ const content: CityServicePageContent = {
     }
   ],
   "whyTitle": "Why choose Swift Flo for camera inspections in Murfreesboro",
-  "whyDescription": "Local coverage, professional plumbing service, and a clear request process for camera inspections throughout Murfreesboro, TN.",
+  "whyDescription": "Local coverage across Rutherford County homes, campus-area rentals, and commercial properties citywide, professional plumbing service, and a clear request process for camera inspections.",
   "whyReasons": [
     {
       "title": "Murfreesboro availability",
-      "text": "Camera Inspections is available for customers throughout Murfreesboro, TN.",
+      "text": "Camera Inspections is available for customers throughout Rutherford County homes, campus-area rentals, and commercial properties citywide.",
       "icon": "pin"
     },
     {
@@ -93,7 +93,7 @@ const content: CityServicePageContent = {
   "faqs": [
     {
       "question": "Is camera inspections available for commercial properties in Murfreesboro?",
-      "answer": "Yes. Homes and businesses in Murfreesboro can request camera inspections during published business hours."
+      "answer": "Yes. Homes and businesses across Rutherford County homes, campus-area rentals, and commercial properties citywide can request camera inspections during published business hours."
     },
     {
       "question": "How do Murfreesboro customers prepare for camera inspections?",
@@ -113,7 +113,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Do you provide camera inspections in Murfreesboro?",
-      "answer": "Yes. Swift Flo Plumbing Services provides camera inspections for customers in Murfreesboro, TN. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
+      "answer": "Yes. Swift Flo Plumbing Services provides camera inspections for customers in Murfreesboro, TN, including Rutherford County homes, campus-area rentals, and commercial properties citywide. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
     },
     {
       "question": "What does camera inspections include for Murfreesboro customers?",
@@ -137,7 +137,7 @@ const content: CityServicePageContent = {
     },
     {
       "question": "Are related plumbing services available in Murfreesboro?",
-      "answer": "Yes. In addition to camera inspections, Swift Flo Plumbing Services provides a full range of confirmed plumbing services for customers in Murfreesboro, TN."
+      "answer": "Yes. In addition to camera inspections, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Murfreesboro, TN."
     }
   ],
   "heroImage": {
