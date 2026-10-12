@@ -1,5 +1,6 @@
 import { ServiceAreasPageContent } from "@/components/ServiceAreasPageContent";
 import { formatServiceAreaList } from "@/data/service-areas";
+import { getService } from "@/data/services";
 import { site } from "@/data/site";
 import { createMetadata } from "@/lib/metadata";
 
@@ -19,6 +20,13 @@ export const metadata = createMetadata({
   ],
 });
 
-export default function ServiceAreasPage() {
-  return <ServiceAreasPageContent />;
+export default async function ServiceAreasPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ service?: string }>;
+}) {
+  const { service } = await searchParams;
+  const initialServiceSlug = service && getService(service) ? service : undefined;
+
+  return <ServiceAreasPageContent initialServiceSlug={initialServiceSlug} />;
 }

@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "generate:service-area-content": "node scripts/generate-service-area-content.mjs",
+    "generate:service-area-pages": "node scripts/generate-service-area-pages.mjs",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",

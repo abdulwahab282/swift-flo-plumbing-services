@@ -209,11 +209,11 @@ function ServiceAreasDesktopNav({ pathname }: { pathname: string }) {
         aria-label="Service areas"
         hidden={!open}
         className={cn(
-          "absolute left-1/2 top-full z-50 w-[22rem] -translate-x-1/2 pt-3",
+          "absolute left-1/2 top-full z-50 w-[26rem] -translate-x-1/2 pt-3",
           open ? "pointer-events-auto" : "pointer-events-none",
         )}
       >
-        <div className="overflow-hidden rounded-[1.5rem] border border-sand bg-white p-3 shadow-xl shadow-navy/10">
+        <div className="max-h-[min(70vh,36rem)] overflow-y-auto rounded-[1.5rem] border border-sand bg-white p-3 shadow-xl shadow-navy/10">
           <div className="mb-2 flex items-center justify-between gap-3 px-2 pt-1">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-tide-deep">
               Areas we serve
@@ -230,7 +230,8 @@ function ServiceAreasDesktopNav({ pathname }: { pathname: string }) {
           <ul className="grid grid-cols-2 gap-1">
             {serviceAreas.map((area) => {
               const href = `/service-areas/${area.slug}`;
-              const areaActive = pathname === href;
+              const areaActive =
+                pathname === href || pathname.startsWith(`${href}/`);
 
               return (
                 <li key={area.slug}>
@@ -253,6 +254,39 @@ function ServiceAreasDesktopNav({ pathname }: { pathname: string }) {
               );
             })}
           </ul>
+          <div className="mt-3 border-t border-sand px-2 pt-3">
+            <p className="mb-2 text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-tide-deep">
+              Browse by service
+            </p>
+            <ul className="grid gap-1">
+              {services.map((service) => {
+                const href = `/service-areas/for/${service.slug}`;
+                const serviceActive = pathname === href;
+
+                return (
+                  <li key={service.slug}>
+                    <Link
+                      href={href}
+                      role="menuitem"
+                      onClick={() => setOpen(false)}
+                      aria-current={serviceActive ? "page" : undefined}
+                      className={cn(
+                        "flex items-center gap-3 rounded-xl px-3 py-2 text-sm font-medium transition",
+                        serviceActive
+                          ? "bg-foam text-tide-deep"
+                          : "text-navy hover:bg-paper hover:text-tide-deep",
+                      )}
+                    >
+                      <span className="inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-lg bg-foam text-tide-deep">
+                        <Icon name={service.icon} className="h-3.5 w-3.5" />
+                      </span>
+                      <span className="leading-snug">{service.name}</span>
+                    </Link>
+                  </li>
+                );
+              })}
+            </ul>
+          </div>
         </div>
       </div>
     </div>
@@ -407,7 +441,8 @@ function ServiceAreasMobileNav({
         <ul className="grid gap-1 rounded-[1.25rem] border border-sand bg-white p-2">
           {serviceAreas.map((area) => {
             const href = `/service-areas/${area.slug}`;
-            const areaActive = pathname === href;
+            const areaActive =
+              pathname === href || pathname.startsWith(`${href}/`);
 
             return (
               <li key={area.slug}>
@@ -426,6 +461,34 @@ function ServiceAreasMobileNav({
                     <Icon name="pin" className="h-4 w-4" />
                   </span>
                   {area.city}
+                </Link>
+              </li>
+            );
+          })}
+          <li className="px-3 pb-1 pt-3 text-[0.65rem] font-semibold uppercase tracking-[0.18em] text-tide-deep">
+            Browse by service
+          </li>
+          {services.map((service) => {
+            const href = `/service-areas/for/${service.slug}`;
+            const serviceActive = pathname === href;
+
+            return (
+              <li key={service.slug}>
+                <Link
+                  href={href}
+                  onClick={onNavigate}
+                  aria-current={serviceActive ? "page" : undefined}
+                  className={cn(
+                    "flex items-center gap-3 rounded-xl px-3 py-3 text-base font-medium transition",
+                    serviceActive
+                      ? "bg-foam text-tide-deep"
+                      : "text-navy hover:bg-paper",
+                  )}
+                >
+                  <span className="inline-flex h-8 w-8 items-center justify-center rounded-lg bg-foam text-tide-deep">
+                    <Icon name={service.icon} className="h-4 w-4" />
+                  </span>
+                  {service.name}
                 </Link>
               </li>
             );

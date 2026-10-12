@@ -1,7 +1,12 @@
 import type { MetadataRoute } from "next";
-import { serviceAreas } from "@/data/service-areas";
+import {
+  listAllServiceAreaPages,
+  listCityParams,
+  listServiceHubParams,
+} from "@/data/service-area-pages";
 import { services } from "@/data/services";
 import { site } from "@/data/site";
+import { serviceAreaRoutes } from "@/lib/service-area-routes";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const lastModified = new Date();
@@ -9,11 +14,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "",
     "/about",
     "/services",
-    "/service-areas",
+    serviceAreaRoutes.index(),
     "/testimonials",
     "/contact",
     ...services.map((service) => `/services/${service.slug}`),
-    ...serviceAreas.map((area) => `/service-areas/${area.slug}`),
+    ...listServiceHubParams().map((item) =>
+      serviceAreaRoutes.serviceHub(item.slug),
+    ),
+    ...listCityParams().map((item) => serviceAreaRoutes.city(item.slug)),
+    ...listAllServiceAreaPages().map((page) => page.href),
   ];
 
   return paths.map((path) => ({

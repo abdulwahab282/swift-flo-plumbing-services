@@ -1,10 +1,13 @@
 import type { Metadata } from "next";
 import { Fraunces, Outfit } from "next/font/google";
+import Script from "next/script";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
 import { LocalBusinessJsonLd } from "@/components/JsonLd";
 import { site } from "@/data/site";
 import "./globals.css";
+
+const GA_MEASUREMENT_ID = "G-8BJRMGQG80";
 
 const outfit = Outfit({
   subsets: ["latin"],
@@ -56,6 +59,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  verification: {
+    google: "4Wn2Ha_w-8BUxboGSJ394ONqfXzjeoArau8r84go2tg",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
@@ -65,10 +71,30 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${outfit.variable} ${fraunces.variable} h-full antialiased`}
       suppressHydrationWarning
     >
+      <head>
+        <link
+          rel="sitemap"
+          type="application/xml"
+          title="Sitemap"
+          href="/sitemap.xml"
+        />
+      </head>
       <body
         className="flex min-h-full flex-col bg-cream font-sans text-ink"
         suppressHydrationWarning
       >
+        <Script
+          src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GA_MEASUREMENT_ID}');
+          `}
+        </Script>
         <a
           href="#main"
           className="sr-only focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-[60] focus:rounded-full focus:bg-white focus:px-4 focus:py-2 focus:text-navy"

@@ -135,3 +135,11 @@ export const services: Service[] = [
 export function getService(slug: string) {
   return services.find((service) => service.slug === slug);
 }
+
+export function requireService(slug: string): Service {
+  const service = getService(slug);
+  if (!service) {
+    throw new Error(`Missing service data for ${slug}`);
+  }
+  return service;
+}

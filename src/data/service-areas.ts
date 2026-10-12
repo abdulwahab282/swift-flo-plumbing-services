@@ -400,6 +400,14 @@ export function getServiceArea(slug: string) {
   return serviceAreas.find((area) => area.slug === slug);
 }
 
+export function requireServiceArea(slug: string): ServiceArea {
+  const area = getServiceArea(slug);
+  if (!area) {
+    throw new Error(`Missing service area data for ${slug}`);
+  }
+  return area;
+}
+
 export function formatServiceAreaList(limit = 6) {
   const names = serviceAreaCityNames;
   if (names.length <= limit) {

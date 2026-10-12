@@ -1,7 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { ServiceArea } from "@/data/service-areas";
-import { services } from "@/data/services";
+import {
+  getServiceSlugsForArea,
+  resolveCityPage,
+  type CityPageContent,
+} from "@/data/service-area-pages";
+import { getService } from "@/data/services";
 import { site } from "@/data/site";
 import { images } from "@/data/images";
 import { ButtonLink } from "@/components/Button";
@@ -10,27 +15,33 @@ import { Icon } from "@/components/Icons";
 import { MapEmbed } from "@/components/MapEmbed";
 import { PageHero } from "@/components/PageHero";
 import { ServiceAreaCards } from "@/components/ServiceAreaCards";
-import { ServiceList } from "@/components/ServiceCard";
+import { serviceAreaRoutes } from "@/lib/service-area-routes";
 
 export function ServiceAreaDetail({
   area,
   breadcrumb,
+  pageContent,
 }: {
   area: ServiceArea;
   breadcrumb?: { href?: string; label: string }[];
+  pageContent?: CityPageContent;
 }) {
+  const content = pageContent ?? resolveCityPage(area.slug);
   const heroImage = images[area.heroImage];
   const aboutImage = images[area.about.image];
   const overviewImage = images[area.overview.image];
   const ctaImage = images[area.cta.image];
+  const areaServices = getServiceSlugsForArea(area.slug)
+    .map((slug) => getService(slug))
+    .filter((service): service is NonNullable<typeof service> => Boolean(service));
 
   return (
     <>
       {/* 1. Hero */}
       <PageHero
         eyebrow={`${area.city}, ${area.state}`}
-        title={`Professional plumbing services in ${area.city}.`}
-        description={area.introduction}
+        title={content.heroTitle}
+        description={content.introduction}
         image={heroImage}
         breadcrumb={
           breadcrumb ?? [
@@ -73,7 +84,7 @@ export function ServiceAreaDetail({
             </p>
           </div>
           <div className="mt-12 grid gap-5 md:grid-cols-3">
-            {area.whyLocal.map((reason) => (
+            {content.whyLocal.map((reason) => (
               <article
                 key={reason.title}
                 className="rounded-[1.75rem] border border-sand bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg sm:p-7"
@@ -114,10 +125,10 @@ export function ServiceAreaDetail({
               id="area-about-heading"
               className="mt-3 font-display text-4xl leading-[1.08] text-navy sm:text-5xl"
             >
-              {area.about.title}
+              {content.about.title}
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted sm:text-lg">
-              {area.about.description}
+              {content.about.description}
             </p>
             <p className="mt-4 text-base leading-relaxed text-muted sm:text-lg">
               Open {site.hours.days}, {site.hours.time}. Request service online
@@ -152,14 +163,33 @@ export function ServiceAreaDetail({
               id="area-services-heading"
               className="mt-3 font-display text-4xl leading-[1.08] text-navy sm:text-5xl"
             >
-              {area.services.title}
+              {content.services.title}
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-muted">
-              {area.services.description}
+              {content.services.description}
             </p>
           </div>
-          <div className="mt-12">
-            <ServiceList services={services} />
+          <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {areaServices.map((service) => (
+              <Link
+                key={service.slug}
+                href={serviceAreaRoutes.cityService(area.slug, service.slug)}
+                className="group rounded-[1.75rem] border border-sand bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-tide/40 hover:shadow-lg"
+              >
+                <span className="inline-flex h-11 w-11 items-center justify-center rounded-2xl bg-foam text-tide-deep">
+                  <Icon name={service.icon} />
+                </span>
+                <h3 className="mt-4 font-display text-2xl text-navy group-hover:text-tide-deep">
+                  {service.name} in {area.city}
+                </h3>
+                <p className="mt-2 line-clamp-3 leading-relaxed text-muted">
+                  {service.summary}
+                </p>
+                <span className="mt-4 inline-block text-sm font-semibold text-tide-deep underline decoration-copper/60 underline-offset-4">
+                  Open {service.name} page
+                </span>
+              </Link>
+            ))}
           </div>
           <div className="mt-10 flex justify-center">
             <ButtonLink href="/services" variant="secondary" withArrow>
@@ -183,10 +213,10 @@ export function ServiceAreaDetail({
               id="area-overview-heading"
               className="mt-3 font-display text-4xl leading-[1.08] text-navy sm:text-5xl"
             >
-              {area.overview.title}
+              {content.overview.title}
             </h2>
             <p className="mt-5 text-base leading-relaxed text-muted sm:text-lg">
-              {area.overview.description}
+              {content.overview.description}
             </p>
             <ul className="mt-8 space-y-3">
               {[
@@ -236,14 +266,14 @@ export function ServiceAreaDetail({
               id="area-details-heading"
               className="mt-3 font-display text-4xl leading-[1.08] text-navy sm:text-5xl"
             >
-              {area.details.title}
+              {content.details.title}
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-muted">
-              {area.details.description}
+              {content.details.description}
             </p>
           </div>
           <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            {area.details.points.map((point) => (
+            {content.details.points.map((point) => (
               <article
                 key={point.title}
                 className="rounded-[1.75rem] border border-sand bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
@@ -270,14 +300,14 @@ export function ServiceAreaDetail({
               id="area-why-heading"
               className="mt-3 font-display text-4xl leading-[1.08] text-navy sm:text-5xl"
             >
-              {area.whyChooseUs.title}
+              {content.whyChooseUs.title}
             </h2>
             <p className="mt-4 text-lg leading-relaxed text-muted">
-              {area.whyChooseUs.description}
+              {content.whyChooseUs.description}
             </p>
           </div>
           <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
-            {area.whyChooseUs.reasons.map((reason) => (
+            {content.whyChooseUs.reasons.map((reason) => (
               <article
                 key={reason.title}
                 className="rounded-[1.75rem] border border-sand bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg"
@@ -317,7 +347,7 @@ export function ServiceAreaDetail({
             </p>
           </div>
           <div className="flex flex-col gap-3">
-            {area.faqs.map((faq, index) => (
+            {content.faqs.map((faq, index) => (
               <details
                 key={faq.question}
                 open={index === 0}
@@ -359,7 +389,7 @@ export function ServiceAreaDetail({
               address has not been published.
             </p>
             <ul className="mt-6 space-y-3">
-              {area.serviceNotes.map((note) => (
+              {content.serviceNotes.map((note) => (
                 <li
                   key={note}
                   className="rounded-2xl border border-sand bg-white px-4 py-3 text-ink"
@@ -440,10 +470,10 @@ export function ServiceAreaDetail({
               id="area-cta-heading"
               className="mt-3 font-display text-4xl leading-[1.08] text-white sm:text-5xl"
             >
-              {area.cta.title}
+              {content.cta.title}
             </h2>
             <p className="mt-5 text-base leading-relaxed text-white/80 sm:text-lg">
-              {area.cta.description}
+              {content.cta.description}
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
               <ButtonLink href="/contact" variant="light" withArrow>
