@@ -4,162 +4,181 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
  *  Edit path: src/data/services/drain-cleaning/areas/thompsons-station-tn.ts
  */
 const content: CityServicePageContent = {
-  "metaTitle": "Drain Cleaning in Thompson's Station, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Serving Thompson's Station, TN — Thompson’s Station neighborhoods and surrounding Williamson County properties. Rural-edge and in-town addresses share the same confirmed coverage and hours. Request drain cleaning Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
-  "heroTitle": "Professional drain cleaning for Thompson's Station",
-  "heroDescription": "Thompson's Station customers can request drain cleaning with a clear description of the issue. Slow sinks, recurring shower backups, and main-line symptoms are handled with a clear diagnostic-to-clearing path. Swift Flo Plumbing Services follows up with next steps for service in Thompson's Station, TN.",
-  "highlights": [
+  metaTitle:
+    "Drain Cleaning in Thompson's Station, TN | Swift Flo Plumbing Services",
+  metaDescription:
+    "Professional drain cleaning in Thompson's Station, TN from Swift Flo Plumbing Services. Residential and commercial drain washing, kitchen and bathroom clearing, and blockage assessment. Call 629-238-8322.",
+  heroTitle:
+    "Certified & Professional #1 Residential or Commercial Drain Cleaning Services Contractor Thompson’s Station, TN",
+  heroDescription:
+    "A slow drain can disrupt your household routine or create problems for your business. Swift Flo Plumbing Services helps homeowners and commercial property owners in Thompson’s Station, TN, address clogged sinks, blocked showers, and recurring drainage concerns. We assess the symptoms, explain possible causes, and recommend practical cleaning options for your plumbing system.",
+  highlights: [
     {
-      "title": "Local requests",
-      "text": "Thompson's Station is a confirmed service area for drain cleaning."
+      title: "Thompson’s Station coverage",
+      text: "Professional drain cleaning for homes and businesses across Thompson’s Station neighborhoods and commercial properties.",
     },
     {
-      "title": "Focused service",
-      "text": "Work centers on clogged and slow drains at your Thompson's Station property. Slow sinks, recurring shower backups, and main-line symptoms are handled with a clear diagnostic-to-clearing path."
+      title: "Service-first process",
+      text: "Assess symptoms, explain possible causes, and recommend practical cleaning options for your plumbing system.",
     },
     {
-      "title": "Direct contact",
-      "text": "Call 629-238-8322 or use the contact form to request a visit."
-    }
+      title: "Convenient hours",
+      text: "Open Monday – Sunday, 8:00 AM – 8:00 PM.",
+    },
   ],
-  "aboutTitle": "Drain Cleaning for Thompson's Station homes and businesses",
-  "aboutDescription": "Slow sinks, recurring shower backups, and main-line symptoms are handled with a clear diagnostic-to-clearing path. Customers across Thompson’s Station neighborhoods and surrounding Williamson County properties can request drain cleaning online or by phone and describe the plumbing work that needs attention. Rural-edge and in-town addresses share the same confirmed coverage and hours.",
-  "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Thompson's Station, TN with a straightforward way to request drain cleaning. Call 629-238-8322.",
-  "servicesTitle": "Plumbing services related to Drain Cleaning",
-  "servicesDescription": "While this page focuses on drain cleaning in Thompson's Station, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
-  "ctaTitle": "Request drain cleaning in Thompson's Station",
-  "ctaDescription": "Contact Swift Flo Plumbing Services to schedule drain cleaning in Thompson's Station, TN. Share details about clogged and slow drains — we follow up from there.",
-  "overviewTitle": "Drain Cleaning overview in Thompson's Station",
-  "overviewDescription": "Drain work starts with the fixtures you name and expands only as far as the backup requires. Swift Flo Plumbing Services keeps drain cleaning clear and local for customers across Thompson’s Station neighborhoods and surrounding Williamson County properties.",
-  "overviewPoints": [
-    "Professional drain cleaning for Thompson's Station customers",
-    "Coverage across Thompson’s Station neighborhoods and surrounding Williamson County properties",
-    "Rural-edge and in-town addresses share the same confirmed coverage and hours.",
+  callNowTitle: "Call Now to Hire an Award Winning Drain Cleaning Company!",
+  callNowDescription:
+    "Having trouble with a clogged drain? Contact Swift Flo Plumbing Services to discuss your plumbing issue and arrange drain cleaning for your home or business in Thompson’s Station, TN.",
+  aboutTitle:
+    "Are You Looking for a Professional and Award Winning Kitchen or Bathroom Drain Cleaning or Washing Contractor Thompson’s Station, TN?",
+  aboutDescription:
+    "Cooking grease, food scraps, and soap residue often contribute to kitchen sink blockages. Bathroom drains may collect hair, soap scum, and other residue that gradually restricts water flow. These problems can cause slow drainage, standing water, and unpleasant odors. Swift Flo Plumbing Services helps Thompson’s Station, TN homeowners and businesses address common drain problems. We consider the affected fixture, the severity of the blockage, and whether the issue has occurred before.",
+  aboutSecondary:
+    "These details help us understand whether the clog may be near the drain opening or farther inside the plumbing system. Our team can help with kitchen sinks, bathroom sinks, showers, tubs, and other common drainage concerns. If multiple fixtures are backing up, the issue may involve a shared line and require additional assessment. Whether you own a home, manage a rental property, or operate a local business, Swift Flo Plumbing Services can help you address drainage problems in Thompson’s Station, TN.",
+  servicesTitle: "Our Services",
+  servicesDescription:
+    "Swift Flo Plumbing Services helps Thompson’s Station, TN customers with clogged kitchen sinks, slow bathroom drains, blocked showers and tubs, and recurring drainage problems. We assess each issue and recommend suitable cleaning or further inspection based on the symptoms.",
+  hireTitle:
+    "Hire Now Most Trusted Home or Offices Drain Washing or Cleaning Contractor Thompson’s Station, TN",
+  hireDescription:
+    "Drainage problems can interfere with normal routines at home and at work. A kitchen sink that drains slowly can make meal preparation and cleanup inconvenient. A clogged shower may leave standing water, while a blocked restroom sink can create difficulties in a commercial property. Swift Flo Plumbing Services helps homeowners and business owners in Thompson’s Station, TN investigate these problems. Kitchen drains often collect grease, food scraps, and soap residue.",
+  hireSecondary:
+    "Bathroom drains commonly become restricted by hair and soap buildup. The blockage may be near the fixture or located farther inside the pipe. If a clog keeps returning, further inspection may help identify the underlying cause. Simple prevention habits can help reduce everyday buildup. Use drain screens, dispose of grease properly, and keep unsuitable materials out of sinks. If a drain is disrupting your property, contact Swift Flo Plumbing Services to discuss available options in Thompson’s Station, TN.",
+  localTitle:
+    "Get the Local & Trusted Permanent Kitchen or Bathroom Drain Cleaning Contractor Thompson’s Station, TN",
+  localDescription:
+    "Recurring drain clogs can be frustrating, particularly when the same kitchen or bathroom fixture keeps slowing down. The cause may be accumulated grease, hair, soap residue, foreign objects, or a deeper obstruction. Identifying the likely source helps determine which solution may be appropriate. Swift Flo Plumbing Services helps Thompson’s Station, TN customers investigate repeated kitchen and bathroom drainage problems. Kitchen sink clogs may involve cooking grease and food debris, while bathroom drains often collect hair and soap scum.",
+  localSecondary:
+    "If the same drain keeps backing up, the blockage may be farther inside the pipe than you can reach safely. No drain cleaning service can guarantee that clogs will never return. However, removing buildup and changing habits that contribute to blockages may help reduce repeat problems. Our team can explain the symptoms, discuss available service options, and help you understand when cleaning or further investigation may be appropriate for your property in Thompson’s Station, TN.",
+  ctaTitle:
+    "Swift Flo Plumbing Services Your Trusted Premier Drain Cleaning Expert in Thompson’s Station, TN",
+  ctaDescription:
+    "Swift Flo Plumbing Services helps Thompson’s Station, TN homeowners and businesses address slow drains, clogged sinks, and recurring drainage concerns. We focus on identifying likely causes, explaining suitable options, and recommending practical solutions for each property.",
+  topRatedTitle:
+    "Looking for a Skilled and Top Rated Clogged Drain Cleaning or Washing Contractor or Company Thompson’s Station, TN?",
+  topRatedDescription:
+    "A clogged drain can start as a minor inconvenience and become a more serious disruption if it continues. Water may take longer to drain from a kitchen sink, collect around a shower drain, or back up into a bathroom fixture. Persistent problems deserve attention, especially when more than one drain is affected. Swift Flo Plumbing Services helps Thompson’s Station, TN homeowners and businesses address common drainage issues. Blockages can develop from grease, food scraps, hair, soap residue, and foreign objects.",
+  topRatedSecondary:
+    "The appropriate cleaning method depends on the cause of the clog, its location, and the condition of the pipe. Pay attention to repeated slow drainage, unusual odors, and water backing up into fixtures. If only one drain is affected, the blockage may be localized. If multiple drains are slow or backing up, the issue could involve a shared drain line or another part of the plumbing system. Our team can discuss the symptoms and recommend suitable cleaning, inspection, or repair options. Contact Swift Flo Plumbing Services for drain cleaning assistance in Thompson’s Station, TN.",
+  certifiedTitle:
+    "Certified or Trusted Local Residential or Commercial Drain Cleaning Experts Thompson’s Station, TN",
+  certifiedDescription:
+    "Good drainage helps keep homes comfortable and businesses operating smoothly. When a sink, shower, or other drain becomes blocked, the cause may be everyday buildup or a deeper plumbing concern. Understanding the symptoms can help determine whether routine cleaning or further inspection may be appropriate. Swift Flo Plumbing Services helps residential and commercial customers in Thompson’s Station, TN address common drain cleaning needs. We consider the affected fixture, the severity of the blockage, and whether the issue has happened repeatedly.",
+  certifiedSecondary:
+    "Kitchen sinks often collect grease, food scraps, and soap residue. Bathroom drains commonly become restricted by hair and personal care product buildup. If several fixtures drain poorly at once, a shared line or deeper obstruction may be involved. Property owners can reduce some common clogs by using drain screens, keeping grease out of sinks, and disposing of unsuitable materials properly. Contact Swift Flo Plumbing Services to discuss your drainage concerns and determine the next step for your Thompson’s Station, TN property.",
+  coverageTitle: "Our Service Areas for All Types of Drain Cleaning",
+  coverageDescription:
+    "Swift Flo Plumbing Services serves residential and commercial customers across Middle Tennessee, including Brentwood, Franklin, Gallatin, Hendersonville, La Vergne, Lebanon, Mt. Juliet, Murfreesboro, Nashville, Smyrna, Spring Hill, and Thompson’s Station, TN. We help property owners address slow sinks, clogged bathroom drains, blocked showers, and recurring drainage issues. Each problem requires an approach based on the affected fixture, the location of the blockage, and the condition of the plumbing line.",
+  coverageSecondary:
+    "Drain problems can interrupt daily activities in homes, apartments, offices, restaurants, and retail businesses. Our team can discuss the symptoms and explain which service options may be suitable. If several fixtures are backing up or the same drain repeatedly clogs, further inspection may help identify a deeper obstruction or damaged pipe. If you are unsure whether your property falls within our service area, contact Swift Flo Plumbing Services to confirm availability before scheduling. We aim to provide clear explanations and practical recommendations so you can make an informed decision about drain cleaning and related plumbing needs.",
+  overviewTitle: "Drain Cleaning overview in Thompson’s Station",
+  overviewDescription:
+    "Drain work starts with the fixtures you name and expands only as far as the backup requires. Swift Flo Plumbing Services keeps drain cleaning clear and local for customers across Thompson’s Station neighborhoods and commercial properties.",
+  overviewPoints: [
+    "Professional drain cleaning for Thompson’s Station customers",
+    "Coverage across Thompson’s Station neighborhoods and commercial properties",
+    "Residential and commercial drain washing",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
-    "Clearing accessible fixture drains before escalating to deeper line work when symptoms point that way.",
+    "Kitchen, bathroom, and accessible line clearing",
     "Clear clogged sinks, showers, tubs, and floor drains.",
-    "Address slow-draining fixtures before they become larger problems."
+    "Address slow-draining fixtures before they become larger problems.",
   ],
-  "detailsTitle": "Drain Cleaning details for Thompson's Station",
-  "detailsDescription": "What to expect when you request drain cleaning from Swift Flo Plumbing Services in Thompson's Station, TN. Focus: Clearing accessible fixture drains before escalating to deeper line work when symptoms point that way.",
-  "detailPoints": [
+  detailsTitle: "Drain Cleaning details for Thompson’s Station",
+  detailsDescription:
+    "What to expect when you request drain cleaning from Swift Flo Plumbing Services in Thompson’s Station, TN.",
+  detailPoints: [
     {
-      "title": "What we address",
-      "text": "Clear clogged sinks, showers, tubs, and floor drains. Available for customers requesting service in Thompson's Station. Rural-edge and in-town addresses share the same confirmed coverage and hours."
+      title: "Thompson’s Station service focus",
+      text: "Clear clogged sinks, showers, tubs, and floor drains. Available for customers requesting service in Thompson’s Station.",
     },
     {
-      "title": "Why it matters",
-      "text": "Address slow-draining fixtures before they become larger problems. Clearing accessible fixture drains before escalating to deeper line work when symptoms point that way."
+      title: "How the work helps",
+      text: "Assess the blockage and recommend a suitable cleaning method for the affected fixture and plumbing system.",
     },
     {
-      "title": "Where we serve",
-      "text": "Support for residential and commercial drain concerns."
+      title: "Property types served",
+      text: "Support for residential and commercial drain concerns.",
     },
     {
-      "title": "When you can request",
-      "text": "Request service during Monday through Sunday, 8:00 AM to 8:00 PM."
-    }
+      title: "Scheduling window",
+      text: "Request service during Monday through Sunday, 8:00 AM to 8:00 PM.",
+    },
   ],
-  "whyTitle": "Why choose Swift Flo for drain cleaning in Thompson's Station",
-  "whyDescription": "Local coverage across Thompson’s Station neighborhoods and surrounding Williamson County properties, professional drain cleaning, and a clear request process. Rural-edge and in-town addresses share the same confirmed coverage and hours.",
-  "whyReasons": [
+  whyTitle:
+    "Why Choose Swift Flo Plumbing Services for Your Drain Cleaning Needs in Thompson’s Station, TN?",
+  whyDescription:
+    "When a drain becomes clogged, you need a practical way to address the blockage and understand what caused it. Swift Flo Plumbing Services helps Thompson’s Station, TN homeowners and business owners evaluate drainage problems and consider suitable service options. We take the reported symptoms into account, including the affected fixture, the frequency of the blockage, and whether other drains are experiencing similar problems. This information can help determine whether the issue may be resolved with cleaning or whether further inspection is appropriate.",
+  whySecondary:
+    "We believe customers should understand the work being recommended. Our team can explain possible causes, discuss available options, and identify when recurring clogs may point to a deeper obstruction or damaged pipe. This approach helps you make an informed decision about your plumbing system. Whether a slow kitchen sink is affecting your routine or a commercial drain is causing disruption, Swift Flo Plumbing Services can help you determine the next step. Contact us to discuss drain cleaning services in Thompson’s Station, TN.",
+  whyReasons: [],
+  faqs: [
     {
-      "title": "Thompson's Station availability",
-      "text": "Drain Cleaning is available for customers throughout Thompson’s Station neighborhoods and surrounding Williamson County properties. Rural-edge and in-town addresses share the same confirmed coverage and hours.",
-      "icon": "pin"
+      question: "What are the most common causes of clogged drains?",
+      answer:
+        "Common causes include grease, food scraps, hair, soap residue, and foreign objects. The cause depends on the fixture and blockage location. Recurring problems may require further inspection.",
     },
     {
-      "title": "Trained plumbing team",
-      "text": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Slow sinks, recurring shower backups, and main-line symptoms are handled with a clear diagnostic-to-clearing path.",
-      "icon": "wrench"
+      question: "Why does my bathroom drain smell bad?",
+      answer:
+        "Drain odors may result from accumulated debris, buildup, or plumbing issues. If cleaning the accessible drain area does not help, a professional can assess the possible cause.",
     },
     {
-      "title": "Clear communication",
-      "text": "Straightforward updates from inquiry through completion for drain cleaning in Thompson's Station.",
-      "icon": "users"
+      question: "Can you help with commercial drain problems?",
+      answer:
+        "Swift Flo Plumbing Services assists residential and commercial customers with common drainage issues. Contact the company to discuss the property, the affected fixture, and service availability in Thompson’s Station, TN.",
     },
     {
-      "title": "Reliable workmanship",
-      "text": "Clearing accessible fixture drains before escalating to deeper line work when symptoms point that way.",
-      "icon": "shield"
+      question: "How do I prevent kitchen drain clogs?",
+      answer:
+        "Avoid pouring cooking grease into the sink, use a drain strainer, and dispose of food scraps in the trash. These habits can help reduce buildup inside pipes.",
     },
     {
-      "title": "Customer-first care",
-      "text": "Your Thompson's Station request starts with contact details and a clear description of clogged and slow drains.",
-      "icon": "droplet"
+      question: "What should I do about a recurring clog?",
+      answer:
+        "Note which fixture is affected and how often the problem occurs. If the blockage returns after cleaning, professional assessment may help identify the underlying cause.",
     },
     {
-      "title": "Convenient hours",
-      "text": "Open Monday – Sunday, 8:00 AM – 8:00 PM.",
-      "icon": "clock"
-    }
+      question: "Does drain cleaning repair broken pipes?",
+      answer:
+        "No. Drain cleaning can remove certain blockages, but damaged pipes may require separate repairs or replacement. A professional assessment can help determine the appropriate solution.",
+    },
   ],
-  "faqs": [
-    {
-      "question": "How soon can you come to Thompson's Station for drain cleaning?",
-      "answer": "Scheduling depends on availability within published hours. Share preferred timing with your Thompson's Station request."
-    },
-    {
-      "question": "Are related plumbing services available in Thompson's Station?",
-      "answer": "Yes. In addition to drain cleaning, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Thompson's Station, TN."
-    },
-    {
-      "question": "Why choose Swift Flo for drain cleaning in Thompson's Station?",
-      "answer": "Thompson's Station is part of our confirmed coverage spanning Thompson’s Station neighborhoods and surrounding Williamson County properties. Customers receive professional drain cleaning, clear communication, and a straightforward request process."
-    },
-    {
-      "question": "What signs suggest I need drain cleaning in Thompson's Station?",
-      "answer": "Common reasons include clogged and slow drains. If you are seeing related symptoms at a Thompson's Station property near Thompson’s Station neighborhoods and surrounding Williamson County properties, describe them when you request service so we can prepare for the visit."
-    },
-    {
-      "question": "Is drain cleaning available for commercial properties in Thompson's Station?",
-      "answer": "Yes. Homes and businesses across Thompson’s Station neighborhoods and surrounding Williamson County properties can request drain cleaning during published business hours."
-    },
-    {
-      "question": "How do Thompson's Station customers prepare for drain cleaning?",
-      "answer": "Note which fixtures or areas are affected, when the issue started, and any recent plumbing work. Share those details with your Thompson's Station service request."
-    },
-    {
-      "question": "Does pricing for drain cleaning in Thompson's Station appear online?",
-      "answer": "Pricing is not listed as a flat rate because every job differs. Contact Swift Flo Plumbing Services for a free quote based on the Thompson's Station work you describe."
-    },
-    {
-      "question": "Can I request drain cleaning and another plumbing service in Thompson's Station?",
-      "answer": "Yes. Mention every plumbing concern in your request so Thompson's Station follow-up can account for the full scope."
-    },
-    {
-      "question": "What happens after I request drain cleaning in Thompson's Station?",
-      "answer": "Our team reviews your contact details and description, then follows up to confirm next steps for service in Thompson's Station, TN."
-    },
-    {
-      "question": "Do you provide drain cleaning in Thompson's Station?",
-      "answer": "Yes. Swift Flo Plumbing Services provides drain cleaning for customers in Thompson's Station, TN, including Thompson’s Station neighborhoods and surrounding Williamson County properties. Request a visit during published hours (Monday – Sunday, 8:00 AM – 8:00 PM)."
-    },
-    {
-      "question": "What does drain cleaning include for Thompson's Station customers?",
-      "answer": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Typical work involves clearing sinks, showers, tubs, floor drains, and main-line backups. Share your Thompson's Station property details when you contact us."
-    },
-    {
-      "question": "How do I schedule drain cleaning in Thompson's Station?",
-      "answer": "Submit the contact form or call 629-238-8322. Confirm Thompson's Station as the service city and describe the drain cleaning work you need."
-    }
-  ],
-  "heroImage": {
-    "src": "/images/hero-thompsons-station.jpg",
-    "alt": "Plumber clearing a drain connection in Thompson's Station, Tennessee"
+  heroImage: {
+    src: "/images/hero-thompsons-station.jpg",
+    alt: "Plumber clearing a drain connection in Thompson’s Station, Tennessee",
   },
-  "aboutImage": {
-    "src": "/images/about-thompsons-station.jpg",
-    "alt": "Drain Cleaning workmanship for Thompson's Station customers"
+  aboutImage: {
+    src: "/images/about-thompsons-station.jpg",
+    alt: "Drain cleaning workmanship for Thompson’s Station, TN customers",
   },
-  "overviewImage": {
-    "src": "/images/work.jpg",
-    "alt": "Plumber clearing a drain connection for Thompson's Station service overview"
+  overviewImage: {
+    src: "/images/overview-thompsons-station.jpg",
+    alt: "Professional plumbing service overview for drain cleaning in Thompson’s Station",
   },
-  "ctaImage": {
-    "src": "/images/cta-thompsons-station.jpg",
-    "alt": "Request drain cleaning in Thompson's Station"
-  }
+  ctaImage: {
+    src: "/images/cta-thompsons-station.jpg",
+    alt: "Request drain cleaning in Thompson’s Station, TN",
+  },
+  hireImage: {
+    src: "/images/toilet-repair.jpg",
+    alt: "Kitchen and bathroom drain fixtures served in Thompson’s Station, TN",
+  },
+  localImage: {
+    src: "/images/kitchen-faucet.jpg",
+    alt: "Kitchen drain cleaning context for Thompson’s Station, TN homes",
+  },
+  topRatedImage: {
+    src: "/images/gallery-tankless.jpg",
+    alt: "Plumber performing kitchen plumbing and drain service in Thompson’s Station, TN",
+  },
+  certifiedImage: {
+    src: "/images/about-murfreesboro.jpg",
+    alt: "Certified plumbing technician serving Thompson’s Station, TN drain cleaning customers",
+  },
+  whyImage: {
+    src: "/images/gallery-copper.jpg",
+    alt: "Professional copper plumbing and drain workmanship for Thompson’s Station drain cleaning",
+  },
 };
 
 export default content;

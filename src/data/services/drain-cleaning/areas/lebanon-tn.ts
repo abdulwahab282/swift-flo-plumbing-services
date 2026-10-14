@@ -4,162 +4,180 @@ import type { CityServicePageContent } from "@/data/service-area-pages/types";
  *  Edit path: src/data/services/drain-cleaning/areas/lebanon-tn.ts
  */
 const content: CityServicePageContent = {
-  "metaTitle": "Drain Cleaning in Lebanon, TN | Swift Flo Plumbing Services",
-  "metaDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Serving Lebanon, TN — Wilson County neighborhoods and commercial properties around Lebanon’s city core. Newer builds and aging service lines can appear on the same week’s schedule. Request drain cleaning Monday – Sunday, 8:00 AM – 8:00 PM. Call 629-238-8322.",
-  "heroTitle": "Drain Cleaning support across Lebanon",
-  "heroDescription": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Swift Flo Plumbing Services provides drain cleaning for homeowners and businesses throughout Wilson County neighborhoods and commercial properties around Lebanon’s city core. Newer builds and aging service lines can appear on the same week’s schedule. Call 629-238-8322 or request service online.",
-  "highlights": [
+  metaTitle: "Drain Cleaning in Lebanon, TN | Swift Flo Plumbing Services",
+  metaDescription:
+    "Professional drain cleaning in Lebanon, TN from Swift Flo Plumbing Services. Residential and commercial drain washing, kitchen and bathroom clearing, and blockage assessment. Call 629-238-8322.",
+  heroTitle:
+    "Certified & Professional #1 Residential or Commercial Drain Cleaning Services Contractor Lebanon, TN",
+  heroDescription:
+    "A slow drain can disrupt a busy household or interrupt daily business operations. Swift Flo Plumbing Services helps Lebanon, TN, property owners address buildup, recurring blockages, and poor drainage with practical cleaning solutions. Our team works to restore dependable flow and identify concerns before they develop into larger plumbing problems.",
+  highlights: [
     {
-      "title": "Drain Cleaning locally",
-      "text": "Drain work starts with the fixtures you name and expands only as far as the backup requires. Coverage includes Wilson County neighborhoods and commercial properties around Lebanon’s city core."
+      title: "Lebanon coverage",
+      text: "Professional drain cleaning for homes and businesses throughout Wilson County neighborhoods and commercial properties around Lebanon’s city core.",
     },
     {
-      "title": "Clear next steps",
-      "text": "You describe the job once; scheduling and visit prep stay aligned to that description."
+      title: "Service-first process",
+      text: "Assess symptoms, identify the likely blockage source, and recommend a suitable cleaning method for the affected line.",
     },
     {
-      "title": "Published availability",
-      "text": "Requests are arranged Monday – Sunday, 8:00 AM – 8:00 PM for Lebanon customers."
-    }
+      title: "Convenient hours",
+      text: "Open Monday – Sunday, 8:00 AM – 8:00 PM.",
+    },
   ],
-  "aboutTitle": "Drain Cleaning for Lebanon homes and businesses",
-  "aboutDescription": "Slow sinks, recurring shower backups, and main-line symptoms are handled with a clear diagnostic-to-clearing path. Customers across Wilson County neighborhoods and commercial properties around Lebanon’s city core can request drain cleaning online or by phone and describe the plumbing work that needs attention. Newer builds and aging service lines can appear on the same week’s schedule.",
-  "aboutSecondary": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Swift Flo Plumbing Services serves Lebanon, TN with a straightforward way to request drain cleaning. Call 629-238-8322.",
-  "servicesTitle": "Plumbing services related to Drain Cleaning",
-  "servicesDescription": "While this page focuses on drain cleaning in Lebanon, Swift Flo Plumbing Services also provides a full range of professional plumbing services across Nashville and Middle Tennessee.",
-  "ctaTitle": "Request drain cleaning in Lebanon",
-  "ctaDescription": "Contact Swift Flo Plumbing Services to schedule drain cleaning in Lebanon, TN. Share details about clogged and slow drains — we follow up from there.",
-  "overviewTitle": "Drain Cleaning overview in Lebanon",
-  "overviewDescription": "Drain work starts with the fixtures you name and expands only as far as the backup requires. Swift Flo Plumbing Services keeps drain cleaning clear and local for customers across Wilson County neighborhoods and commercial properties around Lebanon’s city core.",
-  "overviewPoints": [
+  callNowTitle: "Call Now to Hire an Award Winning Drain Cleaning Company!",
+  callNowDescription:
+    "Contact Swift Flo Plumbing Services today for trusted drain cleaning support that helps restore clear pipes and reliable everyday drainage.",
+  aboutTitle:
+    "Are You Looking for a Professional and Award Winning Kitchen or Bathroom Drain Cleaning or Washing Contractor or Agency Lebanon, TN?",
+  aboutDescription:
+    "Kitchen and bathroom drains handle daily demands, from dishwashing and cooking residue to soap, hair, and personal care products. Over time, this material can collect inside pipes and slow wastewater movement. Swift Flo Plumbing Services provides drain cleaning for Lebanon, TN, homes and commercial properties experiencing stubborn clogs, unpleasant drain odors, or recurring slow drainage. Our approach starts with understanding the symptoms. A kitchen sink that drains slowly may have grease and food residue in its line, while a bathroom blockage may involve hair and soap deposits.",
+  aboutSecondary:
+    "When several fixtures drain poorly at once, the problem may extend beyond a single fixture. Identifying the likely source helps determine the right cleaning method. We work with property owners who need dependable service without unnecessary disruption. If repeated store-bought drain treatments have failed to solve the problem, professional cleaning may help remove accumulated debris more effectively. We aim to improve drainage while helping customers understand how everyday habits can reduce future blockages.",
+  servicesTitle: "Our Services",
+  servicesDescription:
+    "Swift Flo Plumbing Services handles common drain problems affecting Lebanon properties, including kitchen sink clogs, bathroom drain buildup, and recurring blockages. We assess each issue before recommending a suitable cleaning approach for the affected line.",
+  hireTitle:
+    "Hire Now Most Trusted Home or Offices Drain Washing or Cleaning Contractor Lebanon, TN",
+  hireDescription:
+    "Drain problems can affect a home’s comfort and a business’s daily routine. In Lebanon, a clogged kitchen sink may slow meal preparation, while a blocked restroom drain can inconvenience employees, customers, and visitors. Swift Flo Plumbing Services provides residential and commercial drain cleaning designed around the problem at hand. We begin by checking the affected fixture and asking when the symptoms started. This helps distinguish an isolated blockage from a recurring issue that may need closer inspection.",
+  hireSecondary:
+    "Depending on the condition of the drain, cleaning may involve removing accessible debris or using appropriate plumbing equipment to clear material inside the pipe. Commercial properties can face different demands from homes. Restaurants, offices, retail spaces, and other workplaces may experience repeated drainage issues because fixtures are used throughout the day. Our goal is to restore useful drainage without suggesting unnecessary work. With Swift Flo Plumbing Services, Lebanon property owners can get straightforward information and a service plan focused on the actual drain problem.",
+  localTitle:
+    "Get the Local & Trusted Permanent Kitchen or Bathroom Drain Cleaning Contractor Lebanon, TN",
+  localDescription:
+    "Kitchen and bathroom drains collect different types of waste, so the cleaning method should match the blockage. In kitchens, cooking grease can cling to pipe walls and trap food particles. In bathrooms, hair and soap residue can form dense obstructions near the drain opening or farther along the line. Swift Flo Plumbing Services helps Lebanon residents address these common problems with targeted drain cleaning. We assess whether the blockage appears close to the fixture or whether the symptoms suggest a deeper restriction.",
+  localSecondary:
+    "This matters because clearing visible debris alone may not resolve a clog that has formed farther inside the plumbing system. No cleaning method can guarantee that a drain will never clog again. However, removing accumulated material and addressing contributing habits can help reduce repeat problems. For dependable kitchen or bathroom drain cleaning in Lebanon, Swift Flo Plumbing Services focuses on careful assessment, practical recommendations, and results suited to the condition of the plumbing.",
+  ctaTitle:
+    "Swift Flo Plumbing Services  Your Trusted Premier No.1 Drain Cleaning Expert Contractor, Company, Agency, Lebanon, TN",
+  ctaDescription:
+    "Swift Flo Plumbing Services helps Lebanon homeowners and businesses deal with clogged, slow, and unpleasant-smelling drains. We focus on identifying the likely blockage, explaining suitable cleaning options, and treating each plumbing concern according to its condition and use.",
+  topRatedTitle:
+    "Looking for a Skilled and Top Rated Clogged Drain Cleaning or Washing Contractor or Company Lebanon, TN?",
+  topRatedDescription:
+    "A clogged drain does not always announce itself with a complete backup. Sometimes the first sign is a sink that takes longer to empty, water pooling around a shower drain, or a gurgling sound after a fixture is used. These early symptoms can indicate that debris is narrowing the passage through the pipe. Swift Flo Plumbing Services helps Lebanon, TN, property owners investigate and clear stubborn drain obstructions. We consider where the symptoms occur, whether other fixtures are affected, and how often the blockage returns.",
+  topRatedSecondary:
+    "Different clogs require different responses. Hair, soap residue, food waste, and grease can build up in household plumbing, while commercial drains may face heavier or more frequent use. If a blocked drain is interfering with your home or workplace, arrange an assessment with Swift Flo Plumbing Services. We provide practical guidance and drain-cleaning support focused on restoring normal flow and addressing the cause as clearly as possible.",
+  certifiedTitle:
+    "Certified or Trusted Local No.1 Residential or Commercial Drain Cleaning Experts Lebanon, TN",
+  certifiedDescription:
+    "Reliable drainage matters in older properties, growing neighbourhoods, and commercial buildings throughout Lebanon. When water begins draining slowly, the issue may come from grease, soap residue, hair, food particles, or other debris collecting inside the pipe. Swift Flo Plumbing Services provides drain-cleaning support for residential and commercial customers who want the problem assessed rather than repeatedly treated with temporary solutions. For homeowners, we can help with kitchen sinks, bathroom basins, showers, tubs, and other affected fixtures.",
+  certifiedSecondary:
+    "For businesses, we consider how drainage problems affect staff, visitors, customers, and daily operations. A blocked restroom or sink can quickly become more than a minor inconvenience, so identifying the affected line is an important first step. Swift Flo Plumbing Services aims to provide clear communication, practical recommendations, and careful service. If you need an experienced, qualified, and affordable drain-cleaning provider in Lebanon, TN, contact our team to discuss the problem and arrange the appropriate service.",
+  coverageTitle: "Our Services Areas for All Types of Drain Cleaning or Washing",
+  coverageDescription:
+    "Swift Flo Plumbing Services serves customers across Lebanon, TN, and surrounding Middle Tennessee communities. Our wider service area includes Brentwood TN, Franklin TN, Gallatin TN, Hendersonville TN, La Vergne TN, Lebanon TN, Mt. Juliet TN, Murfreesboro TN, Nashville TN, Smyrna TN, Spring Hill TN, and Thompson's Station TN. Each property has different drainage demands. A family home may need help with a slow shower or kitchen sink, while a commercial site may experience repeated blockages in heavily used restrooms or utility areas. We discuss the symptoms and property requirements before recommending a suitable cleaning approach.",
+  coverageSecondary:
+    "Our regional coverage helps homeowners, landlords, property managers, and business operators find support for common drain concerns. Service availability and scheduling can depend on the property address and the work required, so customers should contact us to confirm coverage for their location. Whether a blockage appears suddenly or develops gradually over several weeks, it is useful to describe which fixture is affected, how quickly water drains, and whether the problem has happened before. Swift Flo Plumbing Services aims to make arranging drain cleaning straightforward, with clear communication from the initial enquiry through the recommended next steps.",
+  overviewTitle: "Drain Cleaning overview in Lebanon",
+  overviewDescription:
+    "Drain work starts with the fixtures you name and expands only as far as the backup requires. Swift Flo Plumbing Services keeps drain cleaning clear and local for customers throughout Wilson County neighborhoods and commercial properties around Lebanon’s city core.",
+  overviewPoints: [
     "Professional drain cleaning for Lebanon customers",
-    "Coverage across Wilson County neighborhoods and commercial properties around Lebanon’s city core",
-    "Newer builds and aging service lines can appear on the same week’s schedule.",
+    "Coverage across Wilson County neighborhoods and Lebanon’s city core",
+    "Residential and commercial drain washing",
     "Published hours: Monday – Sunday, 8:00 AM – 8:00 PM",
-    "Clearing accessible fixture drains before escalating to deeper line work when symptoms point that way.",
+    "Kitchen, bathroom, and accessible line clearing",
     "Clear clogged sinks, showers, tubs, and floor drains.",
-    "Address slow-draining fixtures before they become larger problems."
+    "Address slow-draining fixtures before they become larger problems.",
   ],
-  "detailsTitle": "Drain Cleaning details for Lebanon",
-  "detailsDescription": "What to expect when you request drain cleaning from Swift Flo Plumbing Services in Lebanon, TN. Focus: Clearing accessible fixture drains before escalating to deeper line work when symptoms point that way.",
-  "detailPoints": [
+  detailsTitle: "Drain Cleaning details for Lebanon",
+  detailsDescription:
+    "What to expect when you request drain cleaning from Swift Flo Plumbing Services in Lebanon, TN.",
+  detailPoints: [
     {
-      "title": "Drain Cleaning scope",
-      "text": "Clear clogged sinks, showers, tubs, and floor drains. Available for customers requesting service in Lebanon. Newer builds and aging service lines can appear on the same week’s schedule."
+      title: "Lebanon service focus",
+      text: "Clear clogged sinks, showers, tubs, and floor drains. Available for customers requesting service in Lebanon.",
     },
     {
-      "title": "Property impact",
-      "text": "Address slow-draining fixtures before they become larger problems. Clearing accessible fixture drains before escalating to deeper line work when symptoms point that way."
+      title: "How the work helps",
+      text: "Assess the blockage and recommend a suitable cleaning method for the affected fixture and plumbing system.",
     },
     {
-      "title": "Lebanon coverage",
-      "text": "Support for residential and commercial drain concerns."
+      title: "Property types served",
+      text: "Support for residential and commercial drain concerns.",
     },
     {
-      "title": "Request timing",
-      "text": "Request service during Monday through Sunday, 8:00 AM to 8:00 PM."
-    }
+      title: "Scheduling window",
+      text: "Request service during Monday through Sunday, 8:00 AM to 8:00 PM.",
+    },
   ],
-  "whyTitle": "Why choose Swift Flo for drain cleaning in Lebanon",
-  "whyDescription": "Local coverage across Wilson County neighborhoods and commercial properties around Lebanon’s city core, professional drain cleaning, and a clear request process. Newer builds and aging service lines can appear on the same week’s schedule.",
-  "whyReasons": [
+  whyTitle:
+    "Why Choose Swift Flo Plumbing Services for Your Drain Cleaning or Washing Needs in Lebanon, TN?",
+  whyDescription:
+    "Choosing a drain-cleaning company should involve more than finding someone who can clear a visible clog. You also need to understand what caused the restriction, whether the same problem may return, and what steps make sense for your plumbing system. Swift Flo Plumbing Services approaches Lebanon drain-cleaning requests with these practical questions in mind. We listen to the symptoms, consider the affected fixtures, and explain the cleaning options that suit the situation.",
+  whySecondary:
+    "Our service covers common household problems as well as drainage concerns in workplaces and other commercial properties. Clear communication is important throughout the process. We also share useful prevention advice when appropriate, such as avoiding grease disposal in kitchen sinks and removing hair from shower strainers. If your property has a slow sink, a blocked shower, or a drain that keeps backing up, Swift Flo Plumbing Services can help you determine the next step. Contact us for professional drain-cleaning service in Lebanon, TN, with practical guidance tailored to your plumbing concern.",
+  whyReasons: [],
+  faqs: [
     {
-      "title": "Lebanon availability",
-      "text": "Drain Cleaning is available for customers throughout Wilson County neighborhoods and commercial properties around Lebanon’s city core. Newer builds and aging service lines can appear on the same week’s schedule.",
-      "icon": "pin"
+      question: "What are common signs that I need drain cleaning in Lebanon, TN?",
+      answer:
+        "Slow drainage, recurring clogs, unpleasant odors, gurgling sounds, or water backing up can indicate buildup inside a drain. A professional assessment can help identify the likely cause.",
     },
     {
-      "title": "Trained plumbing team",
-      "text": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Slow sinks, recurring shower backups, and main-line symptoms are handled with a clear diagnostic-to-clearing path.",
-      "icon": "wrench"
+      question: "Can you clean kitchen and bathroom drains?",
+      answer:
+        "Yes. Swift Flo Plumbing Services can assess common kitchen and bathroom drain blockages, including grease, food residue, hair, and soap buildup, then recommend an appropriate cleaning method for the affected line.",
     },
     {
-      "title": "Clear communication",
-      "text": "Straightforward updates from inquiry through completion for drain cleaning in Lebanon.",
-      "icon": "users"
+      question: "Why does my drain keep clogging after I clear it?",
+      answer:
+        "Recurring clogs may mean debris remains farther inside the pipe, or another issue is restricting flow. An assessment can help determine whether further cleaning or inspection is needed.",
     },
     {
-      "title": "Reliable workmanship",
-      "text": "Clearing accessible fixture drains before escalating to deeper line work when symptoms point that way.",
-      "icon": "shield"
+      question: "Is professional drain cleaning suitable for businesses?",
+      answer:
+        "Professional drain cleaning can help offices, shops, and other commercial properties address blocked sinks and restrooms. The recommended service depends on fixture use, blockage severity, and the plumbing system.",
     },
     {
-      "title": "Customer-first care",
-      "text": "Your Lebanon request starts with contact details and a clear description of clogged and slow drains.",
-      "icon": "droplet"
+      question: "Should I use chemical drain cleaners before calling?",
+      answer:
+        "Repeated chemical treatments may not resolve deeper blockages and can pose risks if used incorrectly. If a drain remains slow or repeatedly clogs, seek advice from a plumbing professional.",
     },
     {
-      "title": "Convenient hours",
-      "text": "Open Monday – Sunday, 8:00 AM – 8:00 PM.",
-      "icon": "clock"
-    }
+      question: "How can I help prevent future drain blockages?",
+      answer:
+        "Keep grease, coffee grounds, and food scraps out of sinks. Use suitable drain strainers, remove hair regularly, and arrange an assessment if slow drainage continues despite basic maintenance.",
+    },
   ],
-  "faqs": [
-    {
-      "question": "What does drain cleaning include for Lebanon customers?",
-      "answer": "Professional drain cleaning restores wastewater flow when fixtures run slow or stop draining. Typical work involves clearing sinks, showers, tubs, floor drains, and main-line backups. Share your Lebanon property details when you contact us."
-    },
-    {
-      "question": "How do I schedule drain cleaning in Lebanon?",
-      "answer": "Submit the contact form or call 629-238-8322. Confirm Lebanon as the service city and describe the drain cleaning work you need."
-    },
-    {
-      "question": "What are your hours for drain cleaning in Lebanon?",
-      "answer": "Open Monday – Sunday, 8:00 AM – 8:00 PM. Lebanon visits for drain cleaning are arranged within these published hours."
-    },
-    {
-      "question": "Can I get a free quote for drain cleaning in Lebanon?",
-      "answer": "Yes. Contact Swift Flo Plumbing Services to discuss drain cleaning needs in Lebanon and request a free quote."
-    },
-    {
-      "question": "How soon can you come to Lebanon for drain cleaning?",
-      "answer": "Scheduling depends on availability within published hours. Share preferred timing with your Lebanon request."
-    },
-    {
-      "question": "Are related plumbing services available in Lebanon?",
-      "answer": "Yes. In addition to drain cleaning, Swift Flo Plumbing Services provides other confirmed plumbing services for customers in Lebanon, TN."
-    },
-    {
-      "question": "Why choose Swift Flo for drain cleaning in Lebanon?",
-      "answer": "Lebanon is part of our confirmed coverage spanning Wilson County neighborhoods and commercial properties around Lebanon’s city core. Customers receive professional drain cleaning, clear communication, and a straightforward request process."
-    },
-    {
-      "question": "What signs suggest I need drain cleaning in Lebanon?",
-      "answer": "Common reasons include clogged and slow drains. If you are seeing related symptoms at a Lebanon property near Wilson County neighborhoods and commercial properties around Lebanon’s city core, describe them when you request service so we can prepare for the visit."
-    },
-    {
-      "question": "Is drain cleaning available for commercial properties in Lebanon?",
-      "answer": "Yes. Homes and businesses across Wilson County neighborhoods and commercial properties around Lebanon’s city core can request drain cleaning during published business hours."
-    },
-    {
-      "question": "How do Lebanon customers prepare for drain cleaning?",
-      "answer": "Note which fixtures or areas are affected, when the issue started, and any recent plumbing work. Share those details with your Lebanon service request."
-    },
-    {
-      "question": "Does pricing for drain cleaning in Lebanon appear online?",
-      "answer": "Pricing is not listed as a flat rate because every job differs. Contact Swift Flo Plumbing Services for a free quote based on the Lebanon work you describe."
-    },
-    {
-      "question": "Can I request drain cleaning and another plumbing service in Lebanon?",
-      "answer": "Yes. Mention every plumbing concern in your request so Lebanon follow-up can account for the full scope."
-    }
-  ],
-  "heroImage": {
-    "src": "/images/hero-lebanon.jpg",
-    "alt": "Plumber clearing a drain connection in Lebanon, Tennessee"
+  heroImage: {
+    src: "/images/hero-lebanon.jpg",
+    alt: "Plumber clearing a drain connection in Lebanon, Tennessee",
   },
-  "aboutImage": {
-    "src": "/images/about-lebanon.jpg",
-    "alt": "Drain Cleaning workmanship for Lebanon customers"
+  aboutImage: {
+    src: "/images/about-lebanon.jpg",
+    alt: "Drain cleaning workmanship for Lebanon, TN customers",
   },
-  "overviewImage": {
-    "src": "/images/work.jpg",
-    "alt": "Plumber clearing a drain connection for Lebanon service overview"
+  overviewImage: {
+    src: "/images/overview-lebanon.jpg",
+    alt: "Professional plumbing service overview for drain cleaning in Lebanon",
   },
-  "ctaImage": {
-    "src": "/images/cta-lebanon.jpg",
-    "alt": "Request drain cleaning in Lebanon"
-  }
+  ctaImage: {
+    src: "/images/cta-lebanon.jpg",
+    alt: "Request drain cleaning in Lebanon, TN",
+  },
+  hireImage: {
+    src: "/images/work.jpg",
+    alt: "Plumber fitting a drain trap for Lebanon, TN drain cleaning customers",
+  },
+  localImage: {
+    src: "/images/hero.jpg",
+    alt: "Plumber working on drain pipes for Lebanon, TN customers",
+  },
+  topRatedImage: {
+    src: "/images/about-la-vergne.jpg",
+    alt: "Kitchen and bathroom drain service for Lebanon, TN customers",
+  },
+  certifiedImage: {
+    src: "/images/about-hendersonville.jpg",
+    alt: "Certified plumbing technician serving Lebanon, TN drain cleaning customers",
+  },
+  whyImage: {
+    src: "/images/gallery-copper.jpg",
+    alt: "Professional copper plumbing and drain workmanship for Lebanon drain cleaning",
+  },
 };
 
 export default content;
