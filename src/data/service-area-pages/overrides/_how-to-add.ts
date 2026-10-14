@@ -2,7 +2,7 @@
  * HOW TO ADD / EDIT ONE CITY × SERVICE PAGE
  * -----------------------------------------
  * Dedicated content (required) lives here:
- *   src/data/service-area-pages/services/{areaSlug}/{serviceSlug}.ts
+ *   src/data/services/{serviceSlug}/areas/{areaSlug}.ts
  *
  * Dedicated route page (required) lives here:
  *   src/app/service-areas/{areaSlug}/{serviceSlug}/page.tsx

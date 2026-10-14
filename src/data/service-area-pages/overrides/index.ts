@@ -1,6 +1,6 @@
 /**
  * @deprecated Override registry replaced by dedicated content files in
- * `src/data/service-area-pages/services/{areaSlug}/{serviceSlug}.ts`.
+ * `src/data/services/{serviceSlug}/areas/{areaSlug}.ts`.
  *
  * Re-exports the new registry so older imports keep working.
  */

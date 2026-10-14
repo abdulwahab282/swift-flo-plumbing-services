@@ -80,6 +80,11 @@ export type ResolvedServiceAreaPage = {
     about?: { src: string; alt: string };
     overview?: { src: string; alt: string };
     cta?: { src: string; alt: string };
+    hire?: { src: string; alt: string };
+    local?: { src: string; alt: string };
+    topRated?: { src: string; alt: string };
+    certified?: { src: string; alt: string };
+    why?: { src: string; alt: string };
   };
 };
 
@@ -91,6 +96,11 @@ function splitCityServiceContent(page: CityServicePageContent): ResolvedServiceA
     aboutImage,
     overviewImage,
     ctaImage,
+    hireImage,
+    localImage,
+    topRatedImage,
+    certifiedImage,
+    whyImage,
     ...content
   } = page;
 
@@ -105,8 +115,26 @@ function splitCityServiceContent(page: CityServicePageContent): ResolvedServiceA
       about: aboutImage,
       overview: overviewImage,
       cta: ctaImage,
+      hire: hireImage,
+      local: localImage,
+      topRated: topRatedImage,
+      certified: certifiedImage,
+      why: whyImage,
     },
   };
+}
+
+/**
+ * Validates and resolves a directly imported city × service content module.
+ * Prefer this from dedicated route pages that import their own content file.
+ */
+export function resolveCityServicePageContent(
+  page: CityServicePageContent,
+  areaSlug: string,
+  serviceSlug: string,
+): ResolvedServiceAreaPage {
+  assertValidCityServicePageContent(page, `${areaSlug}/${serviceSlug}`);
+  return splitCityServiceContent(page);
 }
 
 /**
@@ -121,12 +149,11 @@ export function resolveServiceAreaPage(
   if (!page) {
     throw new Error(
       `Missing dedicated content for /service-areas/${area.slug}/${service.slug}. ` +
-        `Add src/data/service-area-pages/services/${area.slug}/${service.slug}.ts and register it.`,
+        `Add src/data/services/${service.slug}/areas/${area.slug}.ts and register it.`,
     );
   }
 
-  assertValidCityServicePageContent(page, `${area.slug}/${service.slug}`);
-  return splitCityServiceContent(page);
+  return resolveCityServicePageContent(page, area.slug, service.slug);
 }
 
 export function resolveCityPage(areaSlug: string): CityPageContent {
@@ -146,7 +173,7 @@ export function resolveServiceHubPage(serviceSlug: string): ServiceHubPageConten
   if (!page) {
     throw new Error(
       `Missing dedicated hub content for /service-areas/for/${serviceSlug}. ` +
-        `Add src/data/service-area-pages/hubs/${serviceSlug}.ts and register it.`,
+        `Add src/data/services/${serviceSlug}/hub.ts and register it.`,
     );
   }
   assertValidServiceHubPageContent(page, serviceSlug);

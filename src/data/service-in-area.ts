@@ -6,13 +6,32 @@ export type ServiceInAreaContent = {
   heroTitle: string;
   heroDescription: string;
   highlights: { title: string; text: string }[];
+  /** Optional mid-page call band rendered immediately after Highlights. */
+  callNowTitle?: string;
+  callNowDescription?: string;
   aboutTitle: string;
   aboutDescription: string;
   aboutSecondary: string;
   servicesTitle: string;
   servicesDescription: string;
+  /** Optional hire/contact band rendered immediately after Our Services. */
+  hireTitle?: string;
+  hireDescription?: string;
+  hireSecondary?: string;
+  /** Optional local trust band rendered immediately after the hire/contact section. */
+  localTitle?: string;
+  localDescription?: string;
+  localSecondary?: string;
   ctaTitle: string;
   ctaDescription: string;
+  /** Optional top-rated band rendered immediately after the main CTA section. */
+  topRatedTitle?: string;
+  topRatedDescription?: string;
+  topRatedSecondary?: string;
+  /** Optional certified experts band rendered after the top-rated section. */
+  certifiedTitle?: string;
+  certifiedDescription?: string;
+  certifiedSecondary?: string;
   overviewTitle: string;
   overviewDescription: string;
   overviewPoints: string[];
@@ -21,12 +40,17 @@ export type ServiceInAreaContent = {
   detailPoints: { title: string; text: string }[];
   whyTitle: string;
   whyDescription: string;
+  whySecondary?: string;
   whyReasons: {
     title: string;
     text: string;
     icon: "pin" | "wrench" | "users" | "shield" | "droplet" | "clock";
   }[];
   faqs: { question: string; answer: string }[];
+  /** Optional Local coverage section copy (falls back to generated city text). */
+  coverageTitle?: string;
+  coverageDescription?: string;
+  coverageSecondary?: string;
 };
 
 export function buildServiceInAreaContent(

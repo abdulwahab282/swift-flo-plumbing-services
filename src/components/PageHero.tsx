@@ -11,7 +11,7 @@ export function PageHero({
   breadcrumb,
   actions,
 }: {
-  eyebrow: string;
+  eyebrow?: string;
   title: string;
   description: string;
   image?: { src: string; alt: string };
@@ -33,10 +33,14 @@ export function PageHero({
               <Breadcrumb items={breadcrumb} tone="dark" />
             </div>
           ) : null}
-          <p className="text-xs font-semibold uppercase tracking-[0.22em] text-copper">
-            {eyebrow}
-          </p>
-          <h1 className="mt-4 max-w-xl font-display text-4xl leading-[1.05] sm:text-6xl">
+          {eyebrow ? (
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-copper">
+              {eyebrow}
+            </p>
+          ) : null}
+          <h1
+            className={`${eyebrow ? "mt-4" : ""} max-w-xl font-display text-4xl leading-[1.05] sm:text-6xl`}
+          >
             {title}
           </h1>
           <p className="mt-5 max-w-xl text-lg leading-relaxed text-white/75">

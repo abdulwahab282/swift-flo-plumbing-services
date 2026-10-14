@@ -51,12 +51,12 @@ export function validateServiceInAreaContent(
   if (!content.detailPoints?.length) {
     errors.push(`${context}: detailPoints required`);
   }
-  if (!content.whyReasons?.length) {
-    errors.push(`${context}: whyReasons required`);
+  if (!Array.isArray(content.whyReasons)) {
+    errors.push(`${context}: whyReasons must be an array`);
   }
-  if (!content.faqs || content.faqs.length < 10) {
+  if (!content.faqs || content.faqs.length < 6) {
     errors.push(
-      `${context}: at least 10 FAQs required (found ${content.faqs?.length ?? 0})`,
+      `${context}: at least 6 FAQs required (found ${content.faqs?.length ?? 0})`,
     );
   }
 

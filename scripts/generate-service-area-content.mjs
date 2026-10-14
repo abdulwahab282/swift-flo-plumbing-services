@@ -2,6 +2,13 @@
  * Generates dedicated TypeScript content files for every service-area route.
  * Run: node scripts/generate-service-area-content.mjs
  *
+ * City × service + hub content lives under each service folder:
+ *   src/data/services/{serviceSlug}/areas/{citySlug}.ts
+ *   src/data/services/{serviceSlug}/hub.ts
+ *
+ * City overview pages remain under:
+ *   src/data/service-area-pages/cities/{citySlug}.ts
+ *
  * Also rewrites src/data/service-area-pages/coverage.ts from service-area-config.mjs.
  */
 import fs from "node:fs";
@@ -21,6 +28,75 @@ import {
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
 const base = path.join(root, "src", "data", "service-area-pages");
+const servicesDataRoot = path.join(root, "src", "data", "services");
+
+/** City-index angles that stay unique even after city-name stripping. */
+const cityUniqueHooks = [
+  "Older subdivision plumbing and busy weekday schedules shape how visits are planned.",
+  "Growth corridors and mixed residential-commercial streets influence common request types.",
+  "Lakeside and corridor properties often bring drainage and fixture wear into the same week.",
+  "Commuter households usually need clear windows within published daytime hours.",
+  "Campus-adjacent rentals and owner-occupied homes both show up in local request volume.",
+  "Newer builds and aging service lines can appear on the same week’s schedule.",
+  "Neighborhood HOA timing and driveway access sometimes affect how work is staged.",
+  "Light industrial edges and residential cores create a wide range of plumbing scopes.",
+  "Downtown-adjacent and suburban properties need the same clear request process.",
+  "Family homes and small offices alike benefit from straightforward scheduling follow-up.",
+  "Seasonal usage swings show up in hot-water and drainage requests throughout the year.",
+  "Rural-edge and in-town addresses share the same confirmed coverage and hours.",
+];
+
+/** Per-service narrative hooks (keyed by service slug). */
+const serviceUniqueHooks = {
+  "drain-cleaning": {
+    aboutLead:
+      "Slow sinks, recurring shower backups, and main-line symptoms are handled with a clear diagnostic-to-clearing path.",
+    overviewLead:
+      "Drain work starts with the fixtures you name and expands only as far as the backup requires.",
+    detailFocus:
+      "Clearing accessible fixture drains before escalating to deeper line work when symptoms point that way.",
+  },
+  "camera-inspections": {
+    aboutLead:
+      "Video inspection clarifies whether a blockage, offset, root intrusion, or pipe damage is driving the symptoms.",
+    overviewLead:
+      "Camera work is used to locate the issue so repair recommendations stay grounded in what the line shows.",
+    detailFocus:
+      "Recording and reviewing underground conditions before recommending excavation or repair scopes.",
+  },
+  "water-filtration-system-installation": {
+    aboutLead:
+      "Filtration installs are matched to household water goals, available space, and the existing supply layout.",
+    overviewLead:
+      "Installation covers professional plumbing connections so filtered water reaches the points you care about most.",
+    detailFocus:
+      "Sizing and connecting filtration equipment without disrupting the rest of the home’s plumbing.",
+  },
+  "water-heater-repairs-replacement": {
+    aboutLead:
+      "No-hot-water calls, leaks, and aging tanks are diagnosed before recommending repair or replacement.",
+    overviewLead:
+      "Water heater visits focus on restoring reliable hot water with a clear recommendation for the unit on site.",
+    detailFocus:
+      "Repairing recoverable failures when practical and replacing units that no longer serve the property well.",
+  },
+  "bathroom-remodeling": {
+    aboutLead:
+      "Remodel plumbing covers fixture layout updates, rough-in support, and finished connections for a working bathroom.",
+    overviewLead:
+      "Bathroom projects stay coordinated around the plumbing scope you describe—vanities, showers, toilets, and related lines.",
+    detailFocus:
+      "Installing and connecting fixtures so the finished bathroom performs cleanly day to day.",
+  },
+  "water-sewer-excavation-repairs-replacements": {
+    aboutLead:
+      "Underground water and sewer failures are scoped carefully before excavation and line replacement begin.",
+    overviewLead:
+      "Excavation repairs address leaks, breaks, and aging service lines that cannot be resolved from inside the building alone.",
+    detailFocus:
+      "Repairing or replacing damaged underground lines with clear communication about access and restoration expectations.",
+  },
+};
 
 const cityAngles = [
   "homes and local businesses that need clear scheduling and professional follow-up",
@@ -522,25 +598,39 @@ export default content;
 
 function generateCityServicePage(city, service, cityIndex, serviceIndex) {
   const faqs = serviceFaqs(service, city, cityIndex, serviceIndex);
+  const hooks =
+    serviceUniqueHooks[service.slug] ?? {
+      aboutLead: service.summary,
+      overviewLead: `From the first request through completion, ${service.lower} stays clear and local.`,
+      detailFocus: service.work,
+    };
+  const cityHook = pick(cityUniqueHooks, cityIndex + serviceIndex * 3);
+  const seed = cityIndex * 11 + serviceIndex * 17;
+
   const heroVariants = [
     `${service.name} in ${city.city}, TN`,
     `Professional ${service.lower} for ${city.city}`,
     `${city.city} ${service.name} from Swift Flo`,
+    `${service.name} support across ${city.city}`,
   ];
   const heroDescVariants = [
-    `${service.summary} ${BRAND} provides ${service.lower} for homeowners and businesses throughout ${city.community}. Call ${PHONE} or request service online.`,
-    `Need help with ${service.focus} in ${city.city}? ${BRAND} handles ${service.work} across ${city.community} during published hours (${HOURS}).`,
-    `${city.city} customers can request ${service.lower} with a clear description of the issue. ${BRAND} follows up with next steps for service in ${city.label}.`,
+    `${service.summary} ${BRAND} provides ${service.lower} for homeowners and businesses throughout ${city.community}. ${cityHook} Call ${PHONE} or request service online.`,
+    `Need help with ${service.focus} in ${city.city}? ${BRAND} handles ${service.work} across ${city.community} during published hours (${HOURS}). ${cityHook}`,
+    `${city.city} customers can request ${service.lower} with a clear description of the issue. ${hooks.aboutLead} ${BRAND} follows up with next steps for service in ${city.label}.`,
+    `${hooks.overviewLead} Serving ${city.community}. Open ${HOURS}. Call ${PHONE}.`,
   ];
   const highlightSets = [
     [
       {
         title: `${city.city} coverage`,
-        text: `Professional ${service.lower} arranged for customers throughout ${city.community}.`,
+        text: `Professional ${service.lower} arranged for customers throughout ${city.community}. ${cityHook}`,
       },
       {
-        title: "Dependable results",
-        text: "Clear communication and quality workmanship focused on the job you requested.",
+        title: pick(
+          ["Service-first process", "Scoped visits", "Issue-led planning"],
+          seed,
+        ),
+        text: hooks.detailFocus,
       },
       { title: "Convenient hours", text: `Open ${HOURS}.` },
     ],
@@ -551,7 +641,7 @@ function generateCityServicePage(city, service, cityIndex, serviceIndex) {
       },
       {
         title: pick(["Focused service", "Targeted help", "Clear scope"], serviceIndex),
-        text: `Work centers on ${service.focus} at your ${city.city} property.`,
+        text: `Work centers on ${service.focus} at your ${city.city} property. ${hooks.aboutLead}`,
       },
       {
         title: "Direct contact",
@@ -565,18 +655,37 @@ function generateCityServicePage(city, service, cityIndex, serviceIndex) {
       },
       {
         title: "Prepared visits",
-        text: `Share symptoms and timing so ${city.city} follow-up stays accurate.`,
+        text: `${cityHook} Share symptoms and timing so ${city.city} follow-up stays accurate.`,
       },
       {
-        title: "Related services",
-        text: `Additional plumbing services are available for ${city.city} customers when needed.`,
+        title: pick(
+          ["Related plumbing options", "Additional services nearby", "Full service menu"],
+          seed + 1,
+        ),
+        text: `Additional plumbing services are available for ${city.city} customers when ${service.lower} is only part of the need.`,
+      },
+    ],
+    [
+      {
+        title: `${service.name} locally`,
+        text: `${hooks.overviewLead} Coverage includes ${city.community}.`,
+      },
+      {
+        title: pick(["Clear next steps", "Simple follow-up", "Direct updates"], seed + 2),
+        text: "You describe the job once; scheduling and visit prep stay aligned to that description.",
+      },
+      {
+        title: "Published availability",
+        text: `Requests are arranged ${HOURS} for ${city.city} customers.`,
       },
     ],
   ];
   const overviewPoints = [
     `Professional ${service.lower} for ${city.city} customers`,
     `Coverage across ${city.community}`,
+    cityHook,
     `Published hours: ${HOURS}`,
+    hooks.detailFocus,
     ...service.details.slice(0, 2),
   ];
   const detailTitles = [
@@ -588,27 +697,40 @@ function generateCityServicePage(city, service, cityIndex, serviceIndex) {
     ],
     ["What we address", "Why it matters", "Where we serve", "When you can request"],
     ["Local priority", "Practical outcome", "Coverage type", "Hours of service"],
+    [
+      `${service.name} scope`,
+      "Property impact",
+      `${city.city} coverage`,
+      "Request timing",
+    ],
   ];
   const whyReasons = [
     {
       title: `${city.city} availability`,
-      text: `${service.name} is available for customers throughout ${city.community}.`,
+      text: `${service.name} is available for customers throughout ${city.community}. ${cityHook}`,
       icon: "pin",
     },
-    { title: "Skilled technicians", text: service.summary, icon: "wrench" },
+    {
+      title: pick(
+        ["Skilled technicians", "Trained plumbing team", "Experienced hands"],
+        seed,
+      ),
+      text: `${service.summary} ${hooks.aboutLead}`,
+      icon: "wrench",
+    },
     {
       title: "Clear communication",
-      text: "Straightforward updates from inquiry through completion.",
+      text: `Straightforward updates from inquiry through completion for ${service.lower} in ${city.city}.`,
       icon: "users",
     },
     {
       title: "Reliable workmanship",
-      text: "Professional plumbing work focused on lasting results.",
+      text: `${hooks.detailFocus}`,
       icon: "shield",
     },
     {
       title: "Customer-first care",
-      text: "Your request starts with contact details and a clear description of the job.",
+      text: `Your ${city.city} request starts with contact details and a clear description of ${service.focus}.`,
       icon: "droplet",
     },
     { title: "Convenient hours", text: `Open ${HOURS}.`, icon: "clock" },
@@ -616,31 +738,33 @@ function generateCityServicePage(city, service, cityIndex, serviceIndex) {
 
   const content = {
     metaTitle: `${service.name} in ${city.city}, TN | ${BRAND}`,
-    metaDescription: `${service.summary} Serving ${city.label} — ${city.community}. Request ${service.lower} ${HOURS}. Call ${PHONE}.`,
-    heroTitle: pick(heroVariants, cityIndex + serviceIndex),
-    heroDescription: pick(heroDescVariants, cityIndex + serviceIndex * 2),
-    highlights: pick(highlightSets, cityIndex + serviceIndex),
+    metaDescription: `${service.summary} Serving ${city.label} — ${city.community}. ${cityHook} Request ${service.lower} ${HOURS}. Call ${PHONE}.`,
+    heroTitle: pick(heroVariants, seed),
+    heroDescription: pick(heroDescVariants, seed + 1),
+    highlights: pick(highlightSets, seed),
     aboutTitle: `${service.name} for ${city.city} homes and businesses`,
-    aboutDescription: `${service.summary} Customers across ${city.community} can request ${service.lower} online or by phone and describe the plumbing work that needs attention.`,
+    aboutDescription: `${hooks.aboutLead} Customers across ${city.community} can request ${service.lower} online or by phone and describe the plumbing work that needs attention. ${cityHook}`,
     aboutSecondary: `Open ${HOURS}. ${BRAND} serves ${city.label} with a straightforward way to request ${service.lower}. Call ${PHONE}.`,
     servicesTitle: `Plumbing services related to ${service.name}`,
     servicesDescription: `While this page focuses on ${service.lower} in ${city.city}, ${BRAND} also provides a full range of professional plumbing services across Nashville and Middle Tennessee.`,
     ctaTitle: `Request ${service.lower} in ${city.city}`,
-    ctaDescription: `Contact ${BRAND} to schedule ${service.lower} in ${city.label}. Share your details and the work you need — we follow up from there.`,
+    ctaDescription: `Contact ${BRAND} to schedule ${service.lower} in ${city.label}. Share details about ${service.focus} — we follow up from there.`,
     overviewTitle: `${service.name} overview in ${city.city}`,
-    overviewDescription: `From the first request through completion, ${BRAND} keeps ${service.lower} clear and local for customers across ${city.community}.`,
+    overviewDescription: `${hooks.overviewLead} ${BRAND} keeps ${service.lower} clear and local for customers across ${city.community}.`,
     overviewPoints,
     detailsTitle: `${service.name} details for ${city.city}`,
-    detailsDescription: `What to expect when you request ${service.lower} from ${BRAND} in ${city.label}.`,
+    detailsDescription: `What to expect when you request ${service.lower} from ${BRAND} in ${city.label}. Focus: ${hooks.detailFocus}`,
     detailPoints: service.details.map((text, i) => ({
-      title: pick(detailTitles, serviceIndex)[i] || `Detail ${i + 1}`,
+      title: pick(detailTitles, seed)[i] || `Detail ${i + 1}`,
       text:
         i === 0
-          ? `${text} Available for customers requesting service in ${city.city}.`
-          : text,
+          ? `${text} Available for customers requesting service in ${city.city}. ${cityHook}`
+          : i === 1
+            ? `${text} ${hooks.detailFocus}`
+            : text,
     })),
     whyTitle: `Why choose Swift Flo for ${service.lower} in ${city.city}`,
-    whyDescription: `Local coverage across ${city.community}, professional plumbing service, and a clear request process for ${service.lower}.`,
+    whyDescription: `Local coverage across ${city.community}, professional ${service.lower}, and a clear request process. ${cityHook}`,
     whyReasons,
     faqs: faqs.map((f) => ({ question: f.q, answer: f.a })),
     heroImage: {
@@ -663,7 +787,9 @@ function generateCityServicePage(city, service, cityIndex, serviceIndex) {
 
   return `import type { CityServicePageContent } from "@/data/service-area-pages/types";
 
-/** Dedicated content for /service-areas/${city.slug}/${service.slug} */
+/** Dedicated content for /service-areas/${city.slug}/${service.slug}
+ *  Edit path: src/data/services/${service.slug}/areas/${city.slug}.ts
+ */
 const content: CityServicePageContent = ${JSON.stringify(content, null, 2)};
 
 export default content;
@@ -741,6 +867,11 @@ const hubImports = [];
 const serviceImports = [];
 const serviceEntries = [];
 
+/** @param {string} slug */
+function toCamelIdent(slug) {
+  return slug.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
+}
+
 writeCoverageFile();
 
 for (const [ci, city] of cities.entries()) {
@@ -749,36 +880,89 @@ for (const [ci, city] of cities.entries()) {
   cityImports.push(`import ${city.pascal} from "./${city.slug}";`);
 }
 
+const hubServices = services.filter(
+  (service) => getCitiesForService(service.slug).length > 0,
+);
+
 for (const [si, service] of services.entries()) {
   if (getCitiesForService(service.slug).length === 0) continue;
-  const file = path.join(base, "hubs", `${service.slug}.ts`);
-  writeFile(file, generateHubPage(service, si));
-  const hubIdent = service.slug.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
-  hubImports.push(`import ${hubIdent} from "./${service.slug}";`);
+  const hubFile = path.join(servicesDataRoot, service.slug, "hub.ts");
+  writeFile(hubFile, generateHubPage(service, si));
+  const hubIdent = toCamelIdent(service.slug);
+  hubImports.push(
+    `import ${hubIdent} from "@/data/services/${service.slug}/hub";`,
+  );
 }
 
 const cityIndexBySlug = Object.fromEntries(cities.map((c, i) => [c.slug, i]));
 const serviceIndexBySlug = Object.fromEntries(services.map((s, i) => [s.slug, i]));
 
+/** @type {Map<string, { imports: string[], entries: string[] }>} */
+const perServiceAreaRegistries = new Map();
+
 for (const combo of listCoveredCombos()) {
   const ci = cityIndexBySlug[combo.areaSlug];
   const si = serviceIndexBySlug[combo.serviceSlug];
   const file = path.join(
-    base,
-    "services",
-    combo.areaSlug,
-    `${combo.serviceSlug}.ts`,
+    servicesDataRoot,
+    combo.serviceSlug,
+    "areas",
+    `${combo.areaSlug}.ts`,
   );
   writeFile(
     file,
     generateCityServicePage(combo.city, combo.service, ci, si),
   );
-  const ident = `${combo.city.pascal}_${combo.service.slug.replace(/-([a-z])/g, (_, c) => c.toUpperCase())}`;
-  serviceImports.push(
-    `import ${ident} from "./${combo.areaSlug}/${combo.serviceSlug}";`,
-  );
+
+  const ident = `${combo.city.pascal}_${toCamelIdent(combo.serviceSlug)}`;
+  const importPath = `@/data/services/${combo.serviceSlug}/areas/${combo.areaSlug}`;
+  serviceImports.push(`import ${ident} from "${importPath}";`);
   serviceEntries.push(
     `  "${combo.areaSlug}::${combo.serviceSlug}": ${ident},`,
+  );
+
+  if (!perServiceAreaRegistries.has(combo.serviceSlug)) {
+    perServiceAreaRegistries.set(combo.serviceSlug, {
+      imports: [],
+      entries: [],
+    });
+  }
+  const reg = perServiceAreaRegistries.get(combo.serviceSlug);
+  const cityIdent = combo.city.pascal;
+  reg.imports.push(`import ${cityIdent} from "./${combo.areaSlug}";`);
+  reg.entries.push(`  "${combo.areaSlug}": ${cityIdent},`);
+}
+
+for (const [serviceSlug, reg] of perServiceAreaRegistries) {
+  writeFile(
+    path.join(servicesDataRoot, serviceSlug, "areas", "index.ts"),
+    `import type { CityServicePageContent } from "@/data/service-area-pages/types";
+import { listPagesForService } from "@/data/service-area-pages";
+import { serviceAreaRoutes } from "@/lib/service-area-routes";
+${reg.imports.join("\n")}
+
+export const SERVICE_SLUG = "${serviceSlug}" as const;
+
+export const serviceHubHref = serviceAreaRoutes.serviceHub(SERVICE_SLUG);
+
+/** Hardcoded city pages for this service only. */
+export const areaPagesByCitySlug: Record<string, CityServicePageContent> = {
+${reg.entries.join("\n")}
+};
+
+export function getAreaPage(citySlug: string) {
+  return areaPagesByCitySlug[citySlug];
+}
+
+export function listAreaCitySlugs() {
+  return Object.keys(areaPagesByCitySlug);
+}
+
+/** Finder / nav links for this service’s city pages only. */
+export function getServiceAreaPages() {
+  return listPagesForService(SERVICE_SLUG);
+}
+`,
   );
 }
 
@@ -801,10 +985,6 @@ export function hasCityPageContent(areaSlug: string) {
 `,
 );
 
-const hubServices = services.filter(
-  (service) => getCitiesForService(service.slug).length > 0,
-);
-
 writeFile(
   path.join(base, "hubs", "index.ts"),
   `import type { ServiceHubPageContent } from "@/data/service-area-pages/types";
@@ -813,7 +993,7 @@ ${hubImports.join("\n")}
 export const serviceHubContentBySlug: Record<string, ServiceHubPageContent> = {
 ${hubServices
   .map((s) => {
-    const ident = s.slug.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
+    const ident = toCamelIdent(s.slug);
     return `  "${s.slug}": ${ident},`;
   })
   .join("\n")}
@@ -834,6 +1014,10 @@ writeFile(
   `import type { CityServicePageContent } from "@/data/service-area-pages/types";
 ${serviceImports.join("\n")}
 
+/**
+ * Aggregated registry of every city × service content module.
+ * Canonical edit location: src/data/services/{service}/areas/{city}.ts
+ */
 export const cityServicePageContent: Record<string, CityServicePageContent> = {
 ${serviceEntries.join("\n")}
 };
@@ -857,5 +1041,5 @@ export function hasCityServicePageContent(areaSlug: string, serviceSlug: string)
 
 const combos = listCoveredCombos();
 console.log(
-  `Generated ${cities.length} city pages, ${hubServices.length} hubs, ${combos.length} city×service pages, plus coverage.ts.`,
+  `Generated ${cities.length} city pages, ${hubServices.length} hubs, ${combos.length} city×service pages under src/data/services/{service}/areas/, plus coverage.ts.`,
 );

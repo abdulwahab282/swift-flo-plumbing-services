@@ -22,6 +22,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(__dirname, "..");
 const appRoot = path.join(root, "src", "app", "service-areas");
 const dataRoot = path.join(root, "src", "data", "service-area-pages");
+const servicesDataRoot = path.join(root, "src", "data", "services");
 
 const errors = [];
 const warnings = [];
@@ -96,7 +97,7 @@ for (const service of services) {
     path.join(appRoot, "for", service.slug, "page.tsx"),
     `hub route page.tsx`,
   );
-  const contentFile = path.join(dataRoot, "hubs", `${service.slug}.ts`);
+  const contentFile = path.join(servicesDataRoot, service.slug, "hub.ts");
   if (requireFile(contentFile, `hub content`)) {
     const faqCount = countFaqs(contentFile);
     if (faqCount < 10) {
@@ -128,10 +129,10 @@ for (const combo of listCoveredCombos()) {
     `city×service route`,
   );
   const contentFile = path.join(
-    dataRoot,
-    "services",
-    combo.areaSlug,
-    `${combo.serviceSlug}.ts`,
+    servicesDataRoot,
+    combo.serviceSlug,
+    "areas",
+    `${combo.areaSlug}.ts`,
   );
   if (requireFile(contentFile, `city×service content`)) {
     const faqCount = countFaqs(contentFile);

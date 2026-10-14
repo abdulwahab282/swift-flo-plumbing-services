@@ -91,9 +91,10 @@ function cityServicePageSource(areaSlug, serviceSlug) {
   const componentName = `${toPascalCase(areaSlug)}${toPascalCase(serviceSlug)}Page`;
   return `import { BreadcrumbJsonLd, ServiceJsonLd } from "@/components/JsonLd";
 import { ServiceInAreaDetail } from "@/components/ServiceInAreaDetail";
-import { resolveServiceAreaPage } from "@/data/service-area-pages";
+import { resolveCityServicePageContent } from "@/data/service-area-pages";
 import { requireServiceArea } from "@/data/service-areas";
 import { requireService } from "@/data/services";
+import pageContent from "@/data/services/${serviceSlug}/areas/${areaSlug}";
 import { createMetadata } from "@/lib/metadata";
 import { serviceAreaRoutes } from "@/lib/service-area-routes";
 
@@ -103,7 +104,7 @@ const SERVICE_SLUG = "${serviceSlug}" as const;
 const area = requireServiceArea(AREA_SLUG);
 const service = requireService(SERVICE_SLUG);
 const path = serviceAreaRoutes.cityService(area.slug, service.slug);
-const resolved = resolveServiceAreaPage(area, service);
+const resolved = resolveCityServicePageContent(pageContent, AREA_SLUG, SERVICE_SLUG);
 
 export const metadata = createMetadata({
   title: resolved.meta.title,
@@ -147,7 +148,8 @@ function serviceHubPageSource(serviceSlug) {
   const componentName = `${toPascalCase(serviceSlug)}ServiceAreasHubPage`;
   return `import { BreadcrumbJsonLd } from "@/components/JsonLd";
 import { ServiceAreaByServiceDetail } from "@/components/ServiceAreaByServiceDetail";
-import { resolveServiceHubPage } from "@/data/service-area-pages";
+import { assertValidServiceHubPageContent } from "@/data/service-area-pages/validate";
+import pageContent from "@/data/services/${serviceSlug}/hub";
 import { requireService } from "@/data/services";
 import { createMetadata } from "@/lib/metadata";
 import { serviceAreaRoutes } from "@/lib/service-area-routes";
@@ -155,7 +157,7 @@ import { serviceAreaRoutes } from "@/lib/service-area-routes";
 const SERVICE_SLUG = "${serviceSlug}" as const;
 
 const service = requireService(SERVICE_SLUG);
-const pageContent = resolveServiceHubPage(service.slug);
+assertValidServiceHubPageContent(pageContent, SERVICE_SLUG);
 
 export const metadata = createMetadata({
   title: pageContent.metaTitle,

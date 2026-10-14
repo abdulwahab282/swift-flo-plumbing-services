@@ -14,6 +14,16 @@ export type CityServicePageContent = ServiceInAreaContent & {
   aboutImage?: PageImageRef;
   overviewImage?: PageImageRef;
   ctaImage?: PageImageRef;
+  /** Optional image for the mid-page hire/contact section. */
+  hireImage?: PageImageRef;
+  /** Optional image for the local trust section (image left, copy right). */
+  localImage?: PageImageRef;
+  /** Optional image for the top-rated section after the main CTA. */
+  topRatedImage?: PageImageRef;
+  /** Optional image for the certified experts section. */
+  certifiedImage?: PageImageRef;
+  /** Optional background image for the Why Choose Us section. */
+  whyImage?: PageImageRef;
 };
 
 /** Required narrative content for one city overview page. */

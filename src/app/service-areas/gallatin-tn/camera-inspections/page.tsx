@@ -1,8 +1,9 @@
 import { BreadcrumbJsonLd, ServiceJsonLd } from "@/components/JsonLd";
 import { ServiceInAreaDetail } from "@/components/ServiceInAreaDetail";
-import { resolveServiceAreaPage } from "@/data/service-area-pages";
+import { resolveCityServicePageContent } from "@/data/service-area-pages";
 import { requireServiceArea } from "@/data/service-areas";
 import { requireService } from "@/data/services";
+import pageContent from "@/data/services/camera-inspections/areas/gallatin-tn";
 import { createMetadata } from "@/lib/metadata";
 import { serviceAreaRoutes } from "@/lib/service-area-routes";
 
@@ -12,7 +13,7 @@ const SERVICE_SLUG = "camera-inspections" as const;
 const area = requireServiceArea(AREA_SLUG);
 const service = requireService(SERVICE_SLUG);
 const path = serviceAreaRoutes.cityService(area.slug, service.slug);
-const resolved = resolveServiceAreaPage(area, service);
+const resolved = resolveCityServicePageContent(pageContent, AREA_SLUG, SERVICE_SLUG);
 
 export const metadata = createMetadata({
   title: resolved.meta.title,

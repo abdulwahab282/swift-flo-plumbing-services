@@ -1,6 +1,7 @@
 import { BreadcrumbJsonLd } from "@/components/JsonLd";
 import { ServiceAreaByServiceDetail } from "@/components/ServiceAreaByServiceDetail";
-import { resolveServiceHubPage } from "@/data/service-area-pages";
+import { assertValidServiceHubPageContent } from "@/data/service-area-pages/validate";
+import pageContent from "@/data/services/water-sewer-excavation-repairs-replacements/hub";
 import { requireService } from "@/data/services";
 import { createMetadata } from "@/lib/metadata";
 import { serviceAreaRoutes } from "@/lib/service-area-routes";
@@ -8,7 +9,7 @@ import { serviceAreaRoutes } from "@/lib/service-area-routes";
 const SERVICE_SLUG = "water-sewer-excavation-repairs-replacements" as const;
 
 const service = requireService(SERVICE_SLUG);
-const pageContent = resolveServiceHubPage(service.slug);
+assertValidServiceHubPageContent(pageContent, SERVICE_SLUG);
 
 export const metadata = createMetadata({
   title: pageContent.metaTitle,

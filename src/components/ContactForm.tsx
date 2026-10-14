@@ -10,16 +10,33 @@ const initial: ContactState = { status: "idle" };
 
 type Fields = Record<ContactField, string>;
 
-const startingFields: Fields = {
-  name: "",
-  phone: "",
-  email: "",
-  service: services[0]?.name ?? "",
-  message: "",
-};
+function createStartingFields(defaultService?: string): Fields {
+  const matched = defaultService
+    ? services.find(
+        (item) =>
+          item.name === defaultService || item.slug === defaultService,
+      )
+    : undefined;
 
-export function ContactForm() {
-  const [fields, setFields] = useState<Fields>(startingFields);
+  return {
+    name: "",
+    phone: "",
+    email: "",
+    service: matched?.name ?? services[0]?.name ?? "",
+    message: "",
+  };
+}
+
+export function ContactForm({
+  defaultService,
+  formId = "request-service",
+}: {
+  defaultService?: string;
+  formId?: string;
+} = {}) {
+  const [fields, setFields] = useState<Fields>(() =>
+    createStartingFields(defaultService),
+  );
   const [state, formAction, pending] = useActionState(
     submitContactRequest,
     initial,
@@ -41,7 +58,7 @@ export function ContactForm() {
   if (state.status === "success") {
     return (
       <div
-        id="request-service"
+        id={formId}
         className="scroll-mt-28 rounded-[1.75rem] border border-tide/30 bg-foam p-6 sm:p-8"
         role="status"
       >
@@ -74,7 +91,7 @@ export function ContactForm() {
 
   return (
     <form
-      id="request-service"
+      id={formId}
       action={formAction}
       noValidate
       className="scroll-mt-28 rounded-[1.75rem] border border-sand bg-white p-6 shadow-sm sm:p-8"

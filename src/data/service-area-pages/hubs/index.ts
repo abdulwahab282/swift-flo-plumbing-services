@@ -1,10 +1,10 @@
 import type { ServiceHubPageContent } from "@/data/service-area-pages/types";
-import drainCleaning from "./drain-cleaning";
-import cameraInspections from "./camera-inspections";
-import waterFiltrationSystemInstallation from "./water-filtration-system-installation";
-import waterHeaterRepairsReplacement from "./water-heater-repairs-replacement";
-import bathroomRemodeling from "./bathroom-remodeling";
-import waterSewerExcavationRepairsReplacements from "./water-sewer-excavation-repairs-replacements";
+import drainCleaning from "@/data/services/drain-cleaning/hub";
+import cameraInspections from "@/data/services/camera-inspections/hub";
+import waterFiltrationSystemInstallation from "@/data/services/water-filtration-system-installation/hub";
+import waterHeaterRepairsReplacement from "@/data/services/water-heater-repairs-replacement/hub";
+import bathroomRemodeling from "@/data/services/bathroom-remodeling/hub";
+import waterSewerExcavationRepairsReplacements from "@/data/services/water-sewer-excavation-repairs-replacements/hub";
 
 export const serviceHubContentBySlug: Record<string, ServiceHubPageContent> = {
   "drain-cleaning": drainCleaning,
